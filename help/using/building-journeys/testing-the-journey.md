@@ -116,10 +116,6 @@ As a prerequisite, you must know which profiles are flagged as test profiles in 
 
 If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use.
 
->[!NOTE]
->
->Note that the **[!UICONTROL TIMESTAMP]**
-
 ![](../assets/journeytest4.png)
 
 The interface allows you to pass simple event parameters. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. For example, you can copy and paste event information prepared by a technical user.

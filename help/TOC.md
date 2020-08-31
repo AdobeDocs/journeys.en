@@ -177,6 +177,6 @@ index: yes
 + Alpha features {#alpha}
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)
-  + [Segment Trigger activity](using/alpha/alpha-segment-trigger.md)
+  + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
   + [Rule-based events](using/alpha/alpha-events.md)
   

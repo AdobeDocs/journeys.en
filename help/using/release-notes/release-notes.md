@@ -21,25 +21,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### GA updates{#august-ga-update}
 
-<table>
-<thead>
-<tr>
-<th><strong>Export/import API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.
-</p>
-<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. ADD LINK</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-**Other improvements**
-
 The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read more](../building-journeys/segment-qualification-events.md)
 
 ### Alpha updates{#august-alpha-update}
@@ -58,9 +39,11 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to the Segment Trigger activity:
 </p>
 <ul>
-<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. </p>
+<li><p>The activity's name has been changed to "Read Segment". </p>
 </li>
-<li><p>You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.</p>
+<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Read Segment activity has been dropped into the canvas. </p>
+</li>
+<li><p>You can now test the journey on a unitary profile and track its progress in the journey using the visual flow.</p>
 </li>
 </ul>
 <p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
