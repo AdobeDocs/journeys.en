@@ -88,5 +88,5 @@ Once the tests are successfull, you can publish your journey (see [Publishing th
 >
 >If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.
 
-Note that, when doing a new version of a segment-based journey that is not recurrent (starting as soon as possible or "once"), be aware that all the individuals who entered the journey previously will not re-enter its new version when you will publish it.
+Note that, when doing a new version of a segment-based journey that is not recurrent (starting as soon as possible or "once"), all the individuals who entered the journey previously will not re-enter its new version when you will publish it.
 If you want to allow them to re-enter, you should duplicate the journey.
