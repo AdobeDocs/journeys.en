@@ -72,7 +72,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to the <strong>Read segment</strong> activity:
 </p>
 <ul>
-<li><p>The <strong>Allow re-entrance</strong> option has been removed from the properties of journeys starting with a <strong>Read segment activity</strong>.
+<li><p>When publishing a new version of a segment-based journey that is not recurrent, all the individuals who entered the journey previously will not re-enter its new version. If you want to allow them to re-enter, you should duplicate the journey. The <strong>Allow re-entrance</strong> option has therefore been removed from the properties of journeys starting with a <strong>Read segment</strong> activity.
 </p>
 </li>
 <li><p>The time at which a segment-based journey is scheduled now displays as a link, next to the <strong>Test</strong> button. It allows you to access the journey's properties where the scheduler is configured.</p>
