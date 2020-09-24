@@ -162,7 +162,7 @@ index: yes
     + [About AI integration](using/ai-services/ai-services-overview.md)
     + [Leveraging Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Use cases{#use-cases-journeys}
-  + Sending a personnalized email{#use-case-simple}
+  + Sending a personalized email{#use-case-simple}
     + [About the simple use case](using/usecase/about-the-simple-use-case.md)
     + [Configuring the event](using/usecase/configuring-the-event.md)
     + [Configuring the data source](using/usecase/configuring-the-data-source.md)
