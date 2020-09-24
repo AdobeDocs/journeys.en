@@ -20,11 +20,11 @@ Discover the main steps to set up Journey Orchestration and build your first jou
 * **[Configure an event](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 Learn how to configure the events that your journeys will listen to.
 
-* **[Grant access to Journey Orchestration](using/about/access-management.md)**<br/>
-Find out how to manage your users' access with product profiles and rights. 
-
 * **[Discover what's new](using/release-notes/release-notes.md)**<br/>
 Find out details about the lastest releases. 
+
+* **[Alpha features](using/alpha/alpha-overview.md)**<br/>
+Discover the features that are currently available through the Alpha program. 
 
 ## Top pages
 
