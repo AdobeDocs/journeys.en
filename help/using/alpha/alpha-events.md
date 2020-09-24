@@ -20,6 +20,10 @@ This new type of event does not generate an eventID. Using the simple expression
 
 This new method is mostly transparent for users. The only change is a new field in the event definition screen.
 
+>[!CAUTION]
+>
+>To ensure stability and robustness, the maximum number of qualified events that a journey can process per minute is 400k. Please reach out to your Alpha program point of contact for more information.
+
 ## Leveraging Adobe Analytics data{#analytics-data}
 
 >[!NOTE]
