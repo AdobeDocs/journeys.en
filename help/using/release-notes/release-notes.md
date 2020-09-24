@@ -17,6 +17,71 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
+## September 2020 Release {#september-release}
+
+### GA updates{#september-ga-update}
+
+<table>	
+<thead>	
+<tr>	
+<th><strong>Export/import API</strong><br/></th>	
+</tr>	
+</thead>	
+<tbody>	
+<tr>	
+<td>	
+<p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.	
+</p>	
+<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. <a href="../../api/using/import-export.md">Read more</a></p>	
+</td>	
+</tr>	
+</tbody>	
+</table>
+
+### Alpha updates{#september-alpha-update}
+
+To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Read segment activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>The **[!UICONTROL Allow re-entrance]** option has been removed from the properties of journeys starting with a **[!UICONTROL Read segment activity]**.
+</p>
+</li>
+<li><p>XX</p>
+</li>
+</ul>
+<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rule-based events</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>To ensure stability and robustness, we now limit the number of qualified events that a journey can process per minute to 400k. Please reach out to your Alpha program point of contact for more information.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## August 2020 Release {#august-release}
 
 ### GA updates{#august-ga-update}
