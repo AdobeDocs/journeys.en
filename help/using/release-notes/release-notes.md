@@ -38,6 +38,22 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 </tbody>	
 </table>
 
+<table>	
+<thead>	
+<tr>	
+<th><strong>Condition improvements</strong><br/></th>	
+</tr>	
+</thead>	
+<tbody>	
+<tr>	
+<td>	
+<p>When adding conditions to your journey, you can now define a label. If you use several conditions in a journey, this allows you to identify them more easily.
+</p>	
+</td>	
+</tr>	
+</tbody>	
+</table>
+
 ### Alpha updates{#september-alpha-update}
 
 To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
