@@ -32,7 +32,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>	
 <p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.	
 </p>	
-<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. <a href="../../api/using/import-export.md">Read more</a></p>	
+<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. </p>	
+<p>For more information, refer to the <a href="../api/using/import-export.md">detailed documentation</a>.</p>
 </td>	
 </tr>	
 </tbody>	
@@ -41,7 +42,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <table>	
 <thead>	
 <tr>	
-<th><strong>Condition improvements</strong><br/></th>	
+<th><strong>Condition activity improvements</strong><br/></th>	
 </tr>	
 </thead>	
 <tbody>	
@@ -49,6 +50,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>	
 <p>When adding conditions to your journey, you can now define a label. If you use several conditions in a journey, this allows you to identify them more easily.
 </p>	
+<p>For more information, refer to the <a href="../building-journeys/using/condition-activity.md#about_condition">detailed documentation</a>.</p>
 </td>	
 </tr>	
 </tbody>	
@@ -61,7 +63,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <table>
 <thead>
 <tr>
-<th><strong>Read segment activity</strong><br/></th>
+<th><strong>Read segment activity improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -70,10 +72,10 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to the <strong>Read segment</strong> activity:
 </p>
 <ul>
-<li><p>The **[!UICONTROL Allow re-entrance]** option has been removed from the properties of journeys starting with a **[!UICONTROL Read segment activity]**.
+<li><p>The <strong>Allow re-entrance</strong> option has been removed from the properties of journeys starting with a <strong>Read segment activity</strong>.
 </p>
 </li>
-<li><p>XX</p>
+<li><p>The time at which a segment-based journey is scheduled now displays as a link, next to the <strong>Test</strong> button. It allows you to access the journey's properties where the scheduler is configured.</p>
 </li>
 </ul>
 <p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
@@ -85,7 +87,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <table>
 <thead>
 <tr>
-<th><strong>Rule-based events</strong><br/></th>
+<th><strong>Rule-based events improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -93,6 +95,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <td>
 <p>To ensure stability and robustness, we now limit the number of qualified events that a journey can process per minute to 400k. Please reach out to your Alpha program point of contact for more information.
 </p>
+<p>For more information, refer to the <a href="./alpha/alpha-events.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
