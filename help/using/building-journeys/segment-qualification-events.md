@@ -22,7 +22,12 @@ Let's say you have a "silver customer" segment. With this activity, you can make
 
 This type of event can be positioned as the first step or later in the journey.
 
-If the segment is streamed with the High Frequency Audiences option of Adobe Experience Platform, entrance and exits are listened to in real time. If the segment is not streamed, entrances and exits are taken into account at segment calculation time.
+>[!IMPORTANT]
+>
+>Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments, using the High Frequency Audiences option of Adobe Experience Platform).
+>
+>If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.
+
 
 1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment qualification]** activity into your canvas.
 
