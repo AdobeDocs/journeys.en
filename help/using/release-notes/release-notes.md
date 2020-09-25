@@ -72,7 +72,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to the <strong>Read segment</strong> activity:
 </p>
 <ul>
-<li><p>Segment-based journeys now display a reminder of the journey's schedule type on the top. This reminder is clickable and points to the schedule configuration menu.</p>
+<li><p>Segment-based journeys now display, above the canvas, a reminder of the journey's schedule type. You can click on this reminder to access the schedule configuration menu.</p>
 </li>
 <li><p>The granularity of test mode logs has been improved to display the segment export progress status.</p>
 </li>
