@@ -162,3 +162,18 @@ Here are the different statuses of an individual's journey:
 * _Finished_: the individual is at the end of the journey.
 * _Error_: the individual is stopped in the journey because of an error.
 * _Timed out_: the individual is stopped in the journey because of a step which took too much time.
+
+When an event is triggered using the test mode, a dataset is automatically generated with the name of the source.
+
+When an event is triggered using the test mode, a dataset is automatically generated with the name of the source.
+
+The test mode automatically creates an Experience Event and sends it to Adobe Experience Platform. The name of the source for this experience Event is "Journey Orchestration Test Events".
+
+In the case of multiple events triggered from multiple journeys
+
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+
+Automatic creation and naming of these datasets is performed if a destination dataset is not included in the experience event. That is why we see the "Automatically created dataset for voyager" today.
+
+The naming of our source drives the automatic creation. If we have multiple events, we should concatenate and have it be "Journey Orchestration Test Event - NAME OF SCHEMA". This will automatically turn to "Automatically generated dataset for Journey Orchestration Test Event - NAME OF SCHEMA".
+

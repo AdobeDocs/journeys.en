@@ -69,15 +69,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
-</p>
-<ul>
-<li><p>When publishing a new version of a segment-based journey that is not recurrent, all the individuals who entered the journey previously will not re-enter its new version. If you want to allow them to re-enter, you should duplicate the journey. The <strong>Allow re-entrance</strong> option has therefore been removed from the properties of journeys starting with a <strong>Read segment</strong> activity.
-</p>
-</li>
-<li><p>The time at which a segment-based journey is scheduled now displays as a link, next to the <strong>Test</strong> button. It allows you to access the journey's properties where the scheduler is configured.</p>
-</li>
-</ul>
+<p>Segment-based journeys now display, above the canvas, a reminder of the journey's schedule type. You can click on this reminder to access the schedule configuration menu.</p>
 <p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -87,15 +79,15 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <table>
 <thead>
 <tr>
-<th><strong>Rule-based events improvements</strong><br/></th>
+<th><strong>Test mode improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>To ensure stability and robustness, we now limit the number of qualified events that a journey can process per minute to 400k. Please reach out to your Alpha program point of contact for more information.
+<p>The granularity of test mode logs has been improved to display the segment export progress status.
 </p>
-<p>For more information, refer to the <a href="./alpha/alpha-events.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="./building-journeys/testing-the-journey.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
