@@ -87,7 +87,7 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <td>
 <p>The granularity of test mode logs has been improved to display the segment export progress status.
 </p>
-<p>For more information, refer to the <a href="./building-journeys/testing-the-journey.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md#testing-publishing">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
