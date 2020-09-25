@@ -69,8 +69,15 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <tbody>
 <tr>
 <td>
-<p>Segment-based journeys now display, above the canvas, a reminder of the journey's schedule type. You can click on this reminder to access the schedule configuration menu.</p>
-<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Segment-based journeys now display a reminder of the journey's schedule type on the top. This reminder is clickable and points to the schedule configuration menu.</p>
+</li>
+<li><p>The granularity of test mode logs has been improved to display the segment export progress status.</p>
+</li>
+</ul>
+<p>For more information on the <strong>Read segment</strong> activity, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -79,15 +86,15 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <table>
 <thead>
 <tr>
-<th><strong>Test mode improvements</strong><br/></th>
+<th><strong>Rule-based events improvements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The granularity of test mode logs has been improved to display the segment export progress status.
+<p>A capping rule has been added to rule-based events. It limits the number of qualified events that a journey can process to 400k per minute.
 </p>
-<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md#testing-publishing">detailed documentation</a>.</p>
+<p>For more information on rule-based events, refer to the <a href="./alpha/alpha-events.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
