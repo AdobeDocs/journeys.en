@@ -83,23 +83,6 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Rule-based events improvements</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A capping rule is now defined for rule-based events. It limits the number of qualified events that a journey can process to 400k per minute.
-</p>
-<p>For more information on rule-based events, refer to the <a href="./alpha/alpha-events.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ## August 2020 Release {#august-release}
 
 ### GA updates{#august-ga-update}
