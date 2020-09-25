@@ -32,7 +32,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>	
 <p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.	
 </p>	
-<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. </p>	
+<p>This feature allows you to manage your journeys across multiple instances or for multiple test environment workflow. </p>	
 <p>For more information, refer to the <a href="../api/using/import-export.md">detailed documentation</a>.</p>
 </td>	
 </tr>	
