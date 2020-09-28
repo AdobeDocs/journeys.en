@@ -12,6 +12,10 @@ snippet: y
 
 # Working with Export Import API
 
+Export a journey version and all its related objects (journey, events, data sources, field groups, custom actions) with a single API call. The export resulting payload can be used to easily import the journey into another environment (instance or sandbox).
+This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
+
+
 ## Resources
 
 The Journey Orchestration Import Export API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
@@ -23,15 +27,18 @@ To test and prepare your integration, a Postman collection is available [here](h
 
 ## Export-Import flow
 
-The standard export-import flow is the following:
+We recommend to follow these steps to manage your journeys across environments:
 
-1. Create and parameter a journey. More info here:
-1. Check if the journey has no error. More info here:
-1. Call the export API. See below
-1. If the journey contains specific credentials, you need to complete the new credentials in the return payload.
-1. If the journey contains events that point to an XDM schema, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node of the payload. This update needs to done for each event.
-1. Call the import API. Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are reconstructed each time you call the import API.
-1. Once the Journey is imported, you can publish it in the new sandbox or environment
+1. Create and parameter a journey in your start environment. More info here: https://experienceleague.corp.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=en#building-journeys
+1. Check if the journey version has no error. More info here: https://experienceleague.corp.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=en
+1. Call /list/journeys API to retrive UID journey and the UID of your latest journey version. If needed, You can call /journeys/{uid}/latest to find the UID of your latest journey version.  
+1. Call the export API with your start environment parameters (orgID and sandboxName).
+1. Open the return payload:
+ * If your exported journey contains specific credentials, you need to replace these credentials with the one for the new environement.
+ * If your exported journey contains events that point to an XDM schema, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to done for each event. More info : https://experienceleague.corp.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=en#schema-requirements-for-journey-orchestration-events
+ * If email/sms/push action in your start journey, you may have to update the template name and mobileApp name if different.
+1. Call the import API with your target env . Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are generated each time you call the import API.
+1. Once the Journey is imported, you can publish it in the new sandbox or environment.
 
 
 ## Authentification
@@ -74,7 +81,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## Export Import API description
 
-This API lets you export a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid.
+This API lets you export a journey version and all the related objects (journey, events, data sources, field groups, custom actions) by its uid.
 The resulting payload can be used to import the journey version in another environment (sandbox or instance).
 
 | Method | Path | Description |
@@ -87,33 +94,37 @@ The resulting payload can be used to import the journey version in another envir
 
 ### Export characteristics and guardrails
 
-* All the journey definition is exported.....
-
 * The credentials are not exported and a placeholder (i.e INSERT_SECRET_HERE) is inserted.
-After the payload export, you must manually insert the new credentials (corresponding to the destination environment) before importing the payload in another environment.
+  After the payload export, you must manually insert the new credentials (corresponding to the destination environment) before importing the payload in another environment.
+  
+* Quand le builtIn:true pour une datasource, ne pas remplacer les INSERT_SECRET, c'est une datasource système, automatiquement gérée par Journey.  
 
-* The following objects are never exported because they are created during the provisioning of the target environment:
+* The following objects are exported but they will be never imported in the target environment:
 	* **DataProviders**:  acsDataProvider and acppsDataProvider
 	* **Field groups**: acppsFieldGroup
 	* **Custom actions**: acsAction
 
 * The journey must be valid before export.
 
+*Ajouter qu'on peut exporter la N-1 
+
 ### Import characteristics
 
-During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target env (org or sandbox).
+During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target environment (instance or sandbox).
 
-If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call for importing the journey.
+If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call to import the journey.
 
 
 
 ## Warning and errors 
 ACS-24697 ACSS-27445
 
+DOCAC-4705
+
 The potential errors are:
 
-JOURNEY_VERSION_CANNOT_BE_EXPORTED(1324, "can''t export journey version: {0}
-"),
+At export time, if the jo version is not valid : error 500
+At import time, payload not valid or secrets not defined in the payload : error 400
 
-JOURNEY_VERSION_CANNOT_BE_IMPORTED(1326, "can''t import journey version: {0}
-"),
+
++ XDM schema ID au moment du publish
