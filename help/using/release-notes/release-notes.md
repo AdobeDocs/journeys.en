@@ -30,7 +30,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>Export a journey version and all its related objects (journey, events, data sources, field groups, custom actions) with a single API call. The export resulting payload can be used to easily import the journey into another environment (instance or sandbox).	
+<p>Export a journey version and all its related objects (journey, events, data sources, field groups, custom actions) with a single API call. The export resulting payload can be used to easily import the journey into another environment (instance or sandbox).
 </p>
 <p>This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
 </p>
