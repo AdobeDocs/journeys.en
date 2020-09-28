@@ -1,11 +1,11 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Help
+user-guide-title: Journey Orchestration Guide
 index: yes
 ---
 
-# [!DNL Journey Orchestration] Help {#using}
+# [!DNL Journey Orchestration] Guide {#using}
 
 + [Product documentation](journey-orchestration-home.md)
 + What's new {#release-notes}

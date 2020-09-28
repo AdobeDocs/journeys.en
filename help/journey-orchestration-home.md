@@ -1,6 +1,5 @@
 ---
 keywords: Journeys;home;popular topics
-solution: Journeys
 title: Journey Orchestration product documentation
 topic: Premium
 ---

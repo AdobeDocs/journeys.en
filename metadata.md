@@ -9,7 +9,7 @@ tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html
 git-repo: https://github.com/AdobeDocs/journeys.en
 index: yes
-
+solution: Journey Orchestration
 ---
 
 # Metadata for Journeys
