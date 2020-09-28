@@ -34,7 +34,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 </p>
 <p>This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
 </p>
-<p>For more information, refer to the <a href="../api/using/import-export.md">detailed documentation</a>.</p>
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
@@ -51,7 +51,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>
 <p>When adding conditions to your journey, you can now define a label. If you use several conditions in a journey, this allows you to identify them more easily.
 </p>
-<p>For more information, refer to the <a href="../building-journeys/using/condition-activity.md#about_condition">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#about_condition">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
