@@ -82,7 +82,7 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
 * **[!UICONTROL Single profile at a time]**: the test logs display the same information as when using the unitary test mode. For more on this, refer to [this section](/building-journeys/testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Up to 100 profiles at once]**: the test logs allow you to track the progression of the segment export from Adobe Experience Platform, as well as the number of test profiles that entered the journey.
+* **[!UICONTROL Up to 100 profiles at once]**: the test logs allow you to track the progression of the segment export from Adobe Experience Platform, as well as the individual progress of all the persons that entered the journey.
 
     ![](../assets/read-segment-log.png)
 
