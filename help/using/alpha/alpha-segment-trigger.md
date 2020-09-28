@@ -76,14 +76,19 @@ To do this, activate the test mode, then select the desired option from the left
 
 ![](../assets/segment-trigger-test-modes.png)
 
-You can then configure the test mode as usual. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
+You can then configure and run the test mode as usual. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
+
+Once the test is running, the **[!UICONTROL Show logs]** button allows you to see the test results according to the selected test option:
+
+* **[!UICONTROL Single profile at a time]**: the test logs display the same information as when using the unitary test mode. For more on this, refer to [this section](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**: the test logs allow you to track the progression of the segment export from Adobe Experience Platform, as well as the individual progress of all the persons that entered the journey.
+
+    ![](../assets/read-segment-log.png)
 
 Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
 
 Once the tests are successfull, you can publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
->[!IMPORTANT]
->
->Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
->
->If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.
+Note that, when doing a new version of a segment-based journey that is not recurrent (starting as soon as possible or "once"), all the individuals who entered the journey previously will not re-enter its new version when you will publish it.
+If you want to allow them to re-enter, you should duplicate the journey.

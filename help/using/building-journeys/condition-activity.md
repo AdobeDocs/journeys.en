@@ -25,6 +25,8 @@ Four types of conditions are available:
 
 ## About the Condition activity {#about_condition}
 
+When using several conditions in a journey, you can define labels for each of them to identify them more easily.
+
 Click **[!UICONTROL Add a path]** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
 
 ![](../assets/journey47.png)

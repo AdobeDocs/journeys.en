@@ -28,8 +28,8 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| date time without time zone in ISO-8601 format | string |
-| dateTime | dateTime|
+| date time in ISO-8601 format | string |
+| date time | dateTime|
 
 ## Signatures and returned types
 
@@ -43,7 +43,7 @@ Return a datetime without considering time zone.
 
 ## Examples
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123")`
+`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
 
 Returns 2016-08-18T23:17:59.123.
 
