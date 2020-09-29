@@ -33,7 +33,7 @@ We recommend to follow these steps to export and import your journeys across env
 1. Check if the journey version has no error. [More info here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
 1. Call **/list/journeys** API to retrieve the UID journey and the UID of your latest journey version. If needed, you can call **/journeys/`{uid}`/latest** to find the UID of your latest journey version.  
 1. Call the **export** API with your start environment parameters (orgID and sandboxName).
-1. Open the return payload:
+1. Open the return payload, then check the following items:
    * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
    * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
    * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
@@ -71,7 +71,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
     * &lt;ORGANIZATION&gt; : your production instance
 
-    To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe I/O documentation</a>).
+    To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the [Adobe I/O documentation](https://www.adobe.io/authentication.html)).
 
 * **<ACCESS_TOKEN>**: Your personal access token, that was retrieved when exchanging your JWT through a POST request.
 
@@ -86,10 +86,10 @@ The resulting payload can be used to import the journey version in another envir
 
 | Method | Path | Description |
 |---|---|---|
-| [POST] | /journeyVersions/import  | Import a journey version content resulting from a journey version export |
-| [GET] | /journeyVersions/`{uid}`/export  | Export a journey version |
-| [GET] | /journeys/`{uid}`/latest  | Get the latest journey version for a journey |
-| [POST] | /list/journeys  | List the metadata of the journeys and their journey versions |
+| `[POST]` | /journeyVersions/import  | Import a journey version content resulting from a journey version export |
+| `[GET]` | /journeyVersions/`{uid}`/export  | Export a journey version |
+| `[GET]` | /journeys/`{uid}`/latest  | Get the latest journey version for a journey |
+| `[POST]` | /list/journeys  | List the metadata of the journeys and their journey versions |
 
 
 ### Export characteristics and guardrails
@@ -99,7 +99,7 @@ The resulting payload can be used to import the journey version in another envir
   
 * When the datasource contains the parameter **builtIn:true**, you don't need to replace "INSERT_SECRET_HERE". This is a system datasource automatically managed by the journey environment.
 
-* The following objects are exported but they will be never imported in the target environment:
+* The following objects are exported but they will never be imported in the target environment:
    * **DataProviders**:  acsDataProvider and acppsDataProvider
    * **Field groups**: acppsFieldGroup
    * **Custom actions**: acsAction
@@ -108,17 +108,17 @@ The resulting payload can be used to import the journey version in another envir
 
 ### Import characteristics
 
-During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target environment (instance or sandbox).
+* During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target environment (instance or sandbox).
 
-If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call to import the journey.
+* If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call to import the journey.
 
 ## Warning and errors 
 
 The potential errors are:
 
-At **export time**, if the journey version is not valid : error 500
+* At **export time**, if the journey version is not valid : error 500
 
-At **import time**, if the payload is not valid after modifications or if credentials are not well defined in the payload : error 400
+* At **import time**, if the payload is not valid after modifications or if credentials are not well defined in the payload : error 400
 
-After the import step, if you try to publish the journey in the target environment without changing the XDM Schema ID for your events, an error appears. 
+* After the import step, if you try to publish the journey in the target environment without changing the XDM Schema ID for your events, an error appears. 
 
