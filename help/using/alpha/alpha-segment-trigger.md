@@ -84,11 +84,12 @@ Once the test is running, the **[!UICONTROL Show logs]** button allows you to se
 
 * **[!UICONTROL Up to 100 profiles at once]**: the test logs allow you to track the progression of the segment export from Adobe Experience Platform, as well as the individual progress of all the persons that entered the journey.
 
-    ![](../assets/read-segment-log.png)
+    Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
 
-Note that testing the journey using up to 100 profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
+    ![](../assets/read-segment-log.png)
 
 Once the tests are successfull, you can publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
-Note that, when doing a new version of a segment-based journey that is not recurrent (starting as soon as possible or "once"), all the individuals who entered the journey previously will not re-enter its new version when you will publish it.
-If you want to allow them to re-enter, you should duplicate the journey.
+>[!NOTE]
+>
+>When doing a new version of a segment-based journey that is not recurrent (starting as soon as possible or "once"), all the individuals who entered the journey previously will not re-enter its new version when you will publish it. If you want to allow them to re-enter, you should duplicate the journey.
