@@ -34,9 +34,9 @@ We recommend to follow these steps to export and import your journeys across env
 1. Call **/list/journeys** API to retrieve the UID journey and the UID of your latest journey version. If needed, you can call **/journeys/`{uid}`/latest** to find the UID of your latest journey version.  
 1. Call the **export** API with your start environment parameters (orgID and sandboxName).
 1. Open the return payload:
- * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
- * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
- * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
+   * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
+   * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
 1. Call the **import** API with your target environment. Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are generated each time you call the import API.
 1. Once the Journey is imported, you can publish it in the new sandbox or environment.
 
@@ -100,13 +100,11 @@ The resulting payload can be used to import the journey version in another envir
 * When the datasource contains the parameter **builtIn:true**, you don't need to replace "INSERT_SECRET_HERE". This is a system datasource automatically managed by the journey environment.
 
 * The following objects are exported but they will be never imported in the target environment:
-	* **DataProviders**:  acsDataProvider and acppsDataProvider
-	* **Field groups**: acppsFieldGroup
-	* **Custom actions**: acsAction
+   * **DataProviders**:  acsDataProvider and acppsDataProvider
+   * **Field groups**: acppsFieldGroup
+   * **Custom actions**: acsAction
 
 * The journey must be valid before export.
-
-*Ajouter qu'on peut exporter la N-1 
 
 ### Import characteristics
 
