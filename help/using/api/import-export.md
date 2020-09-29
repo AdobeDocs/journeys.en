@@ -27,17 +27,17 @@ To test and prepare your integration, a Postman collection is available [here](h
 
 ## Export-Import flow
 
-We recommend to follow these steps to manage your journeys across environments:
+We recommend to follow these steps to export and import your journeys across environments:
 
-1. Create and parameter a journey in your start environment. More info here: https://experienceleague.corp.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=en#building-journeys
-1. Check if the journey version has no error. More info here: https://experienceleague.corp.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=en
-1. Call /list/journeys API to retrive UID journey and the UID of your latest journey version. If needed, You can call /journeys/{uid}/latest to find the UID of your latest journey version.  
-1. Call the export API with your start environment parameters (orgID and sandboxName).
+1. Create and parameter a journey in your start environment. [More info here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Check if the journey version has no error. [More info here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Call **/list/journeys** API to retrieve the UID journey and the UID of your latest journey version. If needed, you can call **/journeys/`{uid}`/latest** to find the UID of your latest journey version.  
+1. Call the **export** API with your start environment parameters (orgID and sandboxName).
 1. Open the return payload:
- * If your exported journey contains specific credentials, you need to replace these credentials with the one for the new environement.
- * If your exported journey contains events that point to an XDM schema, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to done for each event. More info : https://experienceleague.corp.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=en#schema-requirements-for-journey-orchestration-events
- * If email/sms/push action in your start journey, you may have to update the template name and mobileApp name if different.
-1. Call the import API with your target env . Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are generated each time you call the import API.
+ * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
+ * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+ * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
+1. Call the **import** API with your target environment. Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are generated each time you call the import API.
 1. Once the Journey is imported, you can publish it in the new sandbox or environment.
 
 
@@ -87,17 +87,17 @@ The resulting payload can be used to import the journey version in another envir
 | Method | Path | Description |
 |---|---|---|
 | [POST] | /journeyVersions/import  | Import a journey version content resulting from a journey version export |
-| [GET] | /journeyVersions/{uid}/export  | Export a journey version |
-| [GET] | /journeys/{uid}/latest  | Get the latest journey version for a journey |
+| [GET] | /journeyVersions/`{uid}`/export  | Export a journey version |
+| [GET] | /journeys/`{uid}`/latest  | Get the latest journey version for a journey |
 | [POST] | /list/journeys  | List the metadata of the journeys and their journey versions |
 
 
 ### Export characteristics and guardrails
 
 * The credentials are not exported and a placeholder (i.e INSERT_SECRET_HERE) is inserted.
-  After the payload export, you must manually insert the new credentials (corresponding to the destination environment) before importing the payload in another environment.
+  After the payload export, you must manually insert the new credentials (corresponding to the target environment) before importing the payload in the target environment.
   
-* Quand le builtIn:true pour une datasource, ne pas remplacer les INSERT_SECRET, c'est une datasource système, automatiquement gérée par Journey.  
+* When the datasource contains the parameter **builtIn:true**, you don't need to replace "INSERT_SECRET_HERE". This is a system datasource automatically managed by the journey environment.
 
 * The following objects are exported but they will be never imported in the target environment:
 	* **DataProviders**:  acsDataProvider and acppsDataProvider
@@ -114,17 +114,13 @@ During the import, the journey objects are created with new UUID and a new name 
 
 If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call to import the journey.
 
-
-
 ## Warning and errors 
-ACS-24697 ACSS-27445
-
-DOCAC-4705
 
 The potential errors are:
 
-At export time, if the jo version is not valid : error 500
-At import time, payload not valid or secrets not defined in the payload : error 400
+At **export time**, if the journey version is not valid : error 500
 
+At **import time**, if the payload is not valid after modifications or if credentials are not well defined in the payload : error 400
 
-+ XDM schema ID au moment du publish
+After the import step, if you try to publish the journey in the target environment without changing the XDM Schema ID for your events, an error appears. 
+
