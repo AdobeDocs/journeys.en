@@ -26,8 +26,6 @@ For additional information on event configuration, refer to [](../event/about-ev
 
     ![](../assets/journeyuc2_1.png)
 
- <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
-
 1. We then select the schema and define the payload expected for this event. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: "endUserIDs > _experience > mcid > id". 
 
     We also need the registration token to send push messages: "_experience > campaign > message > profile > pushNotificationTokens > token"
