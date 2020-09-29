@@ -34,7 +34,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 </p>
 <p>This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
 </p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="../api/import-export.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
