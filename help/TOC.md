@@ -174,6 +174,7 @@ index: yes
     + [Building the journey](using/usecase/building-the-journey.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
+  + [Export Import APIs](using/api/import-export.md)
 + Alpha features {#alpha}
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)
