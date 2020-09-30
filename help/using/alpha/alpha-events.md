@@ -20,6 +20,10 @@ This new type of event does not generate an eventID. Using the simple expression
 
 This new method is mostly transparent for users. The only change is a new field in the event definition screen.
 
+>[!CAUTION]
+>
+>A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 400k per minute. Please reach out to your Alpha program point of contact for more information.
+
 ## Leveraging Adobe Analytics data{#analytics-data}
 
 >[!NOTE]

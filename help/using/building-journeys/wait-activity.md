@@ -53,7 +53,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 >[!NOTE]
 >
->You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), the field in the event being of the form 2016-08-12T09:46:06.
+>You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event being of the form 2016-08-12T09:46:06Z.
 >
 >The **time zone** is expected in the properties of your journey. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and time zone offset like 2016-08-12T09:46:06.982-05. See [](../building-journeys/timezone-management.md).
 

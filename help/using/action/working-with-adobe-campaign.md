@@ -40,9 +40,11 @@ Here are the steps to configure it:
     >
     >This test verifies that:
     >
-    >* The host is ".campaign.adobe.com" or ".campaign-sandbox.adobe.com",
-    >* The URL starts with https,
-    >* The ORG associated to this Adobe Campaign Standard's instance is the same as the Journey Orchestration's ORG.
+    >The host is ".campaign.adobe.com" or ".campaign-sandbox.adobe.com",
+    >
+    >The URL starts with https,
+    >
+    >The ORG associated to this Adobe Campaign Standard's instance is the same as the Journey Orchestration's ORG.
 
 When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md)). **Reactions event** will also allow you to react on message clicks, opens, etc. (see [Reactions events](../building-journeys/reaction-events.md)).
 

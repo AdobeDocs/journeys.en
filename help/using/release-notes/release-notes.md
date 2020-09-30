@@ -17,6 +17,54 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
+## September 2020 Release {#september-release}
+
+### GA updates{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Condition activity improvements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When adding conditions to your journey, you can now define a label. If you use several conditions in a journey, this allows you to identify them more easily.
+</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#about_condition">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alpha updates{#september-alpha-update}
+
+To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Read segment activity improvements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Segment-based journeys now display, above the canvas, a reminder of the journey's schedule type. You can click on this reminder to access the schedule configuration menu.</p>
+</li>
+<li><p>The granularity of test mode logs has been improved to display the segment export progress status.</p>
+</li>
+</ul>
+<p>For more information on the <strong>Read segment</strong> activity, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## August 2020 Release {#august-release}
 
 ### GA updates{#august-ga-update}

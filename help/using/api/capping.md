@@ -77,12 +77,12 @@ The Capping API helps you to create, configure and monitor your capping configur
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs  | Get a list of the endpoint capping configurations |
 | [!DNL POST] | /endpointConfigs  | Create an endpoint capping configuration |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy  | Deploy an endpoint capping configuration |
-| [!DNL POST] | /endpointConfigs/{uid}/undeploy  | Undeploy an endpoint capping configuration |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy  | Check if an endpoint capping configuration can be deployed or not |
-| [!DNL PUT] | /endpointConfigs/{uid} | Update an endpoint capping configuration |
-| [!DNL GET] | /endpointConfigs/{uid} | Retrieve an endpoint capping configuration |
-| [!DNL DELETE] | /endpointConfigs/{uid} | Delete an enpoint capping configuration |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy  | Deploy an endpoint capping configuration |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy  | Undeploy an endpoint capping configuration |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy  | Check if an endpoint capping configuration can be deployed or not |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | Update an endpoint capping configuration |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Retrieve an endpoint capping configuration |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Delete an enpoint capping configuration |
 
 When a configuration is created or updated, a check is automatically performed to guarantee the syntax and the integrity of the payload.
 If some problems occur, the operation returns warning or errors to help you correct the configuration.
@@ -153,7 +153,7 @@ The potential errors are:
 * **ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: capping config: can't create endpoint config: invalid payload
 * **ERR_ENDPOINTCONFIG_112**: capping config: can't create endpoint config: expecting a JSON payload
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name <!--<given value>-->: must be 'dataSource' or 'action'
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name `<!--<given value>-->`: must be 'dataSource' or 'action'
 
 
 The potential warning is:
