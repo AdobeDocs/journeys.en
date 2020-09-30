@@ -17,6 +17,11 @@ snippet: y
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## September 2020 {#september-2020}
+
+* The interface description section has been updated to reflect the new **All selector** menu. [Read more](../about/user-interface.md)
+* Added a note on segment-based journeys' new versions that are not recurrent. [Read more](../alpha/alpha-segment-trigger.md)
+
 ## August 2020 {#august-2020}
 
 * Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
