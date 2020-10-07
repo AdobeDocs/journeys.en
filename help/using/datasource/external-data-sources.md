@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 
@@ -47,7 +45,7 @@ Here are the main steps to create and configure a new external data source:
 1. Add a description to your data source. This step is optional.
 1. Add the URL of the external service. In our example: _https://api.adobeweather.org/weather_.
 
-     >[!CAUTION]
+    >[!CAUTION]
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
 
