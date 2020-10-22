@@ -28,7 +28,7 @@ When you click on the event activity in the canvas, the activity configuration p
 
 An event activity positioned in the journey listens to events indefinitely. To listen to an event only during a certain time, you must configure a timeout for the event.
 
-The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will flow into a timeout path.
+The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will either flow into a timeout path, or end his journey.
 
 To configure a timeout for an event, follow these steps:
 
@@ -36,7 +36,7 @@ To configure a timeout for an event, follow these steps:
 
 1. Specify the amount of time the journey will wait for the event.
 
-1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set timeout path]** option.
+1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set the timeout path]** option. If this option is not enabled, the journey will end for the individual once the timeout is reached.
 
     ![](../assets/event-timeout.png)
 
@@ -44,3 +44,9 @@ In this example, the journey sends a first welcome push to a customer. It then s
 
 * If the restaurant event is received less than 1 day hours after the welcome push, the meal discount push activity is sent.
 * If no restaurant event is received within the next day, the person flows through the timeout path.
+
+Note that if you want to configure a timeout on multiple events positionned after a **[!UICONTROL Wait]** activity, you need to configure the timeout on one these events only.
+
+The timeout will apply to all the events positionned after the **[!UICONTROL WAit** activity. If no event is received after the specified timeout, the individuals will flow into one single timeout path or will end their journey.
+
+![](../assets/event-timeout-group.png)
