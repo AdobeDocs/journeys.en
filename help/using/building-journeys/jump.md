@@ -12,15 +12,6 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Jumping from one journey to another {#jump}
 
-Automatic trigger of a journey from another journey. Link different journeys.
-2 reasons: simply the design of very complex journeys, with many activities -> splt journey in different journeys. Also -> define some reusable journeys that can be used in differen UC from diffeent journeys.
-
-New build-in action called jump.
-
-Origin / target journey
-
-
-
 The **Jump** action activity allows you to push indivividuals from one journey to another. This is especially useful if your journey is complex and includes many paths and activities. Using a jump allows you to simplify your journey by splitting it into several ones. 
 
 In the current journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to trigger the destination journey. The flow continues in the current journey.
