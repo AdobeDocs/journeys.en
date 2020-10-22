@@ -12,20 +12,24 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Jumping from one journey to another {#jump}
 
-The **Jump** action activity allows you to push indivividuals from one journey to another. This is especially useful if your journey is complex and includes many paths and activities. Using a jump allows you to simplify your journey by splitting it into several ones. 
+The **Jump** action activity allows you to push indivividuals from one journey to another. This feature allows you to:
 
-In the current journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to trigger the destination journey. The flow continues in the current journey.
+* simplify the design of very complex journeys by splitting it into several ones  
+* build journeys based on common and reusable journey patterns
+
+In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to trigger the target journey. The flow continues in the current journey.
 
 ## Lifecycle
 
-Let's say you have added a jump in a journey A to a journey B. Here are the different steps of the execution process:
+Let's say you have added a jump in a journey A to a journey B. 
+Journey A is the origin journey and joourney B, the target one. 
+Here are the different steps of the execution process:
 
-Journey A:
-1. Journey A receives an event related to an individual.
+Journey A is triggered from an external event:
+1. Journey A receives an external event related to an individual.
 1. The individual reaches the jump step. 
 1. The individual is pushed to Journey B, and moves on to the next steps in Journey A, after the jump.
 
-Journey B:
 Journey B can be triggered two way, via an exernal event, or via an internal event pushed from Journey A:
 1. Journey B received an internal event from Journey A.
 1. The first event of Journey B is triggered with the information coming from Journey A.
@@ -55,11 +59,8 @@ Journey B can be triggered two way, via an exernal event, or via an internal eve
    The **First event** field is prefilled with the name pf the target journey's first event. If your target journey includes multiple events, the jump is only allowed on the first event.
 1. The **Action parameters** section displays all the fields of the target event. In the same way as for other types of actions, map each field with fields from the origin event or data source. This information will be passed to the target journey at runtime.
 
-## Troubeleshooting
+## Troubleshooting
 
 The latest version of the target journey is always triggered at runtime. It might be different than the version you selected while defining your jump. 
 
-target journey no ongers exsits, it is not in correct status, if we change the first event. 
-
-At runtime or in test mode, target journey of latest version is in draft, and error will be displayed. 
-
+At runtime or in test mode, errors will happen is the target journey no longer exists, the target journey in not in the correct status (draft, closed), or if the first event of the target journey has changed. 
