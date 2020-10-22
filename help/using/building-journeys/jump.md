@@ -17,31 +17,35 @@ The **Jump** action activity allows you to push indivividuals from one journey t
 * simplify the design of very complex journeys by splitting it into several ones  
 * build journeys based on common and reusable journey patterns
 
-In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to trigger the target journey. The flow continues in the current journey.
+In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to the target journey. The flow continues in the current journey.
+
+In the target journey, the first event is triggered internally by the jump and the individual starts flowing in the journey.
 
 ## Lifecycle
 
-Let's say you have added a jump in a journey A to a journey B. 
-Journey A is the origin journey and joourney B, the target one. 
+Let's say you have added a jump in a journey A to a journey B. Journey A is the **origin journey** and joourney B, the **target journey**. 
 Here are the different steps of the execution process:
 
-Journey A is triggered from an external event:
+**Journey A** is triggered from an external event:
+
 1. Journey A receives an external event related to an individual.
 1. The individual reaches the jump step. 
 1. The individual is pushed to Journey B, and moves on to the next steps in Journey A, after the jump.
 
-Journey B can be triggered two way, via an exernal event, or via an internal event pushed from Journey A:
+In **journey B**, the first event can be triggered externally (like a regular event) or internally, via a jump from journey A:
+
 1. Journey B received an internal event from Journey A.
 1. The first event of Journey B is triggered with the information coming from Journey A.
 1. The individual starts flowing in Journey B.
 
 ## Important notes
 
-* You can only jump to a journey has uses the same namespace as the origin journey.
+* You can only jump to a journey that uses the same namespace as the origin journey.
 * You cannot jump to a journey that starts with a **Segment qualification** event. 
 * When the jump is executed, the latest version of the target journey is triggered.
 * You can include as many jumps as you need in a journey. After a jump, you can add any activity needed.
-* The target journey can also include as many jumps as needed, except to the origin journey. Loop patterns are not supported. There is no way to link two or more journeys together to create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.  
+* The target journey can also include as many jumps as needed, except to the origin journey. Loop patterns are not supported. There is no way to link two or more journeys together to create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.
+* As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the jump will not trigger the target journey. No error will be reported on the jump because this is a normal behavior.
 
 ## Configuring the jump
 
@@ -63,4 +67,7 @@ Journey B can be triggered two way, via an exernal event, or via an internal eve
 
 The latest version of the target journey is always triggered at runtime. It might be different than the version you selected while defining your jump. 
 
-At runtime or in test mode, errors will happen is the target journey no longer exists, the target journey in not in the correct status (draft, closed), or if the first event of the target journey has changed. 
+At runtime or in test mode, errors will happen if:
+* the target journey no longer exists
+* the target journey in not in the correct status (Draft, Closed or Finished)
+* if the first event of the target journey has changed and the mapping is broken
