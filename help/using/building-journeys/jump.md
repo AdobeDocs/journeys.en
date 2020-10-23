@@ -14,7 +14,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 The **Jump** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
-* simplify the design of very complex journeys by splitting it into several ones  
+* simplify the design of very complex journeys by splitting them into several ones  
 * build journeys based on common and reusable journey patterns
 
 In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to the target journey. The flow continues in the current journey.
@@ -66,7 +66,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
 Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will will be pushed from to the target journey.
 
-When a jump is configured in a journey, a jump entry icon is automatically added in at the beginning of the target journey. This helps you identify that this journey can be triggered externally but also internally from a jump. 
+When a jump is configured in a journey, a jump entry icon is automatically added in at the beginning of the target journey. This helps you identify that the journey can be triggered externally but also internally from a jump. 
 
 ## Troubleshooting
 
