@@ -71,7 +71,7 @@ When a jump is configured in a journey, a jump entry icon is automatically added
 
 ## Troubleshooting
 
-At runtime or in test mode, errors will happen if:
+When the journey is published or in test mode, errors will happen if:
 * the target journey no longer exists
-* the target journey is not in the correct state (Draft, Closed or Stopped)
+* the target journey is draft, closed or stopped
 * if the first event of the target journey has changed and the mapping is broken
