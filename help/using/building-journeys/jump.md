@@ -12,7 +12,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Jumping from one journey to another {#jump}
 
-The **Jump** action activity allows you to push indivividuals from one journey to another. This feature allows you to:
+The **Jump** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting it into several ones  
 * build journeys based on common and reusable journey patterns
@@ -23,7 +23,7 @@ In the target journey, the first event is triggered internally by the jump and t
 
 ## Lifecycle
 
-Let's say you have added a jump in a journey A to a journey B. Journey A is the **origin journey** and joourney B, the **target journey**. 
+Let's say you have added a jump in a journey A to a journey B. Journey A is the **origin journey** and journey B, the **target journey**. 
 Here are the different steps of the execution process:
 
 **Journey A** is triggered from an external event:
@@ -49,7 +49,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
 ## Configuring the jump
 
-1. Design your orgin journey.
+1. Design your origin journey.
 1. At any step of the journey, add a **Jump** activity, from the **Action** category. 
 1. Add a label and description.
 1. Click inside the **Target journey** field. 
