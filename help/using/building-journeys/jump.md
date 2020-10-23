@@ -71,8 +71,6 @@ When a jump is configured in a journey, a jump entry icon is automatically added
 
 ## Troubleshooting
 
-The latest version of the target journey is always triggered at runtime. It might be different than the version you selected while defining your jump. 
-
 At runtime or in test mode, errors will happen if:
 * the target journey no longer exists
 * the target journey is not in the correct state (Draft, Closed or Stopped)
