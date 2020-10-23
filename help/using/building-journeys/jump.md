@@ -61,8 +61,12 @@ In **journey B**, the first event can be triggered externally (like a regular ev
    >You can click the **Open target journey** icon, on the right side, to open the target journey in a new tab.
 
 1. Select the target journey that you want to jump to.
-   The **First event** field is prefilled with the name pf the target journey's first event. If your target journey includes multiple events, the jump is only allowed on the first event.
+   The **First event** field is prefilled with the name of the target journey's first event. If your target journey includes multiple events, the jump is only allowed on the first event.
 1. The **Action parameters** section displays all the fields of the target event. In the same way as for other types of actions, map each field with fields from the origin event or data source. This information will be passed to the target journey at runtime.
+
+Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will will be pushed from to the target journey.
+
+When a jump is configured in a journey, a jump entry icon is automatically added in at the beginning of the target journey. This helps you identify that this journey can be triggered externally but also internally from a jump. 
 
 ## Troubleshooting
 
@@ -70,5 +74,5 @@ The latest version of the target journey is always triggered at runtime. It migh
 
 At runtime or in test mode, errors will happen if:
 * the target journey no longer exists
-* the target journey in not in the correct status (Draft, Closed or Finished)
+* the target journey is not in the correct state (Draft, Closed or Stopped)
 * if the first event of the target journey has changed and the mapping is broken
