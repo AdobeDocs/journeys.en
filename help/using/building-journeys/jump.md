@@ -17,7 +17,7 @@ The **Jump** action activity allows you to push individuals from one journey to 
 * simplify the design of very complex journeys by splitting them into several ones  
 * build journeys based on common and reusable journey patterns
 
-In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to the target journey. The flow continues in the current journey.
+In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to the firs event of the target journey. If the jump action is successful, the individual continues to progress in the journey. The behavior is similar to other actions.
 
 In the target journey, the first event triggered internally by the jump will make the individual flow in the journey.
 
