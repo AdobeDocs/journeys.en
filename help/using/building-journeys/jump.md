@@ -47,7 +47,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 * You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.
 * The target journey can also include as many jumps as needed.
 * Loop patterns are not supported. There is no way to link two or more journeys together which would create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.
-* As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the jump will not trigger the target journey. No error will be reported on the jump because this is a normal behavior.
+* As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the individual will not enter the target journey. No error will be reported on the jump because this is a normal behavior.
 
 ## Configuring the jump
 
