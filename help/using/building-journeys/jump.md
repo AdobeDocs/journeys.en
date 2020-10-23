@@ -67,7 +67,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
 Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will will be pushed from to the target journey.
 
-When a jump is configured in a journey, a jump entry icon is automatically added in at the beginning of the target journey. This helps you identify that the journey can be triggered externally but also internally from a jump. 
+When a jump is configured in a journey, a jump entry icon is automatically added at the beginning of the target journey. This helps you identify that the journey can be triggered externally but also internally from a jump. 
 
 ## Troubleshooting
 
