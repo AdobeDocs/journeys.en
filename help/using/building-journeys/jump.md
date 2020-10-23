@@ -19,7 +19,7 @@ The **Jump** action activity allows you to push individuals from one journey to 
 
 In the origin journey, simply add a **Jump** and select a target journey. When the individual enters the jump step, an internal event is sent to the target journey. The flow continues in the current journey.
 
-In the target journey, the first event is triggered internally by the jump and the individual starts flowing in the journey.
+In the target journey, the first event triggered internally by the jump will make the individual flow in the journey.
 
 ## Lifecycle
 
@@ -44,7 +44,8 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 * You cannot jump to a journey that starts with a **Segment qualification** event. 
 * When the jump is executed, the latest version of the target journey is triggered.
 * You can include as many jumps as you need in a journey. After a jump, you can add any activity needed.
-* The target journey can also include as many jumps as needed, except to the origin journey. Loop patterns are not supported. There is no way to link two or more journeys together to create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.
+* You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.
+* The target journey can also include as many jumps as needed, except to the origin journey. Loop patterns are not supported. There is no way to link two or more journeys together which would create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.
 * As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the jump will not trigger the target journey. No error will be reported on the jump because this is a normal behavior.
 
 ## Configuring the jump
@@ -53,7 +54,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 1. At any step of the journey, add a **Jump** activity, from the **Action** category. 
 1. Add a label and description.
 1. Click inside the **Target journey** field. 
-   The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment qualification** event are not available. 
+   The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment qualification** event are not available. Target journeys that would create a loop pattern are also filtered out.
 
    >[!NOTE]
    >
