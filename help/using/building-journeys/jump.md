@@ -56,10 +56,17 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 ## Configuring the jump
 
 1. Design your origin journey.
-1. At any step of the journey, add a **Jump** activity, from the **Action** category. 
-1. Add a label and description.
+
+   ![](assets/jump1.png)
+
+1. At any step of the journey, add a **Jump** activity, from the **Action** category. Add a label and description.
+
+   ![](assets/jump2.png)
+
 1. Click inside the **Target journey** field. 
    The list displays all journey versions that are draft, live or in test mode. Journeys that use a different namespace or that start with a **Segment qualification** event are not available. Target journeys that would create a loop pattern are also filtered out.
+
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -67,7 +74,13 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
 1. Select the target journey that you want to jump to.
    The **First event** field is prefilled with the name of the target journey's first event. If your target journey includes multiple events, the jump is only allowed on the first event.
+
+   ![](assets/jump4.png)
+
 1. The **Action parameters** section displays all the fields of the target event. In the same way as for other types of actions, map each field with fields from the origin event or data source. This information will be passed to the target journey at runtime.
+1. Add the next activities to finish your origin journey.
+
+   ![](assets/jump5.png)
 
 Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will will be pushed from to the target journey.
 
