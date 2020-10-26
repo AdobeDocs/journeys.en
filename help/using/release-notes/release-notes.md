@@ -17,6 +17,29 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ## October 2020 Release {october-release}
 
+### GA updates{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Jumping from one journey to another</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We've added a new action activity which allows you to push individuals from one journey to another. The <strong>Jump</strong> activity allows you to:
+</p>
+<ul>
+<li>simplify the design of very complex journeys by splitting them into several ones</li>
+<li>build journeys based on common and reusable journey patterns</li>
+</ul>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <table>
 <thead>
 <tr>
@@ -33,6 +56,11 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 </tr>
 </tbody>
 </table>
+
+### Other improvements{#october-other}
+
+* When you publish a new version of a journey, the previous version automatically ends. [Read more](../building-journeys/journey-versions.md)
+
 
 ## September 2020 Release {#september-release}
 
