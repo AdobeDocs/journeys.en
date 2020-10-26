@@ -12,6 +12,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Jumping from one journey to another {#jump}
 
+>[!NOTE]
+>
+>Effective availability: November, 15 2020
+
 The **Jump** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting them into several ones  

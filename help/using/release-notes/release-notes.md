@@ -28,7 +28,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>We've added a new action activity which allows you to push individuals from one journey to another. The <strong>Jump</strong> activity allows you to:
+<p>We've added a new action activity which allows you to push individuals from one journey to another. Effective availability: November, 15 2020</p>
+<p>The <strong>Jump</strong> activity allows you to:
 </p>
 <ul>
 <li>simplify the design of very complex journeys by splitting them into several ones</li>
