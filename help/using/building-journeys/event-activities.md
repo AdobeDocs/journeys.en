@@ -47,6 +47,6 @@ In this example, the journey sends a first welcome push to a customer. It then s
 
 Note that if you want to configure a timeout on multiple events positionned after a **[!UICONTROL Wait]** activity, you need to configure the timeout on one these events only.
 
-The timeout will apply to all the events positionned after the **[!UICONTROL WAit** activity. If no event is received after the specified timeout, the individuals will flow into one single timeout path or will end their journey.
+The timeout will apply to all the events positionned after the **[!UICONTROL Wait** activity. If no event is received after the specified timeout, the individuals will flow into one single timeout path or will end their journey.
 
 ![](../assets/event-timeout-group.png)
