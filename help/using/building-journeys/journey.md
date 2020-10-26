@@ -1,6 +1,6 @@
 ---
 title: About journey building
-description: Learn how to build a journey
+description: As a business user, learn how to combine event, orchestration, and action activities to build a journey.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 
