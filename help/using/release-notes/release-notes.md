@@ -15,7 +15,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
-## October 2020 Release {october-release}
+## October 2020 Release {#october-release}
 
 ### GA updates{#october-ga-update}
 
