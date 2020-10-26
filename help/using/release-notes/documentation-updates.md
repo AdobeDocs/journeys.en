@@ -15,6 +15,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## October 2020 {#october-2020}
+
+* Information has been added on how to configure a timeout for an event. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+
 ## September 2020 {#september-2020}
 
 * The interface description section has been updated to reflect the new **All selector** menu. [Read more](../about/user-interface.md)

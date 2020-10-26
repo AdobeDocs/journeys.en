@@ -15,6 +15,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
+## October 2020 Release {october-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Event timeout</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure a timeout for an event in order to make a journey listen to an event only during a certain time. With this new capability, you no longer need to add a Wait activity in parallel to the event path to achieve this.
+</p>
+<p>For more information, refer to the <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## September 2020 Release {#september-release}
 
 ### GA updates{#september-ga-update}
