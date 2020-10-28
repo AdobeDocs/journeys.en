@@ -50,7 +50,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>You can now configure a timeout for an event in order to make a journey listen to an event only during a certain time. With this new capability, you no longer need to add a Wait activity in parallel to the event path to achieve this.
+<p>You can now configure a timeout for an event in order to make a journey listen to an event only during a certain time. You no longer need to add a Wait activity in parallel to the event path to achieve this.
 </p>
 <p>For more information, refer to the <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">detailed documentation</a>.</p>
 </td>
@@ -60,8 +60,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### Other improvements{#october-other}
 
-* When you publish a new version of a journey, the previous version automatically ends. [Read more](../building-journeys/journey-versions.md)
-
+* When you publish a new version of a journey, the previous version automatically ends and switches to the Closed status. [Read more](../building-journeys/journey-versions.md)
 
 ## September 2020 Release {#september-release}
 
