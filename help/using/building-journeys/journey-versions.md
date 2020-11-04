@@ -36,4 +36,4 @@ Journey versions can be stopped individually. All versions of journeys have the 
 
 >[!NOTE]
 >
->If you have several live versions and you stop the latest one, people will not fall back to a previous live version. No entrance in the journey will happen.
+>When you publish a new version of a journey, the previous version automatically ends and switches to the **Closed** status. No entrance in the journey will happen. Even if you stop the latest version, the previous version will stay closed. 
