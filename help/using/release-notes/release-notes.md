@@ -22,28 +22,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <table>
 <thead>
 <tr>
-<th><strong>Jumping from one journey to another</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>We've added a new action activity which allows you to push individuals from one journey to another. Effective availability: November, 15 2020</p>
-<p>The <strong>Jump</strong> activity allows you to:
-</p>
-<ul>
-<li>simplify the design of very complex journeys by splitting them into several ones</li>
-<li>build journeys based on common and reusable journey patterns</li>
-</ul>
-<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Event timeout</strong><br/></th>
 </tr>
 </thead>
