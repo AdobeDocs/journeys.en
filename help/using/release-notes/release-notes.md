@@ -17,8 +17,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ## October 2020 Release {#october-release}
 
-### GA updates{#october-ga-update}
-
 <table>
 <thead>
 <tr>
