@@ -51,4 +51,4 @@ Timezone are defined at journey level.
 
 You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
-For more information on timezone management, see [](../building-journeys/timezone-management.md).
+For more information on timezone management, see [this page](../building-journeys/timezone-management.md).

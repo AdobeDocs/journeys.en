@@ -12,10 +12,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # About orchestration activities {#concept_ksq_2rt_52b}
 
-From the palette, on the left-hand side of the screen, the following orchestration activities are available: 
+From the palette, on the left-hand side of the screen, the following orchestration activities are available:
 
-* [](../building-journeys/condition-activity.md)
-* [](../building-journeys/end-activity.md)
-* [](../building-journeys/wait-activity.md)
+* [Condition activity](../building-journeys/condition-activity.md)
+* [End activity](../building-journeys/end-activity.md)
+* [Wait activity](../building-journeys/wait-activity.md)
 
 ![](../assets/journey49.png)
