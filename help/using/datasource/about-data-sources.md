@@ -28,10 +28,10 @@ This configuration is not required if your journeys only leverage local data com
 
 There are two types of data sources:
 
-* The pre-configured Adobe Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [](../datasource/adobe-experience-platform-data-source.md).
-* The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [](../datasource/external-data-sources.md).
+* The pre-configured Adobe Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [this page](../datasource/adobe-experience-platform-data-source.md).
+* The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [this page](../datasource/external-data-sources.md).
 
-For each data source, you define the information to retrieve using field groups. Field groups are sets of fields that can be retrieved from a data source. See [](../datasource/field-groups.md).
+For each data source, you define the information to retrieve using field groups. Field groups are sets of fields that can be retrieved from a data source. See [this page](../datasource/field-groups.md).
 
 For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
@@ -43,11 +43,11 @@ Here are the main data source configuration steps:
 
 1. In the top menu, click the **[!UICONTROL Data Sources]** tab.
 
-    The list of data sources is displayed. See [](../about/user-interface.md) for more information on the interface.
+    The list of data sources is displayed. See [this page](../about/user-interface.md) for more information on the interface.
 
     ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [](../datasource/external-data-sources.md)) and associated field groups (see [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
     ![](../assets/journey23.png)
 

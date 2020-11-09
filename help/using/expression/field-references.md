@@ -58,7 +58,7 @@ A default value can be associated to a field name. The syntax is as follows:
 
 **Reference of a field within collections**
 
-The elements defined within collections are referenced using the specific functions all, first and last. For more information, see [](../expression/collection-management-functions.md).
+The elements defined within collections are referenced using the specific functions all, first and last. For more information, refer to [this page](../expression/collection-management-functions.md).
 
 Example :
 
@@ -68,17 +68,17 @@ Example :
 
 **Reference of a field defined in a map**
 
-In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [](../event/selecting-the-namespace.md).
+In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [this page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [](../expression/collection-management-functions.md).
+In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
 
 **Parameter values of a data source (data source dynamic values)**
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [](../expression/expressionadvanced.md).
+If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [this page](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 

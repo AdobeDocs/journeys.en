@@ -19,10 +19,10 @@ To access Properties,click on the pencil icon in the top-right of the screen.
 
 This time zone will be used for every activity of the journey containing a time element such as:
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [Time condition](../building-journeys/condition-activity.md#time_condition)
+* [Date condition](../building-journeys/condition-activity.md#date_condition)
+* [Custom wait](../building-journeys/wait-activity.md#custom)
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 
 You can select a time zone or choose to use the time zone defined in the user profile.
 

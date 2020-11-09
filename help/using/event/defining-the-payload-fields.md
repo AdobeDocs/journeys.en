@@ -12,7 +12,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Defining the payload fields {#concept_yrw_3qt_52b}
 
-The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
 
@@ -26,13 +26,13 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey9.png)
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/defining-the-event-key.md)).
+1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [this page](../event/defining-the-event-key.md)).
 
     ![](../assets/journey10.png)
 
     >[!NOTE]
     >
-    >The **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that [!DNL Journey Orchestration] can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
+    >The **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that [!DNL Journey Orchestration] can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [this page](../event/previewing-the-payload.md).
 
 1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
 

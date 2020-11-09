@@ -18,9 +18,9 @@ The Adobe Experience Platform data source defines the connection to the Real-tim
 >
 >You can retrieve the 1000 latest experience events created less than a year ago.
 
-To allow the connection to the Real-time Customer Profile Service, we must use a key to identify a person, and a namespace that contextualizes the key. As a result, you can only use this data source if your journeys start with an event containing a key and a namespace. See [](../building-journeys/journey.md).
+To allow the connection to the Real-time Customer Profile Service, we must use a key to identify a person, and a namespace that contextualizes the key. As a result, you can only use this data source if your journeys start with an event containing a key and a namespace. See [this page](../building-journeys/journey.md).
 
-You can edit the pre-configured field group named “ProfileFieldGroup”, add new ones and remove the ones that are not used in any draft or live journeys. See [](../datasource/field-groups.md).
+You can edit the pre-configured field group named “ProfileFieldGroup”, add new ones and remove the ones that are not used in any draft or live journeys. See [this page](../datasource/field-groups.md).
 
 Here are the main steps to add field groups to the build-in data source.
 
@@ -30,7 +30,7 @@ Here are the main steps to add field groups to the build-in data source.
 
     ![](../assets/journey23.png)
 
-1. Click **[!UICONTROL Add a New Field Group]** to define a new series of fields to retrieve. See [](../datasource/field-groups.md).
+1. Click **[!UICONTROL Add a New Field Group]** to define a new series of fields to retrieve. See [this page](../datasource/field-groups.md).
 
     ![](../assets/journey24.png)
 

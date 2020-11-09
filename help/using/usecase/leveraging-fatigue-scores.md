@@ -20,7 +20,7 @@ This use case will show you how to leverage fatigue scores to avoid over-solicit
 
 ## Configuring the event {#section_ptb_ws1_ffb}
 
-Follow the steps described in [](../event/about-events.md).
+Follow the steps described in [this page](../event/about-events.md).
 
 ## Configuring the data source {#section_o3n_4yy_wfb}
 
@@ -39,7 +39,7 @@ Perform the following steps to select the fatigue score fields in the built-in d
 
 ## Building the journey {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [](../building-journeys/journey.md).
+To create, validate and publish the journey, follow the steps described in [this page](../building-journeys/journey.md).
 
 In our use case, we're leveraging the **[!UICONTROL fatigueLevel]** field. You can also use the **[!UICONTROL fatigueScore]** field.
 
