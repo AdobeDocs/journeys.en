@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Working with Export Import API
+# Working with Export-Import API
 
 Export a journey version and all its related objects (journey, events, data sources, field groups, custom actions) with a single API call. The export resulting payload can be used to easily import the journey into another environment (instance or sandbox).
 This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
@@ -18,7 +18,7 @@ This feature allows you to manage your journeys across multiple instances or for
 
 ## Resources
 
-The Journey Orchestration Import Export API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
+The Journey Orchestration Export-Import API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
 To use this API with your Journey Orchestration instance, you need to use the AdobeI/O Console. You can start by following this [Getting Started with Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) and then use the sections in this page.
 
@@ -37,8 +37,8 @@ We recommend to follow these steps to export and import your journeys across env
    * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
    * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
    * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
-1. Call the **import** API with your target environment. Note that you can call the import API as many times as you want. The UUID and the name of each node contains in the journey are generated each time you call the import API.
-1. Once the Journey is imported, you can publish it in the new sandbox or environment.
+1. Call the **Import** API with your target environment parameters (orgID and sandboxName). Note that you can call the import API as many times as you want. The UUID and the name of each object contained in the journey are generated each time you call the import API.
+1. Once the Journey is imported, you can publish it in the Journey Orchestration application. More info [here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Authentification
@@ -79,9 +79,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 
 
-## Export Import API description
+## Export-Import API description
 
-This API lets you export a journey version and all the related objects (journey, events, data sources, field groups, custom actions) by its uid.
+This API lets you export a journey version identified by its UID and all the related objects (journey, events, data sources, field groups, custom actions) by its uid.
 The resulting payload can be used to import the journey version in another environment (sandbox or instance).
 
 | Method | Path | Description |
@@ -94,21 +94,20 @@ The resulting payload can be used to import the journey version in another envir
 
 ### Export characteristics and guardrails
 
-* The credentials are not exported and a placeholder (i.e INSERT_SECRET_HERE) is inserted.
-  After the payload export, you must manually insert the new credentials (corresponding to the target environment) before importing the payload in the target environment.
-  
-* When the datasource contains the parameter **builtIn:true**, you don't need to replace "INSERT_SECRET_HERE". This is a system datasource automatically managed by the journey environment.
-
-* The following objects are exported but they will never be imported in the target environment:
-   * **DataProviders**:  acsDataProvider and acppsDataProvider
-   * **Field groups**: acppsFieldGroup
-   * **Custom actions**: acsAction
-
 * The journey must be valid before export.
+
+* The credentials are not exported and a placeholder (i.e INSERT_SECRET_HERE) is inserted in the response payload.
+  After the export call, you must manually insert the new credentials (corresponding to the target environment) before importing the payload in the target environment.
+  
+* The following objects are exported but they will never be imported in the target environment. These are system resources automatically managed by Journey Orchestration. You don't need to replace "INSERT_SECRET_HERE".
+   * **DataProviders**:  "Adobe Campaign Standard Data Provider" (acsDataProvider) and "Experience Platform" (acppsDataProvider)
+   * **Field groups** (dataEntities): "ProfileFieldGroup" (acppsDataPack)
+
+
 
 ### Import characteristics
 
-* During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target environment (instance or sandbox).
+* During the import, the journey objects are created with new UID and a new name to ensure uniqueness in the target environment (instance or sandbox).
 
 * If the import payload contains secret placeholders, an error is thrown. You must replace the credential information before the POST call to import the journey.
 
@@ -120,5 +119,4 @@ The potential errors are:
 
 * At **import time**, if the payload is not valid after modifications or if credentials are not well defined in the payload : error 400
 
-* After the import step, if you try to publish the journey in the target environment without changing the XDM Schema ID for your events, an error appears. 
-
+* After the import step, if the XDM Schema ID for your events is not valid in the target environment, an error appears in the Journey Orchestration application. It will not be possible to publish the journey in such case.
