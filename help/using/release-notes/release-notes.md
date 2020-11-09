@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 # Release Notes {#release-notes}
@@ -17,28 +15,56 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
-## September 2020 Release {#september-release}
+## October 2020 Release {#october-release}
 
-### GA updates{#september-ga-update}
+### GA updates{#october-ga-update}
 
 <table>
 <thead>
 <tr>
-<th><strong>Export/import API</strong><br/></th>
+<th><strong>Jumping from one journey to another</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Export a journey version and all its related objects (journey, events, data sources, field groups, custom actions) with a single API call. The export resulting payload can be used to easily import the journey into another environment (instance or sandbox).
+<p>We've added a new action activity which allows you to push individuals from one journey to another. Effective availability: November, 15 2020</p>
+<p>The <strong>Jump</strong> activity allows you to:
 </p>
-<p>This feature allows you to manage your journeys across multiple instances or for multiple test environments workflows.
-</p>
-<p>For more information, refer to the <a href="../api/import-export.md">detailed documentation</a>.</p>
+<ul>
+<li>simplify the design of very complex journeys by splitting them into several ones</li>
+<li>build journeys based on common and reusable journey patterns</li>
+</ul>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Event timeout</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure a timeout for an event in order to make a journey listen to an event only during a certain time. You no longer need to add a Wait activity in parallel to the event path to achieve this.
+</p>
+<p>For more information, refer to the <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements{#october-other}
+
+* When you publish a new version of a journey, the previous version automatically ends and switches to the Closed status. [Read more](../building-journeys/journey-versions.md)
+
+## September 2020 Release {#september-release}
+
+### GA updates{#september-ga-update}
 
 <table>
 <thead>
@@ -221,10 +247,10 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <li><p>A new activity allows the listening of Adobe Experience Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/segment-qualification-events.md">Read more</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Read more</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. <a href="../segment/about-segments.md">Read more</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In the simple expression editor, Adobe Experience Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?".<a href="../segment/using-a-segment.md">Read more</a></p>
+<li><p>In the simple expression editor, Adobe Experience Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". <a href="../segment/using-a-segment.md">Read more</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration is now automatically passing, to the Adobe Experience Platform, the steps executed in journeys. This includes potential errors encountered. This information can be used for achieving reporting and troubleshooting by executing queries on the Journey Step events for a particular journey or for all journeys. <a href="../building-journeys/sharing-overview.md">Read more</a></p>

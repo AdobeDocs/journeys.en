@@ -2,6 +2,7 @@
 product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration Guide
+user-guide-description: Provides how-to instructions for implementing and building journeys.
 index: yes
 ---
 
@@ -66,6 +67,7 @@ index: yes
       + [About action activities](using/building-journeys/about-action-activities.md)
       + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
+      + [Jumping from one journey to another](using/building-journeys/jump.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}
@@ -174,7 +176,6 @@ index: yes
     + [Building the journey](using/usecase/building-the-journey.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
-  + [Export Import APIs](using/api/import-export.md)
 + Alpha features {#alpha}
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)

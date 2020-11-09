@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 
@@ -29,24 +27,24 @@ Any XDM schema that will be used for [!DNL Journey Orchestration] events should 
 
 * The schema must be of the XDM ExperienceEvent class. 
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * The schema must include the Orchestration eventID mixin. [!DNL Journey Orchestration] uses this field to identify events used in journeys.
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Declare an identity field for identifying the subject of the event. If no identity is specified, an identity map can be used. This is not recommended.
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * If you would like this data to be available for lookup later in a Journey, mark the schema and dataset for profile. 
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * Feel free to include data fields to capture any other context data you want to include with the event, such as information about the user, the device from which the event was generated, location, or any other meaningful circumstances related to the event. 
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)

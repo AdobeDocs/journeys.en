@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 # Metrics and dimensions {#concept_rfj_wpt_52b}
@@ -33,8 +31,10 @@ The table below gives you the list of dimensions used in journey reports, their 
 |**Action**|List of every action (**action name - action label**) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
 |**Data source**|List of data sources (**data source name**) used to enrich data in a journey e.g. Adobe Experience Platform, Reservation system.|
 |**[!UICONTROL Event]**|List of every event (**event name - event label**) used in journeys e.g. Geometrixx event - Geometrixx check out.|
+|**[!UICONTROL Event origin]**|Breakdown events by categories: **[!UICONTROL Internal event]** and **[!UICONTROL External event]**. For more information, refer to this [page](../building-journeys/jump.md).|
 |**Field group**|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |**Journey**|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
+|**[!UICONTROL Journey origin]**| Breakdown **[!UICONTROL Internal event]**' by journeys.|
 |**Journey version**|List of every published version of a journey (**journey name + version's number**) e.g. Cart abandonment v1, Hotel reservation notification v2.|
 |**Orchestration**|List of every orchestration activity (**Condition, End, Wait**) defined and used in journeys.|
 
@@ -56,7 +56,6 @@ The table below gives you the list of delivery dimensions used in journey report
 |**Tracking URL category**|Category assigned to the tracking URL.|
 |**Tracking URL label**|Label given to the URL, such as mirror page, contact us or open.|
 |**Variant**|Variant of the email in case of A/B testing.|
-
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
 

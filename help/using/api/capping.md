@@ -6,8 +6,6 @@ products: journeys
 audience: audiences
 content-type: reference
 topic-tags: journeys
-internal: n
-snippet: y
 ---
 
 # Working with Capping API
