@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
-# Using the advanced expression editor
+# Advanced expression examples
 
 The Advanced expression editor can be used to create conditions to allow you to filter users in your journeys. These conditions enable you to target users on time, date, location, duration, or actions such as purchase or abandonment of carts so that they can be retargeted in the journey.
 
@@ -47,7 +47,7 @@ Then it selects all the addtocart events that did not transform into a completeP
 
 The specified timestamp is acting as the date time value, the second is number of days.
 
-    ```
+```
         In( “addToCart”, #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
@@ -63,8 +63,7 @@ The specified timestamp is acting as the date time value, the second is number o
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-
-    ```
+```
 
 This expression returns a boolean.
 
@@ -100,32 +99,31 @@ From there you can add another path in your journey for when the product is not 
 
 This condition retrieve only the geofence events triggered in "Arlington":
 
-    ```
+```
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
                     .name} == "Arlington"
-    ```
+```
 
 Explanation: This is a strict string comparison (case sensitive), equivalent to a query in simple mode that uses `equal to` with `Is sensitive` checked.
 
 The same query with `Is sensitive` unchecked will generate the following expression in advanced mode:
 
-    ```
+```
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
                         .name}, "Arlington")
-
-    ```
+```
 
 **In actions**
 
 The following expression allows you to define the CRM ID in an action personalization field:
 
-    ```
+```
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -136,8 +134,7 @@ The following expression allows you to define the CRM ID in an action personaliz
                         .crmid}
                          }
                          ))
-
-    ```
+```
 
 Explanation: This example uses `substr` and `lastIndexOf` functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
 
