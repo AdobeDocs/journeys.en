@@ -137,6 +137,6 @@ _In a journey:_
 
 * Press **T** to enable/disable the test mode.
 * In an event-based journey in test mode, press **E** to trigger an event.
-* In a segment-based journey in test mode, press **P** to trigger an event.
+* In a segment-based journey, when the **Single profile at a time** option is selected in test mode, press **P** to trigger an event.
 * In test mode, press **L** to display the logs.
 
