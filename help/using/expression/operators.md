@@ -39,11 +39,11 @@ Here is the list of supported operators:
 <tr><th>Operator</th><th>Literal Expression</th><th>Example</th></tr>
 </thead>
 <tbody>
-<tr>><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
+<tr><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
 <tr><td>or</td><td><p><pre>&lt;expression1&gt; or &lt;expression2&gt;</pre></p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt; must be boolean.</p><p> The result is boolean.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## Comparison
 
@@ -81,11 +81,13 @@ Here is the list of supported operators:
 
 <table>
 <thead>
-<tr><th>Operator</th><th>Literal Expression </th><th>Example</th></tr>
+<tr><th>Operator</th><th>Literal Expression</th><th>Example</th></tr>
 </thead>
 <tbody><tr><td>is numeric</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>The type of the expression is integer or decimal.</p></td><td><pre>@ is numeric</pre></td></tr>
 <tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>The type of the expression is integer.</p></td><td><pre>@ is integer</pre></td></tr>
 <tr><td>is decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>The type of the expression is decimal.</p></td><td><pre>@ is decimal</pre></td></tr>
+</tbody>
+</table>
 
 ## String
 
