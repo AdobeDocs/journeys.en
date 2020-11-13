@@ -38,6 +38,6 @@ Here are limitations related to the use of Journey Orchestration.
 
 * Streaming data used to initiate a customer journey must be configured within Journey Orchestration first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform.
  
-## Data sources limitations:
+## Data sources limitations
 
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
