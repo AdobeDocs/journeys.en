@@ -132,3 +132,11 @@ _In the canvas of a journey:_
 * Use the **Ctrl/Command + A** key combination to select all activities.
 * When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
+
+_In a journey:_
+
+* Press **T** to enable/disable the test mode.
+* In an event-based journey in test mode, press **E** to trigger an event.
+* In a segment-based journey, when the **Single profile at a time** option is selected in test mode, press **P** to trigger an event.
+* In test mode, press **L** to display the logs.
+

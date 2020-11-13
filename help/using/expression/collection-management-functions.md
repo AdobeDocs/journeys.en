@@ -17,7 +17,6 @@ The expression language also introduces a set of functions to query collections.
 These functions are explained below. In the following examples, let’s use the event payload containing a collection:
 
 ```
-
                 { 
    "_experience":{ 
       "campaign":{ 
@@ -55,7 +54,6 @@ These functions are explained below. In the following examples, let’s use the 
    },
    "timestamp":"1536160728"
 }
-
 ```
 
 **The function "all(`<condition>`)"**

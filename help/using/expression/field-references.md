@@ -24,7 +24,6 @@ If you're using special characters in a field, you need to use double quotes or 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 ```
-
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -32,7 +31,6 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 // field group
 #{<data source name>.<field group name>.<path to the field>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
-
 ```
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
