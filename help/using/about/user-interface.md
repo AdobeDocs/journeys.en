@@ -136,7 +136,7 @@ _In the canvas of a journey:_
 _In a journey:_
 
 * Press **T** to enable/disable the test mode.
-* In an event-based journeys in test mode, press **E** to trigger an event.
-* In a segment-based journeys in test mode, press **P** to trigger an event.
+* In an event-based journey in test mode, press **E** to trigger an event.
+* In a segment-based journey in test mode, press **P** to trigger an event.
 * In test mode, press **L** to display the logs.
 
