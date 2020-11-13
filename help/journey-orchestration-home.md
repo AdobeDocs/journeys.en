@@ -63,6 +63,7 @@ Discover the features that are currently available through the Alpha program.
 </table>
 
 ## Additional Resources
+
 * [Journey Orchestration product page](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
