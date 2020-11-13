@@ -14,6 +14,7 @@ index: yes
   + [Documentation Updates](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+  + [Limitations](using/about/limitations.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
@@ -37,7 +38,6 @@ index: yes
   + [Working with Adobe Campaign](using/action/working-with-adobe-campaign.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
-    + [Custom action limitations](using/action/custom-action-limitations.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
 + Using Plaform segments {#configuring-segment}
