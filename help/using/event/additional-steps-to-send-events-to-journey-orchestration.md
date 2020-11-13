@@ -15,12 +15,12 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 >[!NOTE]
 >
->When creating an event, [!DNL Journey Orchestration] automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
+>When creating an event, [!DNL Journey Orchestration] automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [this page](../event/previewing-the-payload.md).
 
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Orchestration], you need to follow these steps:
 
 1. Get the inlet URL from the Adobe Experience Platform APIs (see [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
-1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. See [](../event/defining-the-payload-fields.md).
+1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. See [this page](../event/defining-the-payload-fields.md).
 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 

@@ -39,7 +39,7 @@ You can create another path for audiences that are not eligible to the defined c
 
 The simple mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
 
-* AND: an intersection of two criteria. Only the elements matching all criteria are taken into account. 
+* AND: an intersection of two criteria. Only the elements matching all criteria are taken into account.
 * OR: a union of two criteria. Elements matching at least one of the two criteria are taken into account.
 
 ![](../assets/journey64.png)
@@ -49,14 +49,13 @@ If you're using the [Adobe Experience Platform Segmentation Service](https://doc
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [](../expression/expressionadvanced.md).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [this page](../expression/expressionadvanced.md).
 
-
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [](../expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [](../datasource/external-data-sources.md).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [this page](../expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [this page](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -66,18 +65,17 @@ This allows you to perform different actions according to the hour of the day an
 
 >[!NOTE]
 >
->The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [](../building-journeys/timezone-management.md).
+>The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. Refer to [this page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
 ## Percentage split {#percentage_split}
 
-This option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each path. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. As a result, the split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)). 
+This option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each path. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. As a result, the split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 >[!NOTE]
 >
 >Note that there is no button to add a path in the percentage split condition. The number of paths will depend on the number of splits. In split conditions, you cannot add a path for other cases as it cannot happen. People will always go into one of the split paths.
-
 
 ![](../assets/journey52.png)
 
@@ -87,6 +85,6 @@ This allows you to define a different flow based on the date. For example, if th
 
 >[!NOTE]
 >
->The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [](../building-journeys/timezone-management.md).
+>The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. See [this page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)

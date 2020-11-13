@@ -96,5 +96,4 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
-
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).

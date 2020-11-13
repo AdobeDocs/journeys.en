@@ -10,6 +10,7 @@ tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/j
 git-repo: https://github.com/AdobeDocs/journeys.en
 index: yes
 solution: Journey Orchestration
+type: Documentation
 ---
 
 # Metadata for Journeys

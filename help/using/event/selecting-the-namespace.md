@@ -27,4 +27,4 @@ Select a namespace from the drop-down list.
 
 ![](../assets/journey17.png)
 
-Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [](../building-journeys/journey.md).
+Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [this page](../building-journeys/journey.md).

@@ -12,7 +12,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # now {#now}
 
-Returns the current date in date time format. For more information on data types, refer to [](../expression/data-types.md).
+Returns the current date in date time format. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## Category
 

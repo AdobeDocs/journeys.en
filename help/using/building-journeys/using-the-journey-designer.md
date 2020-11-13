@@ -22,7 +22,7 @@ The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on t
 
 ![](../assets/journey74.png)
 
-All the versions of your journeys appear in the list with the version number. See [](../building-journeys/journey-versions.md).
+All the versions of your journeys appear in the list with the version number. See [this page](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -48,7 +48,7 @@ When using the **[!UICONTROL Search]** field, the number of results is displayed
 
 ## The canvas {#canvas}
 
-The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [](../building-journeys/end-activity.md)). 
+The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [this page](../building-journeys/end-activity.md)).
 
  ![](../assets/journey39.png)
 
@@ -62,19 +62,19 @@ In the canvas, your action and event activities are represented by an icon with 
 
 ## The top bar actions {#top_actions}
 
-Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [](../building-journeys/testing-the-journey.md)). The reporting button appears when the journey is live, stopped or closed.
+Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [this page](../building-journeys/testing-the-journey.md)). The reporting button appears when the journey is live, stopped or closed.
 
  ![](../assets/journey41.png)
 
 ## The use of paths in the canvas {#paths}
 
-Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [](../building-journeys/changing-properties.md) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [this page](../building-journeys/changing-properties.md) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
  ![](../assets/journey42.png)
 
 Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
-When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [this section](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
