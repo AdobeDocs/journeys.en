@@ -46,6 +46,7 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
 * You can only jump to a journey that uses the same namespace as the origin journey.
 * You cannot jump to a journey that starts with a **Segment qualification** event. 
+* You cannot have a jump and a **Segment qualification** event in the same journey.
 * When the jump is executed, the latest version of the target journey is triggered.
 * You can include as many jumps as you need in a journey. After a jump, you can add any activity needed.
 * You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.

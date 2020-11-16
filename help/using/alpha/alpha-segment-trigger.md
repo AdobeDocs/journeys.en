@@ -22,6 +22,10 @@ The Read Segment activity allows you to make all individuals belonging to an Ado
 
 Let's say you have a Gold customer segment on Adobe Experience Platform. With the Read Segment activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
+>[!NOTE]
+>
+>You cannot have a jump and a **Read segment** ativity in the same journey. You cannot jump to a journey that starts with a **Read segment** event.
+
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
 >[!NOTE]
