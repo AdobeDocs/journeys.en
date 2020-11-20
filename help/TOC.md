@@ -1,7 +1,8 @@
 ---
-product: Journeys
-audience: end-user
-user-guide-title: Journey Orchestration Guide
+product: adobe campaign
+solution: Journey Orchestration
+user-guide-title: Journey Orchestration
+title: Journey Orchestration Guide
 user-guide-description: Provides how-to instructions for implementing and building journeys.
 index: yes
 ---
