@@ -11,7 +11,7 @@ Technically, a constant always contains a data type. In the literal expression, 
 
 Here is how data type expressions are represented:
 
-**String**
+## String {#string}
 
 Common sequence of characters. It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.
 
@@ -19,33 +19,34 @@ JSON format: String
 
 Serialization format: UTF-8
 
-*Literal representation*
+**Literal representation**
 
 "&lt;value&gt;"'&lt;value&gt;'
 
-*Example*
+**Example**
 
 ```"hello world"```
 
 ```'hello world'```
 
-**integer**
+## integer {#integer}
 
 Integer value from -2^63 to 2^63-1.
 
 JSON format: Number
 
-*Literal representation*
+**Literal representation**
 
 &lt;integer value&gt;
 
-*Example*
+**Example**
 
 ```42```
 
-**decimal**
+## decimal {#decimal}
 
 Decimal number. It represents a floating value:
+
 * largest positive finite value of type double, (2-2^-52)x2^1023
 * smallest positive normal value of type double, 2-1022
 * smallest positive nonzero value of type double, 2 p-1074
@@ -54,31 +55,31 @@ JSON format: Number
 
 Serialization format: using '.' as the decimal separator.
 
-*Literal representation*
+**Literal representation**
 
 &lt;integer value&gt;
 
 &lt;integer value&gt;
 
-*Example*
+**Example**
 
 ```3.14```
 
-**boolean**
+## boolean {#boolean}
 
 Boolean value written lowercase: true or false
 
 JSON format: Boolean
 
-*Literal representation*
+**Literal representation**
 
 truefalse
 
-*Example*
+**Example**
 
 ```true```
   
-**dateTimeOnly**
+## dateTimeOnly {#date-time-only}
 
 Represents a date time without a time zone, viewed as year-month-day-hour-minute-second-millisecond.
 
@@ -92,11 +93,11 @@ It uses DateTimeFormatter.
 
 ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
 
-*Literal representation*
+**Literal representation**
 
 toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")  
 
-**dateTime**
+## dateTime {#date-time}
 
 Date time constant that also considers time zone. It represents a date-time with an offset from UTC.
 
@@ -114,13 +115,13 @@ You can also pass an integer passing an epoch value. [Read more](https://www.epo
 
 Time zone can be specified by an offset or a time zone code (example: Europe/Paris, Z - meaning UTC).
 
-*Literal representation*
+**Literal representation**
 
 toDateTime("&lt;dateTime in ISO-8601 format&gt;")
 
 toDateTime(&lt;integer value of an epoch in milliseconds&gt;)
 
-*Example*
+**Example**
 
 ```toDateTime("1977-04-22T06:00:00Z")```
 
@@ -134,7 +135,7 @@ toDateTime(&lt;integer value of an epoch in milliseconds&gt;)
 
 ```toDateTime(1560762190189)```
 
-**duration**
+## duration {#duration}
 
 It represents a time-based amount of time, such as '34.5 seconds'. It models a quantity or amount of time in terms of milliseconds.
 
@@ -148,13 +149,13 @@ Serialization format: To deserialize a time zone ID, it uses the java function j
 
 Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-*Literal representation*
+**Literal representation**
 
 toDuration("&lt;duration in ISO-8601 format&gt;")
 
 toDuration(&lt;duration in milliseconds&gt;)
 
-*Example*
+**Example**
 
 ```toDuration("PT5S")``` 5 seconds
 
@@ -176,17 +177,17 @@ toDuration(&lt;duration in milliseconds&gt;)
 
 ```toDuration("-P-6H+3M") ``` parses as "+6 hours and -3 minutes"
 
-**list**
+## list {#list}
 
 Comma separated list of expressions using square brackets as delimiters.
 
 Polymorphism is not supported, hence all the expressions contained in the list should have the same type.
 
-*Literal representation*
+**Literal representation**
 
 [&lt;expression&gt;, &lt;expression&gt;, ... ]
 
-*Example*
+**Example**
 
 ```["value1","value2"]```
 
