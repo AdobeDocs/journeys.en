@@ -35,7 +35,7 @@ Here is the list of supported operators:
 
 ```<expression1> and <expression2>```
 
-Both <expression1> and <expression2> must be boolean. The result is boolean.
+Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
 **Example**
 
@@ -47,7 +47,7 @@ Both <expression1> and <expression2> must be boolean. The result is boolean.
 
 ```<expression1> or <expression2>```
 
-Both <expression1> and <expression2> must be boolean. The result is boolean.
+Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
 **Example**
 
@@ -59,7 +59,7 @@ Both <expression1> and <expression2> must be boolean. The result is boolean.
 
 ```not <expression>```
 
-<expression> must be boolean. The result is boolean.
+&lt;expression&gt; must be boolean. The result is boolean.
 
 **Example**
 
@@ -101,7 +101,7 @@ Note that null means the expression has no evaluated value.
 
 ```<expression> has null```
 
-<expression> must be a list. The result is boolean.
+&lt;expression&gt; must be a list. The result is boolean.
 
 Useful to identify that a list contains at least one null value.
 
@@ -117,7 +117,7 @@ Useful to identify that a list contains at least one null value.
 
 ```<expression1> == <expression2>```
 
-Both <expression1> and <expression2> must have the same data type. The result is boolean.
+Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
 **Example**
 
@@ -131,7 +131,7 @@ Both <expression1> and <expression2> must have the same data type. The result is
 
 ```<expression1> != <expression2>```
 
-Both <expression1> and <expression2> must have the same data type. The result is boolean.
+Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
 **Example**
 
@@ -252,7 +252,7 @@ Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-<expression2> must not be equal to 0 (returns 0).
+&lt;expression2&gt; must not be equal to 0 (returns 0).
 
 **Example**
 
