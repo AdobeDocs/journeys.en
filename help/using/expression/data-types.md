@@ -110,7 +110,7 @@ false
 ```
 true
 ```
-  
+
 ## dateTimeOnly {#date-time-only}
 
 **Description**
