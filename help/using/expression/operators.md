@@ -107,7 +107,7 @@ Useful to identify that a list contains at least one null value.
 
 **Example**
 
-```["foo", "bar", null] has null``` returns true
+```["foo", "bar", null] has null``` returns true.
 
 ```["foo", "bar", ""] has null``` returns false because "" is not considered as null.
 
@@ -145,7 +145,9 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. T
 
 ```<expression1> > <expression2>```
 
-Datetime can be compared with Datetime and Datetimeonly.
+Datetime can be compared with Datetime.
+
+Datetimeonly can be compared with Datetimeonly.
 
 Both integer or decimal can be compared with both integer or decimal.
 
@@ -168,6 +170,7 @@ Datetime can be compared with Datetime.
 Datetimeonly can be compared with Datetimeonly.
 
 Both integer or decimal can be compared with both integer or decimal.
+
 Any other combination is forbidden.
 
 The result is boolean.
@@ -186,7 +189,9 @@ Datetime can be compared with Datetime.
 
 Datetimeonly can be compared with Datetimeonly.
 
-Both integer or decimal can be compared with both integer or decimal. Any other combination is forbidden.
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
 
 The result is boolean.
 
@@ -204,7 +209,9 @@ Datetime can be compared with Datetime.
 
 Datetimeonly can be compared with Datetimeonly.
 
-Both integer or decimal can be compared with both integer or decimal. Any other combination is forbidden.
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
 
 The result is boolean.
 
@@ -358,13 +365,9 @@ Append a duration to a dateTime, a dateTimeOnly or a duration.
 
 **Example**
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` returns 2011-12-03T15:30:30Z
 
-``` + toDuration("PT15M")``` returns 2011-12-03T15:30:30Z
-
-```toDateTimeOnly("2011-12-03T15:15:30")```
-
-``` + toDuration("PT15M")``` returns 2011-12-03T15:30:30
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` returns 2011-12-03T15:30:30
 
 ```now() + toDuration("PT1H")``` returns a dateTime (with UTC time zone) one hour later from current time
 
