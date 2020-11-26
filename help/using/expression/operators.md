@@ -31,119 +31,157 @@ Here is the list of supported operators:
 
 ### and
 
-**Literal expression**
-
-```<expression1> and <expression2>```
+```
+<expression1> and <expression2>
+```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-**Example**
+Example:
 
-```3.14 > 2 and 3.15 < 1```
+```
+3.14 > 2 and 3.15 < 1
+```
 
 ### or
 
-**Literal expression**
 
-```<expression1> or <expression2>```
+
+```
+<expression1> or <expression2>
+```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-**Example**
+Example:
 
-```3.14 > 2 or 3.15 < 1```
+```
+3.14 > 2 or 3.15 < 1
+```
 
 ### not
 
-**Literal expression**
 
-```not <expression>```
+
+```
+not <expression>
+```
 
 &lt;expression&gt; must be boolean. The result is boolean.
 
-**Example**
+Example:
 
-```not 3.15 < 1```
+```
+not 3.15 < 1
+```
 
 ## Comparison {#comparison}
 
 ### is null
 
-**Literal expression**
 
-```<expression> is null```
+
+```
+<expression> is null
+```
 
 The result is boolean.
 
 Note that null means the expression has no evaluated value.
 
-**Example**
+Example:
 
-```@{BarBeacon.location} is null```
+```
+@{BarBeacon.location} is null
+```
 
 ### is not null
 
-**Literal expression**
 
-```<expression> is not null```
+
+```
+<expression> is not null
+```
 
 The result is boolean.
 
 Note that null means the expression has no evaluated value.
 
-**Example**
+Example:
 
-```@ is not null```
+```
+@ is not null
+```
 
 ### has null
 
-**Literal expression**
 
-```<expression> has null```
+
+```
+<expression> has null
+```
 
 &lt;expression&gt; must be a list. The result is boolean.
 
 Useful to identify that a list contains at least one null value.
 
-**Example**
+Example:
 
-```["foo", "bar", null] has null``` returns true.
+```
+["foo", "bar", null] has null --  returns true.
+```
 
-```["foo", "bar", ""] has null``` returns false because "" is not considered as null.
+```
+["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+```
 
 ### ==
 
-**Literal expression**
 
-```<expression1> == <expression2>```
+
+```
+<expression1> == <expression2>
+```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
-**Example**
+Example:
 
-```3.14 == 42```
+```
+3.14 == 42
+```
 
-```"foo" == "bar"```
+```
+"foo" == "bar"
+```
 
 ### !=
 
-**Literal expression**
 
-```<expression1> != <expression2>```
+
+```
+<expression1> != <expression2>
+```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
-**Example**
+Example:
 
-```3.14 != 42```
+```
+3.14 != 42
+```
 
-```"foo" != "bar"```
+```
+"foo" != "bar"
+```
 
 ### >
 
-**Literal expression**
 
-```<expression1> > <expression2>```
+
+```
+<expression1> > <expression2>
+```
 
 Datetime can be compared with Datetime.
 
@@ -155,15 +193,19 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-**Example**
+Example:
 
-```3.14 > 42```
+```
+3.14 > 42
+```
 
 ### >=
 
-**Literal expression**
 
-```<expression1> >= <expression2>```
+
+```
+<expression1> >= <expression2>
+```
 
 Datetime can be compared with Datetime.
 
@@ -175,15 +217,19 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-**Example**
+Example:
 
-```42 >= 3.14```
+```
+42 >= 3.14
+```
 
 ### <
 
-**Literal expression**
 
-```<expression1> < <expression2>```
+
+```
+<expression1> < <expression2>
+```
 
 Datetime can be compared with Datetime.
 
@@ -195,15 +241,19 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-**Example**
+Example:
 
-```42 < 3.14```
+```
+42 < 3.14
+```
 
 ### <=
 
-**Literal expression**
 
-```<expression1> <= <expression2>```
+
+```
+<expression1> <= <expression2>
+```
 
 Datetime can be compared with Datetime.
 
@@ -215,45 +265,57 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-**Example**
+Example:
 
-```42 <= 3.14```
+```
+42 <= 3.14
+```
 
 ## Arithmetic {#arithmetic}
 
 ### +
 
-**Literal expression**
 
-```<expression1> + <expression2>```
+
+```
+<expression1> + <expression2>
+```
 
 Both expressions must be numeric (integer or decimal). 
 
 The result is also numeric.
 
-**Example**
+Example:
 
-```1 + 2``` returns 3
+```
+1 + 2 -- returns 3
+```
 
 ### -
 
-**Literal expression**
 
-```<expression1> - <expression2>```
+
+```
+<expression1> - <expression2>
+```
 
 Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-**Example**
+Example:
 
-```2 - 1``` returns 1
+```
+2 - 1 -- returns 1
+```
 
 ### /
 
-**Literal expression**
 
-```<expression1> / <expression2>```
+
+```
+<expression1> / <expression2>
+```
 
 Both expressions must be numeric (integer or decimal). 
 
@@ -261,114 +323,156 @@ The result is also numeric.
 
 &lt;expression2&gt; must not be equal to 0 (returns 0).
 
-**Example**
+Example:
 
-```4 / 2``` returns 2
+```
+4 / 2 -- returns 2
+```
 
 ### *
 
-**Literal expression**
 
-```<expression1> * <expression2>```
+
+```
+<expression1> * <expression2>
+```
 
 Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-**Example**
+Example:
 
-```3 * 4``` returns 12
+```
+3 * 4 -- returns 12
+```
 
 ### %
 
-**Literal expression**
 
-```<expression1> % <expression2>```
+
+```
+<expression1> % <expression2>
+```
 
 Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-**Example**
+Example:
 
-```3 % 2``` returns 1.
+```
+3 % 2 -- returns 1.
+```
 
 ## Math {#math}
 
 ### is numeric
 
-**Literal expression**
 
-```<expression> is numeric```
+
+```
+<expression> is numeric
+```
 
 The type of the expression is integer or decimal.
 
-**Example**
+Example:
 
-```@ is numeric```
+```
+@ is numeric
+```
 
 ### is integer
 
-**Literal expression**
 
-```<expression> is integer```
+
+```
+<expression> is integer
+```
 
 The type of the expression is integer.
 
-**Example**
+Example:
 
-```@ is integer```
+```
+@ is integer
+```
 
 ### is decimal
 
-**Literal expression**
 
-```<expression> is decimal```
+
+```
+<expression> is decimal
+```
 
 The type of the expression is decimal.
 
-**Example**
+Example:
 
-```@ is decimal```
+```
+@ is decimal
+```
 
 ## String {#string}
 
 ### + 
 
-**Literal expression**
 
-```<string> + <expression>```
 
-```<expression> + <string>```
+```
+<string> + <expression>
+```
+
+```
+<expression> + <string>
+```
 
 It concatenates two expressions. 
 
 One expression must be a chained string.
 
-**Example**
+Example:
 
-```"the current time is " + (now())``` returns "the current time is 2019-09-23T09:30:06.693Z"
+```
+"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+```
 
-```(now()) + " is the current time"``` returns "2019-09-23T09:30:06.693Z is the current time"
+```
+(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
+```
 
-```"a" + "b" + "c" + 1234``` returns "abc1234".
+```
+"a" + "b" + "c" + 1234 -- returns "abc1234".
+```
 
 ## Date {#date}
 
 ### +
 
-**Literal expression**
 
-```<expression + <duration>```
+
+```
+<expression + <duration>
+```
 
 Append a duration to a dateTime, a dateTimeOnly or a duration.
 
-**Example**
+Example:
 
-```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` returns 2011-12-03T15:30:30Z
+```
+toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+```
 
-```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` returns 2011-12-03T15:30:30
+```
+toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
+```
 
-```now() + toDuration("PT1H")``` returns a dateTime (with UTC time zone) one hour later from current time
+```
+now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+```
 
-```toDuration("PT1H") + toDuration("PT1H")``` returns  PT2H
+```
+toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+```
