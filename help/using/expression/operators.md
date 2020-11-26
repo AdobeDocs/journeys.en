@@ -107,9 +107,9 @@ Useful to identify that a list contains at least one null value.
 
 **Example**
 
-```[&#34;foo&#34;, &#34;bar&#34;, null] has null``` returns true
+```["foo", "bar", null] has null``` returns true
 
-```[&#34;foo&#34;, &#34;bar&#34;, &#34;&#34;] has null``` returns false because &#34;&#34; is not considered as null.
+```["foo", "bar", ""] has null``` returns false because "" is not considered as null.
 
 ### ==
 
@@ -123,7 +123,7 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. T
 
 ```3.14 == 42```
 
-```&#34;foo&#34; == &#34;bar&#34;```
+```"foo" == "bar"```
 
 ### !=
 
@@ -137,7 +137,7 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. T
 
 ```3.14 != 42```
 
-```&#34;foo&#34; != &#34;bar&#34;```
+```"foo" != "bar"```
 
 ### >
 
@@ -340,11 +340,11 @@ One expression must be a chained string.
 
 **Example**
 
-```&#34;the current time is &#34; + (now())``` returns "the current time is 2019-09-23T09:30:06.693Z"
+```"the current time is " + (now())``` returns "the current time is 2019-09-23T09:30:06.693Z"
 
-```(now()) + &#34; is the current time&#34;``` returns "2019-09-23T09:30:06.693Z is the current time"
+```(now()) + " is the current time"``` returns "2019-09-23T09:30:06.693Z is the current time"
 
-```&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234``` returns "abc1234".
+```"a" + "b" + "c" + 1234``` returns "abc1234".
 
 ## Date {#date}
 
@@ -358,14 +358,14 @@ Append a duration to a dateTime, a dateTimeOnly or a duration.
 
 **Example**
 
-```toDateTime(&#34;2011-12-03T15:15:30Z&#34;)```
+```toDateTime("2011-12-03T15:15:30Z")```
 
-``` + toDuration(&#34;PT15M&#34;)``` returns 2011-12-03T15:30:30Z
+``` + toDuration("PT15M")``` returns 2011-12-03T15:30:30Z
 
-```toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;)```
+```toDateTimeOnly("2011-12-03T15:15:30")```
 
-``` + toDuration(&#34;PT15M&#34;)``` returns 2011-12-03T15:30:30
+``` + toDuration("PT15M")``` returns 2011-12-03T15:30:30
 
-```now() + toDuration(&#34;PT1H&#34;)``` returns a dateTime (with UTC time zone) one hour later from current time
+```now() + toDuration("PT1H")``` returns a dateTime (with UTC time zone) one hour later from current time
 
-```toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)``` returns  PT2H
+```toDuration("PT1H") + toDuration("PT1H")``` returns  PT2H
