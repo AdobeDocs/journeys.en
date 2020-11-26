@@ -23,9 +23,9 @@ Serialization format: UTF-8
 
 **Literal representation**
 
-```"&lt;value&gt;"```
+```"<value>"```
 
-```'&lt;value&gt;'```
+```'<value>'```
 
 **Example**
 
@@ -43,7 +43,7 @@ JSON format: Number
 
 **Literal representation**
 
-```&lt;integer value&gt;```
+```<integer value>```
 
 **Example**
 
@@ -65,9 +65,7 @@ Serialization format: using '.' as the decimal separator.
 
 **Literal representation**
 
-```&lt;integer value&gt;```
-
-```&lt;integer value&gt;```
+```<integer value>.<integer value>```
 
 **Example**
 
@@ -83,7 +81,9 @@ JSON format: Boolean
 
 **Literal representation**
 
-```truefalse```
+```true```
+
+```false```
 
 **Example**
 
@@ -101,13 +101,11 @@ It cannot represent an instant on the time-line without additional information s
 
 Serialization format: ISO-8601 extended offset date-time format.
 
-It uses DateTimeFormatter.
-
-ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
+It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
 
 **Literal representation**
 
-```toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")  ```
+```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
 
 ## dateTime {#date-time}
 
@@ -123,7 +121,7 @@ It must be encapsulated in a toDateTime function.
 
 Serialization format: ISO-8601 extended offset date-time format.
 
-It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME) 
+It uses DateTimeFormatter ISO_OFFSET_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME) 
 
 You can also pass an integer passing an epoch value. [Read more](https://www.epochconverter.com)
 
@@ -131,9 +129,9 @@ Time zone can be specified by an offset or a time zone code (example: Europe/Par
 
 **Literal representation**
 
-```toDateTime("&lt;dateTime in ISO-8601 format&gt;")```
+```toDateTime("<dateTime in ISO-8601 format>")```
 
-```toDateTime(&lt;integer value of an epoch in milliseconds&gt;)```
+```toDateTime(<integer value of an epoch in milliseconds>)```
 
 **Example**
 
@@ -167,9 +165,9 @@ Duration.parse: the formats accepted are based on the ISO-8601 duration format P
 
 **Literal representation**
 
-```toDuration("&lt;duration in ISO-8601 format&gt;")```
+```toDuration("<duration in ISO-8601 format>")```
 
-```toDuration(&lt;duration in milliseconds&gt;)```
+```toDuration(<duration in milliseconds>)```
 
 **Example**
 
@@ -203,7 +201,7 @@ Polymorphism is not supported, hence all the expressions contained in the list s
 
 **Literal representation**
 
-```[&lt;expression&gt;, &lt;expression&gt;, ... ]```
+```[<expression>, <expression>, ... ]```
 
 **Example**
 
