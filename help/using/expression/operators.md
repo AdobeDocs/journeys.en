@@ -29,47 +29,47 @@ Here is the list of supported operators:
 
 ## Logical  {#logical}
 
-**and**
+### and
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; and &lt;expression2&gt;```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-*Example*
+**Example**
 
 ```3.14 &gt; 2 and 3.15 &lt; 1```
 
-**or**
+### or
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; or &lt;expression2&gt;```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-*Example*
+**Example**
 
 ```3.14 &gt; 2 or 3.15 &lt; 1```
 
-**not**
+### not
 
-*Literal expression*
+**Literal expression**
 
 ```not &lt;expression&gt;```
 
 &lt;expression&gt; must be boolean. The result is boolean.
 
-*Example*
+**Example**
 
 ```not 3.15 &lt; 1```
 
 ## Comparison {#comparison}
 
-**is null**
+### is null
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; is null```
 
@@ -77,13 +77,13 @@ The result is boolean.
 
 Note that null means the expression has no evaluated value.
 
-*Example*
+**Example**
 
 ```@{BarBeacon.location} is null```
 
-**is not null**
+### is not null
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; is not null```
 
@@ -91,13 +91,13 @@ The result is boolean.
 
 Note that null means the expression has no evaluated value.
 
-*Example*
+**Example**
 
 ```@ is not null```
 
-**has null**
+### has null
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; has null```
 
@@ -105,43 +105,43 @@ Note that null means the expression has no evaluated value.
 
 Useful to identify that a list contains at least one null value.
 
-*Example*
+**Example**
 
 ```[&#34;foo&#34;, &#34;bar&#34;, null] has null``` returns true
 
 ```[&#34;foo&#34;, &#34;bar&#34;, &#34;&#34;] has null``` returns false because &#34;&#34; is not considered as null.
 
-**==**
+### ==
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; == &lt;expression2&gt;```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
-*Example*
+**Example**
 
 ```3.14 == 42```
 
 ```&#34;foo&#34; == &#34;bar&#34;```
 
-**!=**
+### !=
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; != &lt;expression2&gt;```
 
 Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
 
-*Example*
+**Example**
 
 ```3.14 != 42```
 
 ```&#34;foo&#34; != &#34;bar&#34;```
 
-**&gt;**
+### &gt;
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; &gt; &lt;expression2&gt;```
 
@@ -153,13 +153,13 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-*Example*
+**Example**
 
 ```3.14 &gt; 42```
 
-**&gt;=**
+### &gt;=
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; &gt;= &lt;expression2&gt;```
 
@@ -172,13 +172,13 @@ Any other combination is forbidden.
 
 The result is boolean.
 
-*Example*
+**Example**
 
 ```42 &gt;= 3.14```
 
-**&lt;**
+### &lt;
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; &lt; &lt;expression2&gt;```
 
@@ -186,15 +186,17 @@ Datetime can be compared with Datetime.
 
 Datetimeonly can be compared with Datetimeonly.
 
-Both integer or decimal can be compared with both integer or decimal.
-
-Any other combination is forbidden.
+Both integer or decimal can be compared with both integer or decimal. Any other combination is forbidden.
 
 The result is boolean.
 
+**Example**
+
 ```42 &lt; 3.14```
 
-**&lt;=**
+### &lt;=
+
+**Literal expression**
 
 ```&lt;expression1&gt; &lt;= &lt;expression2&gt;```
 
@@ -202,21 +204,19 @@ Datetime can be compared with Datetime.
 
 Datetimeonly can be compared with Datetimeonly.
 
-Both integer or decimal can be compared with both integer or decimal.
-
-Any other combination is forbidden.
+Both integer or decimal can be compared with both integer or decimal. Any other combination is forbidden.
 
 The result is boolean.
 
-*Example*
+**Example**
 
 ```42 &lt;= 3.14```
 
 ## Arithmetic {#arithmetic}
 
-**+**
+### +
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; + &lt;expression2&gt;```
 
@@ -224,13 +224,13 @@ Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-*Example*
+**Example**
 
 ```1 + 2``` returns 3
 
-**-**
+### -
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; - &lt;expression2&gt;```
 
@@ -238,13 +238,13 @@ Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-*Example*
+**Example**
 
 ```2 - 1``` returns 1
 
-**/**
+### /
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; / &lt;expression2&gt;```
 
@@ -254,13 +254,13 @@ The result is also numeric.
 
 &lt;expression2&gt; must not be equal to 0 (returns 0).
 
-*Example*
+**Example**
 
 ```4 / 2``` returns 2
 
-**`*`**
+### *
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; * &lt;expression2&gt;```
 
@@ -268,13 +268,13 @@ Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-*Example*
+**Example**
 
 ```3 * 4``` returns 12
 
-**%**
+### %
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression1&gt; % &lt;expression2&gt;```
 
@@ -282,53 +282,53 @@ Both expressions must be numeric (integer or decimal).
 
 The result is also numeric.
 
-*Example*
+**Example**
 
 ```3 % 2``` returns 1.
 
 ## Math {#math}
 
-**is numeric**
+### is numeric
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; is numeric```
 
 The type of the expression is integer or decimal.
 
-*Example*
+**Example**
 
 ```@ is numeric```
 
-**is integer**
+### is integer
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; is integer```
 
 The type of the expression is integer.
 
-*Example*
+**Example**
 
 ```@ is integer```
 
-**is decimal**
+### is decimal
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression&gt; is decimal```
 
 The type of the expression is decimal.
 
-*Example*
+**Example**
 
 ```@ is decimal```
 
 ## String {#string}
 
-**+**
+### + 
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;string&gt; + &lt;expression&gt;```
 
@@ -338,7 +338,7 @@ It concatenates two expressions.
 
 One expression must be a chained string.
 
-*Example*
+**Example**
 
 ```&#34;the current time is &#34; + (now())``` returns "the current time is 2019-09-23T09:30:06.693Z"
 
@@ -348,15 +348,15 @@ One expression must be a chained string.
 
 ## Date {#date}
 
-**+**
+### +
 
-*Literal expression*
+**Literal expression**
 
 ```&lt;expression + &lt;duration&gt;```
 
 Append a duration to a dateTime, a dateTimeOnly or a duration.
 
-*Example*
+**Example**
 
 ```toDateTime(&#34;2011-12-03T15:15:30Z&#34;)```
 
