@@ -9,9 +9,11 @@ description: Learn about data types in advanced expressions
 
 Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.
 
-Here is how data type expressions are represented:
+The sections below provide information on the different data type expressions andhow they are represented.
 
 ## String {#string}
+
+**Description**
 
 Common sequence of characters. It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.
 
@@ -21,7 +23,9 @@ Serialization format: UTF-8
 
 **Literal representation**
 
-"&lt;value&gt;"'&lt;value&gt;'
+```"&lt;value&gt;"```
+
+```'&lt;value&gt;'```
 
 **Example**
 
@@ -31,19 +35,23 @@ Serialization format: UTF-8
 
 ## integer {#integer}
 
+**Description**
+
 Integer value from -2^63 to 2^63-1.
 
 JSON format: Number
 
 **Literal representation**
 
-&lt;integer value&gt;
+```&lt;integer value&gt;```
 
 **Example**
 
 ```42```
 
 ## decimal {#decimal}
+
+**Description**
 
 Decimal number. It represents a floating value:
 
@@ -57,9 +65,9 @@ Serialization format: using '.' as the decimal separator.
 
 **Literal representation**
 
-&lt;integer value&gt;
+```&lt;integer value&gt;```
 
-&lt;integer value&gt;
+```&lt;integer value&gt;```
 
 **Example**
 
@@ -67,19 +75,23 @@ Serialization format: using '.' as the decimal separator.
 
 ## boolean {#boolean}
 
+**Description**
+
 Boolean value written lowercase: true or false
 
 JSON format: Boolean
 
 **Literal representation**
 
-truefalse
+```truefalse```
 
 **Example**
 
 ```true```
   
 ## dateTimeOnly {#date-time-only}
+
+**Description**
 
 Represents a date time without a time zone, viewed as year-month-day-hour-minute-second-millisecond.
 
@@ -95,9 +107,11 @@ ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https:/
 
 **Literal representation**
 
-toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")  
+```toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")  ```
 
 ## dateTime {#date-time}
+
+**Description**
 
 Date time constant that also considers time zone. It represents a date-time with an offset from UTC.
 
@@ -117,9 +131,9 @@ Time zone can be specified by an offset or a time zone code (example: Europe/Par
 
 **Literal representation**
 
-toDateTime("&lt;dateTime in ISO-8601 format&gt;")
+```toDateTime("&lt;dateTime in ISO-8601 format&gt;")```
 
-toDateTime(&lt;integer value of an epoch in milliseconds&gt;)
+```toDateTime(&lt;integer value of an epoch in milliseconds&gt;)```
 
 **Example**
 
@@ -137,6 +151,8 @@ toDateTime(&lt;integer value of an epoch in milliseconds&gt;)
 
 ## duration {#duration}
 
+**Description**
+
 It represents a time-based amount of time, such as '34.5 seconds'. It models a quantity or amount of time in terms of milliseconds.
 
 The supported temporal units are: milliseconds, seconds, minutes, hours, days where a day equals to 24 hours. Years and months are not supported since they're not a fixed amount of time.
@@ -151,9 +167,9 @@ Duration.parse: the formats accepted are based on the ISO-8601 duration format P
 
 **Literal representation**
 
-toDuration("&lt;duration in ISO-8601 format&gt;")
+```toDuration("&lt;duration in ISO-8601 format&gt;")```
 
-toDuration(&lt;duration in milliseconds&gt;)
+```toDuration(&lt;duration in milliseconds&gt;)```
 
 **Example**
 
@@ -179,13 +195,15 @@ toDuration(&lt;duration in milliseconds&gt;)
 
 ## list {#list}
 
+**Description**
+
 Comma separated list of expressions using square brackets as delimiters.
 
 Polymorphism is not supported, hence all the expressions contained in the list should have the same type.
 
 **Literal representation**
 
-[&lt;expression&gt;, &lt;expression&gt;, ... ]
+```[&lt;expression&gt;, &lt;expression&gt;, ... ]```
 
 **Example**
 
