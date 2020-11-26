@@ -173,9 +173,9 @@ Duration.parse: the formats accepted are based on the ISO-8601 duration format P
 
 **Example**
 
-```toDuration("PT5S")``` 5 seconds
+```toDuration("PT5S")``` parses as 5 seconds
 
-```toDuration(500)```500ms
+```toDuration(500)``` parses as 500ms
 
 ```toDuration("PT20.345S")``` parses as "20.345 seconds"
 
