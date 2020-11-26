@@ -33,37 +33,37 @@ Here is the list of supported operators:
 
 **Literal expression**
 
-```&lt;expression1&gt; and &lt;expression2&gt;```
+```<expression1> and <expression2>```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
+Both <expression1> and <expression2> must be boolean. The result is boolean.
 
 **Example**
 
-```3.14 &gt; 2 and 3.15 &lt; 1```
+```3.14 > 2 and 3.15 < 1```
 
 ### or
 
 **Literal expression**
 
-```&lt;expression1&gt; or &lt;expression2&gt;```
+```<expression1> or <expression2>```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
+Both <expression1> and <expression2> must be boolean. The result is boolean.
 
 **Example**
 
-```3.14 &gt; 2 or 3.15 &lt; 1```
+```3.14 > 2 or 3.15 < 1```
 
 ### not
 
 **Literal expression**
 
-```not &lt;expression&gt;```
+```not <expression>```
 
-&lt;expression&gt; must be boolean. The result is boolean.
+<expression> must be boolean. The result is boolean.
 
 **Example**
 
-```not 3.15 &lt; 1```
+```not 3.15 < 1```
 
 ## Comparison {#comparison}
 
@@ -71,7 +71,7 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is 
 
 **Literal expression**
 
-```&lt;expression&gt; is null```
+```<expression> is null```
 
 The result is boolean.
 
@@ -85,7 +85,7 @@ Note that null means the expression has no evaluated value.
 
 **Literal expression**
 
-```&lt;expression&gt; is not null```
+```<expression> is not null```
 
 The result is boolean.
 
@@ -99,9 +99,9 @@ Note that null means the expression has no evaluated value.
 
 **Literal expression**
 
-```&lt;expression&gt; has null```
+```<expression> has null```
 
-&lt;expression&gt; must be a list. The result is boolean.
+<expression> must be a list. The result is boolean.
 
 Useful to identify that a list contains at least one null value.
 
@@ -115,9 +115,9 @@ Useful to identify that a list contains at least one null value.
 
 **Literal expression**
 
-```&lt;expression1&gt; == &lt;expression2&gt;```
+```<expression1> == <expression2>```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+Both <expression1> and <expression2> must have the same data type. The result is boolean.
 
 **Example**
 
@@ -129,9 +129,9 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. T
 
 **Literal expression**
 
-```&lt;expression1&gt; != &lt;expression2&gt;```
+```<expression1> != <expression2>```
 
-Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+Both <expression1> and <expression2> must have the same data type. The result is boolean.
 
 **Example**
 
@@ -139,11 +139,11 @@ Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. T
 
 ```&#34;foo&#34; != &#34;bar&#34;```
 
-### &gt;
+### >
 
 **Literal expression**
 
-```&lt;expression1&gt; &gt; &lt;expression2&gt;```
+```<expression1> > <expression2>```
 
 Datetime can be compared with Datetime and Datetimeonly.
 
@@ -155,13 +155,13 @@ The result is boolean.
 
 **Example**
 
-```3.14 &gt; 42```
+```3.14 > 42```
 
-### &gt;=
+### >=
 
 **Literal expression**
 
-```&lt;expression1&gt; &gt;= &lt;expression2&gt;```
+```<expression1> >= <expression2>```
 
 Datetime can be compared with Datetime.
 
@@ -174,13 +174,13 @@ The result is boolean.
 
 **Example**
 
-```42 &gt;= 3.14```
+```42 >= 3.14```
 
-### &lt;
+### <
 
 **Literal expression**
 
-```&lt;expression1&gt; &lt; &lt;expression2&gt;```
+```<expression1> < <expression2>```
 
 Datetime can be compared with Datetime.
 
@@ -192,13 +192,13 @@ The result is boolean.
 
 **Example**
 
-```42 &lt; 3.14```
+```42 < 3.14```
 
-### &lt;=
+### <=
 
 **Literal expression**
 
-```&lt;expression1&gt; &lt;= &lt;expression2&gt;```
+```<expression1> <= <expression2>```
 
 Datetime can be compared with Datetime.
 
@@ -210,7 +210,7 @@ The result is boolean.
 
 **Example**
 
-```42 &lt;= 3.14```
+```42 <= 3.14```
 
 ## Arithmetic {#arithmetic}
 
@@ -218,7 +218,7 @@ The result is boolean.
 
 **Literal expression**
 
-```&lt;expression1&gt; + &lt;expression2&gt;```
+```<expression1> + <expression2>```
 
 Both expressions must be numeric (integer or decimal). 
 
@@ -232,7 +232,7 @@ The result is also numeric.
 
 **Literal expression**
 
-```&lt;expression1&gt; - &lt;expression2&gt;```
+```<expression1> - <expression2>```
 
 Both expressions must be numeric (integer or decimal).
 
@@ -246,13 +246,13 @@ The result is also numeric.
 
 **Literal expression**
 
-```&lt;expression1&gt; / &lt;expression2&gt;```
+```<expression1> / <expression2>```
 
 Both expressions must be numeric (integer or decimal). 
 
 The result is also numeric.
 
-&lt;expression2&gt; must not be equal to 0 (returns 0).
+<expression2> must not be equal to 0 (returns 0).
 
 **Example**
 
@@ -262,7 +262,7 @@ The result is also numeric.
 
 **Literal expression**
 
-```&lt;expression1&gt; * &lt;expression2&gt;```
+```<expression1> * <expression2>```
 
 Both expressions must be numeric (integer or decimal).
 
@@ -276,7 +276,7 @@ The result is also numeric.
 
 **Literal expression**
 
-```&lt;expression1&gt; % &lt;expression2&gt;```
+```<expression1> % <expression2>```
 
 Both expressions must be numeric (integer or decimal).
 
@@ -292,7 +292,7 @@ The result is also numeric.
 
 **Literal expression**
 
-```&lt;expression&gt; is numeric```
+```<expression> is numeric```
 
 The type of the expression is integer or decimal.
 
@@ -304,7 +304,7 @@ The type of the expression is integer or decimal.
 
 **Literal expression**
 
-```&lt;expression&gt; is integer```
+```<expression> is integer```
 
 The type of the expression is integer.
 
@@ -316,7 +316,7 @@ The type of the expression is integer.
 
 **Literal expression**
 
-```&lt;expression&gt; is decimal```
+```<expression> is decimal```
 
 The type of the expression is decimal.
 
@@ -330,9 +330,9 @@ The type of the expression is decimal.
 
 **Literal expression**
 
-```&lt;string&gt; + &lt;expression&gt;```
+```<string> + <expression>```
 
-```&lt;expression&gt; + &lt;string&gt;```
+```<expression> + <string>```
 
 It concatenates two expressions. 
 
@@ -352,7 +352,7 @@ One expression must be a chained string.
 
 **Literal expression**
 
-```&lt;expression + &lt;duration&gt;```
+```<expression + <duration>```
 
 Append a duration to a dateTime, a dateTimeOnly or a duration.
 
