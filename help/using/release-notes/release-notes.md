@@ -76,7 +76,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### Other improvements{#october-november}
 
-Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../building-journeys/journey-versions.md#version-limitations)
+Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../about/limitations.md#journey-versions-limitations)
 
 The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging.
 
