@@ -47,7 +47,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>In the simple and advanced expression editor, we've added a new category in the list of fields and functions. These are the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third party system to log them.
+<p>In the advanced expression editor, we've added a new category in the list of fields and functions. These are the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third party system to log them.
 </p>
 <p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
@@ -77,8 +77,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 ### Other improvements{#october-november}
 
 Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../building-journeys/journey-versions.md#version-limitations)
-
-A new icon has been added in the action activity to copy the action's technical details. It copies the journey action ID as well as journey related information.
 
 The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging.
 

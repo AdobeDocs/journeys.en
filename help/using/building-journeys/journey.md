@@ -10,7 +10,6 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
-
 # Creating a journey {#concept_gq5_sqt_52b}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
