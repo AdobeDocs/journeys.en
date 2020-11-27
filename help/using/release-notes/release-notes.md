@@ -20,6 +20,73 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <table>
 <thead>
 <tr>
+<th><strong>Jumping from one journey to another</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We've added a new action activity which allows you to push individuals from one journey to another. The Jump activity allows you to:
+</p>
+<ul>
+<li>simplify the design of very complex journeys by splitting them into several ones. </li>
+<li>build journeys based on common and reusable journey patterns.</li>
+</ul>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Using journey properties in the expression editor</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In the simple and advanced expression editor, we've added a new category in the list of fields and functions. These are the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third party system to log them.
+</p>
+<p>Note that this feature will be available in the coming days.</p>
+<p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rule based events (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new simplified method to setup events has been added. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a conditon. You can still use the existing method, now called "system-generated".
+</p>
+<p>Note that this feature will be available in the coming days.</p>
+<p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements{#october-november}
+
+Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting.
+
+A new icon has been added in the action activity to copy the action's technical details. It copies the journey action ID as well as journey related information.
+
+The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging.
+
+## October 2020 Release {#october-release}
+
+<table>
+<thead>
+<tr>
 <th><strong>Event timeout</strong><br/></th>
 </tr>
 </thead>
@@ -275,8 +342,6 @@ Journey Orchestration is now available in APAC (Australian data center). Effecti
 The Journey Orchestration interface is available in Japanese.
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
-
-**What's new?**
 
 <table>
 <thead>

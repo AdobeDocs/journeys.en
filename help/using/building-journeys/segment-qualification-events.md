@@ -81,6 +81,8 @@ Moreover, if the batch segment is newly created and immediately used in a journe
 
 When using segment qualification for streamed segments, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the segment. Still, if the segment definition leads to making a large volume of customers qualify at the same time, there might be a peak too. 
 
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+
 ### How to avoid overloads{#overloads-speed-segment-qualification}
 
 Here are a few best practices that will help to avoid overloading systems leveraged in journeys (data sources, custom actions, Adobe Campaign Standard actions).
