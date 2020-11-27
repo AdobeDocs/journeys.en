@@ -76,7 +76,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### Other improvements{#october-november}
 
-Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting.
+Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../building-journeys/journey-versions.md#version-limitations)
 
 A new icon has been added in the action activity to copy the action's technical details. It copies the journey action ID as well as journey related information.
 

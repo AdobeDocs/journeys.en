@@ -16,6 +16,15 @@ In the journey list, all journey versions are displayed with the version number.
 
 ![](../assets/journeyversions1.png)
 
+## Limitations {#version-limitations}
+
+- a journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
+- a journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
+- The segment and namespace chosen in **Segment qualification** (first node) can not be changed in new versions.
+- The re-entrance rule must be the same in all journey versions.
+
+## Creating a new version {#creating-a-new-version}
+
 If you need to modify to a live journey, you need to create a new version of your journey.
 
 1. Open the latest version of your live journey, click **[!UICONTROL Create a new version]** and confirm.
