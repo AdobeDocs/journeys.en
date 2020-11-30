@@ -42,7 +42,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>In the advanced expression editor, we've added a new category in the list of fields and functions. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third-party system to log them.
+<p>In the advanced expression editor, we've added a new category in the list of fields and functions. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your journeys. For example, you will be able to alert third-party systems in case of errors encountered in a condition or an action.
 </p>
 <p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
@@ -54,7 +54,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <table>
 <thead>
 <tr>
-<th><strong>Rule based events (beta)</strong><br/></th>
+<th><strong>Rule-based events (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -71,9 +71,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### Other improvements{#october-november}
 
-Limitations have been added when creating new versions of a journey. These limitations optimize the use of new versions and facilitate reporting. [Read more](../about/limitations.md#journey-versions-limitations)
+Limitations have been added when creating new versions of a journey. These limitations avoid too drastic changes in the journey to keep some consistency between versions. [Read more](../about/limitations.md#journey-versions-limitations)
 
-The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging. [Read more](../about/limitations.md#segment-qualification)
+The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction protects the integrity of Adobe Campaign Standard instances. Indeed, Segment Qualification usage can lead to daily peaks of message sending that would overload Campaign Standard Transactional Messaging. [Read more](../about/limitations.md#segment-qualification)
 
 ## October 2020 Release {#october-release}
 
