@@ -15,7 +15,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
-## October 2020 Release {#october-release}
+## November 2020 Release {#november-release}
 
 <table>
 <thead>
@@ -78,7 +78,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../about/limitations.md#journey-versions-limitations)
 
-The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging.
+The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging. [Read more](../about/limitations.md#segment-qualification)
 
 ## October 2020 Release {#october-release}
 
