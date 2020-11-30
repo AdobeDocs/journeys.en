@@ -50,7 +50,7 @@ For data sources: Passing journey information could potentially be parameters to
 ## List of fields {#journey-properties-fields}
 
 |Category|Field name|Label|Description|
-||-|-|----|
+|-|-|-|----|
 |Journey Version|journeyUID|Journey Identifier|?|
 | |journeyVersionUID|Journey Version Identifier|?|
 | |journeyVersionName|Journey Version Name|?|
