@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Operators
 description: Learn about operators in advanced expressions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 
@@ -32,80 +27,452 @@ There are two kinds of operators: unary operators and binary operators. There ar
 
 Here is the list of supported operators:
 
-## Logical 
+## Logical  {#logical}
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression</th><th>Example</th></tr>
-</thead>
-<tbody>
-<tr><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.</td><td><pre>3.14 &gt; 2 and 3.15 &lt; 1</pre></td></tr>
-<tr><td>or</td><td><p><pre>&lt;expression1&gt; or &lt;expression2&gt;</pre></p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td><p><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></p></td></tr>
-<tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt; must be boolean.</p><p> The result is boolean.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### and
 
-## Comparison
+```
+<expression1> and <expression2>
+```
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression </th><th>Example</th></tr>
-</thead>
-<tbody><tr><td>is null</td><td><p><pre>&lt;expression&gt; is null</pre></p><p>The result is boolean.</p><p>Note that null means the expression has no evaluated value.</p></td><td><pre>@{BarBeacon.location} is null</pre></td></tr>
-<tr><td>is not null</td><td><p><pre>&lt;expression&gt; is not null</pre></p><p>The result is boolean.</p><p>Note that null means the expression has no evaluated value.</p></td><td><pre>@ is not null</pre></td></tr>
-<tr><td>has null</td><td><p><pre>&lt;expression&gt; has null</pre>&lt;expression&gt; must be a list.</p><p>The result is boolean.</p><p>Useful to identify that a list contains at least one null value.</p></td><td><p><pre>[&#34;foo&#34;, &#34;bar&#34;, null] has null</pre></p>returns true<p><pre>[&#34;foo&#34;, &#34;bar&#34;, &#34;&#34;] has null</pre></p> returns false because &#34;&#34; is not considered as null.</td></tr>
-<tr><td>==</td><td><p><pre>&lt;expression1&gt; == &lt;expression2&gt;</pre></p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type.</p><p> The result is boolean.</p></td><td><pre>3.14 == 42</pre><br /><pre>&#34;foo&#34; == &#34;bar&#34;</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;expression1&gt; != &lt;expression2&gt;</pre></p><p> Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type.</p><p> The result is boolean.</p></td><td><pre>3.14 != 42</pre><br /><pre>&#34;foo&#34; != &#34;bar&#34;</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;expression1&gt; &gt; &lt;expression2&gt;</pre></p><p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;expression1&gt; &gt;= &lt;expression2&gt;</pre></p><p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;expression1&gt; &lt; &lt;expression2&gt;</pre></p><p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;expression1&gt; &lt;= &lt;expression2&gt;</pre></p><p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-## Arithmetic
+Example:
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression </th><th>Example</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;expression1&gt; + &lt;expression2&gt;</pre></p><p>Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>Returns 3</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;expression1&gt; - &lt;expression2&gt;</pre></p><p> Both expressions must be numeric (integer or decimal).</p><p> The result is also numeric.</p></td><td><p><pre>2 - 1</pre></p>Returns 1</td></tr>
-<tr><td>/</td><td><p><pre>&lt;expression1&gt; / &lt;expression2&gt;</pre></p><p>Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p><p>&lt;expression2&gt; must not be equal to 0 (returns 0).</p></td><td><p><pre>4 / 2</pre></p>Returns 2</td></tr>
-<tr><td>*</td><td><p><pre>&lt;expression1&gt; * &lt;expression2&gt;</pre></p><p> Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p></td><td><p><pre>3 * 4</pre></p>Returns 12</td></tr>
-<tr><td>%</td><td><p><pre>&lt;expression1&gt; % &lt;expression2&gt;</pre></p><p>Both expressions must be numeric (integer or decimal).</p><p> The result is also numeric.</p></td><td><p><pre>3 % 2</pre></p>Returns 1.</td></tr>
-</tbody>
-</table>
+```
+3.14 > 2 and 3.15 < 1
+```
 
-## Math
+### or
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression</th><th>Example</th></tr>
-</thead>
-<tbody><tr><td>is numeric</td><td><p><pre>&lt;expression&gt; is numeric</pre></p><p>The type of the expression is integer or decimal.</p></td><td><pre>@ is numeric</pre></td></tr>
-<tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>The type of the expression is integer.</p></td><td><pre>@ is integer</pre></td></tr>
-<tr><td>is decimal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>The type of the expression is decimal.</p></td><td><pre>@ is decimal</pre></td></tr>
-</tbody>
-</table>
 
-## String
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression </th><th>Example</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;string&gt;</pre></p><p>It concatenates two expressions. </p><p>One expression must be a chained string.</p></td><td><p><pre>&#34;the current time is &#34; + (now())</pre></p> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<p><pre>(now()) + &#34; is the current time&#34;</pre></p>Returns "2019-09-23T09:30:06.693Z is the current time"<p><pre>&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</pre></p> Returns "abc1234".</td></tr>
-</tbody>
-</table>
+```
+<expression1> or <expression2>
+```
 
-## Date
+Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Literal Expression </th><th>Example</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;expression + &lt;duration&gt;</pre></p><p>Append a duration to a dateTime, a dateTimeOnly or a duration.</p></td><td><p><pre>toDateTime(&#34;2011-12-03T15:15:30Z&#34;)</pre></p><p><pre> + toDuration(&#34;PT15M&#34;)</pre></p><p>Returns 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;)</pre></p><p><pre> + toDuration(&#34;PT15M&#34;)</pre></p>Returns 2011-12-03T15:30:30<p><pre>now() + toDuration(&#34;PT1H&#34;)</pre></p><p>Returns a dateTime (with UTC time zone) one hour later from current time</p><p><pre>toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)</pre></p><p>Returns  PT2H</p></td></tr>
-</tbody>
-</table>
+Example:
+
+```
+3.14 > 2 or 3.15 < 1
+```
+
+### not
+
+
+
+```
+not <expression>
+```
+
+&lt;expression&gt; must be boolean. The result is boolean.
+
+Example:
+
+```
+not 3.15 < 1
+```
+
+## Comparison {#comparison}
+
+### is null
+
+
+
+```
+<expression> is null
+```
+
+The result is boolean.
+
+Note that null means the expression has no evaluated value.
+
+Example:
+
+```
+@{BarBeacon.location} is null
+```
+
+### is not null
+
+
+
+```
+<expression> is not null
+```
+
+The result is boolean.
+
+Note that null means the expression has no evaluated value.
+
+Example:
+
+```
+@ is not null
+```
+
+### has null
+
+
+
+```
+<expression> has null
+```
+
+&lt;expression&gt; must be a list. The result is boolean.
+
+Useful to identify that a list contains at least one null value.
+
+Example:
+
+```
+["foo", "bar", null] has null --  returns true.
+```
+
+```
+["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+```
+
+### ==
+
+
+
+```
+<expression1> == <expression2>
+```
+
+Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+
+Example:
+
+```
+3.14 == 42
+```
+
+```
+"foo" == "bar"
+```
+
+### !=
+
+
+
+```
+<expression1> != <expression2>
+```
+
+Both &lt;expression1&gt; and &lt;expression2&gt; must have the same data type. The result is boolean.
+
+Example:
+
+```
+3.14 != 42
+```
+
+```
+"foo" != "bar"
+```
+
+### >
+
+
+
+```
+<expression1> > <expression2>
+```
+
+Datetime can be compared with Datetime.
+
+Datetimeonly can be compared with Datetimeonly.
+
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
+
+The result is boolean.
+
+Example:
+
+```
+3.14 > 42
+```
+
+### >=
+
+
+
+```
+<expression1> >= <expression2>
+```
+
+Datetime can be compared with Datetime.
+
+Datetimeonly can be compared with Datetimeonly.
+
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
+
+The result is boolean.
+
+Example:
+
+```
+42 >= 3.14
+```
+
+### <
+
+
+
+```
+<expression1> < <expression2>
+```
+
+Datetime can be compared with Datetime.
+
+Datetimeonly can be compared with Datetimeonly.
+
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
+
+The result is boolean.
+
+Example:
+
+```
+42 < 3.14
+```
+
+### <=
+
+
+
+```
+<expression1> <= <expression2>
+```
+
+Datetime can be compared with Datetime.
+
+Datetimeonly can be compared with Datetimeonly.
+
+Both integer or decimal can be compared with both integer or decimal.
+
+Any other combination is forbidden.
+
+The result is boolean.
+
+Example:
+
+```
+42 <= 3.14
+```
+
+## Arithmetic {#arithmetic}
+
+### +
+
+
+
+```
+<expression1> + <expression2>
+```
+
+Both expressions must be numeric (integer or decimal). 
+
+The result is also numeric.
+
+Example:
+
+```
+1 + 2 -- returns 3
+```
+
+### -
+
+
+
+```
+<expression1> - <expression2>
+```
+
+Both expressions must be numeric (integer or decimal).
+
+The result is also numeric.
+
+Example:
+
+```
+2 - 1 -- returns 1
+```
+
+### /
+
+
+
+```
+<expression1> / <expression2>
+```
+
+Both expressions must be numeric (integer or decimal). 
+
+The result is also numeric.
+
+&lt;expression2&gt; must not be equal to 0 (returns 0).
+
+Example:
+
+```
+4 / 2 -- returns 2
+```
+
+### *
+
+
+
+```
+<expression1> * <expression2>
+```
+
+Both expressions must be numeric (integer or decimal).
+
+The result is also numeric.
+
+Example:
+
+```
+3 * 4 -- returns 12
+```
+
+### %
+
+
+
+```
+<expression1> % <expression2>
+```
+
+Both expressions must be numeric (integer or decimal).
+
+The result is also numeric.
+
+Example:
+
+```
+3 % 2 -- returns 1.
+```
+
+## Math {#math}
+
+### is numeric
+
+
+
+```
+<expression> is numeric
+```
+
+The type of the expression is integer or decimal.
+
+Example:
+
+```
+@ is numeric
+```
+
+### is integer
+
+
+
+```
+<expression> is integer
+```
+
+The type of the expression is integer.
+
+Example:
+
+```
+@ is integer
+```
+
+### is decimal
+
+
+
+```
+<expression> is decimal
+```
+
+The type of the expression is decimal.
+
+Example:
+
+```
+@ is decimal
+```
+
+## String {#string}
+
+### + 
+
+
+
+```
+<string> + <expression>
+```
+
+```
+<expression> + <string>
+```
+
+It concatenates two expressions. 
+
+One expression must be a chained string.
+
+Example:
+
+```
+"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+```
+
+```
+(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
+```
+
+```
+"a" + "b" + "c" + 1234 -- returns "abc1234".
+```
+
+## Date {#date}
+
+### +
+
+
+
+```
+<expression + <duration>
+```
+
+Append a duration to a dateTime, a dateTimeOnly or a duration.
+
+Example:
+
+```
+toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+```
+
+```
+toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
+```
+
+```
+now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+```
+
+```
+toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+```

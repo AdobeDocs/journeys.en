@@ -1,11 +1,9 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Import export API description
 description: Learn more about the import export API.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 ---
 
 # Working with Export Import API

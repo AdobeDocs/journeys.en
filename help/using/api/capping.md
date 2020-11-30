@@ -1,11 +1,9 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Capping API description
 description: Learn more about the Capping API.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 ---
 
 # Working with Capping API
