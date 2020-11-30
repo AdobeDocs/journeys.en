@@ -128,11 +128,11 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to rule-based events:
 </p>
 <ul>
-<li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
+<li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../event/about-analytics.md">Read more</a></p>
 </li>
-<li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../alpha/alpha-events.md#configuring-rule-based">Read more</a></p>
+<li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Read more</a></p>
 </li>
-<li><p>The rule-based event definition screen has been reorganized for an improved experience. <a href="../alpha/alpha-events.md#test-rule-based">Read more</a></p>
+<li><p>The rule-based event definition screen has been reorganized for an improved experience. <a href="../event/about-creating.md">Read more</a></p>
 </li>
 </ul>
 </td>
@@ -194,7 +194,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <tbody>
 <tr>
 <td>
-<p>We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event. <a href="../alpha/alpha-events.md">Read more</a>
+<p>We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event. <a href="../event/about-events.md">Read more</a>
 </p>
 </td>
 </tr>
