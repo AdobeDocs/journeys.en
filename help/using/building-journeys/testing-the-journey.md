@@ -127,6 +127,16 @@ When opening a journey in test, the displayed path corresponds to the last test 
 
 The visual flow works whether the event is triggered via the interface or externally (using Postman, for example). 
 
+## Test mode for rule-based journeys {#test-rule-based}
+
+The test mode is also available for journeys that use a rule-based event. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+When triggering an event, the **Event configuration** screen allows you to define the event parameters to pass in the test. You can view the event ID condition by clicking the tooltip icon in the top right corner. A tooltip is also available next to each field that is part of the rule evaluation.
+
+![](../assets/alpha-event8.png)
+
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+
 ## Viewing the logs {#viewing_logs}
 
 The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
