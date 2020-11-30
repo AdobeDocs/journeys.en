@@ -13,17 +13,26 @@ Here are the main steps to configure a new event:
 
     ![](../assets/journey5.png)
 
-1. Click **[!UICONTROL Add]** to create a new event. The event configuration pane opens on the right side of the screen.
+1. Click **[!UICONTROL Add]** to create a new event. The event configuration pane opens on the right side of the screen. Enter a name for your event. You can also add a description.
 
     ![](../assets/journey6.png)
-
-1. Enter a name for your event. 
 
     >[!NOTE]
     >
     >Do not use spaces or special characters. Do not use more than 30 characters.
 
-1. Add a description to your event. This step is optional.
+1. In the **[!UICONTROL Event ID type]** field, select the event type you want to use. 
+
+   ![](../assets/journey6bis.png)
+
+   * **Rule-based** events: this type of event does not generate an eventID. In the **Event ID condition** field, you simply define a rule which will be used by the system to identify the relevant events that will trigger your journeys. This rule can be based on any field available in the event payload, for example the profile's location or the number of items added to the profile's cart. See [this section](../event/adding-a-condition.md).
+
+   * **System-generated** events: this type requires an eventID. This eventID field is automatically generated when creating the event and added to the payload preview. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. See [this section](../event/previewing-the-payload.md).
+   
+   >[!NOTE]
+   >
+   >Read more on event types in [this section](../event/about-events.md).
+
 1. Define the schema and payload fields: this is where you select the event information (usually called a payload) [!DNL Journey Orchestration] expects to receive. You will then be able to use this information in your journey. See [this page](../event/defining-the-payload-fields.md).
 1. The number of journeys that use this event is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** icon to display the list of journeys using this event.
 1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [this page](../event/selecting-the-namespace.md).

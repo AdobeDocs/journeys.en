@@ -9,7 +9,7 @@ description: Learn how to leverage Adobe Analytics data
 
 >[!NOTE]
 >
->This section only applies for customers who need to use Adobe Analytics data.
+>This section only applies for rule-based events and customers who need to use Adobe Analytics data.
 
 You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
 

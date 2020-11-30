@@ -12,7 +12,7 @@ The payload preview allows you to validate the payload definition.
 
 >[!NOTE]
 >
->When you create an event, before viewing the payload preview, save your event and re-open it. This step is needed to generate an event ID in the payload.
+>For system-generated events, when you create an event, before viewing the payload preview, save your event and re-open it. This step is needed to generate an event ID in the payload.
 
 1. Click the **[!UICONTROL View Payload]** icon to preview the payload expected by the system.
 

@@ -5,7 +5,7 @@ title: Event data cycle
 description: Learn about event data cycle
 ---
 
-# Event data cycle {#section_r1f_xqt_pgb}
+# Data cycle {#section_r1f_xqt_pgb}
 
 Events are POST API calls. Events are sent to the Adobe Experience Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. 
 

@@ -27,12 +27,12 @@ index: yes
     + [Creating an event](using/event/about-creating.md)
     + [Leveraging Adobe Analytics](using/event/about-analytics.md)
     + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+    + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
   + [Defining the payload fields](using/event/defining-the-payload-fields.md)
   + [Selecting the namespace](using/event/selecting-the-namespace.md)
   + [Defining the event key](using/event/defining-the-event-key.md)
   + [Adding a condition](using/event/adding-a-condition.md)
   + [Previewing the payload](using/event/previewing-the-payload.md)
-  + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/about-data-sources.md)
   + [Field groups](using/datasource/field-groups.md)
