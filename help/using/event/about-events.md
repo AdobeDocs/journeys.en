@@ -5,7 +5,7 @@ title: About events
 description: Learn about events
 ---
 
-# About events {#concept_gfj_fqt_52b}
+# General principle {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
