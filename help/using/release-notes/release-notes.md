@@ -29,8 +29,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <p>We've added a new action activity which allows you to push individuals from one journey to another. The Jump activity allows you to:
 </p>
 <ul>
-<li>simplify the design of very complex journeys by splitting them into several ones. </li>
-<li>build journeys based on common and reusable journey patterns.</li>
+<li>simplify the design of very complex journeys by splitting them into several ones </li>
+<li>build journeys based on common and reusable journey patterns</li>
 </ul>
 <p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
 </td>
@@ -47,7 +47,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>In the advanced expression editor, we've added a new category in the list of fields and functions. These are the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third party system to log them.
+<p>In the advanced expression editor, we've added a new category in the list of fields and functions. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your conditions. For example, you will be able to filter individuals discarded by a capping rule and push them to a third-party system to log them.
 </p>
 <p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
@@ -65,7 +65,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>A new simplified method to setup events has been added. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a conditon. You can still use the existing method, now called "system-generated".
+<p>We've added a new method to set up your events more easily. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a conditon. You can still use the existing method, now called "system-generated".
 </p>
 <p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
@@ -76,7 +76,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ### Other improvements{#october-november}
 
-Limitations have been added when creating new versions of a journey. These limitation optimize the use of new versions and facilitate reporting. [Read more](../about/limitations.md#journey-versions-limitations)
+Limitations have been added when creating new versions of a journey. These limitations optimize the use of new versions and facilitate reporting. [Read more](../about/limitations.md#journey-versions-limitations)
 
 The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction prevents the risk of peaks of events flowing in segment qualification based journeys due to the limited scale of Campaign transactional messaging. [Read more](../about/limitations.md#segment-qualification)
 
