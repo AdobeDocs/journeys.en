@@ -20,45 +20,26 @@ You will find information, for example, about:
 
 You can use these fields to build expressions. During the journey exection, the values will be retrieved directly from the journey. 
 
-## Examples {#journey-properties-examples}
+Here are a few examples of use cases:
 
-Park discard by capping people
-An example of a use case is to set up a path in case of timeout and error, potentially filtering a certain error type "discard people by capping rule", to push people in a third party system to log rejected people.
-Information.
+* **Log discarded profiles**: you can send all profiles excluded from a message by a capping rule to a third-party system for logging purposes. For this, you set up a path in case of timeout and error and add a condition to filter on a specific error type, for example: "discard people by capping rule". You can then push the discarded profiles to a third-party system via a custom action. 
 
-Infos that would have to be used among instance details:
+* **Sent push alerts in case of errors**: you can send a notification to a third-party system every time an error occurs on a message. For this, you set up a path in case of errorn, add a condition and a custom action. You can send a notification on a Slack channel, for example, with the description of the error encountered.
 
-Profile id
-Namespace
-Last execution error code
-
-Push alerts in case of errors:
-In case of errors, we would be able to push error alerts to systems like slack to help customers detects issues.
-
-This would be done using errors information to a custom action
-
-This is a request from Nespresso.
-
-Show in reporting error-related information
-Having in the canvas error path with potentially a condition by error type would naturally display in the reporting sankey the error path and allow the brand to understand the type of errors happening
-
-Call third party systems passing some journey information
-For actions: For logging purpose, reporting purpose, AB test purpose, passing nodeid, journey id could allow brands to cover more use cases.
-
-For data sources: Passing journey information could potentially be parameters to get data back. BOA has this requirement to integrate JO and OD.
+* **Refine errors in reporting** : instead of having just one path for messages in error, you can define une condition per error type. This will allow you to refine the reporting and view all error types data.
 
 ## List of fields {#journey-properties-fields}
 
 |Category|Field name|Label|Description|
 |-|-|-|----|
-|Journey Version|journeyUID|Journey Identifier|?|
-| |journeyVersionUID|Journey Version Identifier|?|
-| |journeyVersionName|Journey Version Name|?|
-| |journeyVersionDescription|Journey Version Description|?|
-| |journeyVersion|Journey Version|?|
+|Journey Version|journeyUID|Journey Identifier| |
+| |journeyVersionUID|Journey Version Identifier| |
+| |journeyVersionName|Journey Version Name| |
+| |journeyVersionDescription|Journey Version Description| |
+| |journeyVersion|Journey Version| |
 |Journey Instance|instanceUID|Journey Instance Identifier|ID of the instance|
 | |externalKey|External Key|Individual identifier triggering the journey|
-|Profile Identity|profileId|Profile Identity Identifier|Identifier of the profile in the journey|
+|Identity|profileId|Profile Identity Identifier|Identifier of the profile in the journey|
 | |namespace|Profile Identity Namespace|Namespace of the profile in the journey (example: ECID)
 |Current Node|currentNodeId|Current Node Identifier|Identifier of the current activity (node)|
 | |currentNodeName|Current Node Name|Name of the current activity (node)|
