@@ -1,33 +1,26 @@
 ---
-title: Operators
-description: Learn about operators in advanced expressions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+product: adobe campaign
+solution: Journey Orchestration
+title: Journey properties
+description: Learn about journey properties
 ---
 
+# Journey properties {#journey-properties}
 
-# Journey properties {#concept_wd5_pj5_dgb}
+In the advanced expression editor, you will find the **Journey Properties** category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. 
 
-We want to expose to the customer technical attributes to be used in expressions, coming from the execution in the backend for a given profile. Those attributes are related to the journey version / instance, such as:
+![](../assets/journey-properties.png)
 
-info about the journey version (journey uid, journey version uid, instance uid, ...)
-info about the errors (data fetch, action execution, ...)
-info about the current step, last current step, ...
-info about discarded people
-In the Expression Editor, in the context, beside the events, we will have a new bucket called "Journey instance details", containing all those attributes.
+You will find information, for example, about:
 
-The user can use them as the event of fieldgroup fields in the expression.
+* journey version: journey uid, journey version uid, instance uid, etc.
+* errors: data fetch, action execution, etc.
+* current step, last current step, etc.
+* discarded profiles
 
-At runtime, we will get those attribute values from the journey version definition and the instance state directly.
+You can use these fields to build expressions. During the journey exection, the values will be retrieved directly from the journey. 
 
-IMPORTANT: all those attributes will not contain any PII or sensitive data about the internal data processed on the backend. We will enforce that as we are fully controlling their evaluations.
-
-Examples of use cases:
+## Examples {#journey-properties-examples}
 
 Park discard by capping people
 An example of a use case is to set up a path in case of timeout and error, potentially filtering a certain error type "discard people by capping rule", to push people in a third party system to log rejected people.
@@ -53,4 +46,18 @@ Call third party systems passing some journey information
 For actions: For logging purpose, reporting purpose, AB test purpose, passing nodeid, journey id could allow brands to cover more use cases.
 
 For data sources: Passing journey information could potentially be parameters to get data back. BOA has this requirement to integrate JO and OD.
+
+## List of fields {#journey-properties-fields}
+
+|Category|Field name|Label|Description|
+||-|-|----|
+|Journey Version|journeyUID|Journey Identifier|?|
+| |journeyVersionUID|Journey Version Identifier|?|
+| |journeyVersionName|Journey Version Name|?|
+| |journeyVersionDescription|Journey Version Description|?|
+| |journeyVersion|Journey Version|?|
+|Journey Instance|instanceUID|Journey Instance Identifier|ID of the instance|
+| |externalKey|External Key|Individual identifier triggering the journey|
+|Profile Identity|profileId|Profile Identity Identifier|Identifier of the profile in the journey|
+| |namespace|Profile Identity Namespace|Namespace of the profile in the journey (example: ECID)
 
