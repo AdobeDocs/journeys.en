@@ -22,13 +22,13 @@ If you edit an event used in a draft or live journey, you can only change the na
 
 You can define two types of events:
 
-* **Rule-based** events: this type of event does not generate an eventID. Using the simple expression editor, you simply define a rule which will be used by the system to identify the relevant events that will trigger your journeys. This rule can be based on any field available in the event payload, for example the profile's location or the number of items added to the profile's cart. [Learn more about rule-based event creation].
+* **Rule-based** events: this type of event does not generate an eventID. Using the simple expression editor, you simply define a rule which will be used by the system to identify the relevant events that will trigger your journeys. This rule can be based on any field available in the event payload, for example the profile's location or the number of items added to the profile's cart. 
 
    >[!CAUTION]
    >
-   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 400k per minute. Please reach out to your Alpha program point of contact for more information.
+   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 400k per minute. Please reach out to your Alpha program point of contact for more information. In addition to this capping rule, a limit of 5000 events for seconds is defined at journey-level.
 
-* **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. Learn more in the [Journey Orchestration documentation].
+* **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. 
 
 To learn how to create an event, refer to this [page](../event/about-creating.md).
 
