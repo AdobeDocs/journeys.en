@@ -31,7 +31,7 @@ Here are a few examples of use cases:
 ## List of fields {#journey-properties-fields}
 
 |Category|Field name|Label|Description|
-|-|-|-|----|
+|---|---|---|------------|
 |Journey Version|journeyUID|Journey Identifier| |
 | |journeyVersionUID|Journey Version Identifier| |
 | |journeyVersionName|Journey Version Name| |
