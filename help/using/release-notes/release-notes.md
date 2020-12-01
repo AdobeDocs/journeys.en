@@ -63,7 +63,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <p>We've added a new method to set up your events more easily. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a conditon. You can still use the existing method, now called "system-generated".
 </p>
 <p>Note that this feature will be available in the coming days.</p>
-<p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../event/about-events.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
