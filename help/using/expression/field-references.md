@@ -49,6 +49,38 @@ A default value can be associated to a field name. The syntax is as follows:
 >
 >The type of the field and the default value must be the same. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
+Examples:
+
+```
+// for an event 'OrderEvent' having the following payload:
+{
+    "orderId": "12345"
+}
+ 
+expression example:
+- @{OrderEvent.orderId}                                    -> "12345"
+- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @{OrderEvent.productId}                                  -> null
+ 
+ 
+// for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
+{
+    "person": {
+        "lastName":"Snow"
+    },
+    "emails": [
+        { "email":"john.snow@winterfell.westeros" },
+        { "email":"snow@thewall.westeros" }
+    ]
+}
+ 
+expression examples:
+- #{ACP.Profile.person.lastName}                 -> "Snow"
+- #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
+- #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
+- #{ACP.Profile.person.age}                      -> null
+```
+
 **Reference of a field within collections**
 
 The elements defined within collections are referenced using the specific functions all, first and last. For more information, refer to [this page](../expression/collection-management-functions.md).

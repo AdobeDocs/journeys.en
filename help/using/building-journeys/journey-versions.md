@@ -13,6 +13,10 @@ In the journey list, all journey versions are displayed with the version number.
 
 If you need to modify to a live journey, you need to create a new version of your journey.
 
+>[!NOTE]
+>
+>To learn more on journey versions limitations, see [this page](../about/limitations.md#journey-versions-limitations)
+
 1. Open the latest version of your live journey, click **[!UICONTROL Create a new version]** and confirm.
 
     ![](../assets/journeyversions2.png)

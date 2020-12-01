@@ -68,6 +68,7 @@ index: yes
       + [About action activities](using/building-journeys/about-action-activities.md)
       + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
+      + [Jumping from one journey to another](using/building-journeys/jump.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}
@@ -86,6 +87,7 @@ index: yes
       + [Field references](using/expression/field-references.md)
       + [Collection management functions](using/expression/collection-management-functions.md)
       + [Operators](using/expression/operators.md)
+      + [Journey properties](using/expression/journey-properties.md)
       + [Examples](using/expression/advanced-editor-use-cases.md)
   + Functions {#main-functions-journey}
     + [Main Functions](using/expression/functions.md)
