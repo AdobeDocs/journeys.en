@@ -21,14 +21,18 @@ index: yes
   + [Access management](using/about/access-management.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
-  + [About events](using/event/about-events.md)
-  + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+  + About events {#about-events}
+    + [General principle](using/event/about-events.md)
+    + [Data cycle](using/event/about-data-cycle.md)
+    + [Creating an event](using/event/about-creating.md)
+    + [Leveraging Adobe Analytics](using/event/about-analytics.md)
+    + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
+    + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
   + [Defining the payload fields](using/event/defining-the-payload-fields.md)
   + [Selecting the namespace](using/event/selecting-the-namespace.md)
   + [Defining the event key](using/event/defining-the-event-key.md)
   + [Adding a condition](using/event/adding-a-condition.md)
   + [Previewing the payload](using/event/previewing-the-payload.md)
-  + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/about-data-sources.md)
   + [Field groups](using/datasource/field-groups.md)
@@ -182,5 +186,4 @@ index: yes
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)
   + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
-  + [Rule-based events](using/alpha/alpha-events.md)
   
