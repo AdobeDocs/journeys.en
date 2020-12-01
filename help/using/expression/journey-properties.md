@@ -40,7 +40,7 @@ Here are a few examples of use cases:
 |Journey Instance|instanceUID|Journey Instance Identifier|ID of the instance|
 | |externalKey|External Key|Individual identifier triggering the journey|
 |Identity|profileId|Profile Identity Identifier|Identifier of the profile in the journey|
-| |namespace|Profile Identity Namespace|Namespace of the profile in the journey (example: ECID)
+| |namespace|Profile Identity Namespace|Namespace of the profile in the journey (example: ECID)|
 |Current Node|currentNodeId|Current Node Identifier|Identifier of the current activity (node)|
 | |currentNodeName|Current Node Name|Name of the current activity (node)|
 |Previous Node|previousNodeId|Previous Node Identifier|Identifier of the previous activity (node)|
