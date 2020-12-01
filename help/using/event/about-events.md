@@ -26,7 +26,7 @@ You can define two types of events:
 
    >[!CAUTION]
    >
-   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 400k per minute. Please reach out to your Alpha program point of contact for more information. In addition to this capping rule, a limit of 5000 events for seconds is defined at journey-level.
+   >A capping rule is defined for rule-based events. It limits the number of qualified events that a journey can process to 5000 per seconds for a given Organization (ORG). It corresponds to Journey Orchestration SLAs. See this [page](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
 * **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. 
 
