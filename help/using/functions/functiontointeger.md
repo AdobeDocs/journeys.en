@@ -42,6 +42,6 @@ Return an integer.
 
 ## Examples
 
-`toInteger(4)`
+`toInteger("4")`
 
 Returns 4.

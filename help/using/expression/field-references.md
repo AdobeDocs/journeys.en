@@ -80,6 +80,7 @@ expression examples:
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
 ```
+
 **Reference of a field within collections**
 
 The elements defined within collections are referenced using the specific functions all, first and last. For more information, refer to [this page](../expression/collection-management-functions.md).
