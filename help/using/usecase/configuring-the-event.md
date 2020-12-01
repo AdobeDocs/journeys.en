@@ -1,20 +1,15 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Configuring the event
 description: Learn how to configure the event for the journey simple use case
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Configuring the event{#concept_y44_hcy_w2b}
 
 In our scenario, we need to receive an event each time a person walks near a beacon positioned next to the spa. The **technical user** needs to configure the event the system will listen to in our journey.
 
-For additional information on event configuration, refer to [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -32,7 +27,7 @@ For additional information on event configuration, refer to [](../event/about-ev
     >
     >The list of fields varies from one schema to another. According to the schema definition, some fields may be mandatory and pre-selected.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/selecting-the-namespace.md).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
     ![](../assets/journeyuc1_6.png)
 
@@ -46,4 +41,4 @@ For additional information on event configuration, refer to [](../event/about-ev
 
     ![](../assets/journeyuc1_7.png)
 
-    The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+    The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

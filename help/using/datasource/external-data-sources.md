@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: External data sources 
 description: Learn how to configure external data sources 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 
@@ -51,7 +46,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** or **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In our example, we choose:
 
 
     * **[!UICONTROL Type]**: "API key"
@@ -69,7 +64,7 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
 * **[!UICONTROL Cache duration]**: in our case, we want the weather to be cached for 10 minutes.
 * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **[!UICONTROL Paste a new payload]** if you want to change the payload currently passed.
-* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [](../expression/expressionadvanced.md).
+* **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [this page](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Parameters]** field and they are automatically added at the end of the call. In case of a POST call, you need to:

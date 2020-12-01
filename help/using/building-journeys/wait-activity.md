@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Wait activity
 description: Learn about the wait activity
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Wait activity{#section_rlm_nft_dgb}
@@ -31,7 +26,7 @@ You can define a condition if you want to restrict the wait to a certain populat
 >
 >The maximum wait duration is 30 days.
 >
->In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [](../building-journeys/testing-the-journey.md) 
+>In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [this page](../building-journeys/testing-the-journey.md) 
 
 ## Duration wait{#duration}
 
@@ -47,13 +42,13 @@ Select the date for the execution of the next activity.
 
 ## Custom wait{#custom}
 
-This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [](../expression/expressionadvanced.md). For more information on dateTimeOnly format, see [](../expression/data-types.md).
+This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [this page](../expression/expressionadvanced.md). For more information on dateTimeOnly format, see [this page](../expression/data-types.md).
 
 >[!NOTE]
 >
 >You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event being of the form 2016-08-12T09:46:06Z.
 >
->The **time zone** is expected in the properties of your journey. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and time zone offset like 2016-08-12T09:46:06.982-05. See [](../building-journeys/timezone-management.md).
+>The **time zone** is expected in the properties of your journey. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and time zone offset like 2016-08-12T09:46:06.982-05. See [this page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 

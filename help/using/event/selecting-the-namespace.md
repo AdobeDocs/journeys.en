@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Selecting the namespace
 description: Learn how to select the namespace
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Selecting the namespace {#concept_ckb_3qt_52b}
@@ -27,4 +22,4 @@ Select a namespace from the drop-down list.
 
 ![](../assets/journey17.png)
 
-Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [](../building-journeys/journey.md).
+Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [this page](../building-journeys/journey.md).

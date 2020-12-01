@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Field references
 description: Learn about field references in advanced expressions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 
@@ -24,7 +19,6 @@ If you're using special characters in a field, you need to use double quotes or 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 ```
-
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -32,7 +26,6 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 // field group
 #{<data source name>.<field group name>.<path to the field>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
-
 ```
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
@@ -58,7 +51,7 @@ A default value can be associated to a field name. The syntax is as follows:
 
 **Reference of a field within collections**
 
-The elements defined within collections are referenced using the specific functions all, first and last. For more information, see [](../expression/collection-management-functions.md).
+The elements defined within collections are referenced using the specific functions all, first and last. For more information, refer to [this page](../expression/collection-management-functions.md).
 
 Example :
 
@@ -68,17 +61,17 @@ Example :
 
 **Reference of a field defined in a map**
 
-In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [](../event/selecting-the-namespace.md).
+In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [this page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [](../expression/collection-management-functions.md).
+In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
 
 **Parameter values of a data source (data source dynamic values)**
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [](../expression/expressionadvanced.md).
+If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [this page](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 

@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Building the journey
 description: Learn how to build the simple use case journey
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Building the journey{#concept_eyw_mcy_w2b}
@@ -23,7 +18,7 @@ The **business user** can now build the journey. Our journey will only include o
 >
 >The **[!UICONTROL Push]** and **[!UICONTROL Email]** activities are only available in the palette if you have Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. In the top menu, click the **[!UICONTROL Home]** tab and **[!UICONTROL Create]** to create a new journey.
 
@@ -65,7 +60,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc1_17.png)
 
-1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
+1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md). 
 
     ![](../assets/journeyuc1_18bis.png)
 

@@ -1,7 +1,8 @@
 ---
-product: Journeys
-audience: end-user
-user-guide-title: Journey Orchestration Guide
+product: adobe campaign
+solution: Journey Orchestration
+user-guide-title: Journey Orchestration
+title: Journey Orchestration Guide
 user-guide-description: Provides how-to instructions for implementing and building journeys.
 index: yes
 ---
@@ -14,6 +15,7 @@ index: yes
   + [Documentation Updates](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+  + [Limitations](using/about/limitations.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
@@ -37,7 +39,6 @@ index: yes
   + [Working with Adobe Campaign](using/action/working-with-adobe-campaign.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
-    + [Custom action limitations](using/action/custom-action-limitations.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
 + Using Plaform segments {#configuring-segment}
@@ -67,7 +68,6 @@ index: yes
       + [About action activities](using/building-journeys/about-action-activities.md)
       + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
-      + [Jumping from one journey to another](using/building-journeys/jump.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}

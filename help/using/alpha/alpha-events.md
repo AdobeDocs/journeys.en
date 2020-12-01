@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Rule-based events
 description: Learn more about rule-based events.
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Rule-based events{#simplified-events}
@@ -96,5 +91,4 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
-
+For more information on how to use the test mode, refer to [this page](../building-journeys/testing-the-journey.md).

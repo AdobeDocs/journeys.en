@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Collection management functions
 description: Learn about data types in collection management functions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Collection management functions {#collection-management-functions}
@@ -17,7 +12,6 @@ The expression language also introduces a set of functions to query collections.
 These functions are explained below. In the following examples, let’s use the event payload containing a collection:
 
 ```
-
                 { 
    "_experience":{ 
       "campaign":{ 
@@ -55,7 +49,6 @@ These functions are explained below. In the following examples, let’s use the 
    },
    "timestamp":"1536160728"
 }
-
 ```
 
 **The function "all(`<condition>`)"**

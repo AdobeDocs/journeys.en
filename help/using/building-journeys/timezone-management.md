@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Time zone management
 description: Learn about time zone management
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 
@@ -19,10 +14,10 @@ To access Properties,click on the pencil icon in the top-right of the screen.
 
 This time zone will be used for every activity of the journey containing a time element such as:
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [Time condition](../building-journeys/condition-activity.md#time_condition)
+* [Date condition](../building-journeys/condition-activity.md#date_condition)
+* [Custom wait](../building-journeys/wait-activity.md#custom)
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 
 You can select a time zone or choose to use the time zone defined in the user profile.
 

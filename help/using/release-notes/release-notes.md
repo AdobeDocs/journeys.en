@@ -1,45 +1,16 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Release Notes
 description: Learn about release notes
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
+You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
 ## October 2020 Release {#october-release}
-
-### GA updates{#october-ga-update}
-
-<table>
-<thead>
-<tr>
-<th><strong>Jumping from one journey to another</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>We've added a new action activity which allows you to push individuals from one journey to another. Effective availability: November, 15 2020</p>
-<p>The <strong>Jump</strong> activity allows you to:
-</p>
-<ul>
-<li>simplify the design of very complex journeys by splitting them into several ones</li>
-<li>build journeys based on common and reusable journey patterns</li>
-</ul>
-<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

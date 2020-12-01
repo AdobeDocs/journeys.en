@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Working with Adobe Campaign
 description: Learn about Adobe Campaign actions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Working with Adobe Campaign {#using_adobe_campaign_standard}
@@ -20,7 +15,7 @@ The Campaign Standard transactional message and its associated event must be pub
 
 >[!NOTE]
 >
->To avoid overloading Adobe Campaign Standard Transactional Messaging, it is recommended to setup a **capping rule** for the Campaign Standard integration.
+>Adobe Campaign Standard Transactional Messaging has a scale of 50 000 messages per hour maximum across channels for a given instance. To reduce the risk of overloading, we recommend that you setup a **capping rule** for the Campaign Standard integration.
 >
 >Read more about transactional messaging SLAs in [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 

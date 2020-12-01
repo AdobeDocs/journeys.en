@@ -1,18 +1,13 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Troubleshooting
 description: Learn more on troubleshooting
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
-In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [](../building-journeys/testing-the-journey.md).
+In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [this page](../building-journeys/testing-the-journey.md).
 
 ## Checking for errors before testing{#section_h3q_kqk_fhb}
 
@@ -36,7 +31,7 @@ Two different colors can be displayed on the sign next to the **[!UICONTROL Test
 
 Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
@@ -44,7 +39,7 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
@@ -58,8 +53,8 @@ Here are a few things and administrator should check:
 * Did you save your event before copying the payload from the payload preview?
 * Does your event payload contain an event id?
 * Did you hit the right URL?
-* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [](../event/previewing-the-payload.md).
-* Did you use the right key/value pairs in the header of your event? 
+* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [this page](../event/previewing-the-payload.md).
+* Did you use the right key/value pairs in the header of your event?
 
     ```
     X-gw-ims-org-id - your ORGID

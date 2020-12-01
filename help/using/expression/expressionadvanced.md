@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: About the advanced expression editor
 description: Learn how to build advanced expressions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # About the advanced expression editor {#concept_uyj_trt_52b}
@@ -70,7 +65,7 @@ A syntax validation mechanism checks the integrity of your code. Errors are disp
 
 **Need for parameters when building conditions with the advanced expression editor**
 
-If you select a field from an external data source requiring a parameter to be called (see [](../datasource/external-data-sources.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
 ![](../assets/journeyuc2_19.png)
 

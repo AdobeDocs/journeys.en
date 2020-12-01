@@ -1,19 +1,14 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: About custom action configuration
 description: Learn how to configure a custom action
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # About custom action configuration {#concept_sxy_bzs_dgb}
 
-If you're using a third-party system to send messages or if you want [!DNL Journey Orchestration] to send API calls to a third-party system, this is where you configure its connection to [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [](../building-journeys/about-action-activities.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
-Limitations are listed here: [](../action/custom-action-limitations.md).
+If you're using a third-party system to send messages or if you want [!DNL Journey Orchestration] to send API calls to a third-party system, this is where you configure its connection to [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-action-activities.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
+Limitations are listed in [this page](../about/limitations.md).
 
 Here are the main steps required to configure a custom action:
 
@@ -29,12 +24,12 @@ Here are the main steps required to configure a custom action:
 
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. See [](../action/url-configuration.md).
-1. Configure the **[!UICONTROL Authentication]** section. This configuration is the same as for data sources.  See [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Define the **[!UICONTROL Message parameters]**. See [](../action/defining-the-message-parameters.md).
+1. Define the different **[!UICONTROL URL Configuration]** parameters. See [this page](../action/url-configuration.md).
+1. Configure the **[!UICONTROL Authentication]** section. This configuration is the same as for data sources.  See [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Define the **[!UICONTROL Message parameters]**. See [this page](../action/defining-the-message-parameters.md).
 1. Click **[!UICONTROL Save]**.
 
-    The custom action is now configured and ready to be used in your journeys. See [](../building-journeys/about-action-activities.md).
+    The custom action is now configured and ready to be used in your journeys. See [this page](../building-journeys/about-action-activities.md).
 
     >[!NOTE]
     >

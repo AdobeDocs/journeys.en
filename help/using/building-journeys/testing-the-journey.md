@@ -1,24 +1,19 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Testing the journey
 description: Learn about journey testing 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Testing the journey{#testing_the_journey}
 
-Before being able to test your journey, you must resolve all errors if any. See [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Before being able to test your journey, you must resolve all errors if any. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
+1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 
 1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
@@ -36,12 +31,12 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeyuctest2.png)
 
-1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [](../building-journeys/publishing-the-journey.md).
+1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [this page](../building-journeys/publishing-the-journey.md).
 
 ## Important notes {#important_notes}
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. See [](../building-journeys/testing-the-journey.md#create-test-profile).
+* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. See [this section](../building-journeys/testing-the-journey.md#create-test-profile).
 * The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.

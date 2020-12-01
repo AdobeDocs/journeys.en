@@ -1,13 +1,8 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Using Adobe Campaign actions
 description: Learn about Adobe Campaign actions
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Using Adobe Campaign actions {#using_campaign_action}
@@ -16,9 +11,9 @@ If you have Adobe Campaign Standard, the following out-of-the-box action activit
 
 >[!NOTE]
 >
->For this, you need to configure the built-in action. Refer to [](../action/working-with-adobe-campaign.md).
+>For this, you need to configure the built-in action. Refer to [this page](../action/working-with-adobe-campaign.md).
 
-For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to [this page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
 >[!NOTE]
 >
@@ -32,7 +27,7 @@ You can use an event (also known as real-time) or profile transactional messagin
 >
 >When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, block list or unsubscription management. For example, if an "unsubscribe" attribute is stored in the Adobe Experience Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
 
-When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **[!UICONTROL Address]** and **[!UICONTROL Personalization Data]**. You need to map each of these fields with the field you want to use, either from the event or from the data source. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example convert a string to uppercase) or use functions such as "if, then, else". See [](../expression/expressionadvanced.md).
+When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **[!UICONTROL Address]** and **[!UICONTROL Personalization Data]**. You need to map each of these fields with the field you want to use, either from the event or from the data source. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example convert a string to uppercase) or use functions such as "if, then, else". See [this page](../expression/expressionadvanced.md).
 
 ![](../assets/journey60.png)
 
@@ -44,11 +39,11 @@ For **[!UICONTROL Email]** and **[!UICONTROL SMS]**, the parameters are identica
 >
 >For email, if you're using a profiles transactional template, the unsubscription mechanism is handled out-of-the-box by Campaign Standard. You simply add an **[!UICONTROL Unsubscription link]** content block in the template ([learn more](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). If you're using an event-based template (rtEvent), you need to add, in the message, a link passing the person's email in the URL parameter and pointing to an unsubscription landing page. You need to create this landing page and make sure the person's decision to unsubscribe is transmitted to Adobe.
 
-First, you need to choose a transactional messaging template. See [](../building-journeys/about-action-activities.md).
+First, you need to choose a transactional messaging template. Refer to [this page](../building-journeys/about-action-activities.md).
 
 Two categories are available: **[!UICONTROL Address]** and **[!UICONTROL Personalization Data]**.
 
-You can easily define where to retrieve the **[!UICONTROL Address]** or the **[!UICONTROL Personalization Data]** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [](../expression/expressionadvanced.md). 
+You can easily define where to retrieve the **[!UICONTROL Address]** or the **[!UICONTROL Personalization Data]** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [this page](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
@@ -74,7 +69,7 @@ These are the fields expected by the Adobe Campaign Standard message. These fiel
 
 Prior to using the push activity, your mobile app needs to be configured along with Campaign Standard to send push notifications. Use this [article](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) to take the necessary implementation steps for mobile.
 
-First, you need to choose a mobile app from the drop-down list and a transactional message. See [](../building-journeys/about-action-activities.md).
+First, you need to choose a mobile app from the drop-down list and a transactional message. See [this page](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey62bis.png)
 
