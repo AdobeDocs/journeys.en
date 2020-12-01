@@ -86,7 +86,7 @@ In journey B, the first event is triggered internally, via the jump from journey
 
    >[!NOTE]
    >
-   >The individual's idendity is automatically mapped. This information is not visible in the interface.
+   >The individual's identity is automatically mapped. This information is not visible in the interface.
 
 Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will be pushed from to the target journey.
 
