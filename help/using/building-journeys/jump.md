@@ -7,10 +7,6 @@ description: Jumping from one journey to another
 
 # Jumping from one journey to another {#jump}
 
->[!NOTE]
->
->Effective availability: November, 15 2020
-
 The **Jump** action activity allows you to push individuals from one journey to another. This feature allows you to:
 
 * simplify the design of very complex journeys by splitting them into several ones  
@@ -31,21 +27,31 @@ Here are the different steps of the execution process:
 1. The individual reaches the jump step. 
 1. The individual is pushed to Journey B, and moves on to the next steps in Journey A, after the jump.
 
-In **journey B**, the first event can be triggered externally (like a regular event) or internally, via a jump from journey A:
+In journey B, the first event is triggered internally, via the jump from journey A:
 
 1. Journey B received an internal event from Journey A.
-1. The first event of Journey B is triggered with the information coming from Journey A.
 1. The individual starts flowing in Journey B.
+
+>[!NOTE]
+>
+>Journey B can also be triggered via an external event.
 
 ## Important notes
 
+### Authoring
+
+* The jump is only available in journeys that use a namespace.
 * You can only jump to a journey that uses the same namespace as the origin journey.
 * You cannot jump to a journey that starts with a **Segment qualification** event. 
-* When the jump is executed, the latest version of the target journey is triggered.
+* You cannot have a jump and a **Segment qualification** event in the same journey.
 * You can include as many jumps as you need in a journey. After a jump, you can add any activity needed.
 * You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.
 * The target journey can also include as many jumps as needed.
 * Loop patterns are not supported. There is no way to link two or more journeys together which would create an infinite loop. The **Jump** activity configuration screen prevents you from doing this.
+
+### Execution
+
+* When the jump is executed, the latest version of the target journey is triggered.
 * As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the individual will not enter the target journey. No error will be reported on the jump because this is a normal behavior.
 
 ## Configuring the jump
@@ -77,9 +83,16 @@ In **journey B**, the first event can be triggered externally (like a regular ev
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >The individual's idendity is automatically mapped. This information is not visible in the interface.
+
 Your jump is configured. As soon as your journey is live or in test mode, individuals reaching the jump will be pushed from to the target journey.
 
 When a jump is configured in a journey, a jump entry icon is automatically added at the beginning of the target journey. This helps you identify that the journey can be triggered externally but also internally from a jump. 
+
+![](../assets/jump7.png)
 
 ## Troubleshooting
 
@@ -87,3 +100,5 @@ When the journey is published or in test mode, errors will happen if:
 * the target journey no longer exists
 * the target journey is draft, closed or stopped
 * if the first event of the target journey has changed and the mapping is broken
+
+![](../assets/jump6.png)

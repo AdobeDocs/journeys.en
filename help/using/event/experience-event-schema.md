@@ -24,7 +24,7 @@ Any XDM schema that will be used for [!DNL Journey Orchestration] events should 
 
    ![](../assets/schema2.png)
 
-* The schema must include the Orchestration eventID mixin. [!DNL Journey Orchestration] uses this field to identify events used in journeys.
+* For system-generated events, the schema must include the Orchestration eventID mixin. [!DNL Journey Orchestration] uses this field to identify events used in journeys.
 
    ![](../assets/schema3.png)
 

@@ -5,7 +5,6 @@ title: About journey building
 description: As a business user, learn how to combine event, orchestration, and action activities to build a journey.
 ---
 
-
 # Creating a journey {#concept_gq5_sqt_52b}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.

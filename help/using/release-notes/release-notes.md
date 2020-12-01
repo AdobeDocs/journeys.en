@@ -10,6 +10,71 @@ description: Learn about release notes
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
+## November 2020 Release {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Jumping from one journey to another</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We've added a new action activity which allows you to push individuals from one journey to another. The Jump activity allows you to:
+</p>
+<ul>
+<li>simplify the design of very complex journeys by splitting them into several ones </li>
+<li>build journeys based on common and reusable journey patterns</li>
+</ul>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Using journey properties in the expression editor</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In the advanced expression editor, we've added a new category in the list of fields and functions. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your journeys. For example, you will be able to alert third-party systems in case of errors encountered in a condition or an action.
+</p>
+<p>Note that this feature will be available in the coming days.</p>
+<p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rule-based events (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We've added a new method to set up your events more easily. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a conditon. You can still use the existing method, now called "system-generated".
+</p>
+<p>Note that this feature will be available in the coming days.</p>
+<p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements{#october-november}
+
+Limitations have been added when creating new versions of a journey. These limitations avoid too drastic changes in the journey to keep some consistency between versions. [Read more](../about/limitations.md#journey-versions-limitations)
+
+The **Segment Qualification** activity can no longer be used in a journey that includes Campaign Standard message activities. This restriction protects the integrity of Adobe Campaign Standard instances. Indeed, Segment Qualification usage can lead to daily peaks of message sending that would overload Campaign Standard Transactional Messaging. [Read more](../about/limitations.md#segment-qualification)
+
 ## October 2020 Release {#october-release}
 
 <table>
@@ -128,11 +193,11 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to rule-based events:
 </p>
 <ul>
-<li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
+<li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../event/about-analytics.md">Read more</a></p>
 </li>
-<li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../alpha/alpha-events.md#configuring-rule-based">Read more</a></p>
+<li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Read more</a></p>
 </li>
-<li><p>The rule-based event definition screen has been reorganized for an improved experience. <a href="../alpha/alpha-events.md#test-rule-based">Read more</a></p>
+<li><p>The rule-based event definition screen has been reorganized for an improved experience. <a href="../event/about-creating.md">Read more</a></p>
 </li>
 </ul>
 </td>
@@ -194,7 +259,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <tbody>
 <tr>
 <td>
-<p>We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event. <a href="../alpha/alpha-events.md">Read more</a>
+<p>We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event. <a href="../event/about-events.md">Read more</a>
 </p>
 </td>
 </tr>
@@ -270,8 +335,6 @@ Journey Orchestration is now available in APAC (Australian data center). Effecti
 The Journey Orchestration interface is available in Japanese.
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
-
-**What's new?**
 
 <table>
 <thead>
