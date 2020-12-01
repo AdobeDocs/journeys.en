@@ -24,7 +24,7 @@ Here are a few examples of use cases:
 
 * **Log discarded profiles**: you can send all profiles excluded from a message by a capping rule to a third-party system for logging purposes. For this, you set up a path in case of timeout and error and add a condition to filter on a specific error type, for example: "discard people by capping rule". You can then push the discarded profiles to a third-party system via a custom action. 
 
-* **Sent push alerts in case of errors**: you can send a notification to a third-party system every time an error occurs on a message. For this, you set up a path in case of error, add a condition and a custom action. You can send a notification on a Slack channel, for example, with the description of the error encountered.
+* **Send alerts in case of errors**: you can send a notification to a third-party system every time an error occurs on a message. For this, you set up a path in case of error, add a condition and a custom action. You can send a notification on a Slack channel, for example, with the description of the error encountered.
 
 * **Refine errors in reporting** : instead of having just one path for messages in error, you can define a condition per error type. This will allow you to refine the reporting and view all error types data.
 
