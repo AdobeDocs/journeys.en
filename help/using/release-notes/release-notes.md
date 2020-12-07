@@ -8,7 +8,7 @@ description: Learn about release notes
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
+You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
 ## November 2020 Release {#november-release}
 
@@ -21,7 +21,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>We've added a new action activity which allows you to push individuals from one journey to another. The Jump activity allows you to:
+<p>A new action activity allows you to push individuals from one journey to another. The <strong>Jump</strong> activity allows you to:
 </p>
 <ul>
 <li>simplify the design of very complex journeys by splitting them into several ones </li>
@@ -44,7 +44,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>
 <p>In the advanced expression editor, we've added a new category in the list of fields and functions. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. This will give you more possibilities when building your journeys. For example, you will be able to alert third-party systems in case of errors encountered in a condition or an action.
 </p>
-<p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../expression/journey-properties.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -60,9 +59,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>We've added a new method to set up your events more easily. This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers. This new method does not require the use of an eventID. It evaluates if the event should be triggered according to a condition. You can still use the existing method, now called "system-generated".
+<p>A new method is now available to set up your events more easily, without using an eventID: rule-based events evaluate if the event should be triggered according to a condition. You can still use the existing method, now called "system-generated". This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers.
 </p>
-<p>Note that this feature will be available in the coming days.</p>
 <p>For more information, refer to the <a href="../event/about-events.md">detailed documentation</a>.</p>
 </td>
 </tr>
