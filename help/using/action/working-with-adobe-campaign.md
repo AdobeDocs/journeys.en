@@ -33,7 +33,7 @@ Here are the steps to configure it:
     >
     >This test verifies that:
     >
-    >The host is ".campaign.adobe.com" or ".campaign-sandbox.adobe.com",
+    >The host is ".campaign.adobe.com", ".campaign-sandbox.adobe.com" or "campaign-demo.adobe.com"
     >
     >The URL starts with https,
     >
