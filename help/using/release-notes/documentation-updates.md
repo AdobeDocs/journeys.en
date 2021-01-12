@@ -10,6 +10,10 @@ description: Learn about documentation updates
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## January 2021 {#january-2021}
+
+* Added best practices when triggering a journey at the same time as a profile creation. [Read more](../about/limitations.md#journeys-limitation-profile-creation).
+
 ## October 2020 {#october-2020}
 
 * Information has been added on how to configure a timeout for an event. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).

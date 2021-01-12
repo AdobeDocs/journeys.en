@@ -39,6 +39,8 @@ Here are a few examples of use cases:
 | |journeyVersion|Journey Version| |
 |Journey Instance|instanceUID|Journey Instance Identifier|ID of the instance|
 | |externalKey|External Key|Individual identifier triggering the journey|
+| |organizationId|Organization identifier|Brand's organization|
+| |sandboxName|Sandbox name|Name of the sandbox|
 |Identity|profileId|Profile Identity Identifier|Identifier of the profile in the journey|
 | |namespace|Profile Identity Namespace|Namespace of the profile in the journey (example: ECID)|
 |Current Node|currentNodeId|Current Node Identifier|Identifier of the current activity (node)|
