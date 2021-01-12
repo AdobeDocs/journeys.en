@@ -46,3 +46,15 @@ Here are limitations related to the use of Journey Orchestration.
 ## Data sources limitations
 
 * External data sources can be leveraged within a customer journey to lookup external data in real-time. These sources must be usable via REST API, support JSON and be able to handle the volume of requests.
+
+## Journeys starting at the same time as a profile creation
+ 
+There is a delay associated to API based profile creation/update in Adobe Experience Platform. The Service Level Target (SLT) in terms of latency is < 1 min from ingestion to Unified Profile for 95th percentile of requests, at a volume of 20K Requests per second (RPS).
+
+If a Journey is triggered simultaneously to a profile creation and immediately checks/retrieves information from Profile Service, it might not work properly.
+
+You can choose from one of these two solutions:
+
+* Add a wait activity after the first event, to give Adobe Experience Platform the time it needs to perform the ingestion to Profile Service.
+
+* Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
