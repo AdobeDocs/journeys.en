@@ -12,29 +12,6 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ## January 2021 Release {#january-release}
 
-<table>
-<thead>
-<tr>
-<th><strong>Enhanced journey canvas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>We have enhanced the journey canvas user experience:</p>
-<ul>
-<li>The look and feel has been improved for a better user experience. </li>
-<li>Two buttons have been added to allow you to optimize your journey visually. You can display or hide a background grid, and realign activities along the grid. </li>
-<li>In the test mode, the colored path of the test profile in the journey now appears more progressively.
- </li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Other improvements
-
 When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
 
 In the test mode, reentrance parameters are now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. [Read more](../building-journeys/testing-the-journey.md)
