@@ -35,15 +35,15 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Other improvements
 
-Now, when selecting a schema in the event configuration screen, unmandatory fields are not selected by default. Only mandatory fields are selected. If you need to pass other fields, you need to add them. [Read more](../event/defining-the-payload-fields.md)
+When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
 
 In the test mode, reentrance parameters are now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. [Read more](../building-journeys/testing-the-journey.md)
 
-Journey properties are now available in the simple expression editor. 
+Journey properties attributes are now available in the simple expression editor. 
 
-Two new journey properties have been added in the expression editor. [Read more](../expression/journey-properties.md)
+Two new journey properties attributes have been added. [Read more](../expression/journey-properties.md)
 
-A capping rule of 13 calls per second has been added for Adobe Campaign Standard actions. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging. [Read more](../action/working-with-adobe-campaign.md)
+A capping rule of 13 calls per second is now automatically defined for Adobe Campaign Standard actions as soon as Adobe Campaign Standard integration is set up. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging. [Read more](../action/working-with-adobe-campaign.md)
 
 The event timeout duration is now specified more clearly on the timeout path. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 

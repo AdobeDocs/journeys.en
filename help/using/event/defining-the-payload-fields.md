@@ -13,7 +13,7 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey8.png)
 
-    All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. All mandatory fields are selected by default. 
+    All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. All fields that are mandatory for the event to be received properly by Journey Orchestration are selected by default.
 
     >[!NOTE]
     >
