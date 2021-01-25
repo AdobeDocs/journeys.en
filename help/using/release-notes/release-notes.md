@@ -24,7 +24,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <p>We have enhanced the journey canvas user experience:</p>
 <ul>
 <li>The look and feel has been improved for a better user experience. </li>
-<li>Two buttons haven been added to allow you to optimize your journey visually. You can display or hide a backgroud grid, and realign activities along the grid. </li>
+<li>Two buttons have been added to allow you to optimize your journey visually. You can display or hide a backgroud grid, and realign activities along the grid. </li>
 <li>In the test mode, the colored path of the test profile in the journey now appears more progressively.
  </li>
 </ul>
@@ -35,13 +35,17 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Other improvements
 
-Now, when selecting a schema in the event configuration screen, mandatory fields are selected by default. If you need to pass other fields, you need to select them.
+Now, when selecting a schema in the event configuration screen, unmandatory fields are not selected by default. Only mandatory fields are selected. If you need to pass other fields, you need to add them.
 
-Reentrance of tested journeys 
+In the test mode, reentrance is now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. 
 
 Journey properties are now available in the simple expression editor.
 
-Two new journey properties have been added.
+Two new journey properties have been added in the expression editor.
+
+Adobe Campaign Standard Transactional Messaging has a scale of 50 000 messages per hour maximum across channels for a given instance. To reduce the risk of overloading, we have added a capping rule of 14 calls per second for Adobe Campaign Standard actions.
+
+The event time out duration is now specified more clearly on the timeout path.
 
 ## November 2020 Release {#november-release}
 
