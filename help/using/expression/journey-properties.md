@@ -11,7 +11,7 @@ In the advanced expression editor, you will find the **Journey Properties** cate
 
 >[!NOTE]
 >
->Journey properties are also available in the simple expression editor. See this [section](../building-journeys/condition-activity.md#about_condition
+>Journey properties are also available in the simple expression editor. See this [section](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

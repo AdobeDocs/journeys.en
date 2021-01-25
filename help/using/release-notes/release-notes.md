@@ -64,7 +64,7 @@ The event timeout duration is now specified more clearly on the timeout path. [R
 <li>simplify the design of very complex journeys by splitting them into several ones </li>
 <li>build journeys based on common and reusable journey patterns</li>
 </ul>
-<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a> and <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">tutorial video</a>.</p>
 </td>
 </tr>
 </tbody>
