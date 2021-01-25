@@ -10,6 +10,39 @@ description: Learn about release notes
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## January 2021 Release {#january-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Enhanced journey canvas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We have enhanced the journey canvas user experience:</p>
+<ul>
+<li>The look and feel has been improved for a better user experience. </li>
+<li>Two buttons haven been added to allow you to optimize your journey visually. You can display or hide a backgroud grid, and realign activities along the grid. </li>
+<li>In the test mode, the colored path of the test profile in the journey now appears more progressively.
+ </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements
+
+Now, when selecting a schema in the event configuration screen, mandatory fields are selected by default. If you need to pass other fields, you need to select them.
+
+Reentrance of tested journeys 
+
+Journey properties are now available in the simple expression editor.
+
+Two new journey properties have been added.
+
 ## November 2020 Release {#november-release}
 
 <table>
@@ -67,7 +100,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 </tbody>
 </table>
 
-### Other improvements{#october-november}
+### Other improvements
 
 Limitations have been added when creating new versions of a journey. These limitations avoid too drastic changes in the journey to keep some consistency between versions. [Read more](../about/limitations.md#journey-versions-limitations)
 
@@ -92,7 +125,7 @@ The **Segment Qualification** activity can no longer be used in a journey that i
 </tbody>
 </table>
 
-### Other improvements{#october-other}
+### Other improvements
 
 * When you publish a new version of a journey, the previous version automatically ends and switches to the Closed status. [Read more](../building-journeys/journey-versions.md)
 
