@@ -42,6 +42,7 @@ To use the test mode, follow these steps:
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
+* In test mode, reentrance parameters are ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode.  
 
 ## Creating a test profile{#create-test-profile}
 

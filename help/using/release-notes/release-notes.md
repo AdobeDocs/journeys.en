@@ -35,17 +35,17 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Other improvements
 
-Now, when selecting a schema in the event configuration screen, unmandatory fields are not selected by default. Only mandatory fields are selected. If you need to pass other fields, you need to add them.
+Now, when selecting a schema in the event configuration screen, unmandatory fields are not selected by default. Only mandatory fields are selected. If you need to pass other fields, you need to add them. [Read more](../event/defining-the-payload-fields.md)
 
-In the test mode, reentrance is now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. 
+In the test mode, reentrance parameters are now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. [Read more](../building-journeys/testing-the-journey.md)
 
-Journey properties are now available in the simple expression editor.
+Journey properties are now available in the simple expression editor. 
 
-Two new journey properties have been added in the expression editor.
+Two new journey properties have been added in the expression editor. [Read more](../expression/journey-properties.md)
 
-Adobe Campaign Standard Transactional Messaging has a scale of 50 000 messages per hour maximum across channels for a given instance. To reduce the risk of overloading, we have added a capping rule of 14 calls per second for Adobe Campaign Standard actions.
+A capping rule of 13 calls per second has been added for Adobe Campaign Standard actions. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging. [Read more](../action/working-with-adobe-campaign.md)
 
-The event time out duration is now specified more clearly on the timeout path.
+The event timeout duration is now specified more clearly on the timeout path. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 ## November 2020 Release {#november-release}
 
