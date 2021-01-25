@@ -18,9 +18,9 @@ In the test mode, reentrance parameters are now ignored. This allows you to perf
 
 Journey properties attributes are now available in the simple expression editor. 
 
-Two new journey properties attributes have been added. [Read more](../expression/journey-properties.md)
+Two new journey properties attributes have been added (sandboxName and organizationId). [Read more](../expression/journey-properties.md)
 
-A capping rule of 13 calls per second is now automatically defined for Adobe Campaign Standard actions as soon as Adobe Campaign Standard integration is set up. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging. [Read more](../action/working-with-adobe-campaign.md)
+To align with Adobe Campaign Standard SLAs, a capping rule of 13 calls per second is now automatically defined for Adobe Campaign Standard actions as soon as Adobe Campaign Standard integration is set up. [Read more](../action/working-with-adobe-campaign.md)
 
 The event timeout duration is now specified more clearly on the timeout path. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
