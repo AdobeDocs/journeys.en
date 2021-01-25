@@ -24,7 +24,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <p>We have enhanced the journey canvas user experience:</p>
 <ul>
 <li>The look and feel has been improved for a better user experience. </li>
-<li>Two buttons have been added to allow you to optimize your journey visually. You can display or hide a backgroud grid, and realign activities along the grid. </li>
+<li>Two buttons have been added to allow you to optimize your journey visually. You can display or hide a background grid, and realign activities along the grid. </li>
 <li>In the test mode, the colored path of the test profile in the journey now appears more progressively.
  </li>
 </ul>
