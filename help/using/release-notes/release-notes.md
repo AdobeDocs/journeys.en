@@ -14,7 +14,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
 
-Journey properties attributes are now available in the simple expression editor. 
+Journey properties attributes are now available in the simple expression editor. [Read more](../expression/journey-properties.md)
 
 Two new journey properties attributes have been added (sandboxName and organizationId). [Read more](../expression/journey-properties.md)
 
