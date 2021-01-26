@@ -28,7 +28,7 @@ List
 | list      | listDuration     |
 | list      | listDateTime     |
 | list      | listDateTimeOnly |
-| integer   | integer          |
+| index   | integer          |
 
 ## Signatures and returned type
 
