@@ -19,7 +19,7 @@ String
 
 ## Parameters
 
-|Parameter| Type|
+|Parameter|Type|
 |-----------|------------------|
 |input string|string|
 |separator string|string|
