@@ -21,12 +21,12 @@ String
 
 | Parameter | Type             |
 |-----------|------------------|
-| string      | string       |
-| string      | string       |
+| input string      | string       |
+| separator string      | string       |
 
 ## Signatures and returned type
 
-`split(<string>, <string>)`
+`split(<input string>, <separator string>)`
 
 Returns a listString.
 
@@ -40,4 +40,4 @@ Example with an event field 'event.appVersion' with value: "20.45.2.3434"
 
 `split(@{event.appVersion}, "\\.")`
 
-Returns `["20", "45", "2", "3434"]
+Returns `["20", "45", "2", "3434"]`
