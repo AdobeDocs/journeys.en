@@ -21,7 +21,8 @@ String
 
 | Parameter | Type             |
 |-----------|------------------|
-| String      | String       |
+| string      | string       |
+| string      | string       |
 
 ## Signatures and returned type
 
@@ -35,8 +36,8 @@ Returns a listString.
 
 Returns `["A","B","C"]`
 
-Example with an event field 'event.appVersion' with value: 20.45.2.3434
+Example with an event field 'event.appVersion' with value: "20.45.2.3434"
 
 `split(@{event.appVersion}, "\\.")`
 
-Returns `["20", "45", "2", "3434"]`
+Returns `["20", "45", "2", "3434"]
