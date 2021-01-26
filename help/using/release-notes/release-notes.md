@@ -24,6 +24,8 @@ To align with Adobe Campaign Standard SLAs, a capping rule of 13 calls per secon
 
 The event timeout duration is now specified more clearly on the timeout path. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
+The [getListItem](../functions/functiongetListItem.md) and [split](../functions/functionsplit.md) functions have been added to the list of functions available in the advanced expression editor. This will offer more possibilities in your string computation use cases.
+
 ## November 2020 Release {#november-release}
 
 <table>
