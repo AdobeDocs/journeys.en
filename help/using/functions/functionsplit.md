@@ -19,10 +19,10 @@ String
 
 ## Parameters
 
-| Parameter | Type             |
+| Parameter | Type |
 |-----------|------------------|
-| input string      | string       |
-| separator string      | string       |
+|input string|string|
+|separator string|string|
 
 ## Signatures and returned type
 
