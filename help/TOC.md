@@ -132,6 +132,7 @@ index: yes
     + List {#list}
       + [distinct](using/functions/functiondistinct.md)
       + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+      + [getListItem](using/functions/functiongetlistitem.md)
       + [in](using/functions/functionin.md)
       + [listSize](using/functions/functionlistsize.md)
       + [serializeList](using/functions/functionserializelist.md)
@@ -156,6 +157,7 @@ index: yes
       + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
       + [replace](using/functions/functionreplace.md)
       + [replaceAll](using/functions/functionreplaceall.md)
+      + [split](using/functions/functionsplit.md)
       + [startWith](using/functions/functionstartwith.md)
       + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
       + [substr](using/functions/functionsubstr.md)

@@ -5,9 +5,13 @@ title: Journey properties
 description: Learn about journey properties
 ---
 
-# Journey properties {#journey-properties}
+# Journey properties attributes {#journey-properties}
 
-In the advanced expression editor, you will find the **Journey Properties** category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered. 
+In the advanced expression editor, you will find the **Journey Properties** category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered.
+
+>[!NOTE]
+>
+>Journey properties attributes are also available in the simple expression editor. See this [section](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

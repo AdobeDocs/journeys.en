@@ -15,7 +15,7 @@ The Campaign Standard transactional message and its associated event must be pub
 
 >[!NOTE]
 >
->Adobe Campaign Standard Transactional Messaging has a scale of 50 000 messages per hour maximum across channels for a given instance. To reduce the risk of overloading, we recommend that you setup a **capping rule** for the Campaign Standard integration.
+>A capping rule of 13 calls per second is automatically defined for Adobe Campaign Standard actions as soon as Adobe Campaign Standard integration is set up. This corresponds to the official scale of Adobe Campaign Standard Transactional Messaging.
 >
 >Read more about transactional messaging SLAs in [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
@@ -33,7 +33,7 @@ Here are the steps to configure it:
     >
     >This test verifies that:
     >
-    >The host is ".campaign.adobe.com", ".campaign-sandbox.adobe.com" or "campaign-demo.adobe.com"
+    >The host is ".campaign.adobe.com", ".campaign-sandbox.adobe.com" or ".campaign-demo.adobe.com"
     >
     >The URL starts with https,
     >

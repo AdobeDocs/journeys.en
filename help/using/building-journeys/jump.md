@@ -16,6 +16,10 @@ In the origin journey, simply add a **[!UICONTROL Jump]** activity and select a 
 
 In the target journey, the first event triggered internally by the **[!UICONTROL Jump]** activity will make the individual flow in the journey.
 
+>[!NOTE]
+>
+>Also refer to the tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+
 ## Lifecycle
 
 Let's say you have added a **[!UICONTROL Jump]** activity in a journey A to a journey B. Journey A is the **origin journey** and journey B, the **target journey**. 

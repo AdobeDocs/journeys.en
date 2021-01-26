@@ -10,6 +10,20 @@ description: Learn about release notes
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## January 2021 Release {#january-release}
+
+When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
+
+Journey properties attributes are now available in the simple expression editor. 
+
+Two new journey properties attributes have been added (sandboxName and organizationId). [Read more](../expression/journey-properties.md)
+
+To align with Adobe Campaign Standard SLAs, a capping rule of 13 calls per second is now automatically defined for Adobe Campaign Standard actions as soon as Adobe Campaign Standard integration is set up. [Read more](../action/working-with-adobe-campaign.md)
+
+The event timeout duration is now specified more clearly on the timeout path. [Read more](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+The [getListItem](../functions/functiongetlistitem.md) and [split](../functions/functionsplit.md) functions have been added to the list of functions available in the advanced expression editor. This will offer more possibilities in your string computation use cases.
+
 ## November 2020 Release {#november-release}
 
 <table>
@@ -27,7 +41,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <li>simplify the design of very complex journeys by splitting them into several ones </li>
 <li>build journeys based on common and reusable journey patterns</li>
 </ul>
-<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a> and <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">tutorial video</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -67,7 +81,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 </tbody>
 </table>
 
-### Other improvements{#october-november}
+### Other improvements
 
 Limitations have been added when creating new versions of a journey. These limitations avoid too drastic changes in the journey to keep some consistency between versions. [Read more](../about/limitations.md#journey-versions-limitations)
 
@@ -92,7 +106,7 @@ The **Segment Qualification** activity can no longer be used in a journey that i
 </tbody>
 </table>
 
-### Other improvements{#october-other}
+### Other improvements
 
 * When you publish a new version of a journey, the previous version automatically ends and switches to the Closed status. [Read more](../building-journeys/journey-versions.md)
 
