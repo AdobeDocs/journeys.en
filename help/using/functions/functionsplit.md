@@ -7,7 +7,7 @@ description: Learn about the function split
 
 # split {#split}
 
-Splits the first argument string with a separator string (second argument string, which can be a regular expression) to produce a list of strings (tokens).	
+Splits the first argument string with a separator string (second argument string, which can be a regular expression) to produce a list of strings (tokens).
 
 ## Category
 
