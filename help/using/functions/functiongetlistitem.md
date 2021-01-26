@@ -32,31 +32,31 @@ List
 
 ## Signatures and returned type
 
-`getListItem(<listInteger>,<integer>)`
+`getListItem(<listInteger>,<index>)`
 
 Returns a list of integers.
 
-`getListItem(<listDecimal>,<integer>)`
+`getListItem(<listDecimal>,<index>)`
 
 Returns a list of decimals.
 
-`getListItem(<listString>,<integer>)`
+`getListItem(<listString>,<index>)`
 
 Returns a list of strings.
 
-`getListItem(<listDateTimeOnly>,<integer>)`
+`getListItem(<listDateTimeOnly>,<index>)`
 
 Returns a list of datetimes without considering time zone.
 
-`getListItem(<listDateTime>,<integer>)`
+`getListItem(<listDateTime>,<index>)`
 
 Returns a list of datetimes.
 
-`getListItem(<listBoolean>,<integer>)`
+`getListItem(<listBoolean>,<index>)`
 
 Returns a list of booleans.
 
-`getListItem(<listDuration>,<integer>)`
+`getListItem(<listDuration>,<index>)`
 
 Returns a list of durations.
 
