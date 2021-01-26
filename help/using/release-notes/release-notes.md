@@ -14,8 +14,6 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
 
-In the test mode, reentrance parameters are now ignored. This allows you to perform multiple tests with the same test profile without having to deactivate and reactivate the test mode. [Read more](../building-journeys/testing-the-journey.md)
-
 Journey properties attributes are now available in the simple expression editor. 
 
 Two new journey properties attributes have been added (sandboxName and organizationId). [Read more](../expression/journey-properties.md)
