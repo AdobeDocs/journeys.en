@@ -41,7 +41,7 @@ Here are limitations related to the use of Journey Orchestration.
  
 ## Events limitations
 
-* Streaming data used to initiate a customer journey must be configured within Journey Orchestration first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform.
+* For system-generated events, streaming data used to initiate a customer journey must be configured within Customer Journey Mangement first to get a unique orchestration ID. This orchestration ID must be appended to the streaming payload coming into Adobe Experience Platform. This limitation does not apply to rule-based events.
  
 ## Data sources limitations
 
