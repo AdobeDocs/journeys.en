@@ -7,7 +7,7 @@ description: Jumping from one journey to another
 
 # Update profiles {#update-profile}
 
-The **[!UICONTROL Update profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from a journey. You will specify the field you want to update, and the value. The value can come from the event, from the data source or you can enter a value manually. 
+The **[!UICONTROL Update profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from a the event, a datasource or using a specific value.
 
 ## Important notes
 
@@ -25,4 +25,4 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 1. Select the schema and then the field you want to update in the Adobe Experience Platform profiles. Only one field can be selected. 
 1. Select the dataset and then define the value you want to use. You can select a field from a data source, from the incoming event or define a specific value using the advanced expression editor.
 
-![](../assets/profileupdate1.png)
+![](../assets/profileupdate.png)
