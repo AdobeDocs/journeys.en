@@ -51,7 +51,7 @@ For each action configured, an action activity is available in the journey desig
 
 ## Adding a message in a journey
 
-1. Design your journey, starting with an event.
+1. Design your journey, starting with an event. See this [section](../building-journeys/journey.md).
 1. In the **Action** section of the palette, select a Campaign Classic action and add it to your journey.
 1. In the **Action parameters**, all the fields expected in the message payload are displayed. You need to map each of these fields with the field you want to use, either from the event or from the data source. This is similar to custom actions. Refer to this [section](../building-journeys/using-custom-actions.md).
 
