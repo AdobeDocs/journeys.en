@@ -25,7 +25,7 @@ The connection between the Journey Orchestration and Campaign Classic instances 
 
 * We recommend that you use a dedicated Message Center instance that is hosted for this integration to avoid impacting any other Campaign Classic operations that you may have going on. The marketing server can be hosted or on-premise. The build required is 21.1 Release Candidate. 
 
-* There is no validation 
+* There is no validation that the payload or Campaign Classic message is correct.
 
 * You cannot use a Campaign Classic action with a segment qualification.
 
