@@ -9,9 +9,9 @@ hidefromtoc: yes
 
 # Integrating with Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
-This intregration allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
+This integration allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
 
-The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisionning.
+The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning.
 
 >[!CAUTION]
 >
