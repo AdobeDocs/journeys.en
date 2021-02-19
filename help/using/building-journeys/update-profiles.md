@@ -26,3 +26,5 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 1. Select the dataset and then define the value you want to use. You can select a field from a data source, from the incoming event or define a specific value using the advanced expression editor.
 
 ![](../assets/profileupdate1.png)
+
+When an individual enters the journey and reaches the **Update profile** activity, Journey Orchestration will send this information to Adobe Experience Platform and his profile will be updated. The selected field will be updated with the value defined.
