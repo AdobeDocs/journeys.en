@@ -5,16 +5,16 @@ title: Jumping from one journey to another
 description: Jumping from one journey to another
 ---
 
-# Update profiles {#update-profile}
+# Update profile {#update-profile}
 
 The **[!UICONTROL Update profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.
 
 ## Important notes
 
-* The update action can only be used in journeys starting with an event that has a namespace.
+* The **Update profiles** action can only be used in journeys starting with an event that has a namespace.
 * This action has the same timeout management of other actions.
-* Like any other actions, you cannot place two actions in parallel.
-* In test mode, the profile update will update information on the test profile.  
+* Like any other action, you cannot place two actions in parallel.
+* In test mode, the profile update will update the test profile.  
 * In case of errors, you can use an alternative path, just like for any errors in custom acton.
 * The action does update only, no creation.
 
