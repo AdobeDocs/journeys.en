@@ -15,7 +15,7 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 * This action has the same timeout management of other actions.
 * Like any other action, you cannot place two actions in parallel.
 * In test mode, the profile update will update the test profile.  
-* In case of errors, you can use an alternative path, just like for any errors in custom acton.
+* In case of errors, you can use an alternative path, just like for any errors in custom action.
 * The action does update only, no creation.
 
 ## Using the profile update
