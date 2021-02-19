@@ -27,4 +27,4 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 
 ![](../assets/profileupdate1.png)
 
-When an individual enters the journey and reaches the **Update profile** activity, Journey Orchestration will send this information to Adobe Experience Platform and his profile will be updated. The selected field will be updated with the value defined.
+When an individual enters the journey and reaches the **Update profile** activity, this information will be sent to Adobe Experience Platform and his profile will be updated. The selected field will be updated with the value defined.

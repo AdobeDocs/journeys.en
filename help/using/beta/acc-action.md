@@ -31,7 +31,7 @@ The connection between the Journey Orchestration and Campaign Classic instances 
 
 ## Prerequisites
 
-In Campaign Classic, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)
+In Campaign Classic, you need to create and publish a transactional message and its associated event. Refer to the [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 Contact Adobe to get the JSON payload corresponding to each message. You will then paste this payload when configuring the action in Journey Orchestration (see below).
 
