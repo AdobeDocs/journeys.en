@@ -36,11 +36,11 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 
    * Using the simple expression editor, you can select a field from a data source or from the incoming event. 
 
-   ![](../assets/profileupdate4.png)
+      ![](../assets/profileupdate4.png)
 
    * If you want to define a specific value or use advanced functions, click on **Advanced mode**.
 
-   ![](../assets/profileupdate3.png)
+      ![](../assets/profileupdate3.png)
 
 The **Update profile** is now configured.
 
