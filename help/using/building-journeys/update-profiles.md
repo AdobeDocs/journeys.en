@@ -22,9 +22,12 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 
 1. Design your journey by starting with an event. See this [section](../building-journeys/journey.md).
 1. In the **Action** section of the palette, drop the **Update profile** activity into the canvas.
+   ![](../assets/profileupdate0.png)
 1. Select the schema and then the field you want to update in the Adobe Experience Platform profiles. Only one field can be selected. 
+   ![](../assets/profileupdate2.png)
 1. Select the dataset and then define the value you want to use. You can select a field from a data source, from the incoming event or define a specific value using the advanced expression editor.
+   ![](../assets/profileupdate0.png)
 
-![](../assets/profileupdate1.png)
+   ![](../assets/profileupdate1.png)
 
 When an individual enters the journey and reaches the **Update profile** activity, this information will be sent to Adobe Experience Platform and his profile will be updated. The selected field will be updated with the value defined.
