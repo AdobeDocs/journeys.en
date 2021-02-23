@@ -14,7 +14,8 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 * The **Update profile** action can only be used in journeys starting with an event that has a namespace.
 * In test mode, the profile update will not be simulated. The update will be performed on the test profile.
 * The action only updates existing fields, it does not create new profile fields.
-* Just like any other action, you can define an alternative path in case of error or timeout and you cannot place two actions in parallel.. 
+* You cannot use the **Update profile** action to generate experience events, for example a purchase.
+* Just like any other action, you can define an alternative path in case of error or timeout and you cannot place two actions in parallel.
 
 ## Using the profile update
 
@@ -32,13 +33,13 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 
 1. Select a dataset from the list. The dataset selection will determine where the new value of the profile field will be stored.
 
-1. Click on the **Value** field to define the value you want to use.
+1. Click on the **Value** field to define the value you want to use:
 
-   * Using the simple expression editor, you can select a field from a data source or from the incoming event. 
+   * Using the simple expression editor, you can select a field from a data source or from the incoming event.
 
       ![](../assets/profileupdate4.png)
 
-   * If you want to define a specific value or use advanced functions, click on **Advanced mode**.
+   * If you want to define a specific value or leverage advanced functions, click on **Advanced mode**.
 
       ![](../assets/profileupdate3.png)
 
