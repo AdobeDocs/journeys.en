@@ -67,9 +67,9 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **[!UICONTROL Dynamic Values]**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [this page](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
-In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Parameters]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
+In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Dynamic Values]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
 
-* list the parameters to be passed at call time in the **[!UICONTROL Parameter]** field (in the example below: “identifier”).
+* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: “identifier”).
 * specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
 
     ```
