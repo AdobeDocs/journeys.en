@@ -37,19 +37,16 @@ Contact Adobe to get the JSON payload corresponding to each message. You will th
 
 Here is an example:
 
-
 ```
 {
     "channel": "email",
-    "eventType": "io",
+    "eventType": "welcome",
     "email": "example@adobe.com",
     "ctx": {
         "firstName": "John"
     }
 }
 ```
-
-Contact Adobe to get the JSON payload corresponding to each message. You will then paste this payload when configuring the action in Journey Orchestration (see below).
 
 ## Configuring the action
 
