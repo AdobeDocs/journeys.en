@@ -56,6 +56,7 @@ In Journey Orchestration, you need to configure one action per transactional mes
 1. Enter a name and description.
 1. In the **Action type** field, select **Adobe Campaign Classic**.
 1. Click in the **Payload** field and paste an example of the JSON payload corresponding to the Campaign Classic message. Contact Adobe to get this payload.
+1. Adjust the different fields. Certain fields, such as channel parameters and personalization fields (ctx) need to be defined as variables.
 1. Click **Save**.
 
 ![](../assets/accintegration1.png)
