@@ -35,6 +35,22 @@ In Campaign Classic, you need to create and publish a transactional message and 
 
 Contact Adobe to get the JSON payload corresponding to each message. You will then paste this payload when configuring the action in Journey Orchestration (see below).
 
+Here is an example:
+
+
+```
+{
+    "channel": "email",
+    "eventType": "io",
+    "email": "example@adobe.com",
+    "ctx": {
+        "firstName": "John"
+    }
+}
+```
+
+Contact Adobe to get the JSON payload corresponding to each message. You will then paste this payload when configuring the action in Journey Orchestration (see below).
+
 ## Configuring the action
 
 In Journey Orchestration, you need to configure one action per transactional message. Follow these steps:
