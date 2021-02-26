@@ -188,4 +188,5 @@ index: yes
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)
   + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
+  + [Integrating with Adobe Campaign Classic](using/beta/acc-action.md)
   
