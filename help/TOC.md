@@ -74,6 +74,7 @@ index: yes
       + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
       + [Jumping from one journey to another](using/building-journeys/jump.md)
+      + [Update profile](using/building-journeys/update-profiles.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}

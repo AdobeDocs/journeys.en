@@ -24,9 +24,6 @@ Learn how to configure the events that your journeys will listen to.
 * **[Discover what's new](using/release-notes/release-notes.md)**<br/>
 Find out details about the lastest releases. 
 
-* **[Alpha features](using/alpha/alpha-overview.md)**<br/>
-Discover the features that are currently available through the Alpha program. 
-
 ## Top pages
 
  <table>
