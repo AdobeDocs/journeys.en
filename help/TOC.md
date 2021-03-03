@@ -45,6 +45,7 @@ index: yes
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
+  + [Integrating with Adobe Campaign Classic](using/beta/acc-action.md)
 + Using Plaform segments {#configuring-segment}
   + [About Plaform segments](using/segment/about-segments.md)
   + [Creating a segment](using/segment/creating-a-segment.md)
@@ -184,8 +185,3 @@ index: yes
     + [Building the journey](using/usecase/building-the-journey.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
-+ Alpha features {#alpha}
-  + [Alpha features overview](using/alpha/alpha-overview.md)
-  + [User interface](using/alpha/alpha-interface.md)
-  + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
-  

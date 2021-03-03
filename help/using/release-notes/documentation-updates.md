@@ -21,7 +21,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## September 2020 {#september-2020}
 
 * The interface description section has been updated to reflect the new **All selector** menu. [Read more](../about/user-interface.md)
-* Added a note on segment-based journeys' new versions that are not recurrent. [Read more](../alpha/alpha-segment-trigger.md)
+* Added a note on segment-based journeys' new versions that are not recurrent. 
 
 ## August 2020 {#august-2020}
 
@@ -35,7 +35,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * The events activities section has been reorganized into dedicated sub-sections for each type of events. [Read more](../building-journeys/event-activities.md)
 * Added best practices to avoid overload with segment qualfication. [Read more](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Added a note to explain how to make a journey continue after an error in an action or a condition. [Read more](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Added a new section on the Alpha features that are tested among a limited set of customers. [Read more](../alpha/alpha-overview.md)
+* Added a new section on the Alpha features that are tested among a limited set of customers. 
 * Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
 * Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile)
 * Added information on how to use the **[!UICONTROL SegmentQualification]** node in a journey condition or action. [Read more](../building-journeys/segment-qualification-events.md)

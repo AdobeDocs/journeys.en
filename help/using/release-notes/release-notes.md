@@ -75,7 +75,6 @@ The [getListItem](../functions/functiongetlistitem.md) and [split](../functions/
 <td>
 <p>A new method is now available to set up your events more easily, without using an eventID: rule-based events evaluate if the event should be triggered according to a condition. You can still use the existing method, now called "system-generated". This feature, which has been tested among a limited set of customers through the Alpha program, is now available in Beta to all customers.
 </p>
-<p>For more information, refer to the <a href="../event/about-events.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -133,8 +132,6 @@ The **Segment Qualification** activity can no longer be used in a journey that i
 
 ### Alpha updates{#september-alpha-update}
 
-To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
@@ -152,7 +149,6 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <li><p>The granularity of test mode logs has been improved to display the segment export progress status.</p>
 </li>
 </ul>
-<p>For more information on the <strong>Read segment</strong> activity, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -165,8 +161,6 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read more](../building-journeys/segment-qualification-events.md)
 
 ### Alpha updates{#august-alpha-update}
-
-To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -187,7 +181,6 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <li><p>You can now test the journey on a unitary profile and track its progress in the journey using the visual flow.</p>
 </li>
 </ul>
-<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -221,8 +214,6 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 
 The Alpha program offers features that are currently tested among a limited set of customers. This allows us to improve our product based on the feedback received. These features are not available to all Journey Orchestration customers.
 
-These features are described in a dedicated [section](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
@@ -240,7 +231,6 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <li><p>Grouping of admin functionalities into a single dashboard.</p>
 </li>
 </ul>
-<p>For more information, refer to the <a href="../alpha/alpha-interface.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -255,7 +245,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <tbody>
 <tr>
 <td>
-<p>The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis. <a href="../alpha/alpha-segment-trigger.md">Read more</a>
+<p>The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis. 
 </p>
 </td>
 </tr>
