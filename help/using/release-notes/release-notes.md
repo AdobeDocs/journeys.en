@@ -28,23 +28,6 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Integrating with Campaign Classic</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This integration allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
-</p>
-<p>This integration is released as a private beta. It is not available to all Journey Orchestration customers.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Other improvements
 
 * Now, when configuring an event, only fields that are mandatory for the XDM validation are pre-selected by default. These fields cannot be unselected.
