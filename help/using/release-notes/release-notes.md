@@ -33,7 +33,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 * Now, when configuring an event, only fields that are mandatory for the XDM validation are pre-selected by default. These fields cannot be unselected.
 * In the journey palette, a new filter has been added. It allows you to only display the last five events and actions used, in addition to out-of-the-box ones. This is specific to each user. By default, all items are displayed. [Read more](../building-journeys/using-the-journey-designer.md#palette)
 * When starting a new journey, elements that cannot be dropped in the canvas as the first step are now hidden. This concerns all actions, the condition activity, the wait and the reaction.
-* In left part of the advanced expression editor, functions are now regrouped under a **Functions** section at the end of the list. 
+* In the left part of the advanced expression editor, functions are now regrouped under a **Functions** section at the end of the list. 
 
 ## January 2021 Release {#january-2021-release}
 
