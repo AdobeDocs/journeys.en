@@ -10,7 +10,30 @@ description: Learn about release notes
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
-## January 2021 Release {#january-release}
+## February 2021 Release {#february-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Update profile activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This new action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.</p>
+<p>For more information, refer to the <a href="../building-journeys/update-profiles.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements
+
+* Now, when configuring an event, only fields that are mandatory for the XDM validation are pre-selected by default. These fields cannot be unselected.
+* In the journey palette, a new filter has been added. It allows you to only display the last five events and actions used, in addition to out-of-the-box ones. This is specific to each user. By default, all items are displayed. [Read more](../building-journeys/using-the-journey-designer.md#palette)
+
+## January 2021 Release {#january-2021-release}
 
 When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [Read more](../event/defining-the-payload-fields.md)
 
