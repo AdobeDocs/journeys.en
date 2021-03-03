@@ -49,9 +49,11 @@ This screen allows you to manually write your expression.
 
 On the left part of the screen are displayed available fields and functions:
 
-* **[!UICONTROL Events]**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
-* **[!UICONTROL Data Sources]**: choose from the list of fields available from your data sources' field groups.
-* **[!UICONTROL Functions]**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
+* **[!UICONTROL Events]**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey. [Read more](../event/about-events.md)
+* **[!UICONTROL Segments]**: if you have dropped a **[!UICONTROL Segment qualification]** event, choose the segment you want to use in your expression. [Read more](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: choose from the list of fields available from your data sources' field groups. [Read more](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: this section regroups the technical fields related to the journey for a given profile. [Read more](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories. [Read more](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

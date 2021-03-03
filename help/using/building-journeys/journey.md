@@ -13,6 +13,8 @@ The journey interface allows you to easily drag and drop activities from the pal
 
 Only one namespace is allowed per journey. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [this page](../event/selecting-the-namespace.md). Also, Adobe Experience Platform field groups are grayed out if the journey has events without a namespace. And finally, if you use several events in the same journey, they need to use the same namespace.
 
+When starting a new journey, elements that cannot be dropped in the canvas as the first step are hidden. This concerns all actions, the condition activity, the wait and the reaction.
+
 ## Quick start {#creating_journey}
 
 Here are the main steps to create and publish a journey.
