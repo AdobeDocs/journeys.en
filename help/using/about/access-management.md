@@ -38,6 +38,7 @@ In the Admin console, you can assign one of the following out-of-the-box product
     *   Manage journeys
     *   Publish journeys
     *   Manage reports
+    *   Read Events, data sources and actions
 
 You can also create your own product profiles if the out-of-the-box profiles are not enough to manage your users.
 Users must always be linked to a product profile allowing you to assign them specific build-in permissions such as:
