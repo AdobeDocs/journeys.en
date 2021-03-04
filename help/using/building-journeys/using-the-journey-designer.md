@@ -35,11 +35,15 @@ The **palette** is on the left-hand side of the screen. All available activities
 
  ![](../assets/journey38.png)
 
-The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
+The **[!UICONTROL Filter items]** icon in the top left corner allows you to display the following filters:
 
-When using the **[!UICONTROL Search]** field, the number of results is displayed for each canvas activity category.
+* **Show only available items**: hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
+
+* **Show only recent items**: this filter allows you to only display the last five events and actions used, in addition to out-of-the-box ones. This is specific to each user. By default, all items are displayed.
 
  ![](../assets/palette-filter.png)
+
+You can also use the **[!UICONTROL Search]** field.
 
 ## The canvas {#canvas}
 

@@ -74,6 +74,7 @@ index: yes
       + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
       + [Jumping from one journey to another](using/building-journeys/jump.md)
+      + [Update profile](using/building-journeys/update-profiles.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}
@@ -185,8 +186,3 @@ index: yes
     + [Building the journey](using/usecase/building-the-journey.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
-+ Alpha features {#alpha}
-  + [Alpha features overview](using/alpha/alpha-overview.md)
-  + [User interface](using/alpha/alpha-interface.md)
-  + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
-  
