@@ -11,6 +11,8 @@ Before being able to test your journey, you must resolve all errors if any. See 
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
+Only test profiles can enter a journey in test mode. You can either [create a new test profile](../building-journeys/testing-the-journey.md#create-test-profile) or [turn an existing profile into a test profile](../building-journeys/testing-the-journey.md#turning-profile-into-test). 
+
 To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
@@ -43,13 +45,19 @@ To use the test mode, follow these steps:
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 
+## Turning a profile into a test profile{#turning-profile-into-test}
+
+You can turn an existing profile into a test profile. In Adobe Experience Platorm, you can update profiles attributes via API calls, but it cannot be performed via the interface.
+
+The easiest way to do this is by using an **Update profile** action activity and change the test profile boolean field from false to true. See [this section](../building-journeys/update-profiles.md#using-the-test-mode). 
+
 ## Creating a test profile{#create-test-profile}
 
-The process to create a test profile is the same as when you create a profile in the Adobe Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+If you want to create a new test profile, the procedure is the same as when you create a profile in the Adobe Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 
 You must use a Profile schema that contains the "profile test details" mixin. The testProfile flag is part of this mixin.
 
-When creating a profile, make sure you pass the value: testprofile = true.
+When creating a profile, make sure you pass the value: testProfile = true.
 
 Note that you can also update an existing profile to change its testProfile flag to "true".
 
