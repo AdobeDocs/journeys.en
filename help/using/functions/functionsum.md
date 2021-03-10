@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: sum
 description: Learn about the function sum
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # sum {#sum}

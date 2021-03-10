@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About the simple use case
 description: Lean more on the journey simple use-case
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About the simple use case{#concept_grh_vby_w2b}

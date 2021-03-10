@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toInteger
 description: Learn about the function toInteger
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # toInteger {#toInteger}

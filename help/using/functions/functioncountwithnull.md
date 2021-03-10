@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: countWithNull
 description: Learn about the function countWithNull
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # countWithNull {#countWithNull}

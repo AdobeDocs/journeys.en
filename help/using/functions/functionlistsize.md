@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: listSize
 description: Learn about the function listSize
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # listSize {#listSize}

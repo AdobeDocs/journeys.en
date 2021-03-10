@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About the advanced use case
 description: Lean more on the journey advanced use-case
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About the advanced use case{#concept_vzy_ncy_w2b}

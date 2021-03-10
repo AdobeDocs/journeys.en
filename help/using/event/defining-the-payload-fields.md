@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Defining the payload fields
 description: Learn about how to define the payload fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Defining the payload fields {#concept_yrw_3qt_52b}

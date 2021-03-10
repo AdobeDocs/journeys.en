@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: isNotEmpty
 description: Learn about the function isNotEmpty
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # isNotEmpty {#isNotEmpty}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: max
 description: Learn about the function max
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 # max{#max}
 

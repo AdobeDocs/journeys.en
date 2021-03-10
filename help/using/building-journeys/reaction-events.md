@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Reactions events
 description: Learn about reaction events
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Reaction events {#section_dhx_gss_dgb}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: currentTimeInMillis
 description: Learn about the function currentTimeInMillis
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # currentTimeInMillis {#currentTimeInMillis}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Collection management functions
 description: Learn about data types in collection management functions
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Collection management functions {#collection-management-functions}

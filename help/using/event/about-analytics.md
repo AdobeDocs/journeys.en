@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Leveraging Adobe Analytics data{#analytics-data}

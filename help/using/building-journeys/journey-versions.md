@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey versions
 description: Learn about journey versions
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Journey versions{#concept_ldc_k55_zgb}

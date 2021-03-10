@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: uuid
 description: Learn about the function uuid
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # uuid {#uuid}

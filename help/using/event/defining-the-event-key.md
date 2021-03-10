@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Defining the event key
 description: Learn how to define the event key
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Defining the event key {#concept_ond_hqt_52b}

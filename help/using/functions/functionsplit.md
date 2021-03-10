@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: split
 description: Learn about the function split
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # split {#split}

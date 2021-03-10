@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: AI service overview
 description: AI service overview
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About AI integration {#ai-overview}

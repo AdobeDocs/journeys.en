@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Generalities
 description: Learn about advanced expression generalities
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Generalities {#concept_rcy_qj5_dgb}

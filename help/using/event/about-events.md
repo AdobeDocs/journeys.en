@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About events
 description: Learn about events
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # General principle {#concept_gfj_fqt_52b}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Working with Adobe Campaign
 description: Learn about Adobe Campaign actions
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Working with Adobe Campaign {#using_adobe_campaign_standard}

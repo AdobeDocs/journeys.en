@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Functions
 description: Learn about functions
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Functions {#concept_p1r_qj5_dgb}

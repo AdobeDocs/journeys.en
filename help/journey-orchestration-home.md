@@ -4,6 +4,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration product documentation
 topic: Premium
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 ---
 
 # Help Center {#journeys-documentation}

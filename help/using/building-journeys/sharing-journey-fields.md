@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journey fields
 description: journey fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # journey fields {#sharing-journey-fields}

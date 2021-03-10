@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: Learn about the function setHours
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # setHours {#setHours}

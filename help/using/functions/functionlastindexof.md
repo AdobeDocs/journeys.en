@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: lastIndexOf
 description: Learn about the function lastIndexOf
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # lastIndexOf {#lastIndexOf}

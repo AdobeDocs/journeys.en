@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About events activities
 description: Learn about events activities
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About events activities {#concept_rws_1rt_52b}

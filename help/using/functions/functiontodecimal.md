@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDecimal
 description: Learn about the function toDecimal
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # toDecimal {#toDecimal}

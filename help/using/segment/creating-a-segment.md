@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Using a segment
 description: Learn how to use a segment
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 

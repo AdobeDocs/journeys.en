@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: concat
 description: Learn about the function concat
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # concat {#concat}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: equalWithIgnoreCase
 description: Learn about the function equalWithIgnoreCase
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}

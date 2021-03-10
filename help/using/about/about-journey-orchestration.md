@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About Journey Orchestration
 description: Learn more on Journey Orchestration
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 ---
 
 # About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Release Notes
 description: Learn about release notes
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 ---
 
 # Release Notes {#release-notes}

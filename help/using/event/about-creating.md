@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Creating an event
 description: Learn how to create an event
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Creating a new event {#section_tbk_5qt_pgb}

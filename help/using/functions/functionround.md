@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: round
 description: Learn about the function round
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # round {#round}

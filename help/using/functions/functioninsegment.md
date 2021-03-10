@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: Learn about the function inSegment
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # inSegment {#inSegment}

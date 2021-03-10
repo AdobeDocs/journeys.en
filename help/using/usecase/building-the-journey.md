@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Building the journey
 description: Learn how to build the advanced use case journey 
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Building the journey {#concept_owm_kdy_w2b}

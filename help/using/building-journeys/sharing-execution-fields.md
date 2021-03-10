@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # journeyStep events action execution fields {#sharing-execution-fields}

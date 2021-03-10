@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuring the event
 description: Learn how to configure the event for the journey simple use case
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Configuring the event{#concept_y44_hcy_w2b}
