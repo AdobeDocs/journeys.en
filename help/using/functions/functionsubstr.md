@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: substr
 description: Learn about the function substr
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # substr {#substr}

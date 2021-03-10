@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configuring the data source
 description: Learn how to configure the data source for the journey simple use case
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Configuring the data source{#concept_ax3_bcy_w2b}

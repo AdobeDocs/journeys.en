@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Using the advanced expression editor
 description: Learn how to build advanced expressions
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Advanced expression examples

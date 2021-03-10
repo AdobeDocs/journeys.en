@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: URL configuration
 description: Learn about URL configuration
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # URL configuration {#concept_gbg_1f1_2gb}

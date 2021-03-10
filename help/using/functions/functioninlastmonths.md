@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inLastMonths
 description: Learn about the function inLastMonths
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # inLastMonths {#inLastMonths}

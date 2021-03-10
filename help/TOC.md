@@ -5,6 +5,7 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration Guide
 user-guide-description: Provides how-to instructions for implementing and building journeys.
 index: yes
+feature: Journeys
 ---
 
 # [!DNL Journey Orchestration] Guide {#using}

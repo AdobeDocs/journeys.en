@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: now
 description: Learn about the function now
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # now {#now}

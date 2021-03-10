@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toBool
 description: Learn about the function toBool
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # toBool {#toBool}

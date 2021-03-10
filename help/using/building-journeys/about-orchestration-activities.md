@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About orchestration activities
 description: Learn about orchestration activities
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About orchestration activities {#concept_ksq_2rt_52b}

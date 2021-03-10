@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Terminating a journey
 description: Learn how to terminate a journey
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Terminating a journey

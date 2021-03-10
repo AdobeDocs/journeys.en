@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Wait activity
 description: Learn about the wait activity
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Wait activity{#section_rlm_nft_dgb}

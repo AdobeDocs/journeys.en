@@ -12,6 +12,7 @@ index: yes
 feature-set: Journey Orchestration
 solution: Journey Orchestration
 type: Documentation
+feature: Journeys
 ---
 
 # Metadata for Journeys

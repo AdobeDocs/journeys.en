@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: min
 description: Learn about the function min
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # min {#min}

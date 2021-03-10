@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About action activities
 description: Learn about action activities
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About action activities {#concept_hbj_hrt_52b}

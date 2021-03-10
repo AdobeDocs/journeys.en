@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: endWith
 description: Learn about the function endWith
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # endWith {#endWith}

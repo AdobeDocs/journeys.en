@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Data types
 description: Learn about data types in advanced expressions
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Data types {#concept_gp3_rj5_dgb}

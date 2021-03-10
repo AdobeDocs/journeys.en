@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: sort
 description: Learn about the function sort
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # sort {#sort}

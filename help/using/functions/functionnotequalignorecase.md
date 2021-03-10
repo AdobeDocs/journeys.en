@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: notEqualWithIgnoreCase
 description: Learn about the function notEqualWithIgnoreCase
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}

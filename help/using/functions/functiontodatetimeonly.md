@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDateTimeOnly
 description: Learn about the function toDateTime
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # toDateTimeOnly{#toDateTimeOnly}

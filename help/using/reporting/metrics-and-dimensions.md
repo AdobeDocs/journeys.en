@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Metrics and dimensions
 description: Learn about dimensions and metrics available for Journey Orchestration
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Metrics and dimensions {#concept_rfj_wpt_52b}

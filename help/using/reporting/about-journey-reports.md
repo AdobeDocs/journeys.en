@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About journey reports
 description: Learn how to build your journey reports
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About journey reports {#concept_rfj_wpt_52b}

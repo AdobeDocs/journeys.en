@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeysteps events common fields
 description: journeysteps events common fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # journeysteps events common fields {#sharing-common-fields}

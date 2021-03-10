@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: matchRegExp
 description: Learn about the function matchRegExp
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # matchRegExp {#matchRegExp}

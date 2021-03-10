@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Event data cycle
 description: Learn about event data cycle
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Data cycle {#section_r1f_xqt_pgb}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: serializeList
 description: Learn about the function serializeList
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # serializeList {#serializeList}

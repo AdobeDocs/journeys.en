@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Changing properties
 description: Learn on how to change properties
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: nowWithDelta
 description: Learn about the function nowWithDelta
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # nowWithDelta {#nowWithDelta}

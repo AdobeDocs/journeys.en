@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep event identity fields
 description: journeyStep event identity fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # journeyStep event identity fields {#sharing-identity-fields}

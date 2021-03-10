@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Adobe Experience Platform data source 
 description: Learn how to configure the Adobe Experience Platform data source 
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}

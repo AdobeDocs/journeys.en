@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toString
 description: Learn about the function toString
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # toString {#toString}

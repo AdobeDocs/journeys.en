@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Testing the journey
 description: Learn about journey testing 
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Testing the journey{#testing_the_journey}

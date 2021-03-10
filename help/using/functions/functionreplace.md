@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: replace
 description: Learn about the function replace
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # replace {#replace}

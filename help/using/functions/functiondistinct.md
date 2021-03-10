@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: distinct
 description: Learn about the function distinct
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # distinct {#distinct}

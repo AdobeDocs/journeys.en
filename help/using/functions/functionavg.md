@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: avg
 description: Learn about the function avg
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # avg {#avg}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Condition activity
 description: Learn about condition activities
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Condition activity{#section_e2n_pft_dgb}

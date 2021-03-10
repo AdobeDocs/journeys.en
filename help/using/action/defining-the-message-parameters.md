@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Defining the message parameters
 description: Learn how to define the message parameters
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Defining the message parameters {#concept_wy4_bf1_2gb}

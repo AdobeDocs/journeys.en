@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setDays
 description: Learn about the function setDays
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # setDays {#setDays}

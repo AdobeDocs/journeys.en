@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey properties
 description: Learn about journey properties
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # Journey properties attributes {#journey-properties}

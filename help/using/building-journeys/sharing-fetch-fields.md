@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # journeyStep events data fetch fields {#sharing-fetch-fields}

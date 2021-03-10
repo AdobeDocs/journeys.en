@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Documentation Updates
 description: Learn about documentation updates
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates

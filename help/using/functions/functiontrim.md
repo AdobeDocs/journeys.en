@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: trim
 description: Learn about the function trim
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # trim {#trim}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: End activity
 description: Learn about the end activity
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # End activity{#section_vqp_4ft_dgb}

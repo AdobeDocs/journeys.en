@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWithIgnoreCase
 description: Learn about the function startWithIgnoreCase
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # startWithIgnoreCase {#startWithIgnoreCase}

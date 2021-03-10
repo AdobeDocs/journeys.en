@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Get started
 description: Discover the main steps to set up Journey Orchestration and build your first journey.
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started{#concept_y4b_4qt_52b}

@@ -5,6 +5,9 @@ title: About Campaign Classic integration
 description: Learn about Campaign Classic integration
 hide: yes
 hidefromtoc: yes
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Integrating with Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}

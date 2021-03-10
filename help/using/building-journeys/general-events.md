@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: General events
 description: Learn about general events
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # General events {#section_ofg_jss_dgb}

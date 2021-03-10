@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: in
 description: Learn about the function in
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # in {#in}

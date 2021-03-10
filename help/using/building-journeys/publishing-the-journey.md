@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Publishing the journey
 description: Learn about journey publication
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Publishing the journey{#concept_mtc_lrt_52b}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: replaceAll
 description: Learn about the function replaceAll
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # replaceAll {#replaceAll}

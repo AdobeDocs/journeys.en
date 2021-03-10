@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: count
 description: Learn about the function count
+feature: Journeys
+role: Data Engineer
+level: Experienced
 ---
 
 # count {#count}

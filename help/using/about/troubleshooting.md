@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Troubleshooting
 description: Learn more on troubleshooting
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Troubleshooting{#concept_nlv_bcv_2fb}

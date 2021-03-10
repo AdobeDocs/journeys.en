@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Time zone management
 description: Learn about time zone management
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 

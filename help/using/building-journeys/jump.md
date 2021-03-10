@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Jumping from one journey to another
 description: Jumping from one journey to another
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Jumping from one journey to another {#jump}

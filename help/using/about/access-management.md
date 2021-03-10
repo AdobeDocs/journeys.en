@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Access management
 description: Learn more on access management
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Access management{#concept_rfj_wpt_52b}

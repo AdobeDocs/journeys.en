@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Selecting the namespace
 description: Learn how to select the namespace
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Selecting the namespace {#concept_ckb_3qt_52b}

@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Using the journey designer
 description: Learn more on using the journey designer
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Using the journey designer {#concept_m1g_5qt_52b}

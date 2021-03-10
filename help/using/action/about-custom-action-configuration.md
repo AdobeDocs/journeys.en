@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: About custom action configuration
 description: Learn how to configure a custom action
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About custom action configuration {#concept_sxy_bzs_dgb}

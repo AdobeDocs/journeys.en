@@ -3,6 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey step sharing overview
 description: Journey step sharing overview
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Journey step sharing overview{#sharing-overview}
