@@ -57,7 +57,7 @@ If you want to create a new test profile, the procedure is the same as when you 
 
 You must use a Profile schema that contains the "profile test details" mixin. The testProfile flag is part of this mixin.
 
-When creating a profile, make sure you pass the value: testprofile = true.
+When creating a profile, make sure you pass the value: testProfile = true.
 
 Note that you can also update an existing profile to change its testProfile flag to "true".
 
