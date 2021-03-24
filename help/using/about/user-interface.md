@@ -31,7 +31,7 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="About Journey list"
->abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't delete or restart a journey that is closed. You can create a new version from it or duplicate it. You can also use the search bar to search for a journey."
+>abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
 The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.

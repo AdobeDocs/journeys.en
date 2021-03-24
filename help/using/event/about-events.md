@@ -13,7 +13,7 @@ level: Intermediate
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="About events"
->abstract="An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Orchestration] will listen to in journeys to orchestrate the best next actions."
+>abstract="An event is linked to a person. It relates to the behavior of a person or something happening linked to a person. This is what [!DNL Journey Orchestration] will listen to in journeys to orchestrate the best next actions."
 
 An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what [!DNL Journey Orchestration] will listen to in journeys to orchestrate the best next actions.
 
