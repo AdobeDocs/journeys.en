@@ -29,7 +29,7 @@ Find out details about the lastest releases.
 
 ## Top pages
 
- <table>
+<table style="table-layout:fixed">
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
