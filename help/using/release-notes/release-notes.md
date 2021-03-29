@@ -20,7 +20,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 * A new status has been added to journeys. When a journey ends or is manually closed, its status switches from **Closed** to **Finished** after the default global timeout of 30 days. Finished journeys can be deleted or duplicated but cannot be republished, edited or stopped. You can create a new version from a finished journey. [Read more](../building-journeys/journey.md#ending_a_journey)
 * In journey activity configuration panes, read-only fields are now hidden by default. To display them, click the **Show read-only fields** icon, available in the top left corner of the activity configuration pane. [Read more](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * In test mode, in the **Event configuration** screen, the **Key** field used to define the test profile's ID has been renamed **Profile identifier** for a better user experience. [Read more](../building-journeys/testing-the-journey.md).
-* For reaction events, the timeout duration can now only be set between 40 seconds and 30 days. When testing a journey that uses a reaction event, the test mode **[!UICONTROL Wait time]** default and minimum value is now 40 seconds. See [this section](../building-journeys/reaction-events.md).
+* For reaction events, the timeout duration can now only be set between 40 seconds and 30 days. When testing a journey that uses a reaction event, the test mode **[!UICONTROL Wait time]** default and minimum value is now 40 seconds. [Read more](../building-journeys/reaction-events.md)
 
 ## February 2021 Release {#february-2021-release}
 
