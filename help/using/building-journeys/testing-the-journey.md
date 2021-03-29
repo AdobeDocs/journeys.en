@@ -24,9 +24,13 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest1.png)
 
-1. Use the **[!UICONTROL Wait time in test]** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
+1. Use the **[!UICONTROL Wait time]** parameter, in the bottom left corner, to define the time that each wait activity and event timeout will last in test mode. The default time is 10 seconds for waits and event timeouts. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
 
     ![](../assets/journeytest_wait.png)
+
+    >[!NOTE]
+    >
+    >When a reaction event is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md)
 
 1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey.
 
