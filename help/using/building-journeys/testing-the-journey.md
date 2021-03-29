@@ -28,9 +28,13 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest_wait.png)
 
-1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
+1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey.
 
     ![](../assets/journeyuctest1.png)
+
+1. Configure the different fields expected. In the **Profile Identifier** field, enter the value of the field used to identify the test profile. It can be the email address, for example. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
+
+    ![](../assets/journeyuctest1-bis.png)
 
 1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. See [Viewing the logs](#viewing_logs).
 
@@ -116,7 +120,7 @@ The **[!UICONTROL Trigger an event]** button allows you to configure an event th
 >
 >When you trigger an event in test mode, a real event is generated, meaning it will also hit other journey listening to this event.
 
-As a prerequisite, you must know which profiles are flagged as test profiles in the Adobe Experience Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
+As a prerequisite, you must know which profiles are flagged as test profiles in the Adobe Experience Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID or an email address for example. The value of this key needs to be added in the **Profile Identifier** field. 
 
 If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use.
 

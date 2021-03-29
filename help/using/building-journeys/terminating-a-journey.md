@@ -15,12 +15,16 @@ The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options al
 >[!NOTE]
 >
 >Note that you cannot resume a closed or stopped journey.
+>
+>The concept of journey ending is described in this [section](../building-journeys/journey.md#ending_a_journey).
 
 ## Closing a journey
 
 You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it.
+When closed, a journey will have the status **[!UICONTROL Closed (no entrance)]**. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/changing-properties.md#entrance).
+
+A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
 You can close a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
 
@@ -41,6 +45,8 @@ You can also:
 You can stop a journey when an emergency occurred and all processing needs to be ended immediately on a journey.
 
 A stopped journey version cannot be restarted.
+
+When stopped, a journey will have the status **[!UICONTROL Stopped]**. 
 
 You can stop a journey (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
 
