@@ -50,9 +50,20 @@ Here are the main steps to create and publish a journey.
 
 ## Ending a journey {#ending_a_journey}
 
-There are two ways to end a journey:
+A journey can end for an individual because of two reasons:
 
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [this page](../building-journeys/end-activity.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [this page](../building-journeys/changing-properties.md).
+
+A journey can close because of the following reasons:
+
+* The journey is closed manually via the **[!UICONTROL Close to new entrances]** button. 
+* The journey's end date is reached.
+
+When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/changing-properties.md#entrance).
+
+In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
+
+To learn how to close or stop a journey manually, refer to this [section](../building-journeys/terminating-a-journey.md).

@@ -25,7 +25,7 @@ Here are the different steps to configure the reaction events:
 1. Add a **[!UICONTROL Label]** to the reaction. This step is optional.
 1. From the drop-down list, select the action activity you want to react to. You can select any action activity positioned in the previous steps of the path.
 1. Depending on the action you selected (an email, SMS or a push notification), choose what you want to react to. 
-1. You can define a condition as an optional step. For example, after an email action, you can decide to create two paths, one with a reaction event to track clicks only for VIP customers and one with a reaction event to track clicks performed by women.
+1. You can define an event timeout (between 40 seconds and 30 days) and a timeout path. This will create a second path for individuals who did not react within the defined duration. When testing a journey that uses a reaction event, the test mode **[!UICONTROL Wait time]** default and minimum value is 40 seconds. See [this section](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

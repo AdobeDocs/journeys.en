@@ -23,6 +23,8 @@ By default, new journeys allow re-entrance. You can uncheck the option for “on
 
 When a journey "ends", it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 
+After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](#global_timeout).
+
 ## Timeout and error in journey activitites {#timeout_and_error}
 
 When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action. 
