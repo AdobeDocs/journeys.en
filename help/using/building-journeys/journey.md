@@ -57,12 +57,13 @@ A journey can end for an individual because of two reasons:
 
 The person can then re-enter the journey if re-entrance is allowed. See [this page](../building-journeys/changing-properties.md).
 
-A journey can end because of the following reasons:
+A journey can close because of the following reasons:
 
 * The journey is closed manually via the **[!UICONTROL Close to new entrances]** button. 
-* The journey is stopped manually via the **[!UICONTROL Stop]** button.
 * The journey's end date is reached.
 
-When a journey ends (for any of the reasons above, except when using the **Stop** button), it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/changing-properties.md#entrance).
+When a journey is closed (for any of the reasons above), it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](../building-journeys/changing-properties.md#entrance).
+
+In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
 
 To learn how to close or stop a journey manually, refer to this [section](../building-journeys/terminating-a-journey.md).
