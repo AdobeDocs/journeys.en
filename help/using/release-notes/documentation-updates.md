@@ -13,6 +13,10 @@ level: Beginner
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## March 2021 {#march-2021}
+
+* We have detailed the full procedure to create test profiles in Adobe Experience Platform. [Read more](../building-journeys/creating-test-profiles.md).
+
 ## January 2021 {#january-2021}
 
 * Added best practices when triggering a journey at the same time as a profile creation. [Read more](../about/limitations.md#journeys-limitation-profile-creation).
@@ -40,7 +44,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * Added a note to explain how to make a journey continue after an error in an action or a condition. [Read more](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Added a new section on the Alpha features that are tested among a limited set of customers. 
 * Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
-* Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile)
+* Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md)
 * Added information on how to use the **[!UICONTROL SegmentQualification]** node in a journey condition or action. [Read more](../building-journeys/segment-qualification-events.md)
 * A note has been added on Campaign transactional message and event publication. See [Working with Adobe Campaign](../action/working-with-adobe-campaign.md) and [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md).
 * Information has been added on the checks that are performed when testing the Campaign Standard instance URL. [Read more](../action/working-with-adobe-campaign.md)

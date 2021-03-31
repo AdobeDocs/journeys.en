@@ -59,6 +59,7 @@ feature: Journeys
     + [Journey versions](using/building-journeys/journey-versions.md)
     + [Terminating a journey](using/building-journeys/terminating-a-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
+    + [Test profiles](using/building-journeys/creating-test-profiles.md)   
   + Activities {#about-journey-building}
     + Events activities {#events-activities}
       + [About events activities](using/building-journeys/event-activities.md)
