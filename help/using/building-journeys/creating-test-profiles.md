@@ -9,9 +9,11 @@ description: Learn about test profile creation
 
 ![](../assets/do-not-localize/badge.png)
 
-Test profiles are required when using the test mode in a journey. You can either turn an [existing profile](../building-journeys/creating-test-profiles.md#turning-profile-into-test) into a test profile, or [create a test profile](../building-journeys/creating-test-profiles.md#create-test-profiles-csv). To learn how to use the test mode, refer to [this section](../building-journeys/testing-the-journey.md).
+Test profiles are required when using the test mode in a journey. To learn how to use the test mode, refer to [this section](../building-journeys/testing-the-journey.md).
 
-There are different ways to create a test profile in Adobe Experience Platform. In this documentation, we focus on two methods: uploading a [csv file](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) and using [API calls](../building-journeys/creating-test-profiles.md#create-test-profiles-api). You can also upload a json file in a dataset, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+There are different ways to create a test profile in Adobe Experience Platform. In this documentation, we focus on two methods: uploading a [csv file](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) and using [API calls](../building-journeys/creating-test-profiles.md#create-test-profiles-api). You can also upload a json file in a dataset, refer to the [Data Ingestion documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+
+These import methods also allow you to update profile attributes. This way, you can turn an existing profile into a test profile. Simply use a similar file or API call and only include the "testProfile" field with the value "true".
 
 Creating a test profile is similar to creating regular profiles in Adobe Experience Platform. For more information, refer to the [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
@@ -60,44 +62,6 @@ Then you need to **create the dataset** in which the profiles will be imported. 
 >[!NOTE]
 >
 > For more information on dataset creation, refer to the [Catalog Service documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
-
-## Turning a profile into a test profile{#turning-profile-into-test}
-
-You can turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes in the same way as when you create a profile. 
-
-A simpler way to do this is by using an **Update profile** action activity in a journey and change the testProfile boolean field from false to true.
-
-Your journey will be composed of a **Read segment** and an **Update profile** activity. You first need to create a segment targeting the profiles you want to turn into test profiles. 
-
->[!NOTE]
->
-> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** mixin. See [this section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
-
-1. In Customer Journey Management, click **Segments** from the left menu, then **Create segment**, in the top right.
-    ![](../assets/test-profiles-22.png) 
-1. Define a name for your segment and build the segment: choose the field(s) and value(s) to target the profiles you want.
-    ![](../assets/test-profiles-23.png) 
-1. Click **Save** and check that the profiles are correctly targeted by the segment.
-    ![](../assets/test-profiles-24.png) 
-
-    >[!NOTE]
-    >
-    > Segment calculation can take some time. Learn more on segments in [this section](../segment/about-segments.md).
-
-1. Now create a new journey and start with a **Read segment** orchestration activity.
-1. Choose the previously created segment and the namespace that your profiles use.
-    ![](../assets/test-profiles-25.png)
-1. Add an **Update profile** action activity. 
-1. Select the schema, the **testProfiles** field, the dataset and set the value to "true".
-    ![](../assets/test-profiles-26.png)
-1. Add an **End** activity and click **Publish**.
-    ![](../assets/test-profiles-27.png)
-1. In Adobe Experience Platform, check that the profiles have been correctly updated.
-    ![](../assets/test-profiles-28.png)
-
-    >[!NOTE]
-    >
-    > For more information on the **Update profile** activity, refer to [this section](../building-journeys/update-profiles.md).
 
 ## Creating a test profile using a csv file{#create-test-profiles-csv}
 
