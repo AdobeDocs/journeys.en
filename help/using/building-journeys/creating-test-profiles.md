@@ -21,24 +21,24 @@ In order to be able to create profiles, you first need to create a schema and a 
 
 First, you need to **create a schema**. Follow these steps:
 
-1. In Adobe Experience Platform, click **Schemas**, in the left menu.
+1. In Adobe Experience Platform, click **[!UICONTROL Schemas]**, in the left menu.
     ![](../assets/test-profiles-0.png)
-1. Click **Create schema**, in the top right, then select a schema type, for example **XDM Individual Profile**.
+1. Click **[!UICONTROL Create schema]**, in the top right, then select a schema type, for example **[!UICONTROL XDM Individual Profile]**.
     ![](../assets/test-profiles-1.png)
 1. Choose a name for your schema.
-1. In the **Mixins** section, click **Add**. 
+1. In the **[!UICONTROL Mixins]** section, click **[!UICONTROL Add]**. 
     ![](../assets/test-profiles-1-bis.png)
-1. Select the appropriate mixins. Make sure you add the **Profile test details** mixin. Click **Add mixin**.
+1. Select the appropriate mixins. Make sure you add the **[!UICONTROL Profile test details]** mixin. Click **[!UICONTROL Add mixin]**.
     ![](../assets/test-profiles-1-ter.png)
     The list of mixins is displayed on the schema overview screen.
     ![](../assets/test-profiles-2.png)
 1. In the list of fields, click on the field that you want to define as the primary identity.
     ![](../assets/test-profiles-3.png)
-1. In the **Field properties** right panel, check the **Identity** and **Primary Identity** options and select a namespace. If you want the primary identity to be an email address, choose the **Email** namespace. Click **Apply**.
+1. In the **[!UICONTROL Field properties]** right panel, check the **[!UICONTROL Identity]** and **[!UICONTROL Primary Identity]** options and select a namespace. If you want the primary identity to be an email address, choose the **[!UICONTROL Email]** namespace. Click **[!UICONTROL Apply]**.
     ![](../assets/test-profiles-4.png)
-1. Select the schema and enable the **Profile** option in the **Schema properties**.
+1. Select the schema and enable the **[!UICONTROL Profile]** option in the **[!UICONTROL Schema properties]**.
     ![](../assets/test-profiles-5.png) 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -46,15 +46,15 @@ First, you need to **create a schema**. Follow these steps:
 
 Then you need to **create the dataset** in which the profiles will be imported. Follow these steps:
 
-1. In Adobe Experience Platform, click **Datasets**, in the left menu, then click **Create dataset**.
+1. In Adobe Experience Platform, click **[!UICONTROL Datasets]**, in the left menu, then click **[!UICONTROL Create dataset]**.
     ![](../assets/test-profiles-6.png) 
-1. Choose **Create dataset from schema**.
+1. Choose **[!UICONTROL Create dataset from schema]**.
     ![](../assets/test-profiles-7.png) 
-1. Select the previously created schema then click **Next**.
+1. Select the previously created schema then click **[!UICONTROL Next]**.
     ![](../assets/test-profiles-8.png) 
-1. Choose a name then click **Finish**.
+1. Choose a name then click **[!UICONTROL Finish]**.
     ![](../assets/test-profiles-9.png) 
-1. Enable the **Profile** option. 
+1. Enable the **[!UICONTROL Profile]** option. 
     ![](../assets/test-profiles-10.png) 
 
 >[!NOTE]
@@ -71,17 +71,17 @@ In Adobe Experience Platform, you can create profiles by uploading a csv file co
 1. Add one line per profile and fill in the values for each field. 
     ![](../assets/test-profiles-12.png) 
 1. Save the spreadsheet as a csv file. Make sure commas are used as separators.
-1. In Adobe Experience Platform, click **Workflows**, in the left menu. 
+1. In Adobe Experience Platform, click **[!UICONTROL Workflows]**, in the left menu. 
     ![](../assets/test-profiles-14.png) 
-1. Choose **Map CSV to XDM schema**, then click **Launch**.
+1. Choose **[!UICONTROL Map CSV to XDM schema]**, then click **[!UICONTROL Launch]**.
     ![](../assets/test-profiles-16.png) 
-1. Select the dataset you want to import the profiles into. Click **Next**.
+1. Select the dataset you want to import the profiles into. Click **[!UICONTROL Next]**.
     ![](../assets/test-profiles-17.png) 
-1. Click **Choose files** and select your csv file. When the file is uploaded, click **Next**.
+1. Click **[!UICONTROL Choose files]** and select your csv file. When the file is uploaded, click **[!UICONTROL Next]**.
     ![](../assets/test-profiles-18.png) 
-1. Map the source csv fields to the schema fields, then click **Finish**.
+1. Map the source csv fields to the schema fields, then click **[!UICONTROL Finish]**.
     ![](../assets/test-profiles-19.png) 
-1. The data import begins. The status will move from **Processing** to **Success**. Click **Preview data set**, in the top right.
+1. The data import begins. The status will move from **[!UICONTROL Processing]** to **[!UICONTROL Success]**. Click **[!UICONTROL Preview data set]**, in the top right.
     ![](../assets/test-profiles-20.png)
 1. Check that the test profiles have been correctly added.
     ![](../assets/test-profiles-21.png)
