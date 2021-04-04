@@ -6,8 +6,8 @@ description: Learn how to use a segment
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 ---
-
 # Using segments in conditions {#using-a-segment}
 
 This section explains how to use a segment in a journey condition. To learn how to use a **[!UICONTROL Segment qualification]** event in your journey, refer to this [section](../building-journeys/segment-qualification-events.md).

@@ -6,8 +6,8 @@ description: Learn how to create your journey reports
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 ---
-
 # Creating your journey reports {#concept_rfj_wpt_52b}
 
 ## Accessing and creating your reports {#accessing-reports}

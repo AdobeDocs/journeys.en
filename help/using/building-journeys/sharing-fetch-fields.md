@@ -6,8 +6,8 @@ description: journeyStep events data fetch fields
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 ---
-
 # journeyStep events data fetch fields {#sharing-fetch-fields}
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.

@@ -6,8 +6,8 @@ description: As a business user, learn how to combine event, orchestration, and 
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 ---
-
 # Creating a journey {#concept_gq5_sqt_52b}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.

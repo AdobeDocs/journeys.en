@@ -6,8 +6,8 @@ description: Learn about the function inLastDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
 ---
-
 # inLastDays {#inLastDays}
 
 Returns true if a given date or dateTime is between now and now - delta days.

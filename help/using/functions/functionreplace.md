@@ -6,8 +6,8 @@ description: Learn about the function replace
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 ---
-
 # replace {#replace}
 
 Replaces the first occurrence matching the target string by the replacement string in the base string.

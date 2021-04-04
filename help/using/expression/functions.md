@@ -6,8 +6,8 @@ description: Learn about functions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 ---
-
 # Functions {#concept_p1r_qj5_dgb}
 
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.

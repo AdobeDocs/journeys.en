@@ -6,8 +6,8 @@ description: Learn about the function gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 ---
-
 # getListItem {#gestListItem}
 
 Returns the item of the list at the given index.

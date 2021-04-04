@@ -6,8 +6,8 @@ description: Lean more on the journey advanced use-case
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 ---
-
 # About the advanced use case{#concept_vzy_ncy_w2b}
 
 ## Purpose {#purpose}

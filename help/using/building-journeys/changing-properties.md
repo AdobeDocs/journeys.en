@@ -6,9 +6,8 @@ description: Learn on how to change properties
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 ---
-
-
 # Changing properties {#concept_prq_wqt_52b}
 
 Click on the pencil icon, in the top right to access the journey's properties.

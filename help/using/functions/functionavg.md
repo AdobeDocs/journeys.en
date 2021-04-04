@@ -6,8 +6,8 @@ description: Learn about the function avg
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
 ---
-
 # avg {#avg}
 
 Returns the average value among a set of expressions, given either as a list or two expressions. Null values are ignored.

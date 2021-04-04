@@ -6,8 +6,8 @@ description: Learn more on troubleshooting
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 ---
-
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
 In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [this page](../building-journeys/testing-the-journey.md).
@@ -81,4 +81,3 @@ If individuals flow the right way in the journey but don't receive messages they
 * Transactional messaging has successfully sent the message. In the sending logs of the transactional message, you can see the status of each execution. You can see if it's green, red and what was the issue. A business user can access this screen and send the logs to an administrator for further investigations.
 
 In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action’s system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but does not lead to a message sending, some investigations should be done on the external system’s side.
-

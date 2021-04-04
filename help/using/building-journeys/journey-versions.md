@@ -6,8 +6,8 @@ description: Learn about journey versions
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 ---
-
 # Journey versions{#concept_ldc_k55_zgb}
 
 In the journey list, all journey versions are displayed with the version number. See [this page](../building-journeys/using-the-journey-designer.md). When you search for a journey, newest versions appear at the top of the list the first time the application opens. Then, you can define the sorting you want and the application will keep it as a user preference. The journey's version is also displayed at the top of the journey edition interface, above the canvas.
@@ -38,4 +38,4 @@ Journey versions can be stopped individually. All versions of journeys have the 
 
 >[!NOTE]
 >
->When you publish a new version of a journey, the previous version automatically ends and switches to the **Closed** status. No entrance in the journey will happen. Even if you stop the latest version, the previous version will stay closed. 
+>When you publish a new version of a journey, the previous version automatically ends and switches to the **Closed** status. No entrance in the journey will happen. Even if you stop the latest version, the previous version will stay closed.

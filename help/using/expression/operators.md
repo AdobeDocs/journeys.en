@@ -6,9 +6,8 @@ description: Learn about operators in advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 ---
-
-
 # Operators {#concept_wd5_pj5_dgb}
 
 There are two kinds of operators: unary operators and binary operators. There are left-hand unary operators and right-hand unary operators.

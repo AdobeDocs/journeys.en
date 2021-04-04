@@ -6,9 +6,8 @@ description: Learn about field groups
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 ---
-
-
 # Field groups {#concept_ntl_ypt_52b}
 
 Field groups are sets of fields that you can retrieve from a data source and use in a journey.

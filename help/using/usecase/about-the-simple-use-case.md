@@ -6,8 +6,8 @@ description: Lean more on the journey simple use-case
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 ---
-
 # About the simple use case{#concept_grh_vby_w2b}
 
 ## Purpose {#purpose}

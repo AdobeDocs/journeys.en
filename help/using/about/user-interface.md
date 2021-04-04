@@ -6,8 +6,8 @@ description: Learn more on the user interface
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 ---
-
 # User interface{#concept_rcq_lqt_52b}
 
 >[!NOTE]
@@ -137,4 +137,3 @@ _In a journey:_
 * In an event-based journey in test mode, press **E** to trigger an event.
 * In a segment-based journey, when the **Single profile at a time** option is selected in test mode, press **P** to trigger an event.
 * In test mode, press **L** to display the logs.
-

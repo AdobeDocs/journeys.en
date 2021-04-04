@@ -6,9 +6,8 @@ description: Learn about field references in advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 ---
-
-
 # Field references {#concept_fkj_ll5_dgb}
 
 A field reference can be attached to an event or a field group. The only meaningful information is the name of the field and its path. 

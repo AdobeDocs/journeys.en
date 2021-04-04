@@ -6,8 +6,8 @@ description: Learn about the function sort
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 ---
-
 # sort {#sort}
 
 Sorts a list of values in the natural order. The first argument is the list of values, the second is a boolean value indicating if the sort is ascending (true) or descending (false).

@@ -6,8 +6,8 @@ description: Learn about the function setHours
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 ---
-
 # setHours {#setHours}
 
 Sets the hours of a date time or date time only. For example, if you want to wait until a certain hour tomorrow, you can force the hour.

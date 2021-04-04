@@ -6,8 +6,8 @@ description: Learn about the function trim
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e9adf8be-9c56-4b08-9857-578d0bb0ebb9
 ---
-
 # trim {#trim}
 
 Removes start and end spaces.

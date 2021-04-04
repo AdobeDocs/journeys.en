@@ -6,8 +6,8 @@ description: Learn about documentation updates
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 ---
-
 # Documentation Updates
 
 This page lists all the documentation updates for [!DNL Journey Orchestration].

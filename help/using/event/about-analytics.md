@@ -6,8 +6,8 @@ description: Learn how to leverage Adobe Analytics data
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 ---
-
 # Leveraging Adobe Analytics data{#analytics-data}
 
 >[!NOTE]

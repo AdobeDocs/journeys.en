@@ -6,8 +6,8 @@ description: Learn about the function lastIndexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
 ---
-
 # lastIndexOf {#lastIndexOf}
 
 Returns the position (in the first argument) of the last occurrence of the second parameter. Returns -1 if there is no match.

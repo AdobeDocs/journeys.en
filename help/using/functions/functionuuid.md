@@ -6,8 +6,8 @@ description: Learn about the function uuid
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
 ---
-
 # uuid {#uuid}
 
 Generates a random UUID (Universal Unique IDentifier).

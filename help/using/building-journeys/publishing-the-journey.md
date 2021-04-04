@@ -6,8 +6,8 @@ description: Learn about journey publication
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
 ---
-
 # Publishing the journey{#concept_mtc_lrt_52b}
 
 You can publish a journey after testing its validity.

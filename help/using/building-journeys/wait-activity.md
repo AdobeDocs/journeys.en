@@ -6,8 +6,8 @@ description: Learn about the wait activity
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 ---
-
 # Wait activity{#section_rlm_nft_dgb}
 
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Four options are available:

@@ -6,9 +6,8 @@ description: Learn about additional steps to send events to Journey Orchestratio
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 ---
-
-
 # Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]

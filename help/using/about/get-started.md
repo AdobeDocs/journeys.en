@@ -6,8 +6,8 @@ description: Discover the main steps to set up Journey Orchestration and build y
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 ---
-
 # Get started{#concept_y4b_4qt_52b}
 
 In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to [this page](../about/access-management.md) to learn how to configure user access.
@@ -63,4 +63,3 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
     For more on this, see [this page](../reporting/about-journey-reports.md).
 
     ![](../assets/dynamic_report_journey_12.png)
-

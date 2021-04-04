@@ -6,8 +6,8 @@ description: Learn about the function toDateTime
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 ---
-
 # toDateTimeOnly{#toDateTimeOnly}
 
 Converts an argument value into a date time only value.

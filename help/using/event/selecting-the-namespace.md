@@ -6,8 +6,8 @@ description: Learn how to select the namespace
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
 ---
-
 # Selecting the namespace {#concept_ckb_3qt_52b}
 
 The namespace allows you to define the type of key used to identify the person associated to the event. Its configuration is optional. It is required if you want to retrieve, in your journeys, additional information coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html). The namespace definition is not needed if you're only using data coming from a third-party system through a custom data source.

@@ -2,9 +2,9 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Creating a test profile
-description: Learn about test profile creation 
+description: Learn about test profile creation
+exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 ---
-
 # Create test profiles {#create-test-profiles}
 
 Test profiles are required when using the test mode in a journey. To learn how to use the test mode, refer to [this section](../building-journeys/testing-the-journey.md).
@@ -144,4 +144,3 @@ curl -X POST \
 }
 }'
 ```
-

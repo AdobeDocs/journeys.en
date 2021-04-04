@@ -6,8 +6,8 @@ description: Learn how to configure a data source
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 ---
-
 # About data sources {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]

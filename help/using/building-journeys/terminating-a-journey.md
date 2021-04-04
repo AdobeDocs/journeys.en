@@ -6,8 +6,8 @@ description: Learn how to terminate a journey
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 ---
-
 # Terminating a journey
 
 The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options allow you to terminate **live** journeys. Closing a journey involves **that the arrival of new customers in the journey is blocked** and that the customers who already entered in the journey are able to experience it to the end. This is the most recommended way to put an end to a journey as it offers the best experience for customers. Stopping a journey involves that people who already entered a journey are all stopped in their progress. The journey is basically switched off.

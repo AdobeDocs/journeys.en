@@ -6,8 +6,8 @@ description: Learn about the function serializeList
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 ---
-
 # serializeList {#serializeList}
 
 Converts the list (any type) given in the first parameter to a string. The second parameter represents the separator to use. The third parameter is a boolean value indicating if each element of the expression should include quotes.

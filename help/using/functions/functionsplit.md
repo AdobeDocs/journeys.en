@@ -6,8 +6,8 @@ description: Learn about the function split
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 ---
-
 # split {#split}
 
 Splits the first argument string with a separator string (second argument string, which can be a regular expression) to produce a list of strings (tokens).

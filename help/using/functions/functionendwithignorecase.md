@@ -6,8 +6,8 @@ description: Learn about the function endWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 3d14fe82-e287-4474-8d78-10efbf55d338
 ---
-
 # endWithIgnoreCase {#endWithIgnoreCase}
 
 Checks if the first argument string ends with a specific string (second argument string), not taking into account the case.

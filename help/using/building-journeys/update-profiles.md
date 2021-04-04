@@ -6,8 +6,8 @@ description: Jumping from one journey to another
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 ---
-
 # Update profile {#update-profile}
 
 The **[!UICONTROL Update profile]** action activity allows you to update an existing Adobe Experience Platform profile with information coming from the event, a datasource or using a specific value.

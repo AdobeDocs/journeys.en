@@ -6,8 +6,8 @@ description: Learn about the function countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ea72dc20-8183-4661-8e08-ddb4f3727d3d
 ---
-
 # countWithNull {#countWithNull}
 
 Counts all the elements of the list including null values.

@@ -6,9 +6,8 @@ description: Learn how to add a condition
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
 ---
-
-
 # Adding a condition {#concept_rbg_gqt_52b}
 
 For system-generated events, you can define an event condition which allows the system to filter the processing of events. If the condition is true, the event is processed. If the condition is not true, the event is ignored.

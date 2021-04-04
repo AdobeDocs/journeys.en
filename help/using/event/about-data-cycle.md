@@ -6,8 +6,8 @@ description: Learn about event data cycle
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
 ---
-
 # Data cycle {#section_r1f_xqt_pgb}
 
 Events are POST API calls. Events are sent to the Adobe Experience Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. 

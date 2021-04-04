@@ -6,8 +6,8 @@ description: Learn more on Journey Orchestration
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 ---
-
 # About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
@@ -41,4 +41,4 @@ As [!DNL Journey Orchestration] is multistep, you can create advanced scenarios.
 
 >[!NOTE]
 >
->This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
+>This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.

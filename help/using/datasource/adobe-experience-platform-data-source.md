@@ -6,8 +6,8 @@ description: Learn how to configure the Adobe Experience Platform data source
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 ---
-
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 
 The Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).

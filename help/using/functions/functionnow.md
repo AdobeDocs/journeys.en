@@ -6,8 +6,8 @@ description: Learn about the function now
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 ---
-
 # now {#now}
 
 Returns the current date in date time format. For more information on data types, refer to [this page](../expression/data-types.md).

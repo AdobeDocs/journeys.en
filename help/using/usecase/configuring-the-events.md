@@ -6,8 +6,8 @@ description: Learn how to configure the events for the journey advanced use case
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 ---
-
 # Configuring the events {#concept_sbp_5cy_w2b}
 
 In our scenario, we need to receive an event each time a person enters the Marlton hotel and the restaurant. The **technical user** needs to configure the two events we want the system to listen to in our journey.

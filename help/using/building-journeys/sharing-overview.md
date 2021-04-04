@@ -6,8 +6,8 @@ description: Journey step sharing overview
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 ---
-
 # Journey step sharing overview{#sharing-overview}
 
 [!DNL Journey Orchestration] automatically sends journey performance data to the Adobe Experience Platform so it can be combined with other data for analysis purposes. 

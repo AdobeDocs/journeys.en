@@ -6,8 +6,8 @@ description: Learn about the function distinctCount
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
 ---
-
 # distinctCount{#distinctCount}
 
 Counts the number of different values ignoring the null values.

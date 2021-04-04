@@ -6,8 +6,8 @@ description: Learn about orchestration activities
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 3c2de723-d990-43f5-b39d-2348de62bbcc
 ---
-
 # About orchestration activities {#concept_ksq_2rt_52b}
 
 From the palette, on the left-hand side of the screen, the following orchestration activities are available:

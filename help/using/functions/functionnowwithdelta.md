@@ -6,8 +6,8 @@ description: Learn about the function nowWithDelta
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
 ---
-
 # nowWithDelta {#nowWithDelta}
 
 Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more information on data types, refer to [this page](../expression/data-types.md).

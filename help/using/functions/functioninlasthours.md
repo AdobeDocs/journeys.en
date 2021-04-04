@@ -6,8 +6,8 @@ description: Learn about the function inLastHours
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
 ---
-
 # inLastHours {#inLastHours}
 
 Returns true if the given date time is between now and now - delta hours. 

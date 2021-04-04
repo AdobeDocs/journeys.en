@@ -6,8 +6,8 @@ description: Learn how to define the event key
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 ---
-
 # Defining the event key {#concept_ond_hqt_52b}
 
 The key is the field or combination of fields is part of the event payload data and that will allow the system to identify the person associated to the event. The key can be, for example, the Experience Cloud ID, a CRM ID or an email address.
@@ -33,4 +33,4 @@ If you need to use a different key, such as a CRM ID or an email address, you ne
 When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [this page](../event/selecting-the-namespace.md)), the key can be used to perform queries on the Adobe Experience Platform. See [this page](../building-journeys/about-orchestration-activities.md).
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
-You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See [this page](../expression/expressionadvanced.md).  
+You also have access to the advanced expression functions (**[!UICONTROL Advanced mode]**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See [this page](../expression/expressionadvanced.md).

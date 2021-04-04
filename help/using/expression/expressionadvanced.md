@@ -6,8 +6,8 @@ description: Learn how to build advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 ---
-
 # About the advanced expression editor {#concept_uyj_trt_52b}
 
 The advanced expression editor allows you to build advanced expressions in various screens of the interface, for example, when defining a data source condition.

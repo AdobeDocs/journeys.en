@@ -6,9 +6,8 @@ description: Learn how to use a segment
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 ---
-
-
 # Creating a segment {#creating-a-segment}
 
 You can either create a segment using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].

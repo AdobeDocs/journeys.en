@@ -6,8 +6,8 @@ description: Learn how to configure the event for the journey simple use case
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 ---
-
 # Configuring the event{#concept_y44_hcy_w2b}
 
 In our scenario, we need to receive an event each time a person walks near a beacon positioned next to the spa. The **technical user** needs to configure the event the system will listen to in our journey.

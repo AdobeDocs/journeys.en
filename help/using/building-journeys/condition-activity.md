@@ -6,8 +6,8 @@ description: Learn about condition activities
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 ---
-
 # Condition activity{#section_e2n_pft_dgb}
 
 Four types of conditions are available:

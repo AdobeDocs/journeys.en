@@ -6,8 +6,8 @@ description: Learn how to configure the data source for the journey advanced use
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 ---
-
 # Configuring the data sources {#concept_vml_hdy_w2b}
 
 In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Real-time Customer Profile database. The **technical user** needs to configure the Adobe Experience Platform data source to retrieve those fields.

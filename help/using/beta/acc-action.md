@@ -8,8 +8,8 @@ hidefromtoc: yes
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 ---
-
 # Integrating with Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
 This integration allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
@@ -73,4 +73,3 @@ For each action configured, an action activity is available in the journey desig
 1. In the **Action parameters**, all the fields expected in the message payload are displayed. You need to map each of these fields with the field you want to use, either from the event or from the data source. This is similar to custom actions. Refer to this [section](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
-

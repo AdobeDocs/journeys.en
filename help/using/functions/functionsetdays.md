@@ -6,8 +6,8 @@ description: Learn about the function setDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 ---
-
 # setDays {#setDays}
 
 Sets the day of a date time or date time only. For example, if you want to wait until a certain day of the month, you can force the day.

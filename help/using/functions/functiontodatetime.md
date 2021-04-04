@@ -6,6 +6,7 @@ description: Learn about the function toDateTime
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 ---
 # toDateTime {#toDateTime}
 

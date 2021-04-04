@@ -6,8 +6,8 @@ description: Learn about the function distinctWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 ---
-
 # distinctWithNull {#distinctWithNull}
 
 Returns the distinct values of the list. If the list has at least one null value, a null value will be in the returned list.

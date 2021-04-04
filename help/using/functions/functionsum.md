@@ -6,8 +6,8 @@ description: Learn about the function sum
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 ---
-
 # sum {#sum}
 
 Returns the sum of the values of a set of expressions. Null values are ignored.

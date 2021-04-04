@@ -6,8 +6,8 @@ description: journeyStep events action execution fields
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 ---
-
 # journeyStep events action execution fields {#sharing-execution-fields}
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.

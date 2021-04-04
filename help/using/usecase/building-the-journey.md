@@ -6,8 +6,8 @@ description: Learn how to build the advanced use case journey
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 ---
-
 # Building the journey {#concept_owm_kdy_w2b}
 
 The **business user** can now build the journey. Our journey will include the following activities:

@@ -6,8 +6,8 @@ description: Learn how to define the message parameters
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 ---
-
 # Defining the message parameters {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)

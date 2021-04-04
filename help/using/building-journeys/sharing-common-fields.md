@@ -6,8 +6,8 @@ description: journeysteps events common fields
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 ---
-
 # journeysteps events common fields {#sharing-common-fields}
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.

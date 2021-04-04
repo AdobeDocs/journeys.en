@@ -6,8 +6,8 @@ description: Learn about dimensions and metrics available for Journey Orchestrat
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 ---
-
 # Metrics and dimensions {#concept_rfj_wpt_52b}
 
 >[!NOTE]

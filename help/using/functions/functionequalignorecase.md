@@ -6,8 +6,8 @@ description: Learn about the function equalWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
 ---
-
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
 Compares the first argument string with the second argument string, ignoring case considerations.

@@ -6,8 +6,8 @@ description: Learn how to build the simple use case journey
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 ---
-
 # Building the journey{#concept_eyw_mcy_w2b}
 
 The **business user** can now build the journey. Our journey will only include one path with the following activities:

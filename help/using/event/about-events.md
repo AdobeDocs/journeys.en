@@ -6,8 +6,8 @@ description: Learn about events
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 ---
-
 # General principle {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
@@ -34,4 +34,3 @@ You can define two types of events:
 * **System-generated** events: these events require an eventID. This eventID field is automatically generated when creating the event. The system pushing the event should not generate an ID, it should pass the one available in the payload preview. 
 
 To learn how to create an event, refer to this [page](../event/about-creating.md).
-

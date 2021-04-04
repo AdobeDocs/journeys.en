@@ -6,9 +6,8 @@ description: Learn how to configure external data sources
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 ---
-
-
 # External data sources {#concept_t2s_kqt_52b}
 
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.

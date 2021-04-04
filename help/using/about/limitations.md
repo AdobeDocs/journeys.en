@@ -6,8 +6,8 @@ description: Learn more on Journey Orchestration limitations
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
-
 # Limitations {#limitations}
 
 Here are limitations related to the use of Journey Orchestration.
@@ -60,4 +60,4 @@ You can choose from one of these two solutions:
 
 * Add a wait activity after the first event, to give Adobe Experience Platform the time it needs to perform the ingestion to Profile Service.
 
-* Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc). 
+* Set up a journey that does not immediately leverage the profile. For example, if the journey is designed to confirm an account creation, the experience event could contain information needed to send the first confirmation message (first name, last name, email address, etc).

@@ -6,8 +6,8 @@ description: Learn how to build your journey reports
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 ---
-
 # About journey reports {#concept_rfj_wpt_52b}
 
 >[!NOTE]

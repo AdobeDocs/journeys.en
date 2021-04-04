@@ -6,8 +6,8 @@ description: Learn about the function replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
 ---
-
 # replaceAll {#replaceAll}
 
 Replaces all occurrences matching the target string by the replacement string in the base string.

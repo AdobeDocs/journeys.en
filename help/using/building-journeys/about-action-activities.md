@@ -6,8 +6,8 @@ description: Learn about action activities
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 ---
-
 # About action activities {#concept_hbj_hrt_52b}
 
 From the palette, on the left-hand side of the screen, below **[!UICONTROL Events]** and **[!UICONTROL Orchestration]**, you will find the **[!UICONTROL Actions]** category.

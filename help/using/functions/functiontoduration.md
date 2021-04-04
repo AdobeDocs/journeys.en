@@ -6,8 +6,8 @@ description: Learn about the function toDuration
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 ---
-
 # toDuration {#toDuration}
 
 Converts an argument value to a duration. For more information on data types, refer to [this page](../expression/data-types.md).

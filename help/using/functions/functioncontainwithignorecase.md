@@ -6,8 +6,8 @@ description: Learn about the function containWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 ---
-
 # containWithIgnoreCase {#containWithIgnoreCase}
 
 Checks if the second argument string is contained in the first argument string, without taking into account the case.

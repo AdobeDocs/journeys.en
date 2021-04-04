@@ -6,8 +6,8 @@ description: Learn about the function startWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
 ---
-
 # startWith {#startWith}
 
 Returns true if the second parameter is a prefix of the first one.

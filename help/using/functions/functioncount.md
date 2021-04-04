@@ -6,8 +6,8 @@ description: Learn about the function count
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
 ---
-
 # count {#count}
 
 Counts the elements of the list not taking into account the null values.

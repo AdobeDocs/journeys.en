@@ -6,8 +6,8 @@ description: Learn about data types in collection management functions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 ---
-
 # Collection management functions {#collection-management-functions}
 
 The expression language also introduces a set of functions to query collections.

@@ -6,8 +6,8 @@ description: Learn about release notes
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 ---
-
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for Journey Orchestration.

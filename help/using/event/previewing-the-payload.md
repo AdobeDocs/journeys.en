@@ -6,9 +6,8 @@ description: Learn how to preview the payload
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
 ---
-
-
 # Previewing the payload {#concept_jgf_4yk_4fb}
 
 The payload preview allows you to validate the payload definition.

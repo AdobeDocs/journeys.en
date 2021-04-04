@@ -6,8 +6,8 @@ description: Learn about the function inNextDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 ---
-
 # inNextDays {#inNextDays}
 
 Returns true if a given date or dateTime is between now and now + delta days.

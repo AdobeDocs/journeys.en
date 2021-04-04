@@ -6,9 +6,8 @@ description: Learn about time zone management
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 ---
-
-
 # Time zone management {#timezone_management}
 
 You can define a time zone in the [properties](../building-journeys/changing-properties.md) of your journey.

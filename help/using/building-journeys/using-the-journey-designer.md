@@ -6,8 +6,8 @@ description: Learn more on using the journey designer
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 ---
-
 # Using the journey designer {#concept_m1g_5qt_52b}
 
 The journey Home menu allows you to view the **list of journeys**. Create a new journey or click on a existing one to open the **journey designer's interface**. The designer is made up of the following zones: the palette, the canvas and the activity configuration pane.
@@ -111,4 +111,3 @@ Here are the steps to copy/paste activities:
     ![](../assets/copy-paste2.png)
 1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
     ![](../assets/copy-paste3.png)
-

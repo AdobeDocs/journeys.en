@@ -6,8 +6,8 @@ description: Learn about data types in advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 ---
-
 # Data types {#concept_gp3_rj5_dgb}
 
 Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.

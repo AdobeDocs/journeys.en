@@ -7,8 +7,8 @@ products: journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 ---
-
 # Working with Capping API
 
 ## Introduction
@@ -211,4 +211,3 @@ Use-Case n°5: **Update a capping configuration already deployed**
 1. undeploy
 1. candeploy
 1. deploy
-

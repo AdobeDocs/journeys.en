@@ -6,8 +6,8 @@ description: Learn how to build advanced expressions
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 ---
-
 # Advanced expression examples
 
 The Advanced expression editor can be used to create conditions to allow you to filter users in your journeys. These conditions enable you to target users on time, date, location, duration, or actions such as purchase or abandonment of carts so that they can be retargeted in the journey.

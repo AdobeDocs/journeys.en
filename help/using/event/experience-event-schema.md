@@ -6,9 +6,8 @@ description: Learn about ExperienceEvent Schemas for Journey Orchestration Event
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 ---
-
-
 # About ExperienceEvent Schemas for [!DNL Journey Orchestration] Events 
 
 [!DNL Journey Orchestration] events are XDM Experience Events that are sent to the Adobe Experience Platform via Streaming Ingestion.

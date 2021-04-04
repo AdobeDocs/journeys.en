@@ -6,8 +6,8 @@ description: Learn about advanced expression generalities
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 ---
-
 # Generalities {#concept_rcy_qj5_dgb}
 
 ## Parentheses and expression priority{#section_edf_fks_bgb}

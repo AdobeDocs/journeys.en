@@ -6,8 +6,8 @@ description: Learn about the function inSegment
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 ---
-
 # inSegment {#inSegment}
 
 Checks if an individual belongs to a given segment.

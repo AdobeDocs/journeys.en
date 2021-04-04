@@ -6,8 +6,8 @@ description: Learn about the function substr
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 ---
-
 # substr {#substr}
 
 Returns the sub-string of the string expression between the begin index and the end index. If the end index is not defined, then it is between the begin index and the end.

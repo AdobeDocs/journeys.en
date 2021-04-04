@@ -6,8 +6,8 @@ description: Learn about URL configuration
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 ---
-
 # URL configuration {#concept_gbg_1f1_2gb}
 
 When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:

@@ -6,8 +6,8 @@ description: Jumping from one journey to another
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 ---
-
 # Jumping from one journey to another {#jump}
 
 The **[!UICONTROL Jump]** action activity allows you to push individuals from one journey to another. This feature allows you to:

@@ -6,8 +6,8 @@ description: Learn about the function toString
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 ---
-
 # toString {#toString}
 
 Converts an argument value into a string value, depending on its type. For more information on data types, refer to [this page](../expression/data-types.md).

@@ -6,8 +6,8 @@ description: journey fields
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 ---
-
 # journey fields {#sharing-journey-fields}
 
 This mixin is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:

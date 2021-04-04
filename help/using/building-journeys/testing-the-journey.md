@@ -6,8 +6,8 @@ description: Learn about journey testing
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 ---
-
 # Testing the journey{#testing_the_journey}
 
 Before being able to test your journey, you must resolve all errors if any. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb).
@@ -198,4 +198,3 @@ There is a scenario when there are multiple events sent from multiple journeys t
 Automatic creation and naming of these datasets is performed if a destination dataset is not included in the experience event. That is why we see the "Automatically created dataset for voyager" today.
 
 The naming of our source drives the automatic creation. If we have multiple events, we should concatenate and have it be "Journey Orchestration Test Event - NAME OF SCHEMA". This will automatically turn to "Automatically generated dataset for Journey Orchestration Test Event - NAME OF SCHEMA".
-

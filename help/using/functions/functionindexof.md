@@ -6,8 +6,8 @@ description: Learn about the function indexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 ---
-
 # indexOf {#indexOf}
 
 Checks if the first argument string ends with a specific string (second argument string). If the string is not found, return -1.

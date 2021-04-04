@@ -6,8 +6,8 @@ description: Learn how to configure an Adobe Experience Platform segment
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 ---
-
 # About Adobe Experience Platform segments {#about-segments}
 
 If you're using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in [!DNL Journey Orchestration]. Thanks to a dedicated event activity, you can make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. This also allows you to build complex conditions in your journeys using the simple or advanced expression editor.

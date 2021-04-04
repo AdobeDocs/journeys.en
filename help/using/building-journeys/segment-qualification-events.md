@@ -6,8 +6,8 @@ description: Learn about segment qualification events
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 ---
-
 # Segment qualification events {#segment-qualification}
 
 ## About segment qualification events{#about-segment-qualification}

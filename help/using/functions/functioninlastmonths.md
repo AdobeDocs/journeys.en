@@ -6,8 +6,8 @@ description: Learn about the function inLastMonths
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
 ---
-
 # inLastMonths {#inLastMonths}
 
 Returns true if a given date or dateTime is between now and now - delta months.

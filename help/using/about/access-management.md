@@ -6,8 +6,8 @@ description: Learn more on access management
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 ---
-
 # Access management{#concept_rfj_wpt_52b}
 
 ## About access management {#about-access-management}

@@ -6,8 +6,8 @@ description: Learn about the function isEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7846948c-6dc9-4d66-bf20-2fbcfa624b5d
 ---
-
 # isEmpty {#isEmpty}
 
 Returns true if the string in the parameter has no character.

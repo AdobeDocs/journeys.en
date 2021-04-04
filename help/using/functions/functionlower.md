@@ -6,8 +6,8 @@ description: Learn about the function lower
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 12645ae2-5db2-46ec-a0d6-b7defe23e8bd
 ---
-
 # lower {#lower}
 
 Returns a lowercase version of the parameter.

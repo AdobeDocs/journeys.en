@@ -6,8 +6,8 @@ description: Learn about the function listSize
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
 ---
-
 # listSize {#listSize}
 
 Counts the number of elements in the list.

@@ -6,8 +6,8 @@ description: Learn about the function concat
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 ---
-
 # concat {#concat}
 
 Concatenates two string parameters or a list of strings.

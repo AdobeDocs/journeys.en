@@ -6,8 +6,8 @@ description: Learn about journey properties
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 ---
-
 # Journey properties attributes {#journey-properties}
 
 In the advanced expression editor, you will find the **Journey Properties** category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered.

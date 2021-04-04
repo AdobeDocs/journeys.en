@@ -6,8 +6,8 @@ description: Learn about the function inNextYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 8aab6f60-feba-4be2-9a32-ba4ed7f3d7de
 ---
-
 # inNextYears {#inNextYears}
 
 Returns true if a given date or dateTime is between now and now + delta years.

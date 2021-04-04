@@ -6,8 +6,8 @@ description: Learn about the function inNextHours
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 4bcbfdbc-fc95-4089-8abc-f9314dde2c06
 ---
-
 # inNextHours {#inNextHours}
 
 Returns true if a given date or dateTime is between now and now + delta hours.
