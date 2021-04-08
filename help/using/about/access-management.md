@@ -35,7 +35,7 @@ In the Admin console, you can assign one of the following out-of-the-box product
 
     >[!NOTE]
     >
-    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys.
+    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys. It should not be renamed in the Admin console.
 
 *   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following permissions:
     *   Manage journeys
