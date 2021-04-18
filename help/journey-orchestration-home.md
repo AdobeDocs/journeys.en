@@ -3,7 +3,7 @@ keywords: Journeys;home;popular topics
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration product documentation
-topic: Premium
+description: Journey Orchestration product documentation
 feature: Journeys
 role: Business Practitioner
 level: Beginner
