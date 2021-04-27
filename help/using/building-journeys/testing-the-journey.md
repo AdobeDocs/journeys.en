@@ -126,6 +126,10 @@ The **[!UICONTROL Trigger an event]** button allows you to configure an event th
 
 As a prerequisite, you must know which profiles are flagged as test profiles in the Adobe Experience Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID or an email address for example. The value of this key needs to be added in the **Profile Identifier** field. 
 
+>[!NOTE]
+>
+>A dropdown is displayed for fields that expect an enumeration. Simply select one of the available values. 
+
 If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use.
 
 ![](../assets/journeytest4.png)
