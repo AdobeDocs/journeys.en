@@ -13,6 +13,12 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## April 2021 Release {#april-2021-release}
+
+### Improvements
+
+* In the **Event configuration** screen of the test mode, a dropdown is now displayed for fields that expect an enumeration. Simply select one of the available values. This will avoid errors when triggering the event if an incorrect value is defined.
+
 ## March 2021 Release {#march-2021-release}
 
 ### Improvements
