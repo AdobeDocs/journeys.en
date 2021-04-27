@@ -17,7 +17,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-* In the **Event configuration** screen of the test mode, a dropdown is now displayed for fields that expect an enumeration. Simply select one of the available values. This will avoid errors when triggering the event if an incorrect value is defined.
+* In the **Event configuration** screen of the test mode, a dropdown is now displayed for fields that expect an enumeration. Simply select one of the available values. This will avoid errors when triggering the event if an incorrect value is defined.[Read more](../building-journeys/testing-the-journey.md#firing_events)
 
 ## March 2021 Release {#march-2021-release}
 
