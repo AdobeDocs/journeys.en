@@ -10,7 +10,7 @@ exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 ---
 # Wait activity{#section_rlm_nft_dgb}
 
-If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Four options are available:
+If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
 * [Fixed date](#fixed_date) 
@@ -49,7 +49,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 >[!NOTE]
 >
->You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, the field in the event being of the form 2016-08-12T09:46:06Z.
+>You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), the field in the event being of the form 2016-08-12T09:46:06Z.
 >
 >The **time zone** is expected in the properties of your journey. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and time zone offset like 2016-08-12T09:46:06.982-05. See [this page](../building-journeys/timezone-management.md).
 
