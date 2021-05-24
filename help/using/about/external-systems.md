@@ -10,12 +10,17 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
 # Integrating with external systems {#external-systems}
 
+<<<<<<< Updated upstream
 This page presents the different guardrails provided by Journey Orchestration when integrating an external system, as well as best practices: how to optimize the protection of your external system with the capping API, how to configure journey timeout, and how retries work. 
+=======
+This page presents the different guardrails provided by Journey Orchestration when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work. 
+>>>>>>> Stashed changes
 
 Journey Orchestration allows you to configure connections to external sytems via custom data sources and custom actions. This allows you, for example, to enrich your journeys with data coming from an external reservation system, or send messages using a third-party systems such as Epsilon or Facebook.
 
 When integrating an external system, you can encounter several issues, the system can be slow, can stop responding, or it might not be able to handle a large volume. Journey Orchestration offers several guardrails to protect your system from over-loading.
 
+<<<<<<< Updated upstream
 All external systems are different in terms of performance. You need to adapt the configuration to each use case.
 
 When Journey Orchestration executes a call to an external API, the technical guardrails are executed as follows:
@@ -39,3 +44,45 @@ To learn how to configure capping rules, refer to [this page](../api/timezone-ma
 
 Ensuite -> timeout defini, et qui definir le temps maximal qu'on aloue a lappel au sys externe. Pendant ce temps là, on essaie de faire des appels. On fait un appel, si l'appel dure moinre longtemps que le timeout ca marche, si plus longtemps on voit ca comme une timeout error, et coté reporting compabilisé comme une erreur. si l'appel echoue, (planter sur 500 ou autre), retry. 3 retry max, pas configurable. SI ca excede le timeoutglobal (par exemple 2 essais,  mais depasse le timeout) erreur de timeout. plsu de temps que necessaire. Timeout durée max qu'on alloue a appel et aux retries si erreurs.
 
+=======
+All external systems are different in terms of performance. You need to adapt the configuration to your use cases.
+
+When Journey Orchestration executes a call to an external API, the technical guardrails are executed as follows:
+
+1. Capping rules are applied: if the maximum rate is reached, remaining calls are discarded.
+2. Timeout and retry: if the capping rule is fullfilled, Journey Orchestration tries to perform the call within the timeout duration. 
+
+## Capping
+
+The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. Beforehand, you need to evaluate the capacity of your external API. For example, if Journey Orchestration sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
+
+Capping rules are defined at sanddox level for a specific endpoint (URL called). At runtime, Journey Orchestration verifies if there is a capping rule defined and applies the defined rate during the calls to that endpoint. If the number of calls exceeds the defined rate, the remaining calls are discarded and an error is counted in reporting.
+
+A capping rule is specific to one endpoint but global to all the journeys of a sandbox. This means that capping slots are shared between all journeys of a sandbox.
+
+For example, let's say that you have defined capping of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard the 100 remaining slots. Since the maximum rate is already exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
+
+To learn more on the capping API and how to configure capping rules, refer to [this page](../api/capping.md). 
+
+## Timeout and retries
+
+If the capping rule is fullfilled, then the timeout rule is applied.
+
+In each journey, you can define a timeout duration. This allows you to set a maximum duration when calling an external system. Timeout duration is configured in the properties of a journey. Refer to [this page](../building-journeys/changing-properties.md#timeout_and_error).
+
+This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default it is set to 5 seconds. 
+
+During the defined timeout duration, Journey Orchestration tries to call the external system. After the first call, a maximum of three retries can be performed within the timeout duration. The number of retries cannot be changed. 
+
+Each retry uses one slot. If you have a capping of 100 calls per second and each of your calls require two retries, the rate drops to 30 calls per second (each call uses 3 slots). 
+
+The timeout duration value depends on the use case. If you want to send your message quickly, for example when the client enters the store, then you do not want to set up a long timeout. Also the longer the timeout is, the more items will be placed in queue. This can impact performance. If Journey Orchestration performs 1000 calls per seconds, keeping 5 or 15 seconds of data can overwhelm the system.
+
+Let's take an example for a timeout of 5 seconds.
+
+* The first call lasts less than 5 seconds: the call is successful, no retry is performed.
+* The first call lasts longer 5 seconds: the call is cancelled and there is no retry. It is counted as a timeout error in reporting. 
+* The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
+    * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
+    * If the timeout duration is exceeded during the retries, the call is cancelled and there is no retry. It is counted as a timeout error in reporting. 
+>>>>>>> Stashed changes
