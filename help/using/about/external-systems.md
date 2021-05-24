@@ -12,7 +12,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 
 This page presents the different guardrails provided by Journey Orchestration when integrating an external system, as well as best practices: how to optimize the protection of your external system using the capping API, how to configure journey timeout, and how retries work. 
 
-Journey Orchestration allows you to configure connections to external sytems via custom data sources and custom actions. This allows you, for example, to enrich your journeys with data coming from an external reservation system, or send messages using a third-party systems such as Epsilon or Facebook.
+Journey Orchestration allows you to configure connections to external systems via custom data sources and custom actions. This allows you, for example, to enrich your journeys with data coming from an external reservation system, or send messages using a third-party system such as Epsilon or Facebook.
 
 When integrating an external system, you can encounter several issues, the system can be slow, can stop responding, or it might not be able to handle a large volume. Journey Orchestration offers several guardrails to protect your system from over-loading.
 
@@ -21,13 +21,13 @@ All external systems are different in terms of performance. You need to adapt th
 When Journey Orchestration executes a call to an external API, the technical guardrails are executed as follows:
 
 1. Capping rules are applied: if the maximum rate is reached, remaining calls are discarded.
-2. Timeout and retry: if the capping rule is fullfilled, Journey Orchestration tries to perform the call within the timeout duration. 
+2. Timeout and retry: if the capping rule is fulfilled, Journey Orchestration tries to perform the call within the timeout duration. 
 
 ## Capping
 
 The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. Beforehand, you need to evaluate the capacity of your external API. For example, if Journey Orchestration sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
 
-Capping rules are defined at sanddox level for a specific endpoint (URL called). At runtime, Journey Orchestration verifies if there is a capping rule defined and applies the defined rate during the calls to that endpoint. If the number of calls exceeds the defined rate, the remaining calls are discarded and an error is counted in reporting.
+Capping rules are defined at sandbox level for a specific endpoint (URL called). At runtime, Journey Orchestration verifies if there is a capping rule defined and applies the defined rate during the calls to that endpoint. If the number of calls exceeds the defined rate, the remaining calls are discarded and an error is counted in reporting.
 
 A capping rule is specific to one endpoint but global to all the journeys of a sandbox. This means that capping slots are shared between all journeys of a sandbox.
 
@@ -37,17 +37,17 @@ To learn more on the capping API and how to configure capping rules, refer to [t
 
 ## Timeout and retries
 
-If the capping rule is fullfilled, then the timeout rule is applied.
+If the capping rule is fulfilled, then the timeout rule is applied.
 
 In each journey, you can define a timeout duration. This allows you to set a maximum duration when calling an external system. Timeout duration is configured in the properties of a journey. Refer to [this page](../building-journeys/changing-properties.md#timeout_and_error).
 
-This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default it is set to 5 seconds. 
+This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default, it is set to 5 seconds. 
 
 During the defined timeout duration, Journey Orchestration tries to call the external system. After the first call, a maximum of three retries can be performed within the timeout duration. The number of retries cannot be changed. 
 
 Each retry uses one slot. If you have a capping of 100 calls per second and each of your calls require two retries, the rate drops to 30 calls per second (each call uses 3 slots). 
 
-The timeout duration value depends on the use case. If you want to send your message quickly, for example when the client enters the store, then you do not want to set up a long timeout. Also the longer the timeout is, the more items will be placed in queue. This can impact performance. If Journey Orchestration performs 1000 calls per seconds, keeping 5 or 15 seconds of data can overwhelm the system.
+The timeout duration value depends on the use case. If you want to send your message quickly, for example when the client enters the store, then you do not want to set up a long timeout. Also, the longer the timeout is, the more items will be placed in queue. This can impact performance. If Journey Orchestration performs 1000 calls per seconds, keeping 5 or 15 seconds of data can overwhelm the system.
 
 Let's take an example for a timeout of 5 seconds.
 
