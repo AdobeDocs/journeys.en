@@ -60,14 +60,14 @@ Let's take an example for a timeout of 5 seconds.
 
 ## Frequently asked questions{#faq}
 
-**How can I setup a capping rule? Is there a default capping rule?**
+**How can I configure a capping rule? Is there a default capping rule?**
 
 By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../about/external-systems.md#capping) and [this page](../api/capping.md). 
 
-**How many retries are performed? Can I change the number of retries or define a minumim wait period between retries c?**
+**How many retries are performed? Can I change the number of retries or define a minumim wait period between retries?**
 
 For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. Refer to [this section](../about/external-systems.md#timeout). 
 
-**Where can I setup the timeout? Is there a maximum value?**
+**Where can I configure the timeout? Is there a maximum value?**
 
 In each journey, you can define a timeout duration. Timeout duration is configured in the properties of a journey. Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../about/external-systems.md#timeout) and [this page](../building-journeys/changing-properties.md#timeout_and_error). 
