@@ -41,8 +41,7 @@ feature: Journeys
   + [External data sources](using/datasource/external-data-sources.md)
 + Configuring an action {#action-journeys}
   + [About actions](using/action/action.md)
-  + [Working with Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-  + [Working with Adobe Campaign Classic](using/action/acc-action.md)
+  + [Working with Adobe Campaign](using/action/working-with-adobe-campaign.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [URL configuration](using/action/url-configuration.md)
