@@ -21,7 +21,6 @@ feature: Journeys
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
   + [Troubleshooting](using/about/troubleshooting.md)
-  + [Integrating with external systems](using/about/external-systems.md)
 + Configuring an event {#events-journeys}
   + About events {#about-events}
     + [General principle](using/event/about-events.md)
