@@ -24,7 +24,7 @@ When Journey Orchestration executes a call to an external API, the technical gua
 
 2. Timeout and retry: if the capping rule is fulfilled, Journey Orchestration tries to perform the call until the end of the timeout duration is reached. 
 
-## Capping
+## Capping{#capping}
 
 The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. Beforehand, you need to evaluate the capacity of your external API. For example, if Journey Orchestration sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
 
@@ -36,7 +36,7 @@ For example, let's say that you have defined a capping rule of 100 calls per sec
 
 To learn more on the capping API and how to configure capping rules, refer to [this page](../api/capping.md). 
 
-## Timeout and retries
+## Timeout and retries{#timeout}
 
 If the capping rule is fulfilled, then the timeout rule is applied.
 
@@ -57,3 +57,17 @@ Let's take an example for a timeout of 5 seconds.
 * The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
     * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
     * If the end of the timeout duration is reached during the retries, the call is cancelled andcounted as a timeout error in reporting. 
+
+## Frequently asked questions{#faq}
+
+**How can I setup a capping rule? Is there a default capping rule?**
+
+By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../about/external-systems.md#capping) and [this page](../api/capping.md). 
+
+**How many retries are performed? Can I change the number of retries or define a minumim wait period between retries c?**
+
+For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. Refer to [this section](../about/external-systems.md#timeout). 
+
+**Where can I setup the timeout? Is there a maximum value?**
+
+In each journey, you can define a timeout duration. Timeout duration is configured in the properties of a journey. Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../about/external-systems.md#timeout) and [this page](../building-journeys/changing-properties.md#timeout_and_error). 
