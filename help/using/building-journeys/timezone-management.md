@@ -29,7 +29,7 @@ The time zone can also be fixed. Clear the pre-defined time zone and pick one fr
 
 To do so, in **[!UICONTROL Properties]**, select a time zone. 
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Using profiles to define the journey time zone {#timezone-from-profiles}
 
@@ -41,7 +41,7 @@ If the individual's profile does not contain a time zone, the timezone retrieved
 
 To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Using time zones in expressions {#timezone-in-expressions}
 
