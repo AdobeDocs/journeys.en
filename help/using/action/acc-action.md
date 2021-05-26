@@ -16,10 +16,6 @@ This integration allows you to send emails, push notifications and SMS using Ado
 
 The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time.
 
->[!CAUTION]
->
-> This integration is released as a private beta. It is not available to all Journey Orchestration customers.
-
 ## Important notes
 
 * There is no throttling of messages. We cap the number of messages that can be sent over to 50,000/hour based on our current Campaign Classic SLA. For this reason, Journey orchestration should only be used in unitary use cases (individual events, not segments).
