@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: indexOf
 description: Learn about the function indexOf
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: lastIndexOf
 description: Learn about the function lastIndexOf
 feature: Journeys

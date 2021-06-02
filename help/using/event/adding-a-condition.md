@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Adding a condition
 description: Learn how to add a condition
 feature: Journeys

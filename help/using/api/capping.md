@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Capping API description
 description: Learn more about the Capping API.
 products: journeys

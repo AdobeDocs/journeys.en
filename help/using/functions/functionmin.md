@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: min
 description: Learn about the function min
 feature: Journeys

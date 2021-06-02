@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About journey building
 description: As a business user, learn how to combine event, orchestration, and action activities to build a journey.
 feature: Journeys

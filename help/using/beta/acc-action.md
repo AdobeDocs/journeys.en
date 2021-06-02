@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About Campaign Classic integration
 description: Learn about Campaign Classic integration
 hide: yes

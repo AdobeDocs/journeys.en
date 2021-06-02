@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Metrics and dimensions
 description: Learn about dimensions and metrics available for Journey Orchestration
 feature: Journeys

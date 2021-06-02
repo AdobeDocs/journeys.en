@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: External data sources 
 description: Learn how to configure external data sources 
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: notEqualWithIgnoreCase
 description: Learn about the function notEqualWithIgnoreCase
 feature: Journeys

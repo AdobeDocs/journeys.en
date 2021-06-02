@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastHours
 description: Learn about the function inLastHours
 feature: Journeys

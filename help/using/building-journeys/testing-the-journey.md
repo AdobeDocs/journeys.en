@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Testing the journey
 description: Learn about journey testing 
 feature: Journeys

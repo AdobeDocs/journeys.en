@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Configuring the event
 description: Learn how to configure the event for the journey simple use case
 feature: Journeys

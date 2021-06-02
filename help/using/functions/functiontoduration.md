@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDuration
 description: Learn about the function toDuration
 feature: Journeys

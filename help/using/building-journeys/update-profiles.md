@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Jumping from one journey to another
 description: Jumping from one journey to another
 feature: Journeys

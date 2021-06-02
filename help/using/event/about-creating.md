@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Creating an event
 description: Learn how to create an event
 feature: Journeys

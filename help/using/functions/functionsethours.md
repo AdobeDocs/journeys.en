@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setHours
 description: Learn about the function setHours
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Defining the payload fields
 description: Learn about how to define the payload fields
 feature: Journeys

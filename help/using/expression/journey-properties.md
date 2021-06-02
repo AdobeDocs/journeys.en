@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey properties
 description: Learn about journey properties
 feature: Journeys

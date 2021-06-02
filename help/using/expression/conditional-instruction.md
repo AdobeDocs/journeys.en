@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Conditional instruction (if, then, else)
 description: Learn about conditional instruction
 feature: Journeys

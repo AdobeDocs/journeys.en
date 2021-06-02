@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Additional steps to send events to Journey Orchestration
 description: Learn about additional steps to send events to Journey Orchestration
 feature: Journeys

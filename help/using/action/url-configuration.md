@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: URL configuration
 description: Learn about URL configuration
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Troubleshooting
 description: Learn more on troubleshooting
 feature: Journeys

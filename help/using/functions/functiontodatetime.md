@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTime
 description: Learn about the function toDateTime
 feature: Journeys

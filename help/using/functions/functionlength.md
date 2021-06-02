@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: length
 description: Learn about the function length
 feature: Journeys

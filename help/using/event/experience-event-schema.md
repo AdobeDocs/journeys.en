@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About ExperienceEvent Schemas for Journey Orchestration Events 
 description: Learn about ExperienceEvent Schemas for Journey Orchestration Events 
 feature: Journeys

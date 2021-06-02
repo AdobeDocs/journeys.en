@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: isEmpty
 description: Learn about the function isEmpty
 feature: Journeys
