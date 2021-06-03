@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Condition activity
 description: Learn about condition activities
 feature: Journeys

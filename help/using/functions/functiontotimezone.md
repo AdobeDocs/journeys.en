@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toTimeZone
 description: Learn about the function toTimeZone
 ---

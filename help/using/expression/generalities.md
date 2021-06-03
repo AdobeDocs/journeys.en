@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Generalities
 description: Learn about advanced expression generalities
 feature: Journeys

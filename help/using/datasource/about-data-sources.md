@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About data sources
 description: Learn how to configure a data source 
 feature: Journeys

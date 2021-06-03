@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: End activity
 description: Learn about the end activity
 feature: Journeys

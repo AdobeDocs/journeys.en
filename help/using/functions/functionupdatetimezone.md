@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: updateTimeZone
 description: Learn about the function updateTimeZone
 ---

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: countOnlyNull
 description: Learn about the function countOnlyNull
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About orchestration activities
 description: Learn about orchestration activities
 feature: Journeys

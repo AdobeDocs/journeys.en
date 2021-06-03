@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: containWithIgnoreCase
 description: Learn about the function containWithIgnoreCase
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Field references
 description: Learn about field references in advanced expressions
 feature: Journeys

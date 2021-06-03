@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastDays
 description: Learn about the function inLastDays
 feature: Journeys

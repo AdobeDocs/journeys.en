@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About Adobe Experience Platform segments
 description: Learn how to configure an Adobe Experience Platform segment
 feature: Journeys

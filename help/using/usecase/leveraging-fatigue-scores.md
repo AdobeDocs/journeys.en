@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Leveraging fatigue scores
 description: Learn how to leverage fatigue scores in journeys
 ---

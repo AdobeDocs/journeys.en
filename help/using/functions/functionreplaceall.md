@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replaceAll
 description: Learn about the function replaceAll
 feature: Journeys

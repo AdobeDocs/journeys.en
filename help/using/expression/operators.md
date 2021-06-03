@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Operators
 description: Learn about operators in advanced expressions
 feature: Journeys

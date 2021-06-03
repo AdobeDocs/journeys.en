@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: AI service overview
 description: AI service overview
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Adobe Experience Platform data source 
 description: Learn how to configure the Adobe Experience Platform data source 
 feature: Journeys

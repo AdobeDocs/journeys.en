@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: contain
 description: Learn about the function contain
 feature: Journeys

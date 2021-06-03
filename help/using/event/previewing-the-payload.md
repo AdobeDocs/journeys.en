@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Previewing the payload
 description: Learn how to preview the payload
 feature: Journeys

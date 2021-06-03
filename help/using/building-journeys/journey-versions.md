@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey versions
 description: Learn about journey versions
 feature: Journeys

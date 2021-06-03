@@ -10,7 +10,7 @@ tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/j
 git-repo: https://github.com/AdobeDocs/journeys.en
 index: yes
 feature-set: Journey Orchestration
-solution: Journey Orchestration
+solution: Experience Platform, Journey Orchestration
 type: Documentation
 feature: Journeys
 ---

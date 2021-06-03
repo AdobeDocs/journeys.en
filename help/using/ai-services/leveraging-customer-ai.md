@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Leveraging customer AI scores
 description: Leveraging customer AI scores
 feature: Journeys

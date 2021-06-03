@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Creating your journey reports
 description: Learn how to create your journey reports
 feature: Journeys

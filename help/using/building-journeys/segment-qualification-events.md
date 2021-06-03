@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Segment qualification events
 description: Learn about segment qualification events
 feature: Journeys

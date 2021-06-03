@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextHours
 description: Learn about the function inNextHours
 feature: Journeys

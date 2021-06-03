@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: getListItem
 description: Learn about the function gstListItem
 feature: Journeys

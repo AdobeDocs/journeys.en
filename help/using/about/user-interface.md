@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: The user interface
 description: Learn more on the user interface
 feature: Journeys

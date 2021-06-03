@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: startWith
 description: Learn about the function startWith
 feature: Journeys

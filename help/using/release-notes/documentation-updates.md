@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Documentation Updates
 description: Learn about documentation updates
 feature: Journeys

@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Functions
 description: Learn about functions
 feature: Journeys
