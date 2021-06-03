@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextDays
 description: Learn about the function inNextDays
 feature: Journeys

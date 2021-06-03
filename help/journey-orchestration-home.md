@@ -1,7 +1,6 @@
 ---
 keywords: Journeys;home;popular topics
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey Orchestration product documentation
 description: Journey Orchestration product documentation
 feature: Journeys

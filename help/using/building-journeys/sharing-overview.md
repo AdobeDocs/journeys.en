@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey step sharing overview
 description: Journey step sharing overview
 feature: Journeys

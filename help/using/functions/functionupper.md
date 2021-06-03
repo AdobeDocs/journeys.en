@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: upper
 description: Learn about the function upper
 feature: Journeys

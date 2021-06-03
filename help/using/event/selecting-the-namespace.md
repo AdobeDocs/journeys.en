@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Selecting the namespace
 description: Learn how to select the namespace
 feature: Journeys

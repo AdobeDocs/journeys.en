@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Creating a test profile
 description: Learn about test profile creation
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c

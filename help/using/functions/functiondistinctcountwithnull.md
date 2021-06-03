@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
 feature: Journeys

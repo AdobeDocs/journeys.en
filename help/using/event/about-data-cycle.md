@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Event data cycle
 description: Learn about event data cycle
 feature: Journeys

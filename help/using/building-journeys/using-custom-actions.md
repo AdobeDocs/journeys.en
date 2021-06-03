@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Using custom actions
 description: Learn about action activities
 feature: Journeys

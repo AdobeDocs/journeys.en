@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Reactions events
 description: Learn about reaction events
 feature: Journeys

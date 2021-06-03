@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: endWithIgnoreCase
 description: Learn about the function endWithIgnoreCase
 feature: Journeys

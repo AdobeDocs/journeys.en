@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: random
 description: Learn about the function random
 feature: Journeys

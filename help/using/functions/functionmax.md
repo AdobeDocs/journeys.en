@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: max
 description: Learn about the function max
 feature: Journeys

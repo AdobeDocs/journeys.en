@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctWithNull
 description: Learn about the function distinctWithNull
 feature: Journeys

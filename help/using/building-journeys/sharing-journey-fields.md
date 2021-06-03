@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: journey fields
 description: journey fields
 feature: Journeys

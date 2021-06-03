@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey Orchestration limitations
 description: Learn more on Journey Orchestration limitations
 feature: Journeys

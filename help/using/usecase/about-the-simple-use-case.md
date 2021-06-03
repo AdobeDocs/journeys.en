@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: About the simple use case
 description: Lean more on the journey simple use-case
 feature: Journeys

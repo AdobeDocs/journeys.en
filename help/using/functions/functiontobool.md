@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toBool
 description: Learn about the function toBool
 feature: Journeys

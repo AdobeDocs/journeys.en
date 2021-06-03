@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Using the journey designer
 description: Learn more on using the journey designer
 feature: Journeys

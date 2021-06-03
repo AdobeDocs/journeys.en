@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Field groups
 description: Learn about field groups
 feature: Journeys

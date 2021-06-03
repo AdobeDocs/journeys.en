@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctCount
 description: Learn about the function distinctCount
 feature: Journeys
