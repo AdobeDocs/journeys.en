@@ -9,7 +9,7 @@ description: Learn how to leverage fatigue scores in journeys
 
 This use case presents all the steps needed to send an email using the Adobe Campaign Classic integration. 
 
-We will first create a transactional email template in Campaign Classic. Then, in Journey Orchestration, we'll create the action and design the journey.
+We will first create a transactional email template in Campaign Classic. Then, in Journey Orchestration, we'll create the event, action and design the journey.
 
 To learn more on the Campaign Classic integration, refer to these pages:
 
@@ -22,7 +22,7 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 
 1. Log in to your Campaign Classic control instance. 
 
-1. Under **Administration** > **Platform** > **Enumerations**, select the **Event type** (eventType) enumeration. Create a new event type ("journey-event", in our example). You will have to use the internal name of the event type when writing the JSON file. 
+1. Under **Administration** > **Platform** > **Enumerations**, select the **Event type** (eventType) enumeration. Create a new event type ("journey-event", in our example). You will have to use the internal name of the event type when writing the JSON file later. 
 
     ![](../assets/accintegration-uc-1.png)
 
@@ -53,14 +53,14 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 }
 ```
 
-    * For the channel, you need to type "email".
-    * For the eventType, use the internal name of the event type created previously.
-    * The email address will be a variable, so you can type any label.
-    * Under ctx, the personalization fields are also variables.
+* For the channel, you need to type "email".
+* For the eventType, use the internal name of the event type created previously.
+* The email address will be a variable, so you can type any label.
+* Under ctx, the personalization fields are also variables.
 
 **Journey Orchestration**
 
-1. First, you need to create an event. Make sure you include the "purchaseOrderNumber".
+1. First, you need to create an event. Make sure you include the "purchaseOrderNumber" field.
 
     ![](../assets/accintegration-uc-5.png)
 
@@ -72,11 +72,11 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 
     ![](../assets/accintegration-uc-7.png)
 
-1. For the email address and two personalization fields, change **Constant** to **Variable**.
+1. For the email address and the two personalization fields, change **Constant** to **Variable**.
 
     ![](../assets/accintegration-uc-8.png)
 
-1. Now create a new journey and start with the event created before.
+1. Now create a new journey and start with the event previously created.
 
     ![](../assets/accintegration-uc-9.png)
 
@@ -86,6 +86,6 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 
 1. Add an **End** activity and test your journey.
 
-    ![](../assets/accintegration-uc-10.png)
+    ![](../assets/accintegration-uc-11.png)
 
 1. You can now publish your journey.
