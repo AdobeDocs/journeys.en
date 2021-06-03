@@ -73,7 +73,8 @@ feature: Journeys
       + [Wait activity](using/building-journeys/wait-activity.md)
     + Action activities {#action-activities}
       + [About action activities](using/building-journeys/about-action-activities.md)
-      + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
+      + [Using Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+      + [Using Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
       + [Jumping from one journey to another](using/building-journeys/jump.md)
       + [Update profile](using/building-journeys/update-profiles.md)
@@ -186,5 +187,6 @@ feature: Journeys
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
+  + [Sending a message using Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
