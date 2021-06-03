@@ -8,11 +8,15 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 ---
-# Integrating with Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
+# Working with Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
 This integration allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
 
 The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time.
+
+An end-to-end use case is presented in this [section](../usecase/campaign-classic-use-case.md).
+
+For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Important notes
 
@@ -62,5 +66,4 @@ In Journey Orchestration, you need to configure one action per transactional mes
 
 ![](../assets/accintegration1.png)
 
-For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
