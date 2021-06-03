@@ -12,6 +12,25 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## May 2021 Release {#may-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong> Adobe Campaign Classic integration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The integration with Adobe Campaign Classic integration is now GA. It allows you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.</p>
+<p>The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time.</p>
+<p>For more information, refer to the <a href="../action/acc-action.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2021 Release {#april-2021-release}
 
 ### Improvements

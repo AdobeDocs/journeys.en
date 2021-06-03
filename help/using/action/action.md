@@ -32,6 +32,8 @@ To view the action list or configure a new action, click **[!UICONTROL Actions]*
 
 If you have Adobe Campaign Standard, you need to configure the out-of-the box action to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. Refer to [this page](../action/working-with-adobe-campaign.md).
 
+If you have Adobe Campaign Classic, an integration is available upon request. Refer to [this page](../action/acc-action.md).
+
 If you're using a third-party system to send messages such as Epsilon, Facebook, Adobe.io, Firebase, etc, you need to add and configure a custom action. Refer to [this page](../action/about-custom-action-configuration.md).
 
 For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).

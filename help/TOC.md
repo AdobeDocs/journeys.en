@@ -40,12 +40,12 @@ feature: Journeys
   + [External data sources](using/datasource/external-data-sources.md)
 + Configuring an action {#action-journeys}
   + [About actions](using/action/action.md)
-  + [Working with Adobe Campaign](using/action/working-with-adobe-campaign.md)
+  + [Working with Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+  + [Working with Adobe Campaign Classic](using/action/acc-action.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
-  + [Integrating with Adobe Campaign Classic](using/beta/acc-action.md)
 + Using Plaform segments {#configuring-segment}
   + [About Plaform segments](using/segment/about-segments.md)
   + [Creating a segment](using/segment/creating-a-segment.md)
@@ -72,7 +72,8 @@ feature: Journeys
       + [Wait activity](using/building-journeys/wait-activity.md)
     + Action activities {#action-activities}
       + [About action activities](using/building-journeys/about-action-activities.md)
-      + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
+      + [Using Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+      + [Using Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
       + [Jumping from one journey to another](using/building-journeys/jump.md)
       + [Update profile](using/building-journeys/update-profiles.md)
@@ -185,5 +186,6 @@ feature: Journeys
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
+  + [Sending a message using Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
