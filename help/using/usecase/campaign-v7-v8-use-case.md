@@ -5,16 +5,16 @@ title: Leveraging fatigue scores
 description: Learn how to leverage fatigue scores in journeys
 ---
 
-# Sending a message using Campaign Classic {#campaign-classic-use-case}
+# Sending a message using Campaign {#campaign-v7-v8-use-case}
 
-This use case presents all the steps needed to send an email using the Adobe Campaign Classic integration. 
+This use case presents all the steps needed to send an email using the Adobe Campaign integration. 
 
-We will first create a transactional email template in Campaign Classic. Then, in Journey Orchestration, we'll create the event, action and design the journey.
+We will first create a transactional email template in Campaign. Then, in Journey Orchestration, we'll create the event, action and design the journey.
 
-To learn more on the Campaign Classic integration, refer to these pages:
+To learn more on the Campaign integration, refer to these pages:
 
-* [Creating a Campaign Classic action](../action/acc-action.md)
-* [Using the action in a journey](../building-journeys/using-adobe-campaign-classic.md).
+* [Creating a Campaign action](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)
+* [Using the action in a journey](../building-journeys/using-adobe-campaign-actions.md).
 
 **Adobe Campaign Classic**
 
