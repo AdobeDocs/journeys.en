@@ -51,7 +51,7 @@ If you're using a third-party system to send messages, you need to add and confi
 
 ## Using Adobe Campaign v7/v8 {#using_adobe_campaign_v7_v8}
 
-This integration is avaiable for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
+This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It allows you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Orchestration and Campaign instances is setup by Adobe at provisioning time.
 

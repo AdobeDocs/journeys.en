@@ -103,16 +103,16 @@ These are the fields expected by the transactional template used in your Adobe C
 
 ## Using Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
 
-An integration is available if you have Adobe Campaign Classic. It will allow you to send emails, push notifications and SMS using Adobe Campaign Classic Transactional Messaging capabilities.
+This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It will allow you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
-The connection between the Journey Orchestration and Campaign Classic instances is setup by Adobe at provisioning time. Contact Adobe.
+The connection between the Journey Orchestration and Campaign instances is setup by Adobe at provisioning time. Contact Adobe.
 
 For this to work, you need to configure a dedicated action. Refer to this [section](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
 
 An end-to-end use case is presented in this [section](../usecase/campaign-v7-v8-use-case.md).
 
 1. Design your journey, starting with an event. See this [section](../building-journeys/journey.md).
-1. In the **Action** section of the palette, select a Campaign Classic action and add it to your journey.
+1. In the **Action** section of the palette, select a Campaign action and add it to your journey.
 1. In the **Action parameters**, all the fields expected in the message payload are displayed. You need to map each of these fields with the field you want to use, either from the event or from the data source. This is similar to custom actions. Refer to this [section](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
