@@ -64,7 +64,7 @@ Your Campaign instance needs to be provisioned for this integration. The Transac
 
     ![](../assets/accintegration-uc-5.png)
 
-1. You then need to create, in Journey Orchestration, an action corresponding to your Campaign template. In the **Action type** drop-down, select **Adobe Campaign Classic**. 
+1. You then need to create, in Journey Orchestration, an action corresponding to your Campaign template. In the **Action type** drop-down, select **Adobe Campaign Classic**.
 
     ![](../assets/accintegration-uc-6.png)
 
