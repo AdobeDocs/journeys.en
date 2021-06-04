@@ -5,22 +5,22 @@ title: Leveraging fatigue scores
 description: Learn how to leverage fatigue scores in journeys
 ---
 
-# Sending a message using Campaign Classic {#campaign-classic-use-case}
+# Sending a message using Campaign {#campaign-v7-v8-use-case}
 
-This use case presents all the steps needed to send an email using the Adobe Campaign Classic integration. 
+This use case presents all the steps needed to send an email using the Adobe Campaign integration. 
 
-We will first create a transactional email template in Campaign Classic. Then, in Journey Orchestration, we'll create the event, action and design the journey.
+We will first create a transactional email template in Campaign. Then, in Journey Orchestration, we'll create the event, action and design the journey.
 
-To learn more on the Campaign Classic integration, refer to these pages:
+To learn more on the Campaign integration, refer to these pages:
 
-* [Creating a Campaign Classic action](../action/acc-action.md)
-* [Using the action in a journey](../building-journeys/using-adobe-campaign-classic.md).
+* [Creating a Campaign action](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)
+* [Using the action in a journey](../building-journeys/using-adobe-campaign-actions.md).
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-Your Campaign Classic instance needs to be provisioned for this integration. The Transactional Messaging feature needs to be configured.
+Your Campaign instance needs to be provisioned for this integration. The Transactional Messaging feature needs to be configured.
 
-1. Log in to your Campaign Classic control instance. 
+1. Log in to your Campaign control instance. 
 
 1. Under **Administration** > **Platform** > **Enumerations**, select the **Event type** (eventType) enumeration. Create a new event type ("journey-event", in our example). You will have to use the internal name of the event type when writing the JSON file later. 
 
@@ -32,7 +32,7 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 
     ![](../assets/accintegration-uc-2.png)
 
-1. Design your template. In this example, we use personalization on the profile's first name and the order number. The first name is in the Adobe Experience Platform data source, and the order number is a field from our Journey Orchestration event. Make sure you use the correct field names in Campaign Classic. 
+1. Design your template. In this example, we use personalization on the profile's first name and the order number. The first name is in the Adobe Experience Platform data source, and the order number is a field from our Journey Orchestration event. Make sure you use the correct field names in Campaign. 
 
     ![](../assets/accintegration-uc-3.png)
 
@@ -64,7 +64,7 @@ Your Campaign Classic instance needs to be provisioned for this integration. The
 
     ![](../assets/accintegration-uc-5.png)
 
-1. You then need to create, in Journey Orchestration, an action corresponding to your Campaign Classic template. In the **Action type** drop-down, select **Adobe Campaign Classic**. 
+1. You then need to create, in Journey Orchestration, an action corresponding to your Campaign template. In the **Action type** drop-down, select **Adobe Campaign Classic**.
 
     ![](../assets/accintegration-uc-6.png)
 

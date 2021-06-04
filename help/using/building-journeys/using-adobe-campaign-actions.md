@@ -9,6 +9,8 @@ exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---
 # Using Adobe Campaign actions {#using_campaign_action}
 
+## Using Adobe Campaign Standard {#using_campaign_standard_action}
+
 If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. 
 
 >[!NOTE]
@@ -33,7 +35,7 @@ When you select a template, all the fields expected in the message payload are d
 
 ![](../assets/journey60.png)
 
-## Email and SMS {#section_asc_51g_nhb}
+### Email and SMS {#section_asc_51g_nhb}
 
 For **[!UICONTROL Email]** and **[!UICONTROL SMS]**, the parameters are identical.
 
@@ -67,7 +69,7 @@ These are the fields expected by the Adobe Campaign Standard message. These fiel
 
 ![](../assets/journey62.png)
 
-## Push {#section_im3_hvf_nhb}
+### Push {#section_im3_hvf_nhb}
 
 Prior to using the push activity, your mobile app needs to be configured along with Campaign Standard to send push notifications. Use this [article](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) to take the necessary implementation steps for mobile.
 
@@ -98,3 +100,20 @@ You also need to define the **[!UICONTROL Registration Token]**. The expression 
 >You cannot pass a collection in personalization data. If the transactional push expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
 
 These are the fields expected by the transactional template used in your Adobe Campaign Standard message. These fields can be used to personalize your message, apply conditional formatting, or pick a specific message variant.
+
+## Using Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
+
+This integration is available for Adobe Campaign Classic v7 starting 21.1 release, and Adobe Campaign v8. It will allow you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
+
+The connection between the Journey Orchestration and Campaign instances is setup by Adobe at provisioning time. Contact Adobe.
+
+For this to work, you need to configure a dedicated action. Refer to this [section](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
+
+An end-to-end use case is presented in this [section](../usecase/campaign-v7-v8-use-case.md).
+
+1. Design your journey, starting with an event. See this [section](../building-journeys/journey.md).
+1. In the **Action** section of the palette, select a Campaign action and add it to your journey.
+1. In the **Action parameters**, all the fields expected in the message payload are displayed. You need to map each of these fields with the field you want to use, either from the event or from the data source. This is similar to custom actions. Refer to this [section](../building-journeys/using-custom-actions.md).
+
+![](../assets/accintegration2.png)
+
