@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---
-# Using Adobe Campaign v7/v8 {#using_campaign_classic}
+# Using Adobe Campaign v7/v8 {#using_campaign_classic} 
 
 An integration is available if you have Adobe Campaign v7 or v8. It will allow you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
