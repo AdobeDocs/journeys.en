@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---
-# Using Adobe Campaign actions {#using_campaign_action}
+# Using Adobe Campaign Standard {#using_campaign_action}
 
 If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. 
 
