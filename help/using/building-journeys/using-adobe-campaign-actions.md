@@ -15,7 +15,7 @@ If you have Adobe Campaign Standard, the following out-of-the-box action activit
 >
 >For this, you need to configure the built-in action. Refer to [this page](../action/working-with-adobe-campaign.md).
 
-For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to [this page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to [this page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) to learn how to use this feature.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ For **[!UICONTROL Email]** and **[!UICONTROL SMS]**, the parameters are identica
 
 >[!NOTE]
 >
->For email, if you're using a profiles transactional template, the unsubscription mechanism is handled out-of-the-box by Campaign Standard. You simply add an **[!UICONTROL Unsubscription link]** content block in the template ([learn more](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). If you're using an event-based template (rtEvent), you need to add, in the message, a link passing the person's email in the URL parameter and pointing to an unsubscription landing page. You need to create this landing page and make sure the person's decision to unsubscribe is transmitted to Adobe.
+>For email, if you're using a profiles transactional template, the unsubscription mechanism is handled out-of-the-box by Campaign Standard. You simply add an **[!UICONTROL Unsubscription link]** content block in the template ([learn more](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). If you're using an event-based template (rtEvent), you need to add, in the message, a link passing the person's email in the URL parameter and pointing to an unsubscription landing page. You need to create this landing page and make sure the person's decision to unsubscribe is transmitted to Adobe.
 
 First, you need to choose a transactional messaging template. Refer to [this page](../building-journeys/about-action-activities.md).
 

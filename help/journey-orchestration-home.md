@@ -71,7 +71,7 @@ Find out details about the lastest releases.
 * [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
 * [Identity Namespace documentation](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
 * [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard transactional messaging documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Campaign Standard transactional messaging documentation]()
 
 ## Technical tutorials
 

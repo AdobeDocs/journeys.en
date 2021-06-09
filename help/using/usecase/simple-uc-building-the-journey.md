@@ -46,7 +46,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
     ![](../assets/journeyuc1_12.png)
 
-1. Drop an **[!UICONTROL Email]** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Drop an **[!UICONTROL Email]** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page]().
 
     ![](../assets/journeyuc1_13.png)
 
