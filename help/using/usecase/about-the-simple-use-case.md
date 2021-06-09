@@ -21,7 +21,7 @@ We want to send a message only if the person is a woman. The message must be rec
 
 ## Pre-requisites {#prerequisites}
 
-For our use case, we have designed one email transactional messaging template in Adobe Campaign Standard. We are using an event transactional messaging template. Refer to this [page]().
+For our use case, we have designed one email transactional messaging template in Adobe Campaign Standard. We are using an event transactional messaging template. Refer to this [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
 Adobe Campaign Standard is configured to send emails.
 

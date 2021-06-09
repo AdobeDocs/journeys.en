@@ -42,7 +42,7 @@ We will need to configure a connection to two data sources (see [this page](../u
 
 ## Pre-requisites {#prerequisites}
 
-For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page]().
+For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
 Adobe Campaign Standard is configured to send emails and push notifications.
 
