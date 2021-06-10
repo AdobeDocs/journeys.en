@@ -35,7 +35,11 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 
    ![](../assets/profileupdate2.png)
 
-1. Select a dataset from the list. The dataset selection will determine where the new value of the profile field will be stored.
+1. Select a dataset from the list. 
+
+   >[!NOTE]
+   >
+   >The **Update profile** action updates the profile data in realtime, but it does not update datasets. The dataset selection is needed as the profile is a record related to a dataset.
 
 1. Click on the **Value** field to define the value you want to use:
 

@@ -15,6 +15,10 @@ In the **[!UICONTROL Message parameters]** section, paste an example of the JSON
 
 ![](../assets/customactionpayloadmessage.png)
 
+>[!NOTE]
+>
+>Field names in the payload cannot contain a "." character.
+
 You will be able to define the parameter type (e.g.: string, integer, etc.).
 
 You will also have a choice between specifying if a parameter is a constant or a variable:

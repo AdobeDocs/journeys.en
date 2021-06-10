@@ -225,3 +225,15 @@ This expression returns the second push notification token of the list.
    ```
 
 The result is "token_2".
+
+**Other examples**
+
+```
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+```
+
+```
+ #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
+```
