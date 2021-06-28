@@ -19,6 +19,8 @@ For each action configured, an action activity is available in the journey desig
 
 ## Important notes
 
+* There is no throttling of messages. We cap the number of messages that can be sent over to 50,000/hour based on our current Campaign SLA. For this reason, Journey orchestration should only be used in unitary use cases (individual events, not segments).
+
 * You need to configure one action on the canvas per template you wish to use. You need to configure one action in Journey Orchestration for each template you wish to use from Adobe Campaign.
 
 * We recommend that you use a dedicated Message Center instance that is hosted for this integration to avoid impacting any other Campaign operations that you may have going on. The marketing server can be hosted or on-premise. The build required is 21.1 Release Candidate or greater. 
