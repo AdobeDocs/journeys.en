@@ -26,7 +26,11 @@ When Journey Orchestration executes a call to an external API, the technical gua
 
 ## Capping{#capping}
 
-The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. Beforehand, you need to evaluate the capacity of your external API. For example, if Journey Orchestration sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
+The built-in Capping API offers an upstream technical guardrail that helps to protect your external system. 
+
+For external data sources, the maximum number of calls per second is set to 15. If the number of calls exceeds 15 per second, the remaining calls are discarded. The Adobe Experience Platform built-in data source is also limited by default to 15 calls per second. Contact Adobe if you need to increase the limit for the built-in data source.
+
+For custom actions, you need to evaluate the capacity of your external API. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 100 calls per second, you need to define a capping rule so that your system does not saturate.
 
 Capping rules are defined at sandbox level for a specific endpoint (the URL called). At runtime, Journey Orchestration verifies if there is a capping rule defined and applies the defined rate during the calls to that endpoint. If the number of calls exceeds the defined rate, the remaining calls are discarded and are counted as errors in reporting.
 
