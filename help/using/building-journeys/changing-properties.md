@@ -13,6 +13,10 @@ Click on the pencil icon, in the top right to access the journey's properties.
 
 You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a **[!UICONTROL Timeout and error]** duration if you are admin. 
 
+For live journeys, this screen displays the publication date and the name of the user who published the journey.
+
+The **Copy technical details** allows you to copy technical information about the journey which the support team can use to troubleshoot. The following information is copied: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
+
  ![](../assets/journey32.png)
 
 ## Entrance{#entrance}
