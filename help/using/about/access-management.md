@@ -18,7 +18,7 @@ They can be managed by Administrators that have access to the Admin console. For
 To be able to access [!DNL Journey Orchestration], a user must be:
 
 * part of a [!DNL Journey Orchestration] **[!UICONTROL product profile]** associated to [!DNL Journey Orchestration] permissions.
-* part of an [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. There is no mandatory permission to have. The user should have the **[!UICONTROL profile management]** permission to be able to create and edit platform segments from [!DNL Journey Orchestration] interface. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+* part of an [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. There is no mandatory permission to have. The user should have the **[!UICONTROL profile management]** permission to be able to create and edit platform segments from [!DNL Journey Orchestration] interface. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
 
@@ -61,7 +61,7 @@ You can find below the compatibility between permissions and [!DNL Journey Orche
 
 [!DNL Journey Orchestration] allows you to create your own product profiles and assign a set of permissions and sandboxes to your users. With product profiles, you can authorize or deny access to certain functionalities or objects in the interface.
 
-For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
+For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 To create a product profile and assign a set of permissions and sandboxes:
 
@@ -135,6 +135,6 @@ Your user should then receive an email redirecting to your [!DNL Journey Orchest
 Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflects the Adobe Experience Platform sandboxes which were created for a given organization.
-Adobe Experience Platform sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
+Adobe Experience Platform sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
 
 You can find the sandbox switcher control at the top-left of your screen. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.

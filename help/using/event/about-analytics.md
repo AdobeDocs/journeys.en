@@ -27,4 +27,4 @@ This enables the Analytics source connector for that report suite. Whenever the 
 
 ![](../assets/alpha-event9.png)
 
-For more information on the Adobe Analytics source connector, refer to the [documentation](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+For more information on the Adobe Analytics source connector, refer to the [documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).

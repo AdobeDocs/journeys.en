@@ -16,7 +16,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 
 During a datasource configuration, you will define a connection to a system to retrieve additional information that will be used in your journeys, or for an action definition, you will configure connection of a third-party system to send messages or API calls. Each time an API call is performed by Journey, the capping API is queryied, the call comes through the API engine. If there is a limit defined, the call is rejected and the external system will not be overloaded.
 
-To learn more on action or datasource configuration, see [About actions](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) or [About data sources](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+To learn more on action or datasource configuration, see [About actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) or [About data sources](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Resources
@@ -171,7 +171,7 @@ This Postman Collection has been set up to share the Postman Variable collection
 Once downloaded and uploaded into Postman, you need to add three variables: `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway URL
 * `{BASE_PATH}` : entry point for the API. The value is '/authoring'
-* `{SANDBOX_NAME}` : the header **x-sandbox-name** (for example, 'prod') corresponding to the sandbox name where the API operations will take place. See the [sandboxes overview](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information. 
+* `{SANDBOX_NAME}` : the header **x-sandbox-name** (for example, 'prod') corresponding to the sandbox name where the API operations will take place. See the [sandboxes overview](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) for more information. 
 
 In the following section, you will find the Rest API calls ordered list to perform the use-case.
 
