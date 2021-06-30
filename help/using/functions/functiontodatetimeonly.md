@@ -23,7 +23,7 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| date time in ISO-8601 format | string |
+| date time in ISO-8601 or "YYYY-MM-DD" format (XDM Date format) | string |
 | date time | dateTime|
 
 ## Signatures and returned types
@@ -38,9 +38,9 @@ Return a datetime without considering time zone.
 
 ## Examples
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-Returns 2016-08-18T23:17:59.123.
+returns a dateTime representing 2016-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 
