@@ -12,7 +12,7 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
-## June 2021 Release {#may-2021-release}
+## June 2021 Release {#june-2021-release}
 
 <table>
 <thead>
@@ -30,6 +30,13 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 </tr>
 </tbody>
 </table>
+
+### Improvements
+
+* For external data sources, a capping rule of 15 calls per second is now automatically defined. [Read more](../about/external-systems.md#capping)
+* In the simple and advanced expression editor, we now support the XDM date format. 
+* In the journey list screen, a new filter has been added. You can now filter by journey type: **[!UICONTROL Unitary event]** or **[!UICONTROL Segment qualification]**. [Read more](../about/user-interface.md#section_lgm_hpz_pgb)
+* For live journeys, the journey properties screen now displays the publication date and the name of the user who published the journey. This information is also available when you copy the journey's technical details. [Read more](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## April 2021 Release {#april-2021-release}
 
@@ -507,5 +514,5 @@ Journey Orchestration allows real-time orchestration powered by contextual data 
 
 Additional resources:
 
-* [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)

@@ -9,7 +9,7 @@ exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 ---
 # Defining the payload fields {#concept_yrw_3qt_52b}
 
-The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
 

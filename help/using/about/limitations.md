@@ -14,14 +14,13 @@ Here are limitations related to the use of Journey Orchestration.
 ## General actions limitations
 
 * There is no sending throttling. 
-* Two retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
+* Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see this [page](../building-journeys/reaction-events.md)). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
-* There is no Adobe Campaign Classic productized integration.
 
 ## Journey versions limitations {#journey-versions-limitations}
 
-* a journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
-* a journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
+* A journey starting with an event activity in v1 cannot start with something else than an event in further versions. You cannot start a journey with a **Segment Qualification** event. 
+* A journey starting with a **Segment Qualification** activity in v1 must always start with a **Segment Qualification** in further versions. 
 * The segment and namespace chosen in **Segment qualification** (first node) can not be changed in new versions.
 * The re-entrance rule must be the same in all journey versions.
 

@@ -36,7 +36,7 @@ Conversion
 
 `toDateTime(<string>)`
 
-`toDateTime(<dateTimeOnly>,<stringified time zone id>)`
+`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 

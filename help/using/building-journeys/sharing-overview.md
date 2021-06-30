@@ -13,7 +13,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 
 >[!NOTE]
 >
->This feature is not activated by default on all newly deployed instances. The activation is upon request.
+>This feature is activated by default on all instances for journey steps events. For journey pofile step events, the activation is upon request. The schemas and datasets created during the provisioning for this feature must not be changed.
 
 For example, you have set up a journey that sends multiple emails. This capability allows you to combine [!DNL Journey Orchestration] data with downstream event data like how many conversions occurred, how much engagement happened on the website, or how many transactions happened in the store. The journey information can be combined with data on the Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
 
@@ -53,4 +53,4 @@ The lists of XDM fields passed to the Adobe Experience Platform are detailed her
 * [journeyStep event identity fields](../building-journeys/sharing-identity-fields.md)
 * [journey fields](../building-journeys/sharing-journey-fields.md)
 
-For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+For more information on step events reporting to Adobe Experience Platform, watch this [tutorial video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).

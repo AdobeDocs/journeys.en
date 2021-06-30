@@ -15,7 +15,7 @@ exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in [!DNL Journey Orchestration], you need to follow these steps:
 
-1. Get the inlet URL from the Adobe Experience Platform APIs (see [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
+1. Get the inlet URL from the Adobe Experience Platform APIs (see [Streaming Ingestion APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. See [this page](../event/defining-the-payload-fields.md).
 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
@@ -85,4 +85,4 @@ Here is an example of a Streaming Ingestion APIs event:
 
 To facilitate the identification of the place where to paste the "data" part, you can use a JSON visualization tool such as [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-To troubleshoot Streaming Ingestion APIs, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
+To troubleshoot Streaming Ingestion APIs, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).

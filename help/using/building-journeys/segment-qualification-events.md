@@ -66,6 +66,8 @@ See [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ![](../assets/segment8.png)
 
+A new journey that includes a segment qualification event is operational ten minutes after you have published it. This time interval corresponds to the cache refresh interval of the dedicated service. Therefore, you must wait ten minutes before using this journey.
+
 ## Best practices {#best-practices-segments}
 
 The **[!UICONTROL Segment Qualification]** activity enables the immediate entrance in journeys of individuals getting qualified or disqualified from an Adobe Experience Platform segment.

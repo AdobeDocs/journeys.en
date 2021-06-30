@@ -59,7 +59,7 @@ The **activity configuration pane** appears when you click on an activity in the
 
 In the canvas, your action and event activities are represented by an icon with the name of the event or action displayed underneath. In the activity configuration pane, you can use the **[!UICONTROL Label]** field to add a suffix to the activity name. These labels will help you contextualize the use of events and actions, especially when you use the same event or action several times in your journey. You will also be able to see the labels you added in the [!DNL Journey Orchestration] reporting. You can also define labels for your condition activities.
 
-By default, read-only fields are hidden. To display them, click the **Show read-only fields** icon in the top left of the activity configuration pane.
+By default, read-only fields are hidden. To show read-only fields, click the **Show read-only fields** icon at the top left of the activity configuration pane. This setting applies to all activities in all journeys.
 
  ![](../assets/journey59bis.png)
 

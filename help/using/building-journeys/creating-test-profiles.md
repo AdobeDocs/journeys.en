@@ -92,7 +92,7 @@ Your test profiles are added and can now be used when testing a journey. Refer t
 
 ## Creating test profiles using API calls{#create-test-profiles-api}
 
-You can also create test profiles via API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+You can also create test profiles via API calls. See this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 You must use a Profile schema that contains the "Profile test details" mixin. The testProfile flag is part of this mixin.
 
