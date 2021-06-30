@@ -63,7 +63,7 @@ The easiest way to do this is by using an **Update profile** action activity and
 
 ## Creating a test profile{#create-test-profile}
 
-If you want to create a new test profile, the procedure is the same as when you create a profile in the Adobe Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+If you want to create a new test profile, the procedure is the same as when you create a profile in the Adobe Experience Platform. It is performed through API calls. See this [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 You must use a Profile schema that contains the "profile test details" mixin. The testProfile flag is part of this mixin.
 
