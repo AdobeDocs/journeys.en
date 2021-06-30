@@ -16,8 +16,9 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 
 During a datasource configuration, you will define a connection to a system to retrieve additional information that will be used in your journeys, or for an action definition, you will configure connection of a third-party system to send messages or API calls. Each time an API call is performed by Journey, the capping API is queryied, the call comes through the API engine. If there is a limit defined, the call is rejected and the external system will not be overloaded.
 
-To learn more on action or datasource configuration, see [About actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) or [About data sources](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+For external data sources, the maximum number of calls per second is set to 15. If the number of calls exceeds 15 per second, the remaining calls are discarded. You can increase this limit for private external data sources. Contact Adobe to whitelist the endpoint. This is not possible for public external data sources. To learn more on best practices and guardails when integrating external systems, refer to this [page](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)
 
+To learn more on action or datasource configuration, see [About actions](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) or [About data sources](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## Resources
 
