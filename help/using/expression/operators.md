@@ -455,7 +455,7 @@ Example:
 
 
 ```
-<expression + <duration>
+<expression> + <duration>
 ```
 
 Append a duration to a dateTime, a dateTimeOnly or a duration.
