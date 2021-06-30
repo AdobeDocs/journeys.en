@@ -22,6 +22,10 @@ This time zone will be used for every activity of the journey containing a time 
 
 You can select a time zone or choose to use the time zone defined in the user profile.
 
+>[!NOTE]
+>
+>The profile time zone works with the **timeZone** field existing in the **Preference Details** field group.
+
 ## Defining a fixed time zone {#fixed-timezone}
 
 The time zone can also be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey.
