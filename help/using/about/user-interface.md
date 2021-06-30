@@ -71,7 +71,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 When defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md), the display name is displayed in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model.
 
-If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with “eVars” and generic fields.You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with “eVars” and generic fields.You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png) 
 

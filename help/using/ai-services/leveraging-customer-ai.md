@@ -9,7 +9,7 @@ exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 ---
 # Leveraging Customer AI {#customer-ai}
 
-Customer AI is part of Intelligent Services. It helps predict what a customer is likely to do. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).  
+Customer AI is part of Intelligent Services. It helps predict what a customer is likely to do. See the [documentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).  
 
 Customer AI allows brands to create churn or conversion machine learning based scores that will be available as profile attributes in the Adobe Experience Platform profiles (Real-time Customer Profile).
 

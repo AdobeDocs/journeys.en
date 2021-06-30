@@ -135,4 +135,4 @@ The following expression allows you to define the CRM ID in an action personaliz
 
 Explanation: This example uses `substr` and `lastIndexOf` functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
 
-For more on how to use the advanced expression editor, watch [this video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+For more on how to use the advanced expression editor, watch [this video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

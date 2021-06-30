@@ -507,5 +507,5 @@ Journey Orchestration allows real-time orchestration powered by contextual data 
 
 Additional resources:
 
-* [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)

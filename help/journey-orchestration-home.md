@@ -67,10 +67,10 @@ Find out details about the lastest releases.
 
 * [Journey Orchestration product page](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
-* [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Identity Namespace documentation](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Experience Cloud XDM field definition](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [Identity Namespace documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [Streaming Ingestion APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Campaign Standard transactional messaging documentation](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
 
 ## Technical tutorials

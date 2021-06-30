@@ -24,16 +24,16 @@ To test and prepare your integration, a Postman collection is available [here](h
 
 We recommend to follow these steps to export and import your journeys across environments:
 
-1. Create and parameter a journey in your start environment. [More info here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Check if the journey version has no error. [More info here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Create and parameter a journey in your start environment. [More info here](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Check if the journey version has no error. [More info here](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Call **/list/journeys** API to retrieve the UID journey and the UID of your latest journey version. If needed, you can call **/journeys/`{uid}`/latest** to find the UID of your latest journey version.  
 1. Call the **export** API with your start environment parameters (orgID and sandboxName).
 1. Open the return payload, then check the following items:
    * If your exported journey contains **specific credentials**, you need to replace these credentials with those corresponding to the new environment.
-   * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. This update needs to be done for each event. [More info here](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
 1. Call the **Import** API with your target environment parameters (orgID and sandboxName). Note that you can call the import API as many times as you want. The UUID and the name of each object contained in the journey are generated each time you call the import API.
-1. Once the Journey is imported, you can publish it in the Journey Orchestration application. More info [here](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. Once the Journey is imported, you can publish it in the Journey Orchestration application. More info [here](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Authentification
