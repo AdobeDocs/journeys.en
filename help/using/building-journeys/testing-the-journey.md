@@ -58,7 +58,7 @@ To use the test mode, follow these steps:
 
 ## Turning a profile into a test profile{#turning-profile-into-test}
 
-You can turn an existing profile into a test profile. In Adobe Experience Platorm, you can update profiles attributes via API calls, but it cannot be performed via the interface.
+You can turn an existing profile into a test profile. In Adobe Experience Platform, you can update profiles attributes via API calls, but it cannot be performed via the interface.
 
 The easiest way to do this is by using an **Update profile** action activity and change the test profile boolean field from false to true. See [this section](../building-journeys/update-profiles.md#using-the-test-mode). 
 

@@ -33,13 +33,13 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
 * Added information on how to copy a segment's name and ID after it has been selected. [Read more](../building-journeys/segment-qualification-events.md)
-* Occurrences of Experience Platform have been harmonized accross the different pages.
+* Occurrences of Experience Platform have been harmonized across the different pages.
 
 ## July 2020 {#july-2020}
 
 * Added a link to a new tutorial video on step events reporting to Adobe Experience Platform. [Read more](../building-journeys/sharing-overview.md)
 * The events activities section has been reorganized into dedicated sub-sections for each type of events. [Read more](../building-journeys/event-activities.md)
-* Added best practices to avoid overload with segment qualfication. [Read more](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Added best practices to avoid overload with segment qualification. [Read more](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Added a note to explain how to make a journey continue after an error in an action or a condition. [Read more](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Added a new section on the Alpha features that are tested among a limited set of customers. 
 * Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
@@ -61,13 +61,13 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## April 2020 {#april-2020}
 
 * Added a new section on experience event schema definition to help users configure their first event. [Read more](../event/experience-event-schema.md)
-* The home page for [!DNL Journey Orchestration] documentation has been updated with additionnal useful links. [Read more](../../journey-orchestration-home.md)
+* The home page for [!DNL Journey Orchestration] documentation has been updated with additional useful links. [Read more](../../journey-orchestration-home.md)
 
 ## March 2020 {#march-2020}
 
 * Added parameter descriptions for _actionExecutionErrors_ and _fetchErrors_ in test logs section. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
 * The limitations on custom actions used in a journey have been updated. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Read more](../action/about-custom-action-configuration.md)
-* New contexual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 
+* New contextual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 
 * Closed journeys can now be stopped. [Read more](../building-journeys/using-the-journey-designer.md)
 * The interface description section has been reorganized. [Read more](../about/user-interface.md)
 * The triggering of multiple events has been added to the Test mode section [Read more](../building-journeys/testing-the-journey.md#firing_events)
@@ -80,7 +80,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 ## February 2020 {#february-2020}
 
-* The shortcut section has been udpated. The **C** keyboard shortcut allows you to create a new item in all list screens. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
+* The shortcut section has been updated. The **C** keyboard shortcut allows you to create a new item in all list screens. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 * The [data source](../datasource/about-data-sources.md) and [action](../action/action.md) overview pages have been improved.
 
 ## January 2020 {#january-2020}

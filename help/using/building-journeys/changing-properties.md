@@ -27,7 +27,7 @@ When a journey "ends", it will have the status **[!UICONTROL Closed (no entrance
 
 After the default global timeout of 30 days, the journey will switch to the **Finished** status. See this [section](#global_timeout).
 
-## Timeout and error in journey activitites {#timeout_and_error}
+## Timeout and error in journey activities {#timeout_and_error}
 
 When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**[!UICONTROL Timeout and  error]** field), the second path will be chosen to perform a potential fallback action. 
 
@@ -39,7 +39,7 @@ We recommend that you define a very short **[!UICONTROL Timeout and error]** val
 
 ## Global journey timeout {#global_timeout}
 
-In addition to the [timeout](#timeout_and_error) used in journey activitites, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
+In addition to the [timeout](#timeout_and_error) used in journey activities, there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
 
 >[!NOTE]
 >
