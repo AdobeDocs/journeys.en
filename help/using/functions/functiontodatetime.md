@@ -69,7 +69,7 @@ Return a datetime.
 
 Returns 2016-08-18T23:17:59.123Z
 
-`toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
+`toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
 Returns 2016-08-18T23:17:59.123Z
 

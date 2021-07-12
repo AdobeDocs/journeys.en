@@ -60,7 +60,7 @@ Let's take an example for a timeout of 5 seconds.
 * The first call lasts longer 5 seconds: the call is cancelled and there is no retry. It is counted as a timeout error in reporting. 
 * The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
     * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
-    * If the end of the timeout duration is reached during the retries, the call is cancelled andcounted as a timeout error in reporting. 
+    * If the end of the timeout duration is reached during the retries, the call is cancelled and counted as a timeout error in reporting. 
 
 ## Frequently asked questions{#faq}
 
@@ -68,7 +68,7 @@ Let's take an example for a timeout of 5 seconds.
 
 By default, there is no capping rule. Capping rules are defined at sandbox level for a specific endpoint (the URL called), using the Capping API. Refer to [this section](../about/external-systems.md#capping) and [this page](../api/capping.md). 
 
-**How many retries are performed? Can I change the number of retries or define a minumim wait period between retries?**
+**How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?**
 
 For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. Refer to [this section](../about/external-systems.md#timeout). 
 

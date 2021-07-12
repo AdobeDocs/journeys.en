@@ -44,13 +44,13 @@ This type of event can be positioned as the first step or later in the journey.
 
    ![](../assets/segment-copy.png)
 
-1. In the **[!UICONTROL Behaviour]** field, choose is you want to listen to segment entrances, exits or both.
+1. In the **[!UICONTROL Behaviour]** field, choose whether you want to listen to segment entrances, exits or both.
 
    >[!NOTE]
    >
    >Note that **[!UICONTROL Enter]** and **[!UICONTROL Exit]** correspond to the **Realized** and **Exited** segment participation statuses from Adobe Experience Platform. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
 
-1. Select a namespace. This is only needed if the event is positionned as the first step of the journey.
+1. Select a namespace. This is only needed if the event is positioned as the first step of the journey.
 
    ![](../assets/segment7.png)
 
