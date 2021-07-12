@@ -3,7 +3,7 @@ product: adobe campaign
 title: The user interface
 description: Learn more on the user interface
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 ---

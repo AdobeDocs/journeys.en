@@ -3,7 +3,7 @@ product: adobe campaign
 title: Event data cycle
 description: Learn about event data cycle
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
 ---

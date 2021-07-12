@@ -3,7 +3,7 @@ product: adobe campaign
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 ---

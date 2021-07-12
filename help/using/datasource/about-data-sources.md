@@ -3,7 +3,7 @@ product: adobe campaign
 title: About data sources
 description: Learn how to configure a data source 
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 ---

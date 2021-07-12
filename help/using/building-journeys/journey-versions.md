@@ -3,7 +3,7 @@ product: adobe campaign
 title: Journey versions
 description: Learn about journey versions
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 ---

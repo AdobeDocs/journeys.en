@@ -3,7 +3,7 @@ product: adobe campaign
 title: About Campaign v7/v8 integration
 description: Learn about Campaign v7/v8 integration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 ---

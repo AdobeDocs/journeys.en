@@ -3,7 +3,7 @@ product: adobe campaign
 title: External data sources 
 description: Learn how to configure external data sources 
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 ---

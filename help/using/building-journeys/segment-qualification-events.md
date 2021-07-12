@@ -3,7 +3,7 @@ product: adobe campaign
 title: Segment qualification events
 description: Learn about segment qualification events
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: Defining the message parameters
 description: Learn how to define the message parameters
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 ---

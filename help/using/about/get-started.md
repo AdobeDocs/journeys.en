@@ -3,7 +3,7 @@ product: adobe campaign
 title: Get started
 description: Discover the main steps to set up Journey Orchestration and build your first journey.
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 ---

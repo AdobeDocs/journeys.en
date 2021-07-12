@@ -3,7 +3,7 @@ product: adobe campaign
 title: About action activities
 description: Learn about action activities
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 ---

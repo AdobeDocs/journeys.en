@@ -3,7 +3,7 @@ product: adobe campaign
 title: Terminating a journey
 description: Learn how to terminate a journey
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: About ExperienceEvent Schemas for Journey Orchestration Events 
 description: Learn about ExperienceEvent Schemas for Journey Orchestration Events 
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 ---

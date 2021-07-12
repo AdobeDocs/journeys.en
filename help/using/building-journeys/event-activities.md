@@ -3,7 +3,7 @@ product: adobe campaign
 title: About events activities
 description: Learn about events activities
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 ---

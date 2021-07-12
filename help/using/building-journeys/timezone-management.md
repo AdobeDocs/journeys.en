@@ -3,7 +3,7 @@ product: adobe campaign
 title: Time zone management
 description: Learn about time zone management
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 ---

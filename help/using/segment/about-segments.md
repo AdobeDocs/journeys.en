@@ -3,7 +3,7 @@ product: adobe campaign
 title: About Adobe Experience Platform segments
 description: Learn how to configure an Adobe Experience Platform segment
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 ---

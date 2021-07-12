@@ -3,7 +3,7 @@ product: adobe campaign
 title: Selecting the namespace
 description: Learn how to select the namespace
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
 ---

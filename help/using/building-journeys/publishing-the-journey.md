@@ -3,7 +3,7 @@ product: adobe campaign
 title: Publishing the journey
 description: Learn about journey publication
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
 ---

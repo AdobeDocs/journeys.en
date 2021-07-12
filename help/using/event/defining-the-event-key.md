@@ -3,7 +3,7 @@ product: adobe campaign
 title: Defining the event key
 description: Learn how to define the event key
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 ---

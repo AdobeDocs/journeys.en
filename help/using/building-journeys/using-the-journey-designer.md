@@ -3,7 +3,7 @@ product: adobe campaign
 title: Using the journey designer
 description: Learn more on using the journey designer
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 ---

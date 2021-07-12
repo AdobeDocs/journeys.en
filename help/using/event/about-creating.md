@@ -3,7 +3,7 @@ product: adobe campaign
 title: Creating an event
 description: Learn how to create an event
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 ---

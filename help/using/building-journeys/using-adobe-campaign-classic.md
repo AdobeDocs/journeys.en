@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Using Adobe Campaign v7/v8 actions
 description: Learn about Adobe Campaign v7/v8 actions
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---

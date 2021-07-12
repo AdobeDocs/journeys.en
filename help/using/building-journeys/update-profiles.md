@@ -3,7 +3,7 @@ product: adobe campaign
 title: Jumping from one journey to another
 description: Jumping from one journey to another
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 ---

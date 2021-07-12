@@ -3,7 +3,7 @@ product: adobe campaign
 title: Troubleshooting
 description: Learn more on troubleshooting
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 ---

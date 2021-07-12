@@ -3,7 +3,7 @@ product: adobe campaign
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 ---

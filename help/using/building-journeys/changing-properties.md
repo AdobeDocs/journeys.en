@@ -3,7 +3,7 @@ product: adobe campaign
 title: Changing properties
 description: Learn on how to change properties
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 ---

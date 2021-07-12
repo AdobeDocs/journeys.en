@@ -3,7 +3,7 @@ product: adobe campaign
 title: About events
 description: Learn about events
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 ---

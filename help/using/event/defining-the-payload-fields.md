@@ -3,7 +3,7 @@ product: adobe campaign
 title: Defining the payload fields
 description: Learn about how to define the payload fields
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 ---

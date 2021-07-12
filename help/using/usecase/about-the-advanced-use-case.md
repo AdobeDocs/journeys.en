@@ -3,7 +3,7 @@ product: adobe campaign
 title: About the advanced use case
 description: Lean more on the journey advanced use-case
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 ---

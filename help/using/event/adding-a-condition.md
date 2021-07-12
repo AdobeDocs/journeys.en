@@ -3,7 +3,7 @@ product: adobe campaign
 title: Adding a condition
 description: Learn how to add a condition
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
 ---

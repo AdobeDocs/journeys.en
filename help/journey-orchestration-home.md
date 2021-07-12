@@ -4,7 +4,7 @@ product: adobe campaign
 title: Journey Orchestration product documentation
 description: Journey Orchestration product documentation
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 ---

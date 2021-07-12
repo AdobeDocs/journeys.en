@@ -3,7 +3,7 @@ product: adobe campaign
 title: About Journey Orchestration
 description: Learn more on Journey Orchestration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 ---

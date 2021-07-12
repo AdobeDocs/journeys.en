@@ -3,7 +3,7 @@ product: adobe campaign
 title: Leveraging customer AI scores
 description: Leveraging customer AI scores
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 ---

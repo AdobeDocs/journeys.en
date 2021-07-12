@@ -3,7 +3,7 @@ product: adobe campaign
 title: Previewing the payload
 description: Learn how to preview the payload
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
 ---

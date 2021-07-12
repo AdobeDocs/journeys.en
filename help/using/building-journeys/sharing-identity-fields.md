@@ -3,7 +3,7 @@ product: adobe campaign
 title: journeyStep event identity fields
 description: journeyStep event identity fields
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
 ---

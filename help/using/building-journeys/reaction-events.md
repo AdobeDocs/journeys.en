@@ -3,7 +3,7 @@ product: adobe campaign
 title: Reactions events
 description: Learn about reaction events
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 ---

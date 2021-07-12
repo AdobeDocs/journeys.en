@@ -3,7 +3,7 @@ product: adobe campaign
 title: Access management
 description: Learn more on access management
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 ---

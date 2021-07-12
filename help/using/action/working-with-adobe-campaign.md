@@ -3,7 +3,7 @@ product: adobe campaign
 title: Working with Adobe Campaign
 description: Learn about Adobe Campaign actions
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 ---

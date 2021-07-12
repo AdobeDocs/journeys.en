@@ -3,7 +3,7 @@ product: adobe campaign
 title: Release Notes
 description: Learn about release notes
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 ---

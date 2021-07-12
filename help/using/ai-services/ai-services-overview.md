@@ -3,7 +3,7 @@ product: adobe campaign
 title: AI service overview
 description: AI service overview
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 ---

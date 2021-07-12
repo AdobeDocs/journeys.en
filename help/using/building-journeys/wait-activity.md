@@ -3,7 +3,7 @@ product: adobe campaign
 title: Wait activity
 description: Learn about the wait activity
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 ---

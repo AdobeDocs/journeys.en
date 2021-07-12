@@ -3,7 +3,7 @@ product: adobe campaign
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 ---

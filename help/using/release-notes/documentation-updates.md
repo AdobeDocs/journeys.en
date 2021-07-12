@@ -3,7 +3,7 @@ product: adobe campaign
 title: Documentation Updates
 description: Learn about documentation updates
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 ---

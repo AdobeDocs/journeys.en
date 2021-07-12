@@ -3,7 +3,7 @@ product: adobe campaign
 title: About actions
 description: Learn how to configure an action
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 ---

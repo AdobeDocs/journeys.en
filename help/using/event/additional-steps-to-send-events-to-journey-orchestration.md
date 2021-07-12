@@ -3,7 +3,7 @@ product: adobe campaign
 title: Additional steps to send events to Journey Orchestration
 description: Learn about additional steps to send events to Journey Orchestration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 ---

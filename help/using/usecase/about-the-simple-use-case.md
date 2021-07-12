@@ -3,7 +3,7 @@ product: adobe campaign
 title: About the simple use case
 description: Lean more on the journey simple use-case
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 ---

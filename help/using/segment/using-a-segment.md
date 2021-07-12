@@ -3,7 +3,7 @@ product: adobe campaign
 title: Using a segment
 description: Learn how to use a segment
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: URL configuration
 description: Learn about URL configuration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 ---

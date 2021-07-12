@@ -3,7 +3,7 @@ product: adobe campaign
 title: Field groups
 description: Learn about field groups
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 ---

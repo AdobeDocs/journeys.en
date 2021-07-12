@@ -3,7 +3,7 @@ product: adobe campaign
 title: Configuring the event
 description: Learn how to configure the event for the journey simple use case
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: Building the journey
 description: Learn how to build the advanced use case journey 
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 ---

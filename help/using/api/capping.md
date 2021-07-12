@@ -4,7 +4,7 @@ title: Capping API description
 description: Learn more about the Capping API.
 products: journeys
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 ---

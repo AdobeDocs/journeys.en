@@ -3,7 +3,7 @@ product: adobe campaign
 title: Adobe Experience Platform data source 
 description: Learn how to configure the Adobe Experience Platform data source 
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 ---

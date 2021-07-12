@@ -3,7 +3,7 @@ product: adobe campaign
 title: Creating your journey reports
 description: Learn how to create your journey reports
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 ---

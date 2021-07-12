@@ -3,7 +3,7 @@ product: adobe campaign
 title: About custom action configuration
 description: Learn how to configure a custom action
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 ---

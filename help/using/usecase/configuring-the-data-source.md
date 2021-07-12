@@ -3,7 +3,7 @@ product: adobe campaign
 title: Configuring the data source
 description: Learn how to configure the data source for the journey simple use case
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 ---
