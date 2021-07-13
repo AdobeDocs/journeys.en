@@ -47,8 +47,8 @@ feature: Journeys
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
-+ Using Plaform segments {#configuring-segment}
-  + [About Plaform segments](using/segment/about-segments.md)
++ Using segments {#configuring-segment}
+  + [About segments](using/segment/about-segments.md)
   + [Creating a segment](using/segment/creating-a-segment.md)
   + [Using segments in conditions](using/segment/using-a-segment.md)
 + Building a journey {#building-journeys}
