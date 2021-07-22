@@ -17,7 +17,7 @@ In the **[!UICONTROL Message parameters]** section, paste an example of the JSON
 
 >[!NOTE]
 >
->Field names in the payload cannot contain a "." character.
+>Field names in the payload cannot contain a "." character. They cannot start with a "$" character.
 
 You will be able to define the parameter type (e.g.: string, integer, etc.).
 
