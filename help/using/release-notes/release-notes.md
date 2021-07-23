@@ -17,15 +17,15 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <table>
 <thead>
 <tr>
-<th><strong> Send time optimization</strong><br/></th>
+<th><strong>Leverage schema relationships</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The integration with Adobe Campaign Classic integration is now GA. It allows you to send emails, push notifications and SMS using Adobe Campaign v7 or v8 Transactional Messaging capabilities.</p>
-<p>The connection between the Journey Orchestration and Campaign instances is setup by Adobe at provisioning time.</p>
-<p>For more information, refer to the <a href="../action/acc-action.md">detailed documentation</a>.</p>
+<p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema.</p>
+<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.
+<p>For more information, refer to the <a href="../event/experience-event-schema.md#unitary_event_configuration">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
