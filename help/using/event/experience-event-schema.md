@@ -69,7 +69,6 @@ In Journey Orchestration, you can then leverage all the fields from the linked t
 
 * when configuring a unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
 * when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
-* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
 * in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
 ### Unitary event configuration{#unitary_event_configuration}
@@ -85,7 +84,6 @@ The linked fields are not available:
 
 * in the event key formula
 * in event id condition (rule-based events)
-* in business events
 
 To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
