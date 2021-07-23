@@ -33,7 +33,8 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-* For external data sources, a capping rule of 15 calls per second is now automatically defined. [Read more](../about/external-systems.md#capping)
+* You can configure dynamic headers for HTTP request messages. Read more [here](../action/about-custom-action-configuration.md) and [here](building-journeys/using-custom-actions.md).
+* The **Cache duration** field has been removed from the data source configuration pane. [Read more](datasource/about-data-sources.md)
 
 ## June 2021 Release {#june-2021-release}
 
