@@ -110,10 +110,10 @@ The definition of the endpoint to be called to generate the access token:
 
 * endpoint: URL to use to generate the endpoint
 * method of the HTTP request on the endpoint (GET or POST)
-* headers: key/value pairs to be injected as headers in this call if required
-* body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key/value pairs). The bodyType describes the format and encoding of the body in the call: 
-    * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key/value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
-    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
+* headers: key-value pairs to be injected as headers in this call if required
+* body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key-value pairs). The bodyType describes the format and encoding of the body in the call: 
+    * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key-value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
+    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key-value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
 
 The definition of the way the access token must be injected in the HTTP request of the action:
 
