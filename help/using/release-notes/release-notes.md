@@ -24,7 +24,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <tr>
 <td>
 <p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema.</p>
-<p>These fields are available in unitary event configuration, journey conditions, message personalization and custom action personalization.
+<p>These fields are available in unitary event configuration, journey conditions and custom action personalization.
 <p>For more information, refer to the <a href="../event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
 </td>
 </tr>
