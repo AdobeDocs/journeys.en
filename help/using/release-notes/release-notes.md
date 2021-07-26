@@ -33,7 +33,6 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-* You can configure dynamic headers for HTTP request messages. Read more [here](../action/url-configuration) and [here](../building-journeys/using-custom-actions.md).
 * The **Cache duration** field has been removed from the data source configuration pane. [Read more](../datasource/about-data-sources.md)
 
 ## June 2021 Release {#june-2021-release}
