@@ -12,6 +12,29 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## July 2021 Release {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Leverage schema relationships</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. Journey Orchestration can now leverage data coming from a linked schema.</p>
+<p>These fields are available in unitary event configuration, journey conditions and custom action personalization.
+<p>For more information, refer to the <a href="../event/experience-event-schema.md#leverage_schema_relationships">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements
+
+* The **Cache duration** field has been removed from the data source configuration pane. [Read more](../datasource/about-data-sources.md)
+
 ## June 2021 Release {#june-2021-release}
 
 <table>

@@ -13,7 +13,8 @@ In our use case, we want to use personalization data for our messages. We also n
 
 For additional information on data source configuration, refer to [this page](../datasource/about-data-sources.md). 
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
+1. In the menu pane, select **[!UICONTROL Admin]**. In the **[!UICONTROL Data sources]** section, click **[!UICONTROL Manage]**.
+1. Select the build-in Adobe Experience Platform data source.
 
     ![](../assets/journey23.png)
 

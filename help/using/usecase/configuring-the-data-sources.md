@@ -13,7 +13,8 @@ In our use case, we want to use personalization data for our messages. We also n
 
 For additional information on data source configuration, refer to [this page](../datasource/about-data-sources.md).
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
+1. In the menu pane, select **[!UICONTROL Admin]**. In the **[!UICONTROL Data sources]** section, click **[!UICONTROL Manage]**.
+1. Select the build-in Adobe Experience Platform data source.
 
     ![](../assets/journey23.png)
 
@@ -52,7 +53,6 @@ We also need to check if the person has a reservation in the hotel reservation s
 1. Click **[!UICONTROL Add a New Field Group]** to define the information to be retrieved and the API parameters. For our example, there is only one parameter (the id), so we need to create one field group with the following information:
 
     * **[!UICONTROL Method]**: select the POST or GET method. In our case, we select the GET method.
-    * **[!UICONTROL Cache duration]**: this varies according to the frequency of the API calls. In our case, the reservation system is updated every 10 minutes.
     * **[!UICONTROL Response Payload]**: click inside the **[!UICONTROL Payload]** field and paste an example of the payload. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. In our example, the payload only contains the reservation status:
 
     ```

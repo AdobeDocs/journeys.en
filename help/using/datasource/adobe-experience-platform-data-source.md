@@ -33,7 +33,6 @@ Here are the main steps to add field groups to the build-in data source.
 
 1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in the Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Orchestration]. It’s performed in the Adobe Experience Platform.
 1. Select the fields you want to use.
-1. Define the cache duration.
 1. Click on **[!UICONTROL Save]**.
 
 When you place the cursor on the name of a field group, you’ll see two icons on the right. They allow you to delete and duplicate the field group. Note that the **[!UICONTROL Delete]** icon is only available if the field group is not used in any live or draft journey (information displayed in the **[!UICONTROL Used in]** field).
