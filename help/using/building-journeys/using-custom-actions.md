@@ -9,15 +9,15 @@ exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
 ---
 # Using custom actions {#section_f2c_hbg_nhb}
 
-The activity configuration pane shows the URL configuration parameters and the authentication parameters that are configured for the custom action. [Learn more](../action/about-custom-action-configuration.md).
+When adding a custom action to a journey, you must specify the value of dynamic header fields. Dynamic header fields are HTTP header fields whose value is configured as a variable. [Learn more](../action/about-custom-action-configuration.md).
 
-The **[!UICONTROL URL Configuration]** section shows the dynamic header fields, but not the constant header fields. Dynamic header fields are HTTP header fields whose value is configured as a variable. [Learn more](../action/about-custom-action-configuration.md).
-
-If required, specify the value of dynamic header fields:
+Follow these steps:
 
 1. Select the custom action in the journey.
 1. In the configuration pane, click the pencil icon next to the header field in the **[!UICONTROL URL Configuration]** section.
 1. Select a field and click **[!UICONTROL OK]**.
+
+By default, in the activity configuration pane, the **[!UICONTROL URL Configuration]** section shows only dynamic header fields. To view all the parameters, click the **Show read-only fields** icon.
 
 >[!NOTE]
 >
