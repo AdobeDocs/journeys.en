@@ -12,6 +12,15 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## August 2021 Release {#august-2021-release}
+
+### Improvements
+
+**Journeys**
+
+* **Dynamic headers** - You can now pass dynamic data in HTTP header parameters. These parameters can be used by the integration systems that receive the journey action HTTP calls, for example timestamp or tracking ID. [Read more](../action/url-configuration.md)
+* **Dynamic URL paths** - You can now set up dynamic URL paths for custom actions. [Read more](../action/url-configuration.md)
+
 ## July 2021 Release {#july-2021-release}
 
 <table>

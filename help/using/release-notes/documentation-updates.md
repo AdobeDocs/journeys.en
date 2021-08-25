@@ -12,6 +12,12 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## August 2021
+
+* Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/url-configuration.md)
+* Added a section about accessibility features. [Read more](../about/user-interface.md#accessibility)
+* Added a section about segment evaluation methods. [Read more](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+
 ## March 2021 {#march-2021}
 
 * We have detailed the full procedure to create test profiles in Adobe Experience Platform. [Read more](../building-journeys/creating-test-profiles.md).
@@ -92,7 +98,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * All screenshots have been updated to reflect interface changes.
 * The test mode section has been updated. [Read more](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Stopped journeys can now be deleted. Related documentation pages have been updated.
 * Two colors are now displayed when issues are detected in a journey. Red for errors and orange for warnings. [Read more](../about/troubleshooting.md)
 * The advanced expression editor section has been updated. [Read more](../expression/expressionadvanced.md).

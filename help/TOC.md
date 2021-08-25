@@ -46,7 +46,7 @@ feature: Journeys
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [URL configuration](using/action/url-configuration.md)
-    + [Defining the message parameters](using/action/defining-the-message-parameters.md)
+    + [Defining the action parameters](using/action/defining-the-message-parameters.md)
 + Using segments {#configuring-segment}
   + [About segments](using/segment/about-segments.md)
   + [Creating a segment](using/segment/creating-a-segment.md)
