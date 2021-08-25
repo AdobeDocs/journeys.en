@@ -1,17 +1,17 @@
 ---
 product: adobe campaign
-title: Defining the message parameters
-description: Learn how to define the message parameters
+title: Defining the action parameters
+description: Learn how to define the action parameters
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 ---
-# Defining the message parameters {#concept_wy4_bf1_2gb}
+# Defining the action parameters {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-In the **[!UICONTROL Message parameters]** section, paste an example of the JSON payload to send to the external service.
+In the **[!UICONTROL Action parameters]** section, paste an example of the JSON payload to send to the external service.
 
 ![](../assets/customactionpayloadmessage.png)
 
