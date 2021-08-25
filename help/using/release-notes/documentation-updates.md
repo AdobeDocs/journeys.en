@@ -12,6 +12,10 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## August 2021
+
+* Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/url-configuration.md)
+
 ## March 2021 {#march-2021}
 
 * We have detailed the full procedure to create test profiles in Adobe Experience Platform. [Read more](../building-journeys/creating-test-profiles.md).

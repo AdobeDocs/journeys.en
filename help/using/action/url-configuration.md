@@ -13,17 +13,40 @@ When configuring a custom action, you need to define the following **[!UICONTROL
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Add the **[!UICONTROL URL]** of the external service.
+1. In the **[!UICONTROL URL]** field, specify the URL of the external service:
+
+    * If the URL is static, enter the URL in this field.
+
+    * If the URL includes a dynamic path, enter only the static part of the URL, that is, the scheme, the host, the port, and, optionally, a static part of the path.
+
+        Example: `https://xxx.yyy.com:8080/somethingstatic/`
+
+        You will specify the dynamic path of the URL when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
 
     >[!NOTE]
     >
-    >We strongly recommend using HTTPS for security reasons. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
+    >For security reasons, we strongly recommend that you use the HTTPS scheme for the URL. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
 
 1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
-1. In the **[!UICONTROL Headers]** section, click **[!UICONTROL Add a header field]** to define a new key/value pair. They correspond to the HTTP headers of the request made to the external service. To delete key/value pairs, place your cursor on the **[!UICONTROL Headers]** field and click on the **[!UICONTROL Delete]** icon.
+1. In the **[!UICONTROL Headers]** section, define the HTTP headers of the request message to be sent to the external service:
+   1. To add a header field, click **[!UICONTROL Add a header field]**.
+   1. Enter the key of the header field.
+   1. To set a dynamic value for the key-value pair, select **[!UICONTROL Variable]**. Otherwise, select **[!UICONTROL Constant]**.
 
-    **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** are set by default and cannot be deleted or overridden.
+        For example, for a timestamp, you can set a dynamic value.
+
+   1. If you have selected **[!UICONTROL Constant]**, then enter the constant value.
+
+       If you have selected **[!UICONTROL Variable]**, then you will specify this variable when adding the custom action to a journey. [Learn more](../building-journeys/using-custom-actions.md).
+
+       ![](../assets/journeyurlconfiguration2.png)
+
+   1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
+
+    The **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** header fields are set by default. You cannot modify or delete these fields.
+
+    After you have added the custom action to a journey, you can still add header fields to it if the journey is in draft status. If you do not want the journey to be affected by configuration changes, duplicate the custom action and add the header fields to the new custom action.
 
     >[!NOTE]
     >
-    >Headers are validated according to the following [parsing rules](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >Headers are validated according to field parsing rules. [Learn more](https://tools.ietf.org/html/rfc7230#section-3.2.4).
