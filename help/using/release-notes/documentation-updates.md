@@ -15,6 +15,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## August 2021
 
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/url-configuration.md)
+* Added a section about accessibility features. [Read more](user-interface.md#accessibility)
 
 ## March 2021 {#march-2021}
 

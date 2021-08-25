@@ -81,58 +81,135 @@ If a friendly name is available, then the field will be displayed as `<friendly
 >
 >Friendly names are not retrieved when you select fields from a union of schemas.
 
-## Using the different shortcuts{#section_ksq_zr1_ffb}
+## Accessibility{#accessibility}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]'s interface.
+The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
 
-_In the list of journeys, actions, data sources or events:_
+* Keyboard accessibility
+* Color contrast
+* Validation of required fields
 
-* Press **c** to create a new journey, action, data source or event.
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentation.
 
-_When configuring an activity in a journey:_
+You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 
-The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
+| Action | Shortcut |
+| --- | --- |
+| Move between user interface elements, sections, and menu groups | Tab |
+| Move backward between user interface elements, sections, and menu groups | Shift + Tab |
+| Move within sections to set focus to individual elements | Arrow |
+| Select or clear an element that is in focus | Enter or Spacebar |
+| Cancel a selection, collapse a panel, or close a dialog box | Esc |
 
-* Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
-* Press **Enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentation.
 
-_In pop-ups:_
+You can use these shortcuts in specific parts of Journey Optimizer:
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+<table>
+  <thead>
+    <tr>
+      <th>Interface element</th>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>List of journeys, actions, data sources, or events</td>
+    <td>Create a journey, an action, a data source, or an event</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Journey canvas in draft status</td>
+    <td>Add an activity from the left palette at the first available position, from top to bottom</td>
+    <td>Double-click on the activity</td>
+  </tr>
+  <tr>
+    <td>Select all the activities</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Delete the selected activities</td>
+    <td>Delete or Backspace, then Enter to confirm the deletion</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+  
+  Configuration pane of these elements:
 
-_In the event, data source or action configuration pane:_
+<ul>
+  <li>Activity in a journey</li>
+  <li>Event</li>
+  <li>Data source</li>
+  <li>Action</li>
+</ul>
 
-* Press **escape** to close the configuration pane without saving.
-* Press **Enter** to save modifications and close the configuration pane.
-* Press **tab** to jump between the different fields to configure.
+  </td>
+    <td>Move to the next field to be configured</td>
+    <td>Tab</td>
+  </tr>
+  <tr>
+    <td>Save changes and close the configuration pane</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Discard changes and close the configuration pane</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Journey in test mode</td>
+    <td>Enable or disable the test mode</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Trigger an event in an event-based journey</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-_In the simple expression editor_
+  Trigger an event in a segment-based journey for which the **[!UICONTROL Single profile at a time]** option is turned on
 
-* Double-click on a field, on the left, to add a query (equivalent to drag & drop).
-
-_When browsing through XDM fields:_
-
-* Checking a "node" will select all the fields of the node.
-
-_In all text areas:_
-
-* Use the **Ctrl/Command + A** key combination to select the text. In the payload preview, it selects the payload.
-
-_In a screen with a search bar:_
-
-* Use the **Ctrl/Command + F** key combination to select the search bar.
-
-_In the canvas of a journey:_
-
-* Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
-* Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
-
-_In a journey:_
-
-* Press **T** to enable/disable the test mode.
-* In an event-based journey in test mode, press **E** to trigger an event.
-* In a segment-based journey, when the **Single profile at a time** option is selected in test mode, press **P** to trigger an event.
-* In test mode, press **L** to display the logs.
+  </td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Display the test logs</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Text field</td>
+    <td>Select all the text in the selected field</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Pop-up window</td>
+    <td>Save changes or confirm the action</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Close the window</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Simple expression editor</td>
+    <td>Select and add a field</td>
+    <td>Double-click on a field</td>
+  </tr>
+  <tr>
+    <td>Browsing through XDM fields</td>
+    <td>Select all the fields of a node</td>
+    <td>Select the parent node</td>
+  </tr>
+  <tr>
+    <td>Payload preview</td>
+    <td>Select the payload</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+</table>
