@@ -87,6 +87,7 @@ feature: Journeys
       + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
       + [journey fields](using/building-journeys/sharing-journey-fields.md)
+      + [Examples of queries](using/building-journeys/query-examples.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + Syntax {#syntax}
