@@ -177,3 +177,7 @@ You can change the cache duration of the token for a custom authentication data 
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>Cache duration helps to avoid too many calls to the authentication endpoints. Authentication token retention is cached in services, there is no persistence. If a service is restarted, it starts with a clean cache. The cache duration by default is 1 hour. In the custom action payload, it can be adapted by specifying another retention duration.
