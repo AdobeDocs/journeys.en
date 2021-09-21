@@ -113,6 +113,32 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Description**
+
+Represents a date only without a time zone, viewed as year-month-day-hour-minute-second-millisecond.
+
+It does not store or represent a time zone. Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.
+
+It cannot represent an instant on the time-line without additional information such as an offset or time zone.
+
+Serialization format: ISO-8601 extended offset date-time format.
+
+It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
+
+**Literal representation**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+**Examples**
+```
+date("2021-02-19T00.00.000Z")
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Description**
@@ -130,7 +156,7 @@ It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the v
 **Literal representation**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
 ```
 
 ## dateTime {#date-time}
@@ -143,7 +169,7 @@ It can be viewed as an instant in time with the additional information of the of
 
 JSON format: String.
 
-It must be encapsulated in a toDateTime function.
+It can be encapsulated in a toDateTime function.
 
 Serialization format: ISO-8601 extended offset date-time format.
 
