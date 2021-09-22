@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: toDateOnly
-description: Learn about the function toDateOnly
+title: intersect
+description: Learn about the function intersect
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 ---
-# toDateOnly{#toDateOnly}
+# intersect{#intersect}
 
-Converts an argument value into a date only value.
+Returns the common values in the two input lists. If one of the two lists is null, returns an empty list.
 
 ## Category
 
