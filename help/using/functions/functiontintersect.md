@@ -17,20 +17,20 @@ List
 
 ## Function syntax
 
-`intersect(list listl, list list2)`: list
+`intersect(<parameters>)`
 
 ## Parameters
 
 | Parameter | Type             |
 |-----------|------------------|
-| date in ISO-8601 or "YYYY-MM-DD" format (XDM Date format) | string |
-| date | date |
+| list 1 | list |
+| list 2 | list |
 
 ## Signatures and returned types
 
 `intersect(listString,listString)`: listString
 `intersect(listDecimal,listDecimal)`: listDecimal
-`intersect(listlnteger,listlnteger)`: listlnteger
+`intersect(listInteger,listInteger)`: listInteger
 `intersect(listDateTime,listDateTime)`: listDateTime
 `intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`: listDateOnly
@@ -41,3 +41,29 @@ Returns a list.
 
 ## Examples
 
+```
+intersect(
+    ["sports", "news", "documentary"],
+    ["sports", "movies", "documentary"]
+)
+```
+
+Returns ["sports,"news"]
+
+```
+intersect(
+    #{ExperienceDataPlatform.profile.interests},
+    ["sports", "news", "documentary"]
+)
+```
+
+Returns common items between profile attributes and given list of categories.
+
+```
+intersect(
+        	#{ExperienceDataPlatform.profile.interests},
+            @{"myEvent.sport_interests"}
+)
+```
+
+Returns common items between profile attributes and given event field.
