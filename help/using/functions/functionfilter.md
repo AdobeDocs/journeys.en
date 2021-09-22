@@ -77,4 +77,4 @@ filter(
 )
 ```
 
-Returns a listObject containing product 2 and product 3. 
+Returns a listObject containing the two objects with "product2" and "product3" as id.
