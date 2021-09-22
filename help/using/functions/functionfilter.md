@@ -9,7 +9,7 @@ exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 ---
 # filter{#filter}
 
-Returns a listObject with objects having the key attribute matching one of the given key values
+Returns a listObject with objects having the key attribute matching one of the given key values.
 
 ## Category
 
@@ -24,8 +24,8 @@ List
 | Parameter | Type             | Description             |
 |-----------|------------------|------------------|
 | listToFilter | listObject | list of objects, to be filtered. It must be a field reference. |
-| keyAttributeName | string | attribute name in the objects of the the given list, used as key for filtering |
-| keyValuelist | list | array of key values for filtering |
+| keyAttributeName | string | attribute name in the objects of the given list, used as key for filtering |
+| keyValueList | list | array of key values for filtering |
 
 ## Signatures and returned types
 
@@ -53,7 +53,7 @@ Here is an example of a payload:
 
 ```
 "products": [{
-   "id": "productl",
+   "id": "product1",
    "name": ''the Product 1",
    "price": 20
 },{
