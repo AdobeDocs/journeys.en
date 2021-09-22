@@ -48,7 +48,7 @@ intersect(
 )
 ```
 
-Returns ["sports,"news"]
+Returns ["sports", "news"]
 
 ```
 intersect(
@@ -62,7 +62,7 @@ Returns common items between profile attributes and given list of categories.
 ```
 intersect(
         	#{ExperienceDataPlatform.profile.interests},
-            @{"myEvent.sport_interests"}
+            @{myEvent.sport_interests}
 )
 ```
 

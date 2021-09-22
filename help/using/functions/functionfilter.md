@@ -49,7 +49,7 @@ Returns a listObject.
 
 ## Examples
 
-Here is an example of a payload:
+Here is an example of a payload passed in an incoming event "myevent":
 
 ```
 "products": [{
