@@ -115,6 +115,7 @@ feature: Journeys
       + [sum](using/functions/functionsum.md)
     + Conversion {#conversion}
       + [toBool](using/functions/functiontobool.md)
+      + [toDateOnly](using/functions/functiontodateonly.md)
       + [toDateTime](using/functions/functiontodatetime.md)
       + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
       + [toDecimal](using/functions/functiontodecimal.md)
@@ -138,8 +139,10 @@ feature: Journeys
     + List {#list}
       + [distinct](using/functions/functiondistinct.md)
       + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+      + [filter](using/functions/functionfilter.md)
       + [getListItem](using/functions/functiongetlistitem.md)
       + [in](using/functions/functionin.md)
+      + [intersect](using/functions/functionintersect.md)
       + [listSize](using/functions/functionlistsize.md)
       + [serializeList](using/functions/functionserializelist.md)
       + [sort](using/functions/functionsort.md)

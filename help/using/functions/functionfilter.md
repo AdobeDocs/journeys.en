@@ -49,7 +49,20 @@ Returns a listObject.
 
 ## Examples
 
-rajouter payload
+Business event
+"products": [{
+},{
+},,{
+"id": "productl",
+"name": ''the Product 1",
+"price": 20
+"id": "product2",
+"name": "the Product 2",
+"price": 30
+"id": "product3",
+"name": "the Product 3",
+"price": 50
+Exported profile 1
 
 ```
 filter(
