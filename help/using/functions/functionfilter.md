@@ -52,17 +52,17 @@ Returns a listObject.
 Here is an example of a payload passed in an incoming event "myevent":
 
 ```
-"products": [{
+"productListItems": [{
    "id": "product1",
-   "name": ''the Product 1",
+   "name": "the product 1",
    "price": 20
 },{
    "id": "product2",
-   "name": "the Product 2",
+   "name": "the product 2",
    "price": 30
 },,{
    "id": "product3",
-   "name": "the Product 3",
+   "name": "the product 3",
    "price": 50
 }]
 ```
@@ -72,8 +72,8 @@ You can use the following expression:
 ```
 filter(
 	@{myevent.productListItems},
-	"_id",
-	["product 2", "product 3", "product 4"]
+	"id",
+	["product2", "product3", "product4"]
 )
 ```
 
