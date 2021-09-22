@@ -60,7 +60,7 @@ Here is an example of a payload passed in an incoming event "myevent":
    "id": "product2",
    "name": "the product 2",
    "price": 30
-},,{
+},{
    "id": "product3",
    "name": "the product 3",
    "price": 50
