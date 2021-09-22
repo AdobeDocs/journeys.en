@@ -1,45 +1,44 @@
 ---
 product: adobe campaign
-title: toDateOnly
-description: Learn about the function toDateOnly
+title: filter
+description: Learn about the function fister
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 ---
-# toDateOnly{#toDateOnly}
+# filter{#filter}
 
-Converts an argument value into a date only value.
+Returns a JsonArray with objects having the key attribute matching one of the given key values.
 
 ## Category
 
-Conversion
+List
 
 ## Function syntax
 
-`toDateOnly(<parameters>)`
+`filter(jsonArray arrayToFilter, string keyAttributeName, list keyValueList`: jsonArray
 
-## Parameters
+## Arguments	
 
-| Parameter | Type             |
+| Argument | Description             |
 |-----------|------------------|
-| date in ISO-8601 or "YYYY-MM-DD" format (XDM Date format) | string |
-| date | date |
+| arrayToFilter | json array of objects, to be filtered |
+| keyAttributeName | attribute name in the objects of arrayToFilter, used as key for filtering |
+| keyValuelist | array of key values for filtering |
 
 ## Signatures and returned types
 
-`toDateOnly(<date>)`
+`filter(listObject, string, listString)`
+`filter(listObject, string, listlnteger)`
+`filter(listObject, string, listDecimal)`
+`filter(listObject, string, listDateTime)`
+`filter(listObject, string, listDateTimeOnly)`
+`filter(listObject, string, listDateOnly)`
+`filter(listObject, string, listDuration)`
+`filter(lisObject, string, listBoolean)`
 
-`toDateOnly(<string>)`
-
-Return a datetime without considering time zone.
+Returns a lisObject.
 
 ## Examples
 
-`toDateTimeOnly ("2016-08-18")`
-
-returns a dateTime representing 2016-08-18T00:00:00.000
-
-`toDateOnly("2016-08-18")`
-
-returns a dateOnly object

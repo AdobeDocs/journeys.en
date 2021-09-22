@@ -107,7 +107,7 @@ In this section, we will use the following JSON payload example. This is an arra
 }
 ```
 
-You can see that "products" is an array of two objets. You need to have at least one object.
+You can see that "products" is an array of two objects. You need to have at least one object.
 
 1. Create your custom action. See [this page](../action/about-custom-action-configuration.md).
 
@@ -174,8 +174,6 @@ Example of array of arrays:
     ]
 }
 ```
-
-+ GILLES SCREENSHOT
 
 **Related topics**
 

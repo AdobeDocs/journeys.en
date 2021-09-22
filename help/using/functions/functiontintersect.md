@@ -13,11 +13,11 @@ Returns the common values in the two input lists. If one of the two lists is nul
 
 ## Category
 
-Conversion
+List
 
 ## Function syntax
 
-`toDateOnly(<parameters>)`
+`intersect(list listl, list list2)`: list
 
 ## Parameters
 
@@ -28,18 +28,16 @@ Conversion
 
 ## Signatures and returned types
 
-`toDateOnly(<date>)`
+`intersect(listString,listString)`: listString
+`intersect(listDecimal,listDecimal)`: listDecimal
+`intersect(listlnteger,listlnteger)`: listlnteger
+`intersect(listDateTime,listDateTime)`: listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`: listDateOnly
+`intersect(listDuration,listDuration)`: listDuration
+`intersect(listBoolean,listBoolean)`: listBoolean
 
-`toDateOnly(<string>)`
-
-Return a datetime without considering time zone.
+Returns a list.
 
 ## Examples
 
-`toDateTimeOnly ("2016-08-18")`
-
-returns a dateTime representing 2016-08-18T00:00:00.000
-
-`toDateOnly("2016-08-18")`
-
-returns a dateOnly object
