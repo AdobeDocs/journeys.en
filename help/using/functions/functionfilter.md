@@ -49,20 +49,25 @@ Returns a listObject.
 
 ## Examples
 
-Business event
+Here is an example of a payload:
+
+```
 "products": [{
+   "id": "productl",
+   "name": ''the Product 1",
+   "price": 20
 },{
+   "id": "product2",
+   "name": "the Product 2",
+   "price": 30
 },,{
-"id": "productl",
-"name": ''the Product 1",
-"price": 20
-"id": "product2",
-"name": "the Product 2",
-"price": 30
-"id": "product3",
-"name": "the Product 3",
-"price": 50
-Exported profile 1
+   "id": "product3",
+   "name": "the Product 3",
+   "price": 50
+}]
+```
+
+You can use the following expression:
 
 ```
 filter(
