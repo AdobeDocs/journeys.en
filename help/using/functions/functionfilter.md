@@ -73,8 +73,8 @@ You can use the following expression:
 filter(
 	@{myevent.productListItems},
 	"_id",
-	["product 2","product 3","product 4"]
+	["product 2", "product 3", "product 4"]
 )
 ```
 
-Returns a listobject containing product 2 and product 3. 
+Returns a listObject containing product 2 and product 3. 
