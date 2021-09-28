@@ -45,4 +45,8 @@ Returns 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Returns tomorrow at 8 PM.
+Returns tomorrow at 8:XY PM, XY being the minutes at the moment of the current time evaluation. If the evaluation happens at 2:45 AM, the returned time will be 8:45 PM.
+
+```setHours( (toDateTime("UTC", toDateTimeOnly( toDateOnly(nowWithDelta(1, "days")) )), 20)```
+
+Returns tomorrow at 8 PM sharp?
