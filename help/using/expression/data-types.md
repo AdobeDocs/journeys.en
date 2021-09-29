@@ -113,15 +113,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Description**
+
+Represents a date only without a time zone, viewed as a year-month-day.
+
+It is a description of the date, as used for birthdays.
+
+JSON format: String.
+
+Format is: YYYY-MM-DD (ISO-8601), for example: "2021-03-11".
+
+It can be encapsulated in a toDateOnly function.
+
+It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the value. [Learn more](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Literal representation**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Example**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Description**
 
 Represents a date time without a time zone, viewed as year-month-day-hour-minute-second-millisecond.
 
+JSON format: String.
+
 It does not store or represent a time zone. Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.
 
 It cannot represent an instant on the time-line without additional information such as an offset or time zone.
+
+It can be encapsulated in a toDateTimeOnly function.
 
 Serialization format: ISO-8601 extended offset date-time format.
 
@@ -130,7 +162,14 @@ It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the v
 **Literal representation**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Examples**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -143,7 +182,7 @@ It can be viewed as an instant in time with the additional information of the of
 
 JSON format: String.
 
-It must be encapsulated in a toDateTime function.
+It can be encapsulated in a toDateTime function.
 
 Serialization format: ISO-8601 extended offset date-time format.
 
@@ -160,10 +199,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Example**
+**Examples**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

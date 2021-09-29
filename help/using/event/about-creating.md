@@ -47,7 +47,7 @@ Here are the main steps to configure a new event:
 
    >[!NOTE]
    >
-   >The advanced expression editor is not available when defining the **[!UICONTROL Event ID condition]**.
+   >The advanced expression editor is not available when defining the **[!UICONTROL Event ID condition]**. In the simple expression editor, not all operators are available, they depend on the data type. For example, for a string type of field, you can use "contains" or "equal to".
 
 1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [this page](../event/selecting-the-namespace.md).
 1. Define the key: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, [!DNL Journey Orchestration] picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [this page](../event/defining-the-event-key.md). 

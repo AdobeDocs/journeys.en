@@ -32,6 +32,7 @@ Here is the list of supported functions.
 | Aggregation | [min](../functions/functionmin.md)|
 | Aggregation | [sum](../functions/functionsum.md)|
 | Conversion  | [toBool](../functions/functiontobool.md)|
+| Conversion  | [toDateOnly](../functions/functiontodateonly.md)|
 | Conversion  | [toDateTime](../functions/functiontodatetime.md)|
 | Conversion  | [toDateTimeOnly](../functions/functiontodatetimeonly.md)|
 | Conversion  | [toDecimal](../functions/functiontodecimal.md)|
@@ -52,8 +53,11 @@ Here is the list of supported functions.
 | Date        | [setHours](../functions/functionsethours.md)|
 | Date        | [setDays](../functions/functionsetdays.md)|
 | List        | [distinct](../functions/functiondistinct.md)|
-| List        | [distinctCount](../functions/functiondistinctcount.md)|
+| List        | [distinctWithNull](../functions/functiondistinctwithnull.md)|
+| List        | [filter](../functions/functionfilter.md)|
+| List        | [getListItem](../functions/functiongetlistitem.md)|
 | List        | [in](../functions/functionin.md)|
+| List        | [intersect](../functions/functionintersect.md)|
 | List        | [listSize](../functions/functionlistsize.md)|
 | List        | [serializeList](../functions/functionserializelist.md)|
 | List        | [sort](../functions/functionsort.md)|

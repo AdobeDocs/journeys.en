@@ -45,7 +45,7 @@ The **[!UICONTROL Filter items]** icon in the top left corner allows you to disp
 
  ![](../assets/palette-filter.png)
 
-You can also use the **[!UICONTROL Search]** field.
+You can also use the **[!UICONTROL Search]** field. Only events and actions are filtered.
 
 ## The canvas {#canvas}
 

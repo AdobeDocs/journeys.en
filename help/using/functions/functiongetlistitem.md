@@ -30,37 +30,38 @@ List
 | list      | listDuration     |
 | list      | listDateTime     |
 | list      | listDateTimeOnly |
+| list      | listDateOnly |
 | index   | integer          |
 
 ## Signatures and returned type
 
 `getListItem(<listInteger>,<index>)`
 
-Returns a list of integers.
+Returns an integer.
 
 `getListItem(<listDecimal>,<index>)`
 
-Returns a list of decimals.
+Returns a decimal.
 
 `getListItem(<listString>,<index>)`
 
-Returns a list of strings.
+Returns a string.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Returns a list of datetimes without considering time zone.
+Returns a datetime without considering time zone.
 
 `getListItem(<listDateTime>,<index>)`
 
-Returns a list of datetimes.
+Returns a datetime.
 
 `getListItem(<listBoolean>,<index>)`
 
-Returns a list of booleans.
+Returns a boolean.
 
 `getListItem(<listDuration>,<index>)`
 
-Returns a list of durations.
+Returns a duration.
 
 ## Example
 
@@ -68,7 +69,7 @@ Returns a list of durations.
 
 Returns "2"
 
-`getListItem(["A", "B", "C"], 3)`
+`getListItem(["A", "B", "C"], 2)`
 Returns "C"
 
 Examples with an event field 'event.appVersion' with value: "20.45.2.3434"
