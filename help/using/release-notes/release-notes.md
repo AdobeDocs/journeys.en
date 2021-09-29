@@ -24,7 +24,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 <tr>
 <td>
 <p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported: simple collections and object collections. Previously created custom actions will continue working. </p>
-<p>For more information on collections, refer to the <a href="../building-journeys/collections.md">detailed documentation</a>. </p>
+<p>For more information on collections, refer to the <a href="../usecase/collections.md">detailed documentation</a>. </p>
 <p>The filter and intersect functions have been added to the list of functions available in the advanced expression editor. This offers more possibilities for collection filtering and comparing.</p>
 <p>Consult the documentation on the <a href="../functions/functionfilter.md">filter</a> and <a href="../functions/functionintersect.md">intersect</a> functions.</p>
 </td>

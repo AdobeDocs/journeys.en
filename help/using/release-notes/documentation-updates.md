@@ -22,11 +22,9 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Added details on custom action cache duration. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Added information on custom action default ports. [Read more](..action/url-configuration.md)
+* Added information on custom action default ports. [Read more](../action/url-configuration.md)
 
-* Added information on multiple business event use cases. [Read more](event/about-creating-business.md#multiple-business-events)
-
-* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](reports/query-examples.md)
+* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](reporting/query-examples.md)
 
 ## August 2021
 
