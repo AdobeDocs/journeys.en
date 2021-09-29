@@ -78,6 +78,7 @@ You can pass a collection in custom action parameters that will be dynamically p
      ]
     }
     ```
+* To test collections using the test mode, you need to use the code view mode. Test mode for collections is not supported for business events at the moment.
 
 ## General procedure {#general-procedure} 
 
@@ -141,7 +142,7 @@ You can see that "products" is an array of two objects. You need to have at leas
 
    ![](../assets/uc-collection-4.png)
 
-For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](../functions/functionfilter.md) and [intersect](../functions/functionintersect.md) functions:
+For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md) and [intersect](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md) functions:
 
 ![](../assets/uc-collection-5.png)
 

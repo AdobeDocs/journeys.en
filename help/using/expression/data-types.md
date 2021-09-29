@@ -134,6 +134,7 @@ It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the v
 ```
 date("<dateOnly in ISO-8601 format>")  
 ```
+
 **Example**
 
 ```
