@@ -12,6 +12,22 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## September 2021
+
+* The following function pages have been updated: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* The following functions have been added: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* The dateOnly date type has been added in the expression editor documentation. [Read more](../expression/data-types.md)
+
+* Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md)
+
+* Added information on multiple business event use cases. [Read more](event/about-creating-business.md#multiple-business-events)
+
+* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](reports/query-examples.md)
+
 ## August 2021
 
 * Updated the configuration procedure for custom actions with dynamic URL paths and dynamic headers. [Read more](../action/url-configuration.md)
