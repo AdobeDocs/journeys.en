@@ -192,5 +192,6 @@ feature: Journeys
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
   + [Sending a message using Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+  + [Passing collections dynamically using custom actions](using/usecase/collections.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)

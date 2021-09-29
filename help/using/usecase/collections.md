@@ -8,9 +8,9 @@ exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 
 # Pass collections dynamically using custom actions{#passing-collection}
 
-You can pass a collection in custom action parameters that will be dynamically populated dynamically at runtime. Two kinds of collections are supported:
+You can pass a collection in custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported:
 
-* simple collections: arrays of simple data types, for example, with a listSring:
+* simple collections: arrays of simple data types, for example, with a listString:
 
    ```
    {
@@ -51,12 +51,12 @@ You can pass a collection in custom action parameters that will be dynamically p
 
     ```
     {
-   "products":[
+    "products":[
       {
          "id":"productA",
          "name":"A",
          "details": {
-            "color":"blue"
+         "color":"blue"
          },
          "price":20.0
       }
@@ -68,7 +68,7 @@ You can pass a collection in custom action parameters that will be dynamically p
 
     ```
     {
-   "products":[
+    "products":[
       {
          "id":"productA",
          "name":"A",
@@ -141,9 +141,13 @@ You can see that "products" is an array of two objects. You need to have at leas
 
    ![](../assets/uc-collection-4.png)
 
+For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](../functions/functionfilter.md) and [intersect](../functions/functionintersect.md) functions:
+
+![](../assets/uc-collection-5.png)
+
 ## Particular cases{#examples}
 
-For heterogeneous types and arrays of arrays, the array is defined with the listAny type because it contains heterogenous data types. You can only map individual items, but cannot change the array to variable.
+For heterogeneous types and arrays of arrays, the array is defined with the listAny type. You can only map individual items, but cannot change the array to variable.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
