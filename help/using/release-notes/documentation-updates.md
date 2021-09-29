@@ -24,7 +24,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Added information on custom action default ports. [Read more](../action/url-configuration.md)
 
-* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](reporting/query-examples.md)
+* Added commonly used examples to query Journey Step Events in Data Lake. [Read more](../building-journeys/query-examples.md)
 
 ## August 2021
 
