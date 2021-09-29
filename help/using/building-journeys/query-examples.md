@@ -61,7 +61,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-The result should be greater than 0. This query returns the exact number of times a profile has entered a journey.	
+The result should be greater than 0. This query returns the exact number of times a profile has entered a journey.
 
 ### Find if a profile was sent a specific message
 

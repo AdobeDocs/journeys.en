@@ -20,9 +20,9 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * The dateOnly date type has been added in the expression editor documentation. [Read more](../expression/data-types.md)
 
-* Added details on custom action cache duration. [Read more](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Added details on custom action cache duration. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Added information on custom action default ports. [Read more](action/about-custom-action-configuration.md)
+* Added information on custom action default ports. [Read more](..action/url-configuration.md)
 
 * Added information on multiple business event use cases. [Read more](event/about-creating-business.md#multiple-business-events)
 
