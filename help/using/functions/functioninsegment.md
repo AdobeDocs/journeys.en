@@ -27,9 +27,9 @@ Segments can have three statuses:
 
 Only the individuals with the **Realized** and **Existing** segment participation statuses will be considered as members of the segment. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
 
-`IF inSegment('imAwesome') == true` means that you have a segmentMembership with the entered/existing status.
+`IF inSegment('segmentName') == true` means that you have a segmentMembership with the entered/existing status.
 
-`ELSE inSegment('imAwesome') == false` means that you have a segmentMembership of the exited status.
+`ELSE inSegment('segmentName') == false` means that you have a segmentMembership of the exited status.
 
 ## Category
 
