@@ -19,7 +19,7 @@ List
 
 `filter(<parameters>)`
 
-## Parameters	
+## Parameters
 
 | Parameter | Type             | Description             |
 |-----------|------------------|------------------|
@@ -71,9 +71,9 @@ You can use the following expression:
 
 ```
 filter(
-	@{myevent.productListItems},
-	"id",
-	["product2", "product3", "product4"]
+ @{myevent.productListItems},
+ id", 
+ ["product2", "product3", "product4"]
 )
 ```
 
