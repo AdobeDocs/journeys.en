@@ -19,9 +19,17 @@ The segment name must be a string constant. It cannot be a field reference nor a
 
 Segments are defined in the [Adobe Experience Platform](https://platform.adobe.com/segment/overview). The expression editor provides an autocompleted list of segments.
 
->[!NOTE]
->
->Only the individuals with the **Realized** and **Existing** segment participation statuses will be considered as members of the segment. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+Segments can have three statuses:
+
+* existing: entity continues to be in the segment.
+* realized: entity is entering the segment.
+* exited: entity is exiting the segment.
+
+Only the individuals with the **Realized** and **Existing** segment participation statuses will be considered as members of the segment. For more on how to evaluate a segment, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results). 
+
+`IF inSegment('imAwesome') == true` means that you have a segmentMembership with the entered/existing status.
+
+`ELSE inSegment('imAwesome') == false` means that you have a segmentMembership of the exited status.
 
 ## Category
 
