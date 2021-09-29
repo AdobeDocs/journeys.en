@@ -1,7 +1,6 @@
 ---
 title: Examples of queries
 description: Examples of queries
-feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
