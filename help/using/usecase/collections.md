@@ -142,7 +142,7 @@ You can see that "products" is an array of two objects. You need to have at leas
 
    ![](../assets/uc-collection-4.png)
 
-For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](../functions/functionfilter.md) and [intersect](../functions/functiontintersect.md) functions:
+For the array field, you can also use the advanced expression editor to perform data manipulation. In the following example, we use the [filter](../functions/functionfilter.md) and [intersect](../functions/functionintersect.md) functions:
 
 ![](../assets/uc-collection-5.png)
 
