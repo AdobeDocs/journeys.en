@@ -34,6 +34,6 @@ Returns a boolean.
 
 ## Examples
 
-`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4))`
+`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
 
 Returns true.

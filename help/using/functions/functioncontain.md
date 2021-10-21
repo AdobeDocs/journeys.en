@@ -31,6 +31,6 @@ Returns a boolean.
 
 ## Example
 
-`contain("rowing is great', "great")`
+`contain("rowing is great", "great")`
 
 Returns true.

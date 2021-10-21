@@ -19,7 +19,7 @@ If you're using special characters in a field, you need to use double quotes or 
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -37,7 +37,7 @@ A syntax color is used to visually distinguish events fields (green) from field 
 
 A default value can be associated to a field name. The syntax is as follows:
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -52,7 +52,7 @@ A default value can be associated to a field name. The syntax is as follows:
 
 Examples:
 
-```
+```json
 // for an event 'OrderEvent' having the following payload:
 {
     "orderId": "12345"
@@ -88,7 +88,7 @@ The elements defined within collections are referenced using the specific functi
 
 Example :
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
@@ -96,7 +96,7 @@ Example :
 
 In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [this page](../event/selecting-the-namespace.md).
 
-```
+```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
@@ -114,7 +114,7 @@ For more complex use cases, if you want to include the parameters of the data so
 
 Use the following syntax:
 
-```
+```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
@@ -123,7 +123,7 @@ Use the following syntax:
 
 Example:
 
-```
+```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```

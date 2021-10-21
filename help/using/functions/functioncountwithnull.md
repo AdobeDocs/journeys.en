@@ -39,6 +39,6 @@ Returns an integer.
 
 ## Example
 
-`count([10,2,10,null])`
+`countWithNull([10,2,10,null])`
 
 Returns 4.

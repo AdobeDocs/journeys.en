@@ -30,7 +30,7 @@ String
 
 `matchRegExp(<string>,<string>)`
 
-Returns a true.
+Returns a boolean.
 
 ## Example
 

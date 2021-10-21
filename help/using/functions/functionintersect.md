@@ -41,7 +41,7 @@ Returns a list.
 
 ## Examples
 
-```
+```json
 intersect(
     ["sports", "news", "documentary"],
     ["sports", "movies", "documentary"]
@@ -50,7 +50,7 @@ intersect(
 
 Returns ["sports", "news"]
 
-```
+```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
     ["sports", "news", "documentary"]
@@ -59,10 +59,10 @@ intersect(
 
 Returns common items between profile attributes and given list of categories.
 
-```
+```json
 intersect(
-        	#{ExperienceDataPlatform.profile.interests},
-            @{myEvent.sport_interests}
+    #{ExperienceDataPlatform.profile.interests},
+        @{myEvent.sport_interests}
 )
 ```
 

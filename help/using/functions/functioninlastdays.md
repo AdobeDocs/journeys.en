@@ -34,6 +34,6 @@ Returns a boolean.
 
 ## Examples
 
-`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4))`
+`inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
 Returns true.

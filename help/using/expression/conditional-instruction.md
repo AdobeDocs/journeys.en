@@ -19,7 +19,7 @@ The conditional instruction (if, then, else) is supported in the advanced editor
 >
 >Parentheses are required around all the expressions.
 
-   ```
+   ```json
    if  (<expression1>)
    then
       (<expression2>)
@@ -31,7 +31,7 @@ The conditional instruction (if, then, else) is supported in the advanced editor
 
 `<expression2>` and `<expression3>` must have the same type or compatible types. The supported signatures and returned types are:
 
-   ```
+   ```json
    boolean,boolean : boolean
    dateTime,dateTime : dateTime
    dateTimeOnly,dateTimeOnly : dateTimeOnly
@@ -54,7 +54,7 @@ The conditional instruction allows you to optimize the journey workflow by reduc
 
 Example for an action activity (for a field that expects a string as the result of the conditional instruction):
 
-   ```
+   ```json
    if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
    then
       ('apns')

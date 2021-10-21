@@ -33,7 +33,7 @@ Aggregation
 
 ## Signature and returned type
 
-`distinctCountwithNull(<listAny>)`
+`distinctCountWithNull(<listAny>)`
 
 Returns an integer.
 
