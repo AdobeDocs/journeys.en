@@ -106,19 +106,21 @@ In this expression, we are getting the entry for ‘Email’ key of the ‘Ident
 
 ### `firstEntryKey` function
 
-To refer to the first entry key of a map, use the `firstEntryKey` function.
+To retrieve the first entry key of a map, use the `firstEntryKey` function.
 
-This example shows a reference to the email address of the subscribers of the `daily-email` list:
+This example shows how to retrieve the first email address of the subscribers of a specific list:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
+In this example, the subscription list is named `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
+
 ### `keys` function
 
-To refer to all the keys of a map, use the `keys` function.
+To retrieve to all the keys of a map, use the `keys` function.
 
-This example shows a reference to all the keys for the subscribers of the `daily-mail` list:
+This example shows how to retrieve, for a specific profile, all the email addresses that are associated with the subscribers of a specific list:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
