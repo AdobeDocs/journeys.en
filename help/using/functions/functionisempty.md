@@ -27,7 +27,7 @@ String
 
 `isEmpty(<string>)`
 
-Returns an boolean.
+Returns a boolean.
 
 ## Example
 

@@ -30,6 +30,7 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 
@@ -39,6 +40,6 @@ Returns an integer.
 
 ## Example
 
-`count([10,2,10,null])`
+`countOnlyNull([10,2,10,null])`
 
 Returns 1.

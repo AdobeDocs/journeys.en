@@ -65,10 +65,10 @@ Here is the list of supported functions.
 | Math        | [round](../functions/functionround.md)|
 | String      | [concat](../functions/functionconcat.md)|
 | String      | [contain](../functions/functioncontain.md)|
-| String      | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md)|
+| String      | [containIgnoreCase](../functions/functioncontainwithignorecase.md)|
 | String      | [endWith](../functions/functionendwith.md)|
 | String      | [endWithIgnoreCase](../functions/functionendwithignorecase.md)|
-| String      | [equalWithIgnoreCase](../functions/functionequalignorecase.md)|
+| String      | [equalIgnoreCase](../functions/functionequalignorecase.md)|
 | String      | [indexOf](../functions/functionindexof.md)|
 | String      | [isEmpty](../functions/functionisempty.md)|
 | String      | [isNotEmpty](../functions/functionisnotempty.md)|
@@ -76,7 +76,7 @@ Here is the list of supported functions.
 | String      | [length](../functions/functionlength.md)|
 | String      | [lower](../functions/functionlower.md)|
 | String      | [matchRegExp](../functions/functionmatchregexp.md)|
-| String      | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md)|
+| String      | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md)|
 | String      | [replace](../functions/functionreplace.md)|
 | String      | [replaceAll](../functions/functionreplaceall.md)|
 | String      | [startWith](../functions/functionstartwith.md)|

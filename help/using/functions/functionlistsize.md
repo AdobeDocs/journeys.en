@@ -30,6 +30,7 @@ List
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signatures and returned type
 
@@ -44,6 +45,8 @@ List
 `listSize(<listDateTimeOnly>)`
 
 `listSize(<listDateTime>)`
+
+`listSize(<listDateOnly>)`
 
 `listSize(<listDuration>)`
 

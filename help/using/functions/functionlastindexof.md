@@ -34,7 +34,7 @@ Returns an integer.
 
 ## Example
 
-`lastIndexOf("Hello, "l"))`
+`lastIndexOf("Hello, "l")`
 
 Returns 3.
 

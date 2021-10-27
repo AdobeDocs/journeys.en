@@ -19,7 +19,7 @@ If you're using special characters in a field, you need to use double quotes or 
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -33,11 +33,11 @@ In the expression, event fields are referenced with "@" and data source fields a
 
 A syntax color is used to visually distinguish events fields (green) from field groups (blue).
 
-**Default values for field references**
+## Default values for field references
 
-A default value can be associated to a field name. The syntax is as follows:
+A default value can be associated with a field name. The syntax is as follows:
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -52,7 +52,7 @@ A default value can be associated to a field name. The syntax is as follows:
 
 Examples:
 
-```
+```json
 // for an event 'OrderEvent' having the following payload:
 {
     "orderId": "12345"
@@ -82,39 +82,63 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Reference of a field within collections**
+## Reference to a field within collections
 
-The elements defined within collections are referenced using the specific functions all, first and last. For more information, refer to [this page](../expression/collection-management-functions.md).
+The elements defined within collections are referenced using the specific functions `all`, `first` and `last`. For more information, refer to [this page](../expression/collection-management-functions.md).
 
 Example :
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Reference of a field defined in a map**
+## Reference to a field defined in a map
+
+### `entry` function
 
 In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [this page](../event/selecting-the-namespace.md).
 
-```
+```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
 In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
 
-**Parameter values of a data source (data source dynamic values)**
+### `firstEntryKey` function
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [this page](../expression/expressionadvanced.md).
+To retrieve the first entry key of a map, use the `firstEntryKey` function.
+
+This example shows how to retrieve the first email address of the subscribers of a specific list:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
+```
+
+In this example, the subscription list is named `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
+
+### `keys` function
+
+To retrieve to all the keys of a map, use the `keys` function.
+
+This example shows how to retrieve, for a specific profile, all the email addresses that are associated with the subscribers of a specific list:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
+```
+
+## Parameter values of a data source (data source dynamic values)
+
+If you select a field from an external data source requiring a parameter to be called, a new tab appears at the right to let you specify this parameter. See [this page](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 
 >[!NOTE]
 >
->When you define the parameter values in the expression, the tab on the right disappears.
+>When you define the parameter values in the expression, the tab at the right disappears.
 
 Use the following syntax:
 
-```
+```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
@@ -123,7 +147,7 @@ Use the following syntax:
 
 Example:
 
-```
+```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```
