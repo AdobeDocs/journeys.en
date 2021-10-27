@@ -16,7 +16,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-* **Expression editor** - As a power user, you can now use functions to work with maps. [Learn more in this sample](building-journeys/message-to-subscribers-uc.md) 
+* **Expression editor** - As a power user, you can now use functions to work with maps. [Learn more in this sample](../expression/field-references.md) 
 * **Accessibility** - Accessibility enhancements have been implemented. Journey Orchestration is now fully compliant in terms of accessibility.
 
 ## September 2021 Release {#september-2021-release}
