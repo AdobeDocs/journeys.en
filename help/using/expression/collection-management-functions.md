@@ -67,7 +67,7 @@ In a Data Source Condition activity you can check if the result of the **[!UICON
 
 **Example 1:**
 
-We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **[!UICONTROL count]** function to check that the returned list of tokens contains at least one element.
+We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated with mobile applications for which the version is 1.0. Then, we perform a condition with the **[!UICONTROL count]** function to check that the returned list of tokens contains at least one element.
 
    ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -176,7 +176,7 @@ _`<listExpression>.last(<condition>)`_
 
 **Example 1:** 
 
-This expression returns the first push notification token associated to mobile applications for which the version is 1.0.
+This expression returns the first push notification token associated with mobile applications for which the version is 1.0.
 
    ```json
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
@@ -186,7 +186,7 @@ The result is "token_1".
 
 **Example 2:** 
 
-This expression returns the last push notification token associated to mobile applications for which the version is 1.0.
+This expression returns the last push notification token associated with mobile applications for which the version is 1.0.
 
    ```json
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
