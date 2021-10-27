@@ -43,6 +43,7 @@ The conditional instruction (if, then, else) is supported in the advanced editor
    listBoolean,listBoolean : listBoolean
    listDateTime,listDateTime : listDateTime
    listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+   listDateOnly,listDateOnly : listDateOnly
    listDecimal,listDecimal : listDecimal
    listInteger,listInteger : listInteger
    listString,listString : listString
