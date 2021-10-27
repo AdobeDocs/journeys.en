@@ -12,6 +12,12 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## October 2021 Release {#october-2021-release}
+
+### Improvements
+
+* **Accessibility** - Accessibility enhancements have been implemented. Journey Orchestration is now fully compliant in terms of accessibility.
+
 ## September 2021 Release {#september-2021-release}
 
 <table>
