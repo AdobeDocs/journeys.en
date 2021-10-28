@@ -82,11 +82,14 @@ feature: Journeys
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
   + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}
       + [Journey step sharing overview](using/building-journeys/sharing-overview.md)
-      + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
-      + [journey fields](using/building-journeys/sharing-journey-fields.md)
+      + [Step event field list](using/building-journeys/sharing-field-list.md)
+      + Legacy step event fields {#legacy-step-event-fields}
+          + [About legacy fields](using/building-journeys/sharing-legacy-fields.md)
+          + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
+          + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)
+          + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)
+          + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
+          + [journey fields](using/building-journeys/sharing-journey-fields.md)
       + [Examples of queries](using/building-journeys/query-examples.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
