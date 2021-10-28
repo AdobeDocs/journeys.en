@@ -1,7 +1,7 @@
 ---
 title: Step event field list
 description: Step event field list
-feature: Reporting
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate

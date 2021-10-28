@@ -1,7 +1,7 @@
 ---
 title: step event field list
 description: legacy fields
-feature: Reporting
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
