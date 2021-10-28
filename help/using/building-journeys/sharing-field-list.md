@@ -62,4 +62,4 @@ This mixin contains all fields corresponding to a profile export job.
 
 ## stepEvents
 
-This category contains the original step event fields. Refer to this [section](../reports/sharing-legacy-fields.md).
+This category contains the original step event fields. Refer to this [section](../building-journeys/sharing-legacy-fields.md).

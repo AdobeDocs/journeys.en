@@ -11,8 +11,8 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 
 This category contains the original step event fields. These fields are part of the following field groups:
 
-* [journeySteps events common fields](../reports/sharing-common-fields.md)
-* [journeyStep events action execution fields](../reports/sharing-execution-fields.md)
-* [journeyStep events data fetch fields](../reports/sharing-fetch-fields.md)
-* [journeyStep event identity fields](../reports/sharing-identity-fields.md)
-* [journey fields](../reports/sharing-journey-fields.md)
+* [journeySteps events common fields](../building-journeys/sharing-common-fields.md)
+* [journeyStep events action execution fields](../building-journeys/sharing-execution-fields.md)
+* [journeyStep events data fetch fields](../building-journeys/sharing-fetch-fields.md)
+* [journeyStep event identity fields](../building-journeys/sharing-identity-fields.md)
+* [journey fields](../building-journeys/sharing-journey-fields.md)
