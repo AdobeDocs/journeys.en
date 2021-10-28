@@ -16,7 +16,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-* **Expression editor** - As a power user, you can now use functions to work with maps. [Learn more in this sample](../expression/field-references.md) 
+* **Expression editor** - As a power user, you can now use functions to work with maps. [Learn more](../expression/field-references.md) 
 * **Accessibility** - Accessibility enhancements have been implemented. Journey Orchestration is now fully compliant in terms of accessibility.
 * **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](../usecase/collections.md)
 * **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](../building-journeys/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](../building-journeys/sharing-legacy-fields.md) category. 
