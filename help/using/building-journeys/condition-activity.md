@@ -82,7 +82,7 @@ In test mode, when reaching a split, the top branch is always chosen. You can re
 
 ## Date condition {#date_condition}
 
-This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message.
+This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send them a specific message. The rest of the year, you'll send another message.
 
 >[!NOTE]
 >

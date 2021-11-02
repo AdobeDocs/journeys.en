@@ -133,7 +133,7 @@ The result will be true if there is no experience event matching the two conditi
 
 **Example 4:**
 
-Here we want to check if an individual has launched at least once an application in the last 7 days, in order for instance to trigger a push notification inviting him to start a tutorial.
+Here we want to check if an individual has launched at least once an application in the last 7 days, in order for instance to trigger a push notification inviting them to start a tutorial.
 
 ```json
 count(
