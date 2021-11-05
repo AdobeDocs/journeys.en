@@ -33,8 +33,6 @@ Supported types:
 
 `avg(<listInteger>)`
 
-`avg(<listInteger>)`
-
 `avg(<listDecimal>)`
 
 `avg(<decimal>,<decimal>)`

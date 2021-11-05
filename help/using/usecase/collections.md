@@ -47,23 +47,6 @@ You can pass a collection in custom action parameters that will be dynamically p
 
 ## Limitations {#limitations}
 
-* Arrays of objects containing sub-objects are not supported. For example:
-
-    ```
-    {
-    "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "details": {
-         "color":"blue"
-         },
-         "price":20.0
-      }
-     ]
-    }
-    ```
-
 * Nested arrays of objects within an object array are not supported at the moment. For example:
 
     ```

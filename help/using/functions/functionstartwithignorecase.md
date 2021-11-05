@@ -34,6 +34,6 @@ Return a boolean.
 
 ## Example
 
-`startWith("rowing is great', "RO")`
+`startWithIgnoreCase("rowing is great", "RO")`
 
 Returns true.

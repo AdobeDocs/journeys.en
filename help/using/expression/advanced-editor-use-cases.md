@@ -40,26 +40,26 @@ Then it selects all the addtocart events that did not transform into a completeP
 
 >[!NOTE]
 >
->To insert fields in the expression quickly, double-click on the field in the left panel of the editor.
+>To insert fields in the expression quickly, double-click the field in the left panel of the editor.
 
 The specified timestamp is acting as the date time value, the second is number of days.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 This expression returns a boolean.
@@ -70,20 +70,20 @@ This expression returns a boolean.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* On the right, necessary values are specified, here, we need to retrieve the location of the store, that is mapped from the location of the event "ArriveLumaStudio":
+* At the right, the necessary values are specified, here, we need to retrieve the location of the store, that is mapped from the location of the event "ArriveLumaStudio":
 
  `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
 * And specify SKU, using the function `first` to retrieve the most recent "addToCart" interaction:  
 
-    ```
+    ```json
         #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .first(
                         currentDataPackField
                         .productData
-                        .productInteraction == “addToCart”
+                        .productInteraction == "addToCart"
                         )
                         .SKU}
     ```
@@ -96,7 +96,7 @@ From there you can add another path in your journey for when the product is not 
 
 This condition retrieve only the geofence events triggered in "Arlington":
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -108,7 +108,7 @@ Explanation: This is a strict string comparison (case sensitive), equivalent to 
 
 The same query with `Is sensitive` unchecked will generate the following expression in advanced mode:
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -120,7 +120,7 @@ The same query with `Is sensitive` unchecked will generate the following express
 
 The following expression allows you to define the CRM ID in an action personalization field:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -129,7 +129,6 @@ The following expression allows you to define the CRM ID in an action personaliz
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 

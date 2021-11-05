@@ -34,6 +34,6 @@ Returns a boolean.
 
 ## Example
 
-`endWithIgnoreCase("rowing is great', "AT")`
+`endWithIgnoreCase("rowing is great", "AT")`
 
 Returns true.

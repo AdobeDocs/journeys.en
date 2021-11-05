@@ -25,4 +25,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to [!DNL Journey Orchestration]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help them design the setup of an event pushing to [!DNL Journey Orchestration]. See [this page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

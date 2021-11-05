@@ -12,6 +12,30 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## October 2021 Release {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Improvements
+
+* **Expression editor** - As a power user, you can now use functions to work with maps. [Learn more](../expression/field-references.md) 
+* **Accessibility** - Accessibility enhancements have been implemented. Journey Orchestration is now fully compliant in terms of accessibility.
+* **Collections** - Arrays of objects containing sub-objects are now supported. [Read more](../usecase/collections.md)
+* **Monitoring** - Step events for live journeys and test mode have been enhanced. [New fields](../building-journeys/sharing-field-list.md#serviceevents) have been added related to profile export jobs. For a better user experience, step event fields are now organized in different categories in the Journey Step Event schema for Journey Orchestration. All previous step events fields are still available in the [stepEvents](../building-journeys/sharing-legacy-fields.md) category. 
+
 ## September 2021 Release {#september-2021-release}
 
 <table>

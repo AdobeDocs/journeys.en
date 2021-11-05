@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
-title: equalWithIgnoreCase
-description: Learn about the function equalWithIgnoreCase
+title: equalIgnoreCase
+description: Learn about the function equalIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
 ---
-# equalWithIgnoreCase {#equalWithIgnoreCase}
+# equalIgnoreCase {#equalIgnoreCase}
 
 Compares the first argument string with the second argument string, ignoring case considerations.
 
@@ -17,7 +17,7 @@ String
 
 ## Function syntax
 
-`equalWithIgnoreCase(<parameters>)`
+`equalIgnoreCase(<parameters>)`
 
 ## Parameters
 
@@ -25,12 +25,12 @@ String
 
 ## Signature and returned type
 
-`equalWithIgnoreCase(<string>,<string>)`
+`equalIgnoreCase(<string>,<string>)`
 
 Returns a boolean.
 
 ## Example
 
-`equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
+`equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
 Returns true.

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: filter
-description: Learn about the function fister
+description: Learn about the function filter
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -51,7 +51,7 @@ Returns a listObject.
 
 Here is an example of a payload passed in an incoming event "myevent":
 
-```
+```json
 "productListItems": [{
    "id": "product1",
    "name": "the product 1",
@@ -69,10 +69,10 @@ Here is an example of a payload passed in an incoming event "myevent":
 
 You can use the following expression:
 
-```
+```json
 filter(
  @{myevent.productListItems},
- id", 
+ "id", 
  ["product2", "product3", "product4"]
 )
 ```

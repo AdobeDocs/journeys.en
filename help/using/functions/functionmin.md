@@ -26,6 +26,7 @@ Aggregation
 * listDecimal
 * listDateTime
 * listDateTimeOnly
+* listDateOnly
 * duration
 * integer
 * decimal
@@ -49,6 +50,10 @@ Returns a datetime without considering time zone.
 `min(<listDateTime>)`
 
 Returns a datetime.
+
+`min(<listDateOnly>)`
+
+Returns a date.
 
 `min(<listDecimal>)`
 

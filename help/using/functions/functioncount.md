@@ -30,6 +30,7 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signatures and returned type
 

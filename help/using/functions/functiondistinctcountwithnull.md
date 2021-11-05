@@ -30,10 +30,11 @@ Aggregation
 | List      | listDuration     |
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
+| List      | listDateOnly     |
 
 ## Signature and returned type
 
-`distinctCountwithNull(<listAny>)`
+`distinctCountWithNull(<listAny>)`
 
 Returns an integer.
 

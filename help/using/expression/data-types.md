@@ -11,7 +11,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 
 Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.
 
-The sections below provide information on the different data type expressions andhow they are represented.
+The sections below provide information on the different data type expressions and how they are represented.
 
 ## string {#string}
 
@@ -25,21 +25,21 @@ Serialization format: UTF-8
 
 **Literal representation**
 
-```
+```json
 "<value>"
 ```
 
-```
+```json
 '<value>'
 ```
 
 **Example**
 
-```
+```json
 "hello world"
 ```
 
-```
+```json
 'hello world'
 ```
 
@@ -53,13 +53,13 @@ JSON format: Number
 
 **Literal representation**
 
-```
+```json
 <integer value>
 ```
 
 **Example**
 
-```
+```json
 42
 ```
 
@@ -79,13 +79,13 @@ Serialization format: using '.' as the decimal separator.
 
 **Literal representation**
 
-```
+```json
 <integer value>.<integer value>
 ```
 
 **Example**
 
-```
+```json
 3.14
 ```
 
@@ -99,17 +99,17 @@ JSON format: Boolean
 
 **Literal representation**
 
-```
+```json
 true
 ```
 
-```
+```json
 false
 ```
 
 **Example**
 
-```
+```json
 true
 ```
 
@@ -131,13 +131,13 @@ It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the v
 
 **Literal representation**
 
-```
+```json
 date("<dateOnly in ISO-8601 format>")  
 ```
 
 **Example**
 
-```
+```json
 date("2021-02-19")
 ```
 
@@ -161,13 +161,13 @@ It uses DateTimeFormatter ISO_LOCAL_DATE_TIME to deserialize and serialize the v
 
 **Literal representation**
 
-```
+```json
 date("<dateTimeOnly in ISO-8601 format>")  
 ```
 
 **Examples**
 
-```
+```json
 date("2021-02-19T00.00.000")
 date("2021-02-19T00.00")
 ```
@@ -194,45 +194,45 @@ Time zone can be specified by an offset or a time zone code (example: Europe/Par
 
 **Literal representation**
 
-```
+```json
 toDateTime("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 date("<dateTime in ISO-8601 format>")
 ```
 
-```
+```json
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **Examples**
 
-```
+```json
 date("2021-02-19T00.00.000Z")
 ```
 
-```
+```json
 toDateTime("1977-04-22T06:00:00Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123Z")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123+02:00")
 ```
 
-```
+```json
 toDateTime("2011-12-03T15:15:30.123-00:20")
 ```
 
-```
+```json
 toDateTime(1560762190189)
 ```
 
@@ -254,53 +254,53 @@ Duration.parse: the formats accepted are based on the ISO-8601 duration format P
 
 **Literal representation**
 
-```
+```json
 toDuration("<duration in ISO-8601 format>")
 ```
 
-```
+```json
 toDuration(<duration in milliseconds>)
 ```
 
 **Example**
 
-```
+```json
 toDuration("PT5S") -- parses as 5 seconds
 ```
 
-```
+```json
 toDuration(500) -- parses as 500ms
 ```
 
-```
+```json
 toDuration("PT20.345S") -- parses as "20.345 seconds"
 ```
 
-```
+```json
 toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
 ```
 
-```
+```json
 toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
 ```
 
-```
+```json
 toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
 ```
 
-```
+```json
 toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
 ```
 
-```
+```json
 toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
 ```
 
-```
+```json
 toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 ```
 
-```
+```json
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
@@ -314,20 +314,20 @@ Polymorphism is not supported, hence all the expressions contained in the list s
 
 **Literal representation**
 
-```
+```json
 [<expression>, <expression>, ... ]
 ```
 
 **Example**
 
-```
+```json
 ["value1","value2"]
 ```
 
-```
+```json
 [3,5]
 ```
 
-```
+```json
 [toDuration(500),toDuration(800)]
 ```

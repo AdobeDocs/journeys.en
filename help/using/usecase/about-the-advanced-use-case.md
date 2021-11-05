@@ -23,10 +23,10 @@ First of all, we want to send a message as soon as a person enters a Marlton hot
 
 We then check two conditions:
 
-* If this person is not a loyalty member, we send him an email to join the loyalty membership offer.
+* If this person is not a loyalty member, we send them an email to join the loyalty membership offer.
 * If this person is already a loyalty member, we check if he has a room reservation:
-    * If he doesn't, we send him a push notification with room rates.
-    * If he does, we send him a welcome push notification. And if he enters the restaurant within the next 6 hours, we send him a push notification with a discount on a meal.
+    * If he doesn't, we send them a push notification with room rates.
+    * If he does, we send them a welcome push notification. And if he enters the restaurant within the next 6 hours, we send them a push notification with a discount on a meal.
 
 ![](../assets/journeyuc2_29.png)
 
