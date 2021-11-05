@@ -90,16 +90,18 @@ This allows you to define a different flow based on the date. For example, if th
 
 ![](../assets/journey53.png)
 
+<!--
 ## Profile cap {#profile_cap}
 
 Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
 
 You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
-The default cap is 1000. You must set an integer value that is equal to or greater than 1.
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
 
 The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
 
 The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
 
 ![](../assets/profile-cap-condition.png)
+-->
