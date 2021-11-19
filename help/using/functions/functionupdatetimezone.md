@@ -5,6 +5,7 @@ description: Learn about the function updateTimeZone
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
 ---
 # updateTimeZone {#updateTimeZone}
 
