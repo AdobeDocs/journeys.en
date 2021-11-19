@@ -52,6 +52,7 @@ Here is the list of supported functions.
 | Date        | [nowWithDelta](../functions/functionnowwithdelta.md)|
 | Date        | [setHours](../functions/functionsethours.md)|
 | Date        | [setDays](../functions/functionsetdays.md)|
+| Date        | [updateTimeZone](../functions/functionupdatetimezone.md)|
 | List        | [distinct](../functions/functiondistinct.md)|
 | List        | [distinctWithNull](../functions/functiondistinctwithnull.md)|
 | List        | [filter](../functions/functionfilter.md)|
