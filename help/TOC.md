@@ -91,8 +91,8 @@ feature: Journeys
           + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
           + [journey fields](using/building-journeys/sharing-journey-fields.md)
       + [Examples of queries](using/building-journeys/query-examples.md)
-+ Using the advanced expression editor {#building-advanced-conditions-journeys}
-  + [About the advanced expression editor](using/expression/expressionadvanced.md)
++ Build expressions {#building-advanced-conditions-journeys}
+  + [Overview](using/expression/expressionadvanced.md)
   + Syntax {#syntax}
       + [Generalities](using/expression/generalities.md)
       + [Conditional instruction](using/expression/conditional-instruction.md)
@@ -139,6 +139,7 @@ feature: Journeys
       + [nowWithDelta](using/functions/functionnowwithdelta.md)
       + [setHours](using/functions/functionsethours.md)
       + [setDays](using/functions/functionsetdays.md)
+      + [updateTimeZone](using/functions/functionupdatetimezone.md)
     + List {#list}
       + [distinct](using/functions/functiondistinct.md)
       + [distinctWithNull](using/functions/functiondistinctwithnull.md)

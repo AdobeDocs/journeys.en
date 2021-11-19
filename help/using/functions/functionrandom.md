@@ -25,8 +25,3 @@ Maths
 
 Returns a decimal.
 
-## Example
-
-`#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
-
-Explanation: if the success ratio has no value/is null, the default value will be applied and will be a random figure between 0 and 1 * 100 (meaning 0 to 100).

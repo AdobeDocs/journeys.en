@@ -34,10 +34,7 @@ Returns a boolean.
 
 ## Example
 
-`matchRegExp("Hello World", "Hello\s+World")`
+`matchRegExp("username@adobe.com", "*adobe")`
 
 Returns true.
 
-Explanation: 
-
-Here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".
