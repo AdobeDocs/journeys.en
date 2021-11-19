@@ -29,7 +29,7 @@ Date
 
 Returns a datetime.
 
-## Example
+## Examples
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 

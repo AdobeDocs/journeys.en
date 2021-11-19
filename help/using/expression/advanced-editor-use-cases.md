@@ -24,7 +24,7 @@ The experience events are retrieved from the Adobe Experience Platform as a coll
 * first function will return the most recent event
 * last function will return the oldest one.
 
-For example, let's say you want to target customers with a cart abandonment in the last 7 days to send a message when the customer is getting near a store, with an offer on items he wanted that are in store.
+For example, let's say you want to target customers with a cart abandonment in the last 7 days to send a message when the customer is getting near a store, with an offer on items they wanted that are in store.
 
 **You need to build the following conditions:**
 

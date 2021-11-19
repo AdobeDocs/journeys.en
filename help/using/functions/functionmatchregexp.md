@@ -37,4 +37,3 @@ Returns a boolean.
 `matchRegExp("username@adobe.com", "*adobe")`
 
 Returns true.
-
