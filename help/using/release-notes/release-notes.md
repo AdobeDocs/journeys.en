@@ -17,6 +17,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 ### Improvements
 
 * Journey Orchestration step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../building-journeys/sharing-overview.md)
+* The capping rule for Adobe Campaign Standard actions has been changed to 4000 calls / 5 minutes. [Read more](../action/working-with-adobe-campaign.md)
 
 ## October 2021 Release {#october-2021-release}
 
