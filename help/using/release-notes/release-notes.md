@@ -12,22 +12,14 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
-## October 2021 Release {#october-2021-release}
+## January 2022 Release {#january-2022-release}
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Improvements
+
+* Journey Orchestration step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../building-journeys/sharing-overview.md#integration-cja)
+* The capping rule for Adobe Campaign Standard actions has been changed to 4000 calls / 5 minutes. [Read more](../action/working-with-adobe-campaign.md)
+
+## October 2021 Release {#october-2021-release}
 
 ### Improvements
 
