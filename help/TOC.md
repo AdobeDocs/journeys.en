@@ -32,7 +32,6 @@ feature: Journeys
   + [Defining the payload fields](using/event/defining-the-payload-fields.md)
   + [Selecting the namespace](using/event/selecting-the-namespace.md)
   + [Defining the event key](using/event/defining-the-event-key.md)
-  + [Adding a condition](using/event/adding-a-condition.md)
   + [Previewing the payload](using/event/previewing-the-payload.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/about-data-sources.md)
