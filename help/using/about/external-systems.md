@@ -6,6 +6,7 @@ description: Learn the best practices when integrating external systems
 feature: Journeys
 role: User
 level: Beginner
+exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 ---
 # Integrating with external systems {#external-systems}
 
@@ -73,4 +74,4 @@ For a given call, a maximum of three retries can be performed after the first ca
 
 **Where can I configure the timeout? Is there a maximum value?**
 
-In each journey, you can define a timeout duration. Timeout duration is configured in the properties of a journey. Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../about/external-systems.md#timeout) and [this page](../building-journeys/changing-properties.md#timeout_and_error). 
+In each journey, you can define a timeout duration. Timeout duration is configured in the properties of a journey. Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../about/external-systems.md#timeout) and [this page](../building-journeys/changing-properties.md#timeout_and_error).

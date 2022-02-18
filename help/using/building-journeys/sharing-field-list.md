@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 ---
 # Step event field list {#sharing-field-list}
 

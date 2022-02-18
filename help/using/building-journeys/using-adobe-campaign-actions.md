@@ -5,6 +5,7 @@ description: Learn about Adobe Campaign actions
 feature: Journeys
 role: User
 level: Intermediate
+exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 ---
 # Using Adobe Campaign Standard {#using_campaign_action}
 

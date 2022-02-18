@@ -5,6 +5,7 @@ description: Learn about the function toDateOnly
 feature: Journeys
 role: Data Engineer
 level: Experienced
+exl-id: 2d7b132e-5ee0-4fa0-bacc-ce4c6ec7e794
 ---
 # toDateOnly{#toDateOnly}
 

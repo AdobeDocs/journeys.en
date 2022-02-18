@@ -5,6 +5,7 @@ description: Learn more on Journey Orchestration limitations
 feature: Journeys
 role: User
 level: Beginner
+exl-id: fef039ae-c04d-4198-a082-4be27710255f
 ---
 # Limitations {#limitations}
 

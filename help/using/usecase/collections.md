@@ -3,8 +3,8 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Pass collections dynamically using custom actions
 description: Sending a message using Campaign v7/v8
+exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 ---
-
 # Pass collections dynamically using custom actions{#passing-collection}
 
 You can pass a collection in custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported:

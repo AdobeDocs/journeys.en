@@ -5,6 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+exl-id: c3667870-4aa5-4693-b6b7-ef2a3de8658e
 ---
 # About legacy fields {#sharing-legacy-fields}
 
