@@ -6,7 +6,6 @@ description: Learn the best practices when integrating external systems
 feature: Journeys
 role: User
 level: Beginner
-exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 ---
 # Integrating with external systems {#external-systems}
 

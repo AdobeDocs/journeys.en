@@ -3,7 +3,6 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sending a message using Campaign v7/v8
 description: Sending a message using Campaign v7/v8
-exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 ---
 # Sending a message using Campaign v7/v8 {#campaign-classic-use-case}
 

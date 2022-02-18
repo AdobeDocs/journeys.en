@@ -3,7 +3,6 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Pass collections dynamically using custom actions
 description: Sending a message using Campaign v7/v8
-exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 ---
 
 # Pass collections dynamically using custom actions{#passing-collection}

@@ -6,7 +6,6 @@ description: Learn about Adobe Campaign v7/v8 actions
 feature: Journeys
 role: User
 level: Intermediate
-exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---
 # Using Adobe Campaign v7/v8 {#using_campaign_classic} 
 
