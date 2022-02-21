@@ -12,6 +12,12 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## February 2022 Release {#february-2022-release}
+
+### Improvements
+
+To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
+
 ## January 2022 Release {#january-2022-release}
 
 ### Improvements
