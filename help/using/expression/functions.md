@@ -38,7 +38,6 @@ Here is the list of supported functions.
 | Conversion  | [toDecimal](../functions/functiontodecimal.md)|
 | Conversion  | [toDuration](../functions/functiontoduration.md)|
 | Conversion  | [toInteger](../functions/functiontointeger.md)|
-| Conversion  | [toString](../functions/functiontostring.md)|
 | Date        | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md)|
 | Date        | [inLastDays](../functions/functioninlastdays.md)|
 | Date        | [inLastHours](../functions/functioninlasthours.md)|
