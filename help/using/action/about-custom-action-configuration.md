@@ -10,7 +10,10 @@ exl-id: 8b24abef-700d-4f68-a921-d7299c939439
 # About custom action configuration {#concept_sxy_bzs_dgb}
 
 If you're using a third-party system to send messages or if you want [!DNL Journey Orchestration] to send API calls to a third-party system, this is where you configure its connection to [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-action-activities.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
+
 Limitations are listed in [this page](../about/limitations.md).
+
+In custom action parameters, you can pass a simple collection, as well as a collection of objects. Regarding the limitations, please refer to [this page](../building-journeys/collections.md#limitations). Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Refer to this [use case](../building-journeys/collections.md).
 
 Here are the main steps required to configure a custom action:
 
