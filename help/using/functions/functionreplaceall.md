@@ -26,7 +26,7 @@ String
 | Parameter | Type         |
 |-----------|--------------|
 | base      | string       |
-| target  | string       |
+| target  | string (RegExp)       |
 | replacement    | string       |
 
 ## Signature and returned type
@@ -40,3 +40,5 @@ Returns a string.
 `replaceAll("Hello World", "l", "x")`
 
 Returns "Hexxo Worxd".
+
+Because the first parameter is a RegExp, depending on the string you want to replace, you may need to escape some characters. Refer to the example in [this page](../functions/functionreplace.md).
