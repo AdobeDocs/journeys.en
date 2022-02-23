@@ -35,7 +35,7 @@ String
 
 Returns a string.
 
-## Example
+## Example{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
