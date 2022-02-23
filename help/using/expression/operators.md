@@ -31,7 +31,7 @@ There are two kinds of operators: unary operators and binary operators. There ar
 * When using a multiplication (`*`), both operation fields must have the same type, either integer or decimal. Example : 
    * the following example is correct: `3.0 * 4.0`
    * `3 * 4.0` will lead to an error
-* Parentheses are sometimes required.
+
 ## Logical  {#logical}
 
 ### and
