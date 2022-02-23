@@ -43,12 +43,12 @@ Returns "Hexlo World".
 
 ## Example 2 {#example_2}
 
-Because the target parameter is a RegExp, depending on the string you want to replace, you may need to escape some characters. Here is an example.
+Because the target parameter is a RegExp, depending on the string you want to replace, you may need to escape some characters. Here is an example:
 
-* string to evaluate : `|OFFER_A|OFFER_B`
+* string to evaluate: `|OFFER_A|OFFER_B`
 * provided by a profile attribute `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* String to be replaced : `|OFFER_A`
-* String replaced by : `''`
+* String to be replaced: `|OFFER_A`
+* String replaced by: `''`
 * You need to add `\\` before the `|` character.
 
 The expression is:
