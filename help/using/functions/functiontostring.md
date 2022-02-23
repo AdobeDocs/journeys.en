@@ -26,7 +26,6 @@ Conversion
 |dateTime|converts the date in UTC date format|
 |dateTimeOnly|converts the date in UTC date format|
 |duration|convert into the corresponding number of milliseconds as a string|
-|time zone|convert into the time zone id string representation (JODA id)|
 |integer|converts to string representation of the value (1 becomes “1”)|
 |decimal|converts to string representation of the value (1.5 becomes “1.5”)|
 |boolean|convert the boolean value as 'true' if true, 'false' if false|
@@ -38,8 +37,6 @@ Conversion
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

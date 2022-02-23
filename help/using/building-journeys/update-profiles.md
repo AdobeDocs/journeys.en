@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Jumping from one journey to another
-description: Jumping from one journey to another
+title: Update profile
+description: Update profile
 feature: Journeys
 role: User
 level: Intermediate
@@ -19,6 +19,7 @@ The **[!UICONTROL Update profile]** action activity allows you to update an exis
 * Just like any other action, you can define an alternative path in case of error or timeout and you cannot place two actions in parallel.
 * The update request sent to Platform will be fast but not immediate/within a second. It will take normally a few seconds but sometimes more with no guarantee. As a result, for example, if an action is using "field 1" updated by an Update Profile action positioned right before, you should not expect that "field 1" will be updated in the action.
 * In test mode, the profile update will not be simulated. The update will be performed on the test profile. 
+* The **Update profile** activity does not support XDM fields that are defined as an enumeration.
 
 ## Using the profile update
 
