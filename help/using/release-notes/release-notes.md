@@ -16,7 +16,7 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ### Improvements
 
-To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the Draft status. [Read more](../building-journeys/testing-the-journey.md#important_notes)
 
 ## January 2022 Release {#january-2022-release}
 

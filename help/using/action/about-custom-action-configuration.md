@@ -13,7 +13,7 @@ If you're using a third-party system to send messages or if you want [!DNL Journ
 
 Limitations are listed in [this page](../about/limitations.md).
 
-In custom action parameters, you can pass a simple collection, as well as a collection of objects. Regarding the limitations, please refer to [this page](../building-journeys/collections.md#limitations). Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Refer to this [use case](../building-journeys/collections.md).
+In custom action parameters, you can pass a simple collection, as well as a collection of objects. Regarding the limitations, please refer to [this page](../usecase/collections.md#limitations). Also note that the parameters have an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. Refer to this [use case](../usecase/collections.md).
 
 Here are the main steps required to configure a custom action:
 
