@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Building the journey
+title: Building the journey - Advanced
 description: Learn how to build the advanced use case journey 
 feature: Journeys
 role: User

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Using a segment
+title: Creating a segment
 description: Learn how to use a segment
 feature: Journeys
 role: User
