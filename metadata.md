@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-lea
 git-repo: https://github.com/AdobeDocs/journeys.en
 index: yes
 feature-set: Journey Orchestration
-solution: Experience Platform, Journey Orchestration
+solution: Journey Orchestration
 type: Documentation
 feature: Journeys
 ---
