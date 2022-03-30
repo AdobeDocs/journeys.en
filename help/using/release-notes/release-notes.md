@@ -14,8 +14,6 @@ You can also consult the latest [Documentation Updates](../release-notes/documen
 
 ## March 2022 Release {#feb-2022-release}
 
-### New capabilities 
-
 ### Improvements
 
 **Journeys**
