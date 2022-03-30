@@ -33,7 +33,7 @@ In the expression, event fields are referenced with "@" and data source fields a
 
 A syntax color is used to visually distinguish events fields (green) from field groups (blue).
 
-## Default values for field references
+## Default values for field references {#default-value}
 
 A default value can be associated with a field name. The syntax is as follows:
 
@@ -80,6 +80,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+You can add any kind of expression as default value. The only constraint is that the expression must return the expected data type. When using a function, encapsulating the function with () is required.
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Reference to a field within collections

@@ -12,6 +12,17 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
 
+## March 2022 Release {#feb-2022-release}
+
+### New capabilities 
+
+### Improvements
+
+**Journeys**
+
+* To avoid having unnecessary fields in the unified profile schema, the Journey Step Event schema is no longer enabled for profiles by default. If needed, you can activate it. [Learn more](../building-journeys/sharing-overview.md)
+* New step events related to export jobs are now sent by Journey Optimizer to Adobe Experience Platform. Examples of queries have been added to documentation. [Learn more](../building-journeys/query-examples.md)
+
 ## February 2022 Release {#february-2022-release}
 
 ### Improvements

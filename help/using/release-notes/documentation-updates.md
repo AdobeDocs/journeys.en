@@ -12,6 +12,10 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## March 2022 {#march-2022}
+
+* Added an example on how to add an expression as a default value in the expression editor. [Read more](../expression/field-references.md#default-value)
+
 ## February 2022 {#feb-2022}
 
 * The [replace](../functions/functionreplace.md#example_2) and [replaceAll](../functions/functionreplaceall.md#example) function documentation pages have been updated with additional information and examples regarding the target parameter.
