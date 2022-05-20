@@ -2,13 +2,13 @@
 keywords: Journeys;home;popular topics
 product: adobe campaign
 title: Journey Orchestration product documentation
-description: Journey Orchestration product documentation
+description: Follow our Adobe Journey Orchestration Guide for simple how-to instructions on implementing and building journeys.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 ---
-# Help Center {#journeys-documentation}
+# Journey Orchestration guide {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png) 
 
