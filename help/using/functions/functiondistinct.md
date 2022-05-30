@@ -9,7 +9,7 @@ exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
 ---
 # distinct {#distinct}
 
-Returns the distinct values of the list without null values.
+Returns the distinct values or objects of a given list. Null entries are ignored.
 
 ## Category
 
@@ -17,20 +17,14 @@ List
 
 ## Function syntax
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | List to process. For listObject, it must be a field reference. |
+| keyAttributeName | string | This parameter is optional and only for listObject. If the parameter is not provided, an object is considered as duplicated if all the attributes have the same values. Otherwise, an object is considered as duplicated if the given attribute has the same value. |
 
 ## Signatures and returned types
 
@@ -65,6 +59,13 @@ Returns a list of booleans.
 `distinct(<listDuration>)`
 
 Returns a list of durations.
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+Returns a list of objects.
+
 
 ## Examples
 

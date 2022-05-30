@@ -9,7 +9,7 @@ exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 ---
 # distinctWithNull {#distinctWithNull}
 
-Returns the distinct values of the list. If the list has at least one null value, a null value will be in the returned list.
+Returns the distinct values or objects of a given list. If the list has at least one null entry, a null entry will be present in the returned list.
 
 ## Category
 
@@ -17,20 +17,14 @@ List
 
 ## Function syntax
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## Parameters
 
-| Parameter | Type             |
-|-----------|------------------|
-| List      | listString       |
-| List      | listBoolean      |
-| List      | listInteger      |
-| List      | listDecimal      |
-| List      | listDuration     |
-| List      | listDateTime     |
-| List      | listDateTimeOnly |
-| List      | listDateOnly     |
+| Parameter | Type             | Description             |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | List to process. For listObject, it must be a field reference. |
+| keyAttributeName | string | This parameter is optional and only for listObject. If the parameter is not provided, an object is considered as duplicated if all the attributes have the same values. Otherwise, an object is considered as duplicated if the given attribute has the same value. |
 
 ## Signatures and returned types
 
@@ -65,6 +59,12 @@ Returns a list of booleans.
 `distinctWithNull(<listDuration>)`
 
 Returns a list of durations.
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+Returns a list of objects.
 
 ## Examples
 

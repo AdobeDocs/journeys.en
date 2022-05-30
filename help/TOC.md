@@ -146,6 +146,7 @@ feature: Journeys
       + [getListItem](using/functions/functiongetlistitem.md)
       + [in](using/functions/functionin.md)
       + [intersect](using/functions/functionintersect.md)
+      + [limit](using/functions/functionlimit.md)
       + [listSize](using/functions/functionlistsize.md)
       + [serializeList](using/functions/functionserializelist.md)
       + [sort](using/functions/functionsort.md)

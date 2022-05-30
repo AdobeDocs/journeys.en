@@ -12,6 +12,10 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## June 2022 {#june-2022}
+
+* New query examples have been added to this [page](../building-journeys/query-examples.md)
+
 ## March 2022 {#march-2022}
 
 * Added an example on how to add an expression as a default value in the expression editor. [Read more](../expression/field-references.md#default-value)

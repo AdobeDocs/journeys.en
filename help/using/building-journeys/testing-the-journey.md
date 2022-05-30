@@ -29,7 +29,7 @@ To use the test mode, follow these steps:
 
     >[!NOTE]
     >
-    >When a reaction event is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md).
+    >When a reaction event with a timeout is used in a journey, the wait time default and minimum value is 40 seconds. See [this section](../building-journeys/reaction-events.md).
 
 1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey.
 
