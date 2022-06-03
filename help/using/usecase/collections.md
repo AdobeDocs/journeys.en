@@ -60,6 +60,7 @@ You can pass a collection in custom action parameters that will be dynamically p
      ]
     }
     ```
+
 * To test collections using the test mode, you need to use the code view mode. Code view mode is not supported for business events at the moment. You can only send a collection with a single element.
 
 ## General procedure {#general-procedure} 
