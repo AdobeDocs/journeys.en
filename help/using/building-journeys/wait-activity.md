@@ -12,7 +12,6 @@ exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * [Duration](#duration) 
-* [Fixed date](#fixed_date) 
 * [Custom](#custom) 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
@@ -33,12 +32,6 @@ Also note that if two different waits are in parallel, the one occurring first w
 Select the duration of the wait before the execution of the next activity.
 
 ![](../assets/journey55.png)
-
-## Fixed date wait{#fixed_date}
-
-Select the date for the execution of the next activity.
-
-![](../assets/journey56.png)
 
 ## Custom wait{#custom}
 
