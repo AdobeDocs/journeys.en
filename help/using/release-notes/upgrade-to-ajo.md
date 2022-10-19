@@ -1,17 +1,17 @@
 ---
-title: Migrate to Adobe Journey Optimizer
-description: Learn how migrate to Adobe Journey Optimizer
+title: Upgrade to Adobe Journey Optimizer
+description: Learn how upgrade to Adobe Journey Optimizer
 hide: yes
 hidefromtoc: yes
 ---
 
-# Upgrade your Journey Orchestration environment to Adobe Journey Optimizer{#migration-jo}
+# Upgrade your Journey Orchestration environment to Adobe Journey Optimizer{#ugrade-ajo}
 
 ## What is Adobe Journey Optimizer?
 
 Adobe Journey Optimizer is an agile and scalable application built natively on the Adobe Experience Platform for orchestrating and delivering personalized, connected, and timely customer journeys across any app, device, screen, or channel.​
 
-## What is Adobe Journey Orchestration?
+## What is Journey Orchestration?
 
 Journey Orchestration is a service built on Adobe Experience Platform that allows you tailor individual journeys for each customer based on their previous behavior and preferences. Journey Orchestration is the precursor application to Journey Optimizer. 
 

@@ -13,7 +13,7 @@ feature: Journeys
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
   + [Documentation Updates](using/release-notes/documentation-updates.md)
-  + [Migration to Journey Optimizer](using/release-notes/migration-to-ajo.md)
+  + [Upgrade to Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
   + [Limitations](using/about/limitations.md)
