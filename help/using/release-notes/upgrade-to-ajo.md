@@ -59,11 +59,11 @@ Get the benefit of other current **Adobe Journey Optimizer features** and new on
 
 ## Frequently Asked Questions
 
-## Do I need to plan anything to move from Journey Orchestration to Adobe Journey Optimizer?
+### Do I need to plan anything to move from Journey Orchestration to Adobe Journey Optimizer?
 
 No, there is no migration, no work needed from you, no downtime and no additional investment. You only need to update your agreement with Adobe and we do the rest. Please contact your account representative for instructions on how to initiate this process. 
 
-## Will I lose something after the change?
+### Will I lose something after the change?
 
 No, you will keep all your existing Journey Orchestration and Adobe Experience Platform objects: schemas, datasets, journeys, events, data sources, actions. Nothing will be lost, all live journeys will continue to work with no interruption.
 
