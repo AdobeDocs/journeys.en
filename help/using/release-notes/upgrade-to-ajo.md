@@ -53,7 +53,7 @@ Get the benefit of other current **Adobe Journey Optimizer features** and new on
 
 1. Wait for our Engineering team to complete the change. 
 
-1. Update your permissions by using Journey Optimizer's product profiles. Refer to this [page](  https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html).
+1. Update your permissions by using Journey Optimizer's product profiles. Refer to this [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html).
 
 1. You now have access to Adobe Journey Optimizer!
 
