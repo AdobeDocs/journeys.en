@@ -3,8 +3,8 @@ title: Upgrade to Adobe Journey Optimizer
 description: Learn how upgrade to Adobe Journey Optimizer
 hide: yes
 hidefromtoc: yes
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 ---
-
 # Upgrade your Journey Orchestration environment to Adobe Journey Optimizer{#ugrade-ajo}
 
 ## What is Adobe Journey Optimizer?
