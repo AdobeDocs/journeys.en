@@ -49,7 +49,7 @@ Get the benefit of other current **Adobe Journey Optimizer features** and new on
 
 ## How to upgrade my Journey Orchestration environment?
 
-1. Reach out to your account team to update your agreement with Adobe at no cost. 
+1. Reach out to your account team to update your agreement with Adobe. 
 
 1. Wait for our Engineering team to complete the change. 
 
@@ -82,7 +82,7 @@ No, you will keep all your existing Journey Orchestration and Adobe Experience P
 
 ![](../assets/migration-ajo-9.png)
 
-Yes, it is normal. You will keep the access to Journey Orchestration for one month following the upgrade. This will give you enough time to update all your users permissions and get more familiar with Adobe Journey Optimizer. After one month, the access will be removed.
+Yes, it is normal. You may still see the Journey Orchestration item for a few days after the upgrade. Please use the Journey Optimizer one.
 
 ### What happens if I use Journey Orchestration with Adobe Campaign Standard today?
 
