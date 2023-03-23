@@ -24,10 +24,10 @@ For example, let’s say that you have defined a capping or throttling rule of 1
 >**Capping rules** are defined at sandbox level for a specific endpoint (the URL called). A capping rule is specific to one endpoint but global to all the journeys of a sandbox. This means that capping slots are shared between all journeys of a sandbox.
 >You can define only one **throttling configuration** across all your sandboxes. 
 
-For more information on how to work with these APIs, refer these documentations:
+For more information on how to work with these APIs, refer these sections:
 
-* [Capping API](https://developer.adobe.com/journey-optimizer-apis/)
-* [Throttling API](https://developer.adobe.com/journey-optimizer-apis/)
+* [Capping API](capping.md)
+* [Throttling API](throttling.md)
 
 ## Data sources & custom actions capacity {#capacity}
 
