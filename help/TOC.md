@@ -200,5 +200,5 @@ feature: Journeys
   + [Passing collections dynamically using custom actions](using/usecase/collections.md)
 + Working with APIs{#working-with-apis}
   + [Get started with journeys APIs](using/api/journeys-apis.md)
-  + [Capping APIs](using/api/capping.md)
+  + [Capping API](using/api/capping.md)
   + [Throttling API](using/api/throttling.md)
