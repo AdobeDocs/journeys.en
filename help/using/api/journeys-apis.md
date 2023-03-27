@@ -13,7 +13,7 @@ level: Intermediate
 
 When configuring a datasource or an action, you establish a connection to a system to either retrieve additional information to use in your journeys or send messages or API calls.
 
-Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the [Capping](capping.md) and [Throttling](throttling.md) APIs to limit the the number of events sent per second.
+Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the the number of events sent per second.
 
 Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API reached, the call is either rejected if you are using the Capping API, or queued and processed as soon as possible in the order they were received if you are using the Throttling API.
 
@@ -24,10 +24,12 @@ For example, let’s say that you have defined a capping or throttling rule of 1
 >**Capping rules** are defined at sandbox level for a specific endpoint (the URL called). A capping rule is specific to one endpoint but global to all the journeys of a sandbox. This means that capping slots are shared between all journeys of a sandbox.
 >You can define only one **throttling configuration** across all your sandboxes. 
 
-For more information on how to work with these APIs, refer these sections:
+For more information on how to work with these APIs, refer to these sections:
 
 * [Capping API](capping.md)
 * [Throttling API](throttling.md)
+
+Both of the APIs are also described in a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/). 
 
 ## Data sources & custom actions capacity {#capacity}
 

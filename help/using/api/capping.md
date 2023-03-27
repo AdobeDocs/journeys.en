@@ -13,8 +13,6 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 
 The Capping API helps you to create, configure and monitor your capping configurations.
 
-Detailed information on how to make requests using the API is available in [this documentation](https://developer.adobe.com/journey-optimizer-apis/) In addition, the API is also described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/). 
-
 ## Capping API description
 
 | Method  | Path   | Description   |
