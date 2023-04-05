@@ -15,7 +15,7 @@ When configuring a datasource or an action, you establish a connection to a syst
 
 Journeys APIs support up to 5000 event per second but some external systems or API may not have an equivalent throughput. To prevent overloading these systems, you can use the **Capping** and **Throttling** APIs to limit the the number of events sent per second.
 
-Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued and processed as soon as possible in the order they were received if you are using the Throttling API.
+Every time an API call is performed by journeys, it passes through the API engine. If the limit set in the API is reached, the call is either rejected if you are using the Capping API, or queued up to 6 hours and processed as soon as possible in the order they were received if you are using the Throttling API.
 
 For example, let’s say that you have defined a capping or throttling rule of 100 calls per second for your external system. Your system is called by a custom action in 10 different journeys. If one journey receives 200 calls per second, it will use the 100 slots available and discard or queue the 100 remaining slots. Since the maximum rate has exceeded, the other 9 journeys will not have any slot left. This granularity helps to protect the external system from over-loading and crashing. 
 
