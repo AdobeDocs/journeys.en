@@ -6,6 +6,7 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
+exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
 ---
 # Get started with journeys APIs
 

@@ -6,6 +6,7 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
+exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 ---
 # Work with the Throttling API
 
