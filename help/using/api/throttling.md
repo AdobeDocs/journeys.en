@@ -10,7 +10,7 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 ---
 # Work with the Throttling API
 
-The Throttling API helps you to create, configure and monitor your throttling configurations.
+The Throttling API helps you to create, configure and monitor your throttling configurations in order to limit the number of events sent per second.
 
 >[!IMPORTANT]
 >
