@@ -11,6 +11,11 @@ exl-id: fef039ae-c04d-4198-a082-4be27710255f
 
 Here are limitations related to the use of Journey Orchestration.
 
+## General journey guardrails {#journeys-guardrails-journeys}
+
+* The number of activities in a journey is limited to 50. The number of activities is displayed on the upper left section of the journey canvas.
+* The number of **live journeys** in one organization is limited to 100 per sandbox. When this limit is reached, you can no longer publish a new journey.
+
 ## General actions limitations
 
 * There is no sending throttling. 
