@@ -9,8 +9,83 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 ---
 # Release Notes {#release-notes}
 
-This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the latest [Documentation Updates](../release-notes/documentation-updates.md).
+This page lists all the new features and improvements for Journey Orchestration. For Experience Platform features, refer to the following [release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
+
+>[!NOTE]
+>
+>For the features released in 2022 and 2023, the links direct to Adobe Journey Optimizer documentation.
+
+## April 2023 Release {#apr-rn-2023}
+
+### Improvements {#april-2023-improvements}
+
+**Journeys**
+
+* The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
+* You can now define static or dynamic query parameters in your custom actions. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
+* New guardrails to manage growth of experiences delivered by Journeys:
+    * We recommend that you keep the number of nodes limited to 50 or less to keep your journeys performant, easy to read, QA and troubleshoot. The number of activities will be displayed on the upper left section of the journey canvas. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+    * As you develop and launch journeys, we will notify you as you approach the milestone of 100 live journeys at one time. Should your plans require more than 100 journeys at a time, please create a ticket for support after seeing the notification and we will help you. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+
+## March 2023 Release {#mar-2023}
+
+### Improvements {#mar-2023-improvements}
+
+* The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. [Learn more](../api/throttling.md)
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty place holders have been removed. You can now simply add your activities by dragging them at the end of a path.
+* In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
+* The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events sent through an external tool are not taken into account. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html).
+
+## February 2023 Release {#feb-2023}
+
+### Improvements {#feb-2023-improvements}
+
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. This allows profiles to exit automatically when the date is reached. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+
+## January 2023 Release {#jan-2023-release}
+
+### Improvements {#jan-2023-improvements}
+
+* When adding a **Segment qualification** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* In the journey canvas, a new button is available in the toolbar which allows you to download a screenshot of your journey. 
+
+## September 2022 Release{#sept-2022-release}
+
+### New capabilities{#sept-2022-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Governance and Privacy</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With its Data Usage Labelling and Enforcement (DULE) governance framework, Journey Orchestration can now leverage Adobe Experience Platform governance policies to prevent sensitive fields from being exported to third-party systems through custom actions. If the system identifies a restricted field in the custom action parameters, an error is displayed preventing you from publishing the journey.</p>
+<p>The use of Data Usage Labelling and Enforcement (DULE) is currently restricted to selected customers, and will be deployed to all environments in a future release.</p>
+<p>For more information, refer to the Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html">documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements{#sept-2022-improvements}
+
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+
+### Other changes{#sept-2022-other}
+
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+
+### Improvements
+
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+
+* The **Profile time zone** option is now unchecked by default in journey properties. [Learn more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
 
 ## May 2022 Release {#may-2022-release}
 
