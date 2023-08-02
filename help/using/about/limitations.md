@@ -18,7 +18,6 @@ Here are limitations related to the use of Journey Orchestration.
 
 ## General actions limitations
 
-* There is no sending throttling. 
 * Three retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see this [page](../building-journeys/reaction-events.md)). If you want to react to a message sent via a custom action, you need to configure a dedicated event. 
 

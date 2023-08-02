@@ -39,7 +39,7 @@ Here is the basic structure of an endpoint configuration:
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -49,6 +49,12 @@ Here is the basic structure of an endpoint configuration:
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>The **maxHttpConnections** parameter is optional. It allows you to restrict the number of connections Journey Optimizer will open to the external system.
+>
+>The max value that can be set is 400. If nothing is specified, then the system may open up to multiple thousands of connections depending on the dynamic scaling of the system.
 
 ### Example:
 
@@ -60,9 +66,9 @@ Here is the basic structure of an endpoint configuration:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
