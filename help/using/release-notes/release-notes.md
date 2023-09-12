@@ -19,7 +19,7 @@ This page lists all the new features and improvements for Journey Orchestration.
 
 ### Improvements {#aug-2023-improvements}
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. [Learn more](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html).
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html).
 
 ## April 2023 Release {#apr-rn-2023}
 
