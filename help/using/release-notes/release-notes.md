@@ -15,11 +15,15 @@ This page lists all the new features and improvements for Journey Orchestration.
 >
 >For the features released in 2022 and 2023, the links direct to Adobe Journey Optimizer documentation.
 
+## August 2023 Release {#aug-rn-2023}
+
+### Improvements {#aug-2023-improvements}
+
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. [Learn more](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html).
+
 ## April 2023 Release {#apr-rn-2023}
 
 ### Improvements {#april-2023-improvements}
-
-**Journeys**
 
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
 * You can now define static or dynamic query parameters in your custom actions. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
