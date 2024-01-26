@@ -21,11 +21,11 @@ When you click on the event activity in the canvas, the activity configuration p
 
  ![](../assets/journey33.png)
 
-## Listening to events during a specific time
+## Listening to events during a specific {#listening}
 
 An event activity positioned in the journey listens to events indefinitely. To listen to an event only during a certain time, you must configure a timeout for the event.
 
-The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will either flow into a timeout path, or end their journey.
+The journey will then listen to the event during the time specified in the timeout. If an event is received during that period, the person will flow in the event path. If not, the customer will either flow into the timeout path if it is defined, or will continue that journey. If no timeout path is defined, the timeout setting will act as a wait activity, making the profile wait for a period of time, which could be stopped if an event happens before the end of that wait. If you want profiles to be excluded from that journey after timeout, you will have to set a timeout path.
 
 To configure a timeout for an event, follow these steps:
 
@@ -33,7 +33,7 @@ To configure a timeout for an event, follow these steps:
 
 1. Specify the amount of time the journey will wait for the event.
 
-1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set the timeout path]** option. If this option is not enabled, the journey will end for the individual once the timeout is reached.
+1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set the timeout path]** option. If this option is not enabled, the journey will continue for the individual once the timeout is reached.
 
     ![](../assets/event-timeout.png)
 
@@ -44,6 +44,6 @@ In this example, the journey sends a first welcome push to a customer. It then s
 
 Note that if you want to configure a timeout on multiple events positioned after a **[!UICONTROL Wait]** activity, you need to configure the timeout on one of these events only.
 
-The timeout will apply to all the events positioned after the **[!UICONTROL Wait]** activity. If no event is received before the specified timeout, the individuals will flow into one single timeout path or will end their journey.
+The timeout will apply to all the events positioned after the **[!UICONTROL Wait]** activity. If no event is received before the specified timeout, the individuals will flow into one single timeout path or will continue that journey through the branch exiting the activity where those timeout settings have been defined.
 
 ![](../assets/event-timeout-group.png)
