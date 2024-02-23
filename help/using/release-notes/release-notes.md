@@ -30,7 +30,7 @@ This page lists all the new features and improvements for Journey Orchestration.
 
 * **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
 * **Field Groups** - This release fixes an issue which was blocking field groups from being saved in certain cases.
-* Support of listObject has been modified in multiple functions.
+* Support of `<listObject>` has been modified in multiple functions.
 
 ## August 2023 Release {#aug-rn-2023}
 
