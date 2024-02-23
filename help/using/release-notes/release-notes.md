@@ -15,6 +15,23 @@ This page lists all the new features and improvements for Journey Orchestration.
 >
 >For the features released in 2022 and 2023, the links direct to Adobe Journey Optimizer documentation.
 
+## February 2024 Release {#feb-rn-2024}
+
+### Improvements {#feb-2024-improvements}
+
+* **Filter your journeys** - You can now use **custom dates to filter the journeys** inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys created or published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Custom actions** - You can now update the **content-type** header. This new **content-type** should reference JSON content. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration)
+* **Configuration** - The identityMap attribute in stepEvents is now pre-filled. The primary identity is defined as "primary = true". [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **User interface** - The top bar, in journey screens, has been reorganised for an improved experience. Among the different updates, notice that the "pencil" icon that allows you to access the journey properties is now displayed on the left of the top bar, next to the journey's name. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## January 2024 Release {#jan-rn-2024}
+
+### Improvements {#jan-2024-improvements}
+
+* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **Field Groups** - This release fixes an issue which was blocking field groups from being saved in certain cases.
+* Support of <listObject> has been modified in multiple functions.
+
 ## August 2023 Release {#aug-rn-2023}
 
 ### Improvements {#aug-2023-improvements}
