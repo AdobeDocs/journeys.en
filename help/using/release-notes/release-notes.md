@@ -15,6 +15,18 @@ This page lists all the new features and improvements for Journey Orchestration.
 >
 >For the features released in 2022 and 2023, the links direct to Adobe Journey Optimizer documentation.
 
+## March 2024 Release {#mar-rn-2024}
+
+### Improvements {#mar-2024-improvements}
+
+New intermediate statuses have been added to the journey authoring lifecycle:
+
+* **Publishing** status between the **Draft** status and the **Live** status
+* **Stopping** status between the **Live** status and the **Stopped** status
+* **Activating test mode** or **Deactivating test mode** statuses between the **Draft** status and the **Draft (test)** status
+
+When a journey is in an intermediate state, it is read-only. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## February 2024 Release {#feb-rn-2024}
 
 ### Improvements {#feb-2024-improvements}
