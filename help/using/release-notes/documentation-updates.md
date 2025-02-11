@@ -5,6 +5,8 @@ description: Learn about documentation updates
 feature: Journeys
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 ---
 # Documentation Updates
