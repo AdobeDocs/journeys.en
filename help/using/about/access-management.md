@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Access management
-description: Learn more on access management
+title: Access Management
+description: Learn more about access management.
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,14 +13,14 @@ exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 
 [!DNL Journey Orchestration] allows you to assign a set of permissions to your users to define which part of the interface they can access.
 
-They can be managed by Administrators that have access to the Admin console. For more information on the Admin console, refer to this [documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+They can be managed by Administrators that have access to the Admin Console. For more information on the Admin Console, refer to the [Enterprise and teams admin guide](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 To be able to access [!DNL Journey Orchestration], a user must be:
 
 * part of a [!DNL Journey Orchestration] **[!UICONTROL product profile]** associated to [!DNL Journey Orchestration] permissions.
 * part of an [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. There is no mandatory permission to have. The user should have the **[!UICONTROL profile management]** permission to be able to create and edit platform segments from [!DNL Journey Orchestration] interface. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
-In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
+In Admin Console, you can assign one of the following out-of-the-box product profiles to your users:
 
 *   **[!UICONTROL Limited Access User]**: user with read-only access to journeys and reports. This product profile includes the following permissions:
     *   Read journeys
@@ -34,7 +34,7 @@ In the Admin console, you can assign one of the following out-of-the-box product
 
     >[!NOTE]
     >
-    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys. It should not be renamed in the Admin console.
+    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys. It should not be renamed in Admin Console.
 
 *   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following permissions:
     *   Manage journeys
@@ -65,7 +65,7 @@ For more information on how to create and manage sandboxes, refer to [Adobe Expe
 
 To create a product profile and assign a set of permissions and sandboxes:
 
-1. In the Admin Console, select **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+1. In Admin Console, select **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
     ![](../assets/do-not-localize/user_management_5.png)
 
@@ -132,7 +132,7 @@ Your user should then receive an email redirecting to your [!DNL Journey Orchest
 ## Using sandboxes {#sandboxes}
 
 [!DNL Journey Orchestration] allows you to partition your instance into separated virtual environments called sandboxes.
-Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
+Sandboxes are assigned through product profiles in Admin Console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflects the Adobe Experience Platform sandboxes which were created for a given organization.
 Adobe Experience Platform sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
