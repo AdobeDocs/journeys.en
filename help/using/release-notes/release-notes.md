@@ -316,7 +316,7 @@ The [getListItem](../functions/functiongetlistitem.md) and [split](../functions/
 <li>simplify the design of very complex journeys by splitting them into several ones </li>
 <li>build journeys based on common and reusable journey patterns</li>
 </ul>
-<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a> and <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">tutorial video</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/jump.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -718,8 +718,3 @@ Build real-time orchestration use cases leveraging contextual data stored in eve
 Journey Orchestration allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. The application determines in multistep flows called journeys the next best actions specific to the consumer, based on their profile and behaviors. This comprises both the optimal timing, as well as the type of action, such as sending the consumer a push notification via Adobe Campaign Standard transactional messaging capabilities (requires Adobe Campaign Standard) or the notification of a third-party system. These decisions are made based on rules and Sensei scores.
 
 [Learn more](../action/working-with-adobe-campaign.md) on Journey Orchestration.
-
-Additional resources:
-
-* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
