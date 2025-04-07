@@ -13,13 +13,12 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 >
 >**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
 >
->This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer.
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
 
 This page lists all the new features and improvements for Journey Orchestration. For Experience Platform features, refer to the following [release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
 
->[!NOTE]
->
->For the features released in 2022 and 2023, the links direct to Adobe Journey Optimizer documentation.
+For the features released after 2022, the links direct to [Adobe Journey Optimizer documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## March 2024 Release {#mar-rn-2024}
 
@@ -31,22 +30,22 @@ New intermediate statuses have been added to the journey authoring lifecycle:
 * **Stopping** status between the **Live** status and the **Stopped** status
 * **Activating test mode** or **Deactivating test mode** statuses between the **Draft** status and the **Draft (test)** status
 
-When a journey is in an intermediate state, it is read-only. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+When a journey is in an intermediate state, it is read-only. [Learn more](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
 ## February 2024 Release {#feb-rn-2024}
 
 ### Improvements {#feb-2024-improvements}
 
-* **Filter your journeys** - You can now use **custom dates to filter the journeys** inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys created or published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **Custom actions** - You can now update the **content-type** header. This new **content-type** should reference JSON content. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration)
-* **Configuration** - The identityMap attribute in stepEvents is now pre-filled. The primary identity is defined as "primary = true". [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **User interface** - The top bar, in journey screens, has been reorganised for an improved experience. Among the different updates, notice that the "pencil" icon that allows you to access the journey properties is now displayed on the left of the top bar, next to the journey's name. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Filter your journeys** - You can now use **custom dates to filter the journeys** inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys created or published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter){target="_blank"}
+* **Custom actions** - You can now update the **content-type** header. This new **content-type** should reference JSON content. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration){target="_blank"}
+* **Configuration** - The identityMap attribute in stepEvents is now pre-filled. The primary identity is defined as "primary = true". [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html){target="_blank"}
+* **User interface** - The top bar, in journey screens, has been reorganised for an improved experience. Among the different updates, notice that the "pencil" icon that allows you to access the journey properties is now displayed on the left of the top bar, next to the journey's name. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties){target="_blank"}
 
 ## January 2024 Release {#jan-rn-2024}
 
 ### Improvements {#jan-2024-improvements}
 
-* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **Reaction events duration** - The maximum duration that you can define in the **Reaction events** is now 29 days instead of 30. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html){target="_blank"}
 * **Field Groups** - This release fixes an issue which was blocking field groups from being saved in certain cases.
 * Support of `<listObject>` has been modified in multiple functions.
 
@@ -54,17 +53,17 @@ When a journey is in an intermediate state, it is read-only. [Learn more](https:
 
 ### Improvements {#aug-2023-improvements}
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html).
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses. This feature is currently available as a private beta. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html){target="_blank"}.
 
 ## April 2023 Release {#apr-rn-2023}
 
 ### Improvements {#april-2023-improvements}
 
 * The layout of the configuration pane, which appears in actions, data sources, events and journeys, has been improved.
-* You can now define static or dynamic query parameters in your custom actions. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
+* You can now define static or dynamic query parameters in your custom actions. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration){target="_blank"}.
 * New guardrails to manage growth of experiences delivered by Journeys:
-    * We recommend that you keep the number of nodes limited to 50 or less to keep your journeys performant, easy to read, QA and troubleshoot. The number of activities will be displayed on the upper left section of the journey canvas. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
-    * As you develop and launch journeys, we will notify you as you approach the milestone of 100 live journeys at one time. Should your plans require more than 100 journeys at a time, please create a ticket for support after seeing the notification and we will help you. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+    * We recommend that you keep the number of nodes limited to 50 or less to keep your journeys performant, easy to read, QA and troubleshoot. The number of activities will be displayed on the upper left section of the journey canvas. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys){target="_blank"}
+    * As you develop and launch journeys, we will notify you as you approach the milestone of 100 live journeys at one time. Should your plans require more than 100 journeys at a time, please create a ticket for support after seeing the notification and we will help you. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys){target="_blank"}
 
 ## March 2023 Release {#mar-2023}
 
@@ -73,21 +72,21 @@ When a journey is in an intermediate state, it is read-only. [Learn more](https:
 * The new **Throttling API** allows you to set a limit on the number of events sent per second, preventing overwhelming traffic spikes on your external systems or API. When the set limit is reached, all subsequent API calls are queued and processed as soon as possible, in the order they were received. Please note that this feature supports only one throttling configuration across all your sandboxes. [Learn more](../api/throttling.md)
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty place holders have been removed. You can now simply add your activities by dragging them at the end of a path.
 * In the journey canvas, the label of the **End** tag is no longer automatically set with the previous activity's name. Users can manually add a custom label if needed.
-* The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
-* A guardrail has been added to the test mode to only listen to events sent through the interface. Events sent through an external tool are not taken into account. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html).
+* The default timeout and error duration in journey properties has been changed from 5 to 30 seconds. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout){target="_blank"}.
+* A guardrail has been added to the test mode to only listen to events sent through the interface. Events sent through an external tool are not taken into account. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html){target="_blank"}.
 
 ## February 2023 Release {#feb-2023}
 
 ### Improvements {#feb-2023-improvements}
 
-* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
-* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. This allows profiles to exit automatically when the date is reached. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance){target="_blank"}.
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. This allows profiles to exit automatically when the date is reached. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates){target="_blank"}.
 
 ## January 2023 Release {#jan-2023-release}
 
 ### Improvements {#jan-2023-improvements}
 
-* When adding a **Segment qualification** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* When adding a **Segment qualification** in a journey, the namespace is now pre-filled, by default, with the last used namespace. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification){target="_blank"}.
 * In the journey canvas, a new button is available in the toolbar which allows you to download a screenshot of your journey. 
 
 ## September 2022 Release{#sept-2022-release}
@@ -114,17 +113,17 @@ When a journey is in an intermediate state, it is read-only. [Learn more](https:
 
 ### Improvements{#sept-2022-improvements}
 
-* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+* A new guardrail has been added to unitary journeys (starting with an event or a segment qualification) to prevent journeys from being erroneously triggered multiple times for the same event. Profile re-entrance will now be temporally blocked by default for 5 minutes. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g){target="_blank"}.
 
 ### Other changes{#sept-2022-other}
 
-* To improve performance, Experience event field groups can no longer be used in journeys starting with a Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+* To improve performance, Experience event field groups can no longer be used in journeys starting with a Segment qualification activity. This change only applies to new journeys. Existing ones will keep the current behaviour. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor){target="_blank"}.
 
 ### Improvements
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action required from the journey practitioner. Refer to the Journey Optimizer [documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html){target="_blank"}.
 
-* The **Profile time zone** option is now unchecked by default in journey properties. [Learn more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
+* The **Profile time zone** option is now unchecked by default in journey properties. [Learn more](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles){target="_blank"}.
 
 ## May 2022 Release {#may-2022-release}
 
@@ -149,7 +148,7 @@ When a journey is in an intermediate state, it is read-only. [Learn more](https:
 
 ### Improvements
 
-* Journey Orchestration step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../building-journeys/sharing-overview.md#integration-cja)
+* Journey Orchestration step events can now be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"}. The **profileID** field, in the built-in Journey Step Event schema, is now defined as an identity field. [Learn more](../building-journeys/sharing-overview.md#integration-cja)
 * The capping rule for Adobe Campaign Standard actions has been changed to 4000 calls / 5 minutes. [Read more](../action/working-with-adobe-campaign.md)
 
 ## October 2021 Release {#october-2021-release}
