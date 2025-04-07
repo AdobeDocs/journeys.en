@@ -12,6 +12,13 @@ exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 
 <!--![](using/assets/do-not-localize/bannerjourney.png) -->
 
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer.
+
+
 ## Get started
 
 * **[What is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>

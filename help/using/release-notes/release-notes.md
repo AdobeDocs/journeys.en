@@ -9,6 +9,12 @@ exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 ---
 # Release Notes {#release-notes}
 
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer.
+
 This page lists all the new features and improvements for Journey Orchestration. For Experience Platform features, refer to the following [release notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
 
 >[!NOTE]
@@ -446,7 +452,7 @@ The payload of Segment Qualification events now contains the following context i
 <ul>
 <li><p>The activity's name has been changed to "Read Segment". </p>
 </li>
-<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Read Segment activity has been dropped into the canvas. </p>
+<li><p>The configuration of the journey scheduler has been removed from the activity's properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Read Segment activity has been dropped into the canvas. </p>
 </li>
 <li><p>You can now test the journey on a unitary profile and track its progress in the journey using the visual flow.</p>
 </li>
