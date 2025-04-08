@@ -9,6 +9,15 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 ---
 # Journey properties attributes {#journey-properties}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 In the advanced expression editor, you will find the **Journey Properties** category, below the event and data source categories. This category contains technical fields related to the journey for a given profile. This is the information retrieved by the system from live journeys, such as the journey ID or the specific errors encountered.
 
 >[!NOTE]

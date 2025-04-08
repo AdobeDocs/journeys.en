@@ -9,6 +9,15 @@ exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 ---
 # Using the journey designer {#concept_m1g_5qt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The journey Home menu allows you to view the **list of journeys**. Create a new journey or click on a existing one to open the **journey designer's interface**. The designer is made up of the following zones: the palette, the canvas and the activity configuration pane.
 
 ## The journey list {#journey_list}

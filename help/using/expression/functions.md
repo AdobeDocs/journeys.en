@@ -9,6 +9,15 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 ---
 # Functions {#concept_p1r_qj5_dgb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)

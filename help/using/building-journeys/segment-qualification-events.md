@@ -9,6 +9,16 @@ exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 ---
 # Segment qualification events {#segment-qualification}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 ## About segment qualification events{#about-segment-qualification}
 
 This activity allows your journey to listen to the entrances and exits of profiles in Adobe Experience Platform segments in order to make individuals enter or move forward in a journey. For more information on segment creation, refer to this [section](../segment/about-segments.md).
@@ -40,7 +50,7 @@ This type of event can be positioned as the first step or later in the journey.
 
    Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 

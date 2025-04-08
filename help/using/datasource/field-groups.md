@@ -9,6 +9,15 @@ exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
 ---
 # Field groups {#concept_ntl_ypt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 Field groups are sets of fields that you can retrieve from a data source and use in a journey.
 
 ## Defining field groups {#section_dsz_kjd_fjb}
@@ -25,7 +34,7 @@ The number of journeys that use a field group is displayed in the **[!UICONTROL 
 
 >[!NOTE]
 >
->Note that if a field group has no field, it won’t be displayed in the expression editor.
+>Note that if a field group has no field, it won't be displayed in the expression editor.
 
  ![](../assets/journey3bis.png)
 
@@ -35,12 +44,12 @@ You can add or remove fields from a field group that is not used in any draft or
 
 You can add but you cannot remove a field from a field group used in one or more draft or live journeys. This will avoid breaking journeys.
 
-To delete a field from a field group used in one or more journeys, follow these steps. Let's use an example of a field group named “Field Group A”.
+To delete a field from a field group used in one or more journeys, follow these steps. Let's use an example of a field group named "Field Group A".
 
-1. In the list of field groups, place the cursor on “Field Group A” and click on the **[!UICONTROL Duplicate]** icon located on the right. Name the duplicated field group "Field Group B”, for example.
-1. In "Field Group B”, remove the fields you no longer want.
-1. In "Field Group A”, check where this field group is used. This information is displayed in the **[!UICONTROL Used in]** field.
-1. Open all the journeys which use "Field Group A”.
-1. Create new versions of each of these journeys. Edit all activities using "Field Group A” and select "Field Group B”.
-1. Stop old versions of journeys that use "Field Group A”. You should then have no journey using "Field Group A”.
-1. Remove "Field Group A” as is it not used anymore.
+1. In the list of field groups, place the cursor on "Field Group A" and click on the **[!UICONTROL Duplicate]** icon located on the right. Name the duplicated field group "Field Group B", for example.
+1. In "Field Group B", remove the fields you no longer want.
+1. In "Field Group A", check where this field group is used. This information is displayed in the **[!UICONTROL Used in]** field.
+1. Open all the journeys which use "Field Group A".
+1. Create new versions of each of these journeys. Edit all activities using "Field Group A" and select "Field Group B".
+1. Stop old versions of journeys that use "Field Group A". You should then have no journey using "Field Group A".
+1. Remove "Field Group A" as is it not used anymore.

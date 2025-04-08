@@ -9,6 +9,15 @@ exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 ---
 # External data sources {#concept_t2s_kqt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Adobe Experience Platform data source, you can create as many external data sources as you need.
 
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.
@@ -69,8 +78,8 @@ For the "long/lat" parameter set, we create a field group with the following inf
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **[!UICONTROL Dynamic Values]** field and they are automatically added at the end of the call. In case of a POST call, you need to:
 
-* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: “identifier”).
-* specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
+* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: "identifier").
+* specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": "name of your parameter" (in the example below: "identifier"). Follow the syntax below:
 
     ```
     {"id":{"param":"identifier"}}

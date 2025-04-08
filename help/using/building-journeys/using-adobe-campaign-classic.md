@@ -10,6 +10,15 @@ exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 ---
 # Using Adobe Campaign v7/v8 {#using_campaign_classic} 
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 An integration is available if you have Adobe Campaign v7 or v8. It will allow you to send emails, push notifications and SMS using Adobe Campaign Transactional Messaging capabilities.
 
 The connection between the Journey Orchestration and Campaign instances is setup by Adobe at provisioning time. Contact Adobe.

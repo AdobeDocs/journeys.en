@@ -9,6 +9,15 @@ exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 ---
 # Journey versions{#concept_ldc_k55_zgb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 In the journey list, all journey versions are displayed with the version number. See [this page](../building-journeys/using-the-journey-designer.md). When you search for a journey, newest versions appear at the top of the list the first time the application opens. Then, you can define the sorting you want and the application will keep it as a user preference. The journey's version is also displayed at the top of the journey edition interface, above the canvas.
 
 ![](../assets/journeyversions1.png)

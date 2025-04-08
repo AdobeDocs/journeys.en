@@ -8,6 +8,15 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 ---
 # Examples of queries{#query-examples}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 This section lists several commonly used examples to query Journey Step Events in Data Lake. 
 
 Make sure that the fields used in your queries have associated values in the corresponding schema.

@@ -9,11 +9,18 @@ exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 ---
 # About [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
 [!DNL Journey Orchestration] is an application service integrated with the Adobe Experience Platform.
-
-![](../assets/journeydiagram.png)
 
 [!DNL Journey Orchestration] allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. You can configure a custom action if you're using a third-party system to send your messages. If you have Adobe Campaign Standard, you will be able to send emails, push notifications and SMS using the Adobe Campaign Standard's [Transactional Messaging capabilities](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html). 
 

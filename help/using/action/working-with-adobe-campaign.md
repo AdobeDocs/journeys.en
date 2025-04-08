@@ -9,6 +9,15 @@ exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 ---
 # Working with Adobe Campaign Standard {#using_adobe_campaign_standard}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities.
 
 [!DNL Journey Orchestration] comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. 

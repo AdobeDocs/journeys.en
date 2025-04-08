@@ -9,6 +9,16 @@ exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 ---
 # Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
+
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 >[!NOTE]
 >
 >When creating an event, [!DNL Journey Orchestration] automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [this page](../event/previewing-the-payload.md).

@@ -9,6 +9,15 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 ---
 # Journey step sharing overview{#sharing-overview}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 [!DNL Journey Orchestration] automatically sends journey performance data to the Adobe Experience Platform so it can be combined with other data for analysis purposes. 
 
 >[!NOTE]

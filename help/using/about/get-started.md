@@ -9,6 +9,17 @@ exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 ---
 # Get started{#concept_y4b_4qt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
+
 In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to [this page](../about/access-management.md) to learn how to configure user access.
 
 Here are the main steps to configure and use [!DNL Journey Orchestration]:

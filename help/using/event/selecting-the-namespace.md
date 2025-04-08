@@ -9,6 +9,15 @@ exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
 ---
 # Selecting the namespace {#concept_ckb_3qt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The namespace allows you to define the type of key used to identify the person associated to the event. Its configuration is optional. It is required if you want to retrieve, in your journeys, additional information coming from the [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html). The namespace definition is not needed if you're only using data coming from a third-party system through a custom data source.
 
 You can either use one of the predefined ones or create a new one using the Identity Namespace service. Refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html).

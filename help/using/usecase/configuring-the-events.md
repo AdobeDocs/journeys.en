@@ -9,6 +9,15 @@ exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 ---
 # Configuring the events {#concept_sbp_5cy_w2b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 In our scenario, we need to receive an event each time a person enters the Marlton hotel and the restaurant. The **technical user** needs to configure the two events we want the system to listen to in our journey.
 
 For additional information on event configuration, refer to [this page](../event/about-events.md).

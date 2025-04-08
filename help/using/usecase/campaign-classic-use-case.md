@@ -7,6 +7,15 @@ exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
 ---
 # Sending a message using Campaign v7/v8 {#campaign-classic-use-case}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 This use case presents all the steps needed to send an email using the integration with Adobe Campaign Classic v7 and Adobe Campaign v8. 
 
 We will first create a transactional email template in Campaign. Then, in Journey Orchestration, we'll create the event, action and design the journey.

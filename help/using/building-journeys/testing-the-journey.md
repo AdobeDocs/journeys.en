@@ -9,6 +9,15 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 ---
 # Testing the journey{#testing_the_journey}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 Before being able to test your journey, you must resolve all errors if any. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
@@ -17,7 +26,7 @@ Only test profiles can enter a journey in test mode. You can either create a new
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
+1. Before testing your journey, verify that it is valid and that there is no error. You won't be able to launch a test of a journey with errors. See [this section](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 
 1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
@@ -163,7 +172,7 @@ For more information on how to use the test mode, refer to [this page](../buildi
 
 ## Viewing the logs {#viewing_logs}
 
-The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
+The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey's current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey's test results.
 
 ![](../assets/journeytest3.png)
 
@@ -173,9 +182,9 @@ The **[!UICONTROL Show log]** button allows you to view the test results. This p
 
 The number of individuals (technically they are called instances) currently inside the journey are displayed. Here is useful information that is displayed for each individual:
 
-* _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
+* _Id_: the individual's internal ID in the journey. This can be used for debugging purposes.
 * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
-* _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
+* _currentstep_ > phase: the status of the individual's journey (running, finished, error or timed out). See below for more information.
 * _currentstep_ > _extraInfo_: description of the error and other contextual information.
 * _currentstep_ > _fetchErrors_: information on fetch data errors that occurred during this step.
 * _externalKeys_: the value for the key formula defined in the event.

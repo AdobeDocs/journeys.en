@@ -7,6 +7,15 @@ exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 ---
 # Pass collections dynamically using custom actions{#passing-collection}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 You can pass a collection in custom action parameters that will be dynamically populated at runtime. Two kinds of collections are supported:
 
 * simple collections: arrays of simple data types, for example, with a listString:

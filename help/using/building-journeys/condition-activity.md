@@ -9,6 +9,16 @@ exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 ---
 # Condition activity{#section_e2n_pft_dgb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 Four types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
@@ -46,7 +56,7 @@ If you're using the [Adobe Experience Platform Segmentation Service](https://exp
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [this page](../expression/expressionadvanced.md).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you'll need to use the advanced editor. See [this page](../expression/expressionadvanced.md).
 
 When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [this section](../building-journeys/using-the-journey-designer.md#paths).
 

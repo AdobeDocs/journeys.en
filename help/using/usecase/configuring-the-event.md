@@ -9,6 +9,15 @@ exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 ---
 # Configuring the event{#concept_y44_hcy_w2b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 In our scenario, we need to receive an event each time a person walks near a beacon positioned next to the spa. The **technical user** needs to configure the event the system will listen to in our journey.
 
 For additional information on event configuration, refer to [this page](../event/about-events.md).

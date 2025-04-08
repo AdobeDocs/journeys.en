@@ -9,6 +9,15 @@ exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 ---
 # Terminating a journey
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The **[!UICONTROL Stop]** and **[!UICONTROL Close to new entrances]** options allow you to terminate **live** journeys. Closing a journey involves **that the arrival of new customers in the journey is blocked** and that the customers who already entered in the journey are able to experience it to the end. This is the most recommended way to put an end to a journey as it offers the best experience for customers. Stopping a journey involves that people who already entered a journey are all stopped in their progress. The journey is basically switched off.
 
 >[!NOTE]

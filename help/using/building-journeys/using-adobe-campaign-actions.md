@@ -9,6 +9,16 @@ exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 ---
 # Using Adobe Campaign Standard {#using_campaign_action}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **[!UICONTROL Email]**, **[!UICONTROL Push]** and **[!UICONTROL SMS]**. 
 
 >[!NOTE]
@@ -45,7 +55,7 @@ First, you need to choose a transactional messaging template. Refer to [this pag
 
 Two categories are available: **[!UICONTROL Address]** and **[!UICONTROL Personalization Data]**.
 
-You can easily define where to retrieve the **[!UICONTROL Address]** or the **[!UICONTROL Personalization Data]** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [this page](../expression/expressionadvanced.md).
+You can easily define where to retrieve the **[!UICONTROL Address]** or the **[!UICONTROL Personalization Data]** using the interface. You can browse through events and available data source's fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [this page](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 

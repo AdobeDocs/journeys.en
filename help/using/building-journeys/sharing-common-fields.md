@@ -9,6 +9,15 @@ exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 ---
 # journeysteps events common fields {#sharing-common-fields}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Experience Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.

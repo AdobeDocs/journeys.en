@@ -9,6 +9,16 @@ exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 ---
 # Changing properties {#concept_prq_wqt_52b}
 
+
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 Click on the pencil icon, in the top right to access the journey's properties.
 
 You can change the name of the journey, add a description, allow re-entrance, choose start and end dates and define a **[!UICONTROL Timeout and error]** duration if you are admin. 
@@ -21,7 +31,7 @@ The **Copy technical details** allows you to copy technical information about th
 
 ## Entrance{#entrance}
 
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
+By default, new journeys allow re-entrance. You can uncheck the option for "one shot" journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
 
 When a journey "ends", it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 

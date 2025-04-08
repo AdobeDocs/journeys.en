@@ -9,6 +9,15 @@ exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
 ---
 # Publishing the journey{#concept_mtc_lrt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 You can publish a journey after testing its validity.
 
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [this page](../building-journeys/journey-versions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.

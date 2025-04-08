@@ -9,6 +9,15 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 ---
 # Field references {#concept_fkj_ll5_dgb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 A field reference can be attached to an event or a field group. The only meaningful information is the name of the field and its path. 
 
 If you're using special characters in a field, you need to use double quotes or simple quotes. Here are the cases when quotes are needed:
@@ -109,7 +118,7 @@ In order to retrieve an element in a map, we use the entry function with a given
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
+In this expression, we are getting the entry for 'Email' key of the 'IdentityMap' field of an event. The 'Email' entry is a collection, from which we take the 'id' in the first element using 'first()'. For more information, see [this page](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` function
 

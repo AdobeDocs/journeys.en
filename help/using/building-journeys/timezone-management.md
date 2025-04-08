@@ -9,6 +9,16 @@ exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 ---
 # Time zone management {#timezone_management}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 You can define a time zone in the [properties](../building-journeys/changing-properties.md) of your journey.
 
 To access Properties,click on the pencil icon in the top-right of the screen.

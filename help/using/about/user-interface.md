@@ -9,11 +9,14 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 ---
 # User interface{#concept_rcq_lqt_52b}
 
->[!NOTE]
+
+>[!CAUTION]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. The interface is displayed in the language defined in IMS. If your IMS language is not supported by [!DNL Journey Orchestration], the interface is displayed in English. 
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
 >
->This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
 
 ## Accessing [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -71,7 +74,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 When defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md), the display name is displayed in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model.
 
-If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with “eVars” and generic fields.You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+If descriptors such as "xdm:alternateDisplayInfo" are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with "eVars" and generic fields.You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png) 
 

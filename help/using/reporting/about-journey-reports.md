@@ -9,6 +9,16 @@ exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 ---
 # About journey reports {#concept_rfj_wpt_52b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 >[!NOTE]
 >
 >Delivery data and Segments component will only be populated if you have Adobe Campaign Standard.

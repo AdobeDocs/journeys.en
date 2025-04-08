@@ -9,6 +9,16 @@ exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 ---
 # URL configuration {#concept_gbg_1f1_2gb}
 
+
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:
 
 ![](../assets/journeyurlconfiguration.png)

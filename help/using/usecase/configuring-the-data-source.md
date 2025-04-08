@@ -9,6 +9,15 @@ exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 ---
 # Configuring the data source{#concept_ax3_bcy_w2b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 In our use case, we want to use personalization data for our messages. We also need to check is the person is a woman. This information is stored in the Real-time Customer Profile database. The **technical user** needs to check that those fields are defined in the built-in Adobe Experience Platform data source.
 
 For additional information on data source configuration, refer to [this page](../datasource/about-data-sources.md). 

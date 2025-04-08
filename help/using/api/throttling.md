@@ -10,6 +10,15 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 ---
 # Work with the Throttling API
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The Throttling API helps you to create, configure and monitor your throttling configurations in order to limit the number of events sent per second.
 
 >[!IMPORTANT]

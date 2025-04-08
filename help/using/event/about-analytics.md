@@ -9,6 +9,15 @@ exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
 ---
 # Leveraging Adobe Analytics data{#analytics-data}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 >[!NOTE]
 >
 >This section only applies for rule-based events and customers who need to use Adobe Analytics data.

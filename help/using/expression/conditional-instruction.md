@@ -9,6 +9,15 @@ exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
 ---
 # Conditional instruction (if, then, else) {#section_cdz_lsk_w3b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 
 * **[!UICONTROL if]**: the condition to be evaluated first.

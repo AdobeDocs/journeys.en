@@ -9,6 +9,15 @@ exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 ---
 # Building the journey{#concept_eyw_mcy_w2b}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 The **business user** can now build the journey. Our journey will only include one path with the following activities:
 
 * the "SpaBeacon" **[!UICONTROL Event]**: when a person walks near the spa beacon, the system will receive an event and the journey will start for that person.

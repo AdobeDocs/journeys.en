@@ -9,6 +9,15 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 ---
 # Data types {#concept_gp3_rj5_dgb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.
 
 The sections below provide information on the different data type expressions and how they are represented.
@@ -178,7 +187,7 @@ date("2021-02-19T00.00")
 
 Date time constant that also considers time zone. It represents a date-time with an offset from UTC.
 
-It can be viewed as an instant in time with the additional information of the offset. It is a way to represent a specific “moment” at a certain place of the world.
+It can be viewed as an instant in time with the additional information of the offset. It is a way to represent a specific "moment" at a certain place of the world.
 
 JSON format: String.
 

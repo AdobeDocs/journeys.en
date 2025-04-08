@@ -9,6 +9,16 @@ exl-id: fef039ae-c04d-4198-a082-4be27710255f
 ---
 # Limitations {#limitations}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 Here are limitations related to the use of Journey Orchestration.
 
 ## General journey guardrails {#journeys-guardrails-journeys}

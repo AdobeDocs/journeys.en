@@ -9,6 +9,15 @@ exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 ---
 # About Adobe Experience Platform segments {#about-segments}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 If you're using the [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) to create your segments, you can leverage them in [!DNL Journey Orchestration]. Thanks to a dedicated event activity, you can make individuals enter or move forward in a journey based on Adobe Experience Platform segment entrances and exits. This also allows you to build complex conditions in your journeys using the simple or advanced expression editor.
 
 Let's say you have a "silver customer" segment. With this activity, you can make all new silver customers enter a journey and send them a series of personalized messages. You can also easily build conditions based on this segment.

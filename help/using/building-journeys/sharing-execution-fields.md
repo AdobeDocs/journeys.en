@@ -9,6 +9,15 @@ exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 ---
 # journeyStep events action execution fields {#sharing-execution-fields}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 

@@ -9,6 +9,15 @@ exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
 ---
 # Using segments in conditions {#using-a-segment}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
 This section explains how to use a segment in a journey condition. To learn how to use a **[!UICONTROL Segment qualification]** event in your journey, refer to this [section](../building-journeys/segment-qualification-events.md).
 
 To use a segment in a journey condition, follow these steps:

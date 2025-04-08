@@ -9,6 +9,16 @@ exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 ---
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
+
+>[!CAUTION]
+>
+>**Looking for Adobe Journey Optimizer**? Click [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} for Journey Optimizer documentation.
+>
+>
+>_This documentation refers to legacy Journey Orchestration materials which has been replaced by Journey Optimizer. Please contact your account team if you have questions about your access to Journey Orchestration or Journey Optimizer._
+
+
+
 In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [this page](../building-journeys/testing-the-journey.md).
 
 ## Checking for errors before testing{#section_h3q_kqk_fhb}
@@ -23,7 +33,7 @@ For example, in the canvas, when two activities are disconnected, a warning is d
 
  ![](../assets/canvas-disconnected.png)
 
-Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
+Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can't identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
 
 The system detects two kinds of issues: errors and warnings. Errors block publication and test activation. Warnings indicate potential issues that are not blocking test activation or publication. You will see a description of the issue and an issue log ID of the type ERR_XXX_XXX. This will help technical support identify the issue.
 
@@ -41,7 +51,7 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform's streaming ingestion APIs. As a result, in case of event related issues, you can refer to [this page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
@@ -79,4 +89,4 @@ If individuals flow the right way in the journey but don't receive messages they
 * Transactional Messaging has correctly taken into account the request to send the message. A business user can access the transactional message supposed to be sent and check if the time of the latest execution corresponds to the execution time of your journey. He can also check the latest API calls/events received by transactional messaging.
 * Transactional messaging has successfully sent the message. In the sending logs of the transactional message, you can see the status of each execution. You can see if it's green, red and what was the issue. A business user can access this screen and send the logs to an administrator for further investigations.
 
-In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action’s system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but does not lead to a message sending, some investigations should be done on the external system’s side.
+In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action's system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but does not lead to a message sending, some investigations should be done on the external system's side.
