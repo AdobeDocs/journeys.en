@@ -12,6 +12,7 @@ feature-set: Journey Orchestration
 solution: Journey Orchestration
 type: Documentation
 feature: Journeys
+dummy: false
 ---
 
 # Metadata for Journeys
