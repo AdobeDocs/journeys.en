@@ -3,7 +3,7 @@ product: adobe campaign
 title: lastIndexOf
 description: Learn about the function lastIndexOf
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
 ---

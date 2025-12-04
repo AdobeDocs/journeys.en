@@ -3,7 +3,7 @@ product: adobe campaign
 title: getListItem
 description: Learn about the function gstListItem
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 ---

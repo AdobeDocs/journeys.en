@@ -3,7 +3,7 @@ product: adobe campaign
 title: inLastDays
 description: Learn about the function inLastDays
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
 ---

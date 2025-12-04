@@ -3,7 +3,7 @@ product: adobe campaign
 title: toDateTime
 description: Learn about the function toDateTime
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 ---

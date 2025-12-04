@@ -3,7 +3,7 @@ product: adobe campaign
 title: equalIgnoreCase
 description: Learn about the function equalIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: toDecimal
 description: Learn about the function toDecimal
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 11d7013c-2190-4654-8466-920861c836f5
 ---

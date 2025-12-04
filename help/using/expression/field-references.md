@@ -3,7 +3,7 @@ product: adobe campaign
 title: Field references
 description: Learn about field references in advanced expressions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 ---

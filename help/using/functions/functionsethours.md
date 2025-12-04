@@ -3,7 +3,7 @@ product: adobe campaign
 title: setHours
 description: Learn about the function setHours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 ---

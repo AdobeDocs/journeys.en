@@ -3,7 +3,7 @@ product: adobe campaign
 title: uuid
 description: Learn about the function uuid
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
 ---

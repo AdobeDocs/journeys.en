@@ -3,7 +3,7 @@ product: adobe campaign
 title: inNextMonths
 description: Learn about the function inNextMonths
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
 ---

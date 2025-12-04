@@ -3,7 +3,7 @@ product: adobe campaign
 title: indexOf
 description: Learn about the function indexOf
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 ---

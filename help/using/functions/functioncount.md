@@ -3,7 +3,7 @@ product: adobe campaign
 title: count
 description: Learn about the function count
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
 ---

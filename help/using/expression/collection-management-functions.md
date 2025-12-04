@@ -3,7 +3,7 @@ product: adobe campaign
 title: Collection management functions
 description: Learn about data types in collection management functions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 ---

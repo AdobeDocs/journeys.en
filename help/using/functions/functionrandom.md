@@ -3,7 +3,7 @@ product: adobe campaign
 title: random
 description: Learn about the function random
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
 ---

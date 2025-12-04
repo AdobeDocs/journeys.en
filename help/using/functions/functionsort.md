@@ -3,7 +3,7 @@ product: adobe campaign
 title: sort
 description: Learn about the function sort
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 ---

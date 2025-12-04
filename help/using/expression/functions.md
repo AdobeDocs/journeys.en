@@ -3,7 +3,7 @@ product: adobe campaign
 title: Functions
 description: Learn about functions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 ---

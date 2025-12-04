@@ -3,7 +3,7 @@ product: adobe campaign
 title: substr
 description: Learn about the function substr
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: dda01de5-b865-4323-ac36-2e3d90d213ee
 ---

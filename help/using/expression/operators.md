@@ -3,7 +3,7 @@ product: adobe campaign
 title: Operators
 description: Learn about operators in advanced expressions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 ---

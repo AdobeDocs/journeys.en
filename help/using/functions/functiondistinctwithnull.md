@@ -3,7 +3,7 @@ product: adobe campaign
 title: distinctWithNull
 description: Learn about the function distinctWithNull
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: toDuration
 description: Learn about the function toDuration
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: matchRegExp
 description: Learn about the function matchRegExp
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
 ---
