@@ -3,7 +3,7 @@ product: adobe campaign
 title: filter
 description: Learn about the function filter
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3c1c188c-0ffd-44c5-b1b3-1758ed12235e
 ---

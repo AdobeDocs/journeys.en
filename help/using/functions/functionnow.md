@@ -3,7 +3,7 @@ product: adobe campaign
 title: now
 description: Learn about the function now
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 ---

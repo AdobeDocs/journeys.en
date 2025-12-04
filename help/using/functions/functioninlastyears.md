@@ -3,7 +3,7 @@ product: adobe campaign
 title: inLastYears
 description: Learn about the function inLastYears
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 95ca3d7d-2340-4378-9af4-aa1188bed614
 ---

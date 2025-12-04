@@ -3,7 +3,7 @@ product: adobe campaign
 title: toInteger
 description: Learn about the function toInteger
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 ---

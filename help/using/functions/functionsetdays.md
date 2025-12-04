@@ -3,7 +3,7 @@ product: adobe campaign
 title: setDays
 description: Learn about the function setDays
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 ---

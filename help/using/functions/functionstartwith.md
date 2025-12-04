@@ -3,7 +3,7 @@ product: adobe campaign
 title: startWith
 description: Learn about the function startWith
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
 ---

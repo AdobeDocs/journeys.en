@@ -3,7 +3,7 @@ product: adobe campaign
 title: replaceAll
 description: Learn about the function replaceAll
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
 ---

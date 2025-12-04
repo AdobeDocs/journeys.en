@@ -3,7 +3,7 @@ product: adobe campaign
 title: Journey properties
 description: Learn about journey properties
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 ---

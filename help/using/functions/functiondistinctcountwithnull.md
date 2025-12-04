@@ -3,7 +3,7 @@ product: adobe campaign
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b8380d30-160e-45c2-b187-34eb42845923
 ---

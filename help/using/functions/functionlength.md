@@ -3,7 +3,7 @@ product: adobe campaign
 title: length
 description: Learn about the function length
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
 ---

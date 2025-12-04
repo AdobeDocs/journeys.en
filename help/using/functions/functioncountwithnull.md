@@ -3,7 +3,7 @@ product: adobe campaign
 title: countWithNull
 description: Learn about the function countWithNull
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ea72dc20-8183-4661-8e08-ddb4f3727d3d
 ---

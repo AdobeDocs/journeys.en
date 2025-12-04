@@ -3,7 +3,7 @@ product: adobe campaign
 title: isNotEmpty
 description: Learn about the function isNotEmpty
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 32bb3d72-7abe-4220-acae-f19a09f83657
 ---

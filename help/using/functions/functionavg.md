@@ -3,7 +3,7 @@ product: adobe campaign
 title: avg
 description: Learn about the function avg
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
 ---

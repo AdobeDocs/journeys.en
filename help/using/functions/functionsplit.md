@@ -3,7 +3,7 @@ product: adobe campaign
 title: split
 description: Learn about the function split
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 ---

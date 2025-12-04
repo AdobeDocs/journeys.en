@@ -3,7 +3,7 @@ product: adobe campaign
 title: concat
 description: Learn about the function concat
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 ---

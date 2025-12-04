@@ -3,7 +3,7 @@ product: adobe campaign
 title: currentTimeInMillis
 description: Learn about the function currentTimeInMillis
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1cccbf9d-d078-4979-83cf-f5be67f28f46
 ---

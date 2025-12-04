@@ -3,7 +3,7 @@ product: adobe campaign
 title: serializeList
 description: Learn about the function serializeList
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 ---

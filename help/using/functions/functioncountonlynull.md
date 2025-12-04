@@ -3,7 +3,7 @@ product: adobe campaign
 title: countOnlyNull
 description: Learn about the function countOnlyNull
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e6170a21-0418-4311-a43b-fd4f323cd020
 ---

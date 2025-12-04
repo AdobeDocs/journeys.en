@@ -3,7 +3,7 @@ product: adobe campaign
 title: listSize
 description: Learn about the function listSize
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
 ---

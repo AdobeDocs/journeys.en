@@ -3,7 +3,7 @@ product: adobe campaign
 title: nowWithDelta
 description: Learn about the function nowWithDelta
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
 ---

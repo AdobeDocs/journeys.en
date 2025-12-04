@@ -3,7 +3,7 @@ product: adobe campaign
 title: toBool
 description: Learn about the function toBool
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
 ---

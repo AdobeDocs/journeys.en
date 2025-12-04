@@ -3,7 +3,7 @@ product: adobe campaign
 title: Generalities
 description: Learn about advanced expression generalities
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 ---
