@@ -3,7 +3,7 @@ product: adobe campaign
 title: inNextDays
 description: Learn about the function inNextDays
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 ---

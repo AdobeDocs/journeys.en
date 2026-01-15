@@ -3,7 +3,7 @@ product: adobe campaign
 title: inSegment
 description: Learn about the function inSegment
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 ---

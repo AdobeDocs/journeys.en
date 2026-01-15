@@ -3,7 +3,7 @@ product: adobe campaign
 title: inLastMonths
 description: Learn about the function inLastMonths
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
 ---

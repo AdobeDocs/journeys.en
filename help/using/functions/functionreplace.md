@@ -3,7 +3,7 @@ product: adobe campaign
 title: replace
 description: Learn about the function replace
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 ---

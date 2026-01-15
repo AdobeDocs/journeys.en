@@ -3,7 +3,7 @@ product: adobe campaign
 title: Data types
 description: Learn about data types in advanced expressions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 ---

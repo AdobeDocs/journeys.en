@@ -3,7 +3,7 @@ product: adobe campaign
 title: limit
 description: Learn about the function limit
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
 ---

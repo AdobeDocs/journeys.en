@@ -3,7 +3,7 @@ product: adobe campaign
 title: inLastHours
 description: Learn about the function inLastHours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
 ---

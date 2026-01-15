@@ -3,7 +3,7 @@ product: adobe campaign
 title: trim
 description: Learn about the function trim
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e9adf8be-9c56-4b08-9857-578d0bb0ebb9
 ---

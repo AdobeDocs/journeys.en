@@ -3,7 +3,7 @@ product: adobe campaign
 title: About the advanced expression editor
 description: Learn how to build advanced expressions
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 ---

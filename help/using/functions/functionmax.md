@@ -3,7 +3,7 @@ product: adobe campaign
 title: max
 description: Learn about the function max
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
 ---

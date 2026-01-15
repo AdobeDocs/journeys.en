@@ -3,7 +3,7 @@ product: adobe campaign
 title: inNextHours
 description: Learn about the function inNextHours
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 4bcbfdbc-fc95-4089-8abc-f9314dde2c06
 ---

@@ -3,7 +3,7 @@ product: adobe campaign
 title: containIgnoreCase
 description: Learn about the function containIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 ---

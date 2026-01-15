@@ -3,7 +3,7 @@ product: adobe campaign
 title: startWithIgnoreCase
 description: Learn about the function startWithIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
 ---

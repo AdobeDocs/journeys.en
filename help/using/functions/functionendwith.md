@@ -3,7 +3,7 @@ product: adobe campaign
 title: endWith
 description: Learn about the function endWith
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
 ---

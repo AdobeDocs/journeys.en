@@ -3,7 +3,7 @@ product: adobe campaign
 title: distinctCount
 description: Learn about the function distinctCount
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
 ---
