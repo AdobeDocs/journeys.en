@@ -31,8 +31,10 @@ Conversion
 `toDateTimeOnly(<dateTime>)`
 
 `toDateTimeOnly(<string>)`
-<!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
-`toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
+<!--
+`toDateTimeOnly(<integer>,<integer>,<integer>)`
+`toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`
+-->
 
 Return a datetime without considering time zone.
 
@@ -44,10 +46,12 @@ returns a dateTime representing 2016-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 
-<!--`toDateTimeOnly(2016,8,18,23,17,59)`
+<!--
+`toDateTimeOnly(2016,8,18,23,17,59)`
 
 Returns 2016-08-18T23:17:59.000.
 
 `toDateTimeOnly(2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000.-->
+Returns 2016-08-18T00:00:00.000.
+-->

@@ -39,9 +39,11 @@ For example, let's say you want to target customers with a cart abandonment in t
 
 First of all, target customers who browsed the online store but did not finalize order in the last 7 days.
 
-<!--**This expression looks for a specified value in a string value:**
+<!--
+**This expression looks for a specified value in a string value:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
+-->
 
 **This expression looks for all events for this user specified in the last 7 days:**
 

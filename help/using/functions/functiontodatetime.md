@@ -42,7 +42,8 @@ Conversion
 
 Return a **dateTime**.
 
-<!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
+<!--
+`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
 Returns a date time with default time zone UTC.
 
@@ -77,7 +78,8 @@ Returns 2016-08-18T23:17:59.123Z
 
 Returns 2019-06-17T09:03:10.189Z
 
-<!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
+<!--
+`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
 Returns 2016-08-18T23:17:59.123Z.
 
@@ -87,4 +89,5 @@ Returns 2016-08-18T23:17:59.000Z.
 
 `toDateTime("Z",2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000Z.-->
+Returns 2016-08-18T00:00:00.000Z.
+-->
