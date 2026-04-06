@@ -10,8 +10,8 @@ git-repo: https://github.com/AdobeDocs/journeys.en
 index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
-landing-page-name: journey-optimizer
-landing-page-breadcrumb-title: Journey Optimizer
+landing-page-name: journey-orchestration
+landing-page-breadcrumb-title: Journey Orchestration
 type: Documentation
 feature: Journeys
 dummy: false
