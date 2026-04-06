@@ -7,9 +7,11 @@ getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
 git-repo: https://github.com/AdobeDocs/journeys.en
-index: yes
+index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
+landing-page-name: journey-optimizer
+landing-page-breadcrumb-title: Journey Optimizer
 type: Documentation
 feature: Journeys
 dummy: false
