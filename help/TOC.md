@@ -3,7 +3,7 @@ product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration Guide
 user-guide-description: Provides how-to instructions for implementing and building journeys.
-index: yes
+index: true
 feature: Journeys
 ---
 
