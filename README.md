@@ -1,5 +1,3 @@
-# Documentation for Journey Orchestration
+# ARCHIVED
 
-Technical documentation for Journey Orchestration.
-
-Currently organized by Admin and End User.
+This repo has been migrated to <https://github.com/Adobe-Enterprise-Docs/journeys.en>.
