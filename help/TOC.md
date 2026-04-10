@@ -12,8 +12,8 @@ feature: Journeys
 + [Product documentation](journey-orchestration-home.md)
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
-  + [Documentation Updates](using/release-notes/documentation-updates.md)
-  + [Upgrade to Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+  + {hide-from-toc} [Documentation Updates](using/release-notes/documentation-updates.md)
+  + {hide-from-toc} [Upgrade to Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
   + [Limitations](using/about/limitations.md)
