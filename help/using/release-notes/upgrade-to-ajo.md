@@ -8,7 +8,7 @@ exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 
 ## What is Adobe Journey Optimizer?
 
-Adobe Journey Optimizer is an agile and scalable application built natively on the Adobe Experience Platform for orchestrating and delivering personalized, connected, and timely customer journeys across any app, device, screen, or channel.​
+Adobe Journey Optimizer is an agile and scalable application built natively on the Adobe Experience Platform for orchestrating and delivering personalized, connected, and timely customer journeys across any app, device, screen, or channel.
 
 ## What is Journey Orchestration?
 
@@ -49,11 +49,8 @@ Get the benefit of other current **Adobe Journey Optimizer features** and new on
 ## How to upgrade my Journey Orchestration environment?
 
 1. Reach out to your account team to update your agreement with Adobe. 
-
 1. Wait for our Engineering team to complete the change. 
-
 1. Update your permissions by using Journey Optimizer's product profiles. Refer to this [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html).
-
 1. You now have access to Adobe Journey Optimizer!
 
 ## Frequently Asked Questions
