@@ -58,7 +58,7 @@ The lists of XDM fields passed to the Adobe Experience Platform are detailed her
 * [Legacy step event fields](../building-journeys/sharing-legacy-fields.md)
 
 
-## Integration with Customer Journey Analitycs{#integration-cja}
+## Integration with Customer Journey Analytics{#integration-cja}
 
 Journey Orchestration step events can be linked to other datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Here is the general workflow:
 
