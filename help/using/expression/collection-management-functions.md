@@ -11,7 +11,7 @@ exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 
 The expression language also introduces a set of functions to query collections.
 
-These functions are explained below. In the following examples, let’s use the event payload containing a collection:
+These functions are explained below. In the following examples, let's use the event payload containing a collection:
 
 ```json
                 { 
@@ -57,11 +57,11 @@ These functions are explained below. In the following examples, let’s use the 
 
 The **[!UICONTROL all]** function enables the definition of a filter on a given collection by using a boolean expression.
 
-   ```json
-   <listExpression>.all(<condition>)
-   ```
+```json
+<listExpression>.all(<condition>)
+```
 
-For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
+For example, among all the app users, you can get the ones using IOS 13 (boolean expression "app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
 In a Data Source Condition activity you can check if the result of the **[!UICONTROL all]** function is null or not. You can also combine this **[!UICONTROL all]** function with other functions such as **[!UICONTROL count]**. For more information, see [Data Source Condition activity](../building-journeys/condition-activity.md#data_source_condition).
 
@@ -69,9 +69,9 @@ In a Data Source Condition activity you can check if the result of the **[!UICON
 
 We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated with mobile applications for which the version is 1.0. Then, we perform a condition with the **[!UICONTROL count]** function to check that the returned list of tokens contains at least one element.
 
-   ```json
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
-   ```
+```json
+count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
+```
 
 The result is true.
 
@@ -79,9 +79,9 @@ The result is true.
 
 Here we use the **[!UICONTROL count]** function to check if there are push notification tokens in the collection.
 
-   ```json
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
-   ```
+```json
+count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
+```
 
 The result will be true.
 
@@ -110,16 +110,16 @@ A query of experience events recorded on the Adobe Experience Platform may or ma
 earlier timestamp) in order to only consider prior events.
 -->
 
-   >[!NOTE]
-   >
-   >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. **However, in order to count the number of elements of a collection, the all function is not required.**
+>[!NOTE]
+>
+>When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. **However, in order to count the number of elements of a collection, the all function is not required.**
 
 
-   ```json
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
-   ```
+```json
+count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
+```
 
-   The result of the expression is **3**.
+The result of the expression is **3**.
 
 **Example 3:**
 
@@ -182,9 +182,9 @@ _`<listExpression>.last(<condition>)`_
 
 This expression returns the first push notification token associated with mobile applications for which the version is 1.0.
 
-   ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
-   ```
+```json
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+```
 
 The result is "token_1".
 
@@ -192,27 +192,27 @@ The result is "token_1".
 
 This expression returns the last push notification token associated with mobile applications for which the version is 1.0.
 
-   ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
-   ```
+```json
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+```
 
-   The result is "token_2".
+The result is "token_2".
 
-   >[!NOTE]
-   >
-   >The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence :
-   >
-   >* **[!UICONTROL first]** function will return the most recent event
-   >* **[!UICONTROL last]** function will return the oldest one.
+>[!NOTE]
+>
+>The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence :
+>
+>* **[!UICONTROL first]** function will return the most recent event
+>* **[!UICONTROL last]** function will return the oldest one.
 
 **Example 3:**
 
 We check whether the first (most recent) Adobe Analytics event with a non-zero value for DMA ID has a value equal to 602.
 
-   ```json
-   #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
-   currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
-   ```
+```json
+#{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
+currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
+```
 
 **The function "at(`<index>`)"**
 
@@ -225,9 +225,9 @@ _`<listExpression>`.at(`<index>`)_
 
 This expression returns the second push notification token of the list.
 
-   ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
-   ```
+```json
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
+```
 
 The result is "token_2".
 
@@ -239,6 +239,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
