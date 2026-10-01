@@ -182,9 +182,9 @@ _`<listExpression>.last(<condition>)`_
 
 This expression returns the first push notification token associated with mobile applications for which the version is 1.0.
 
-   ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
-   ```
+```json
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+```
 
 The result is "token_1".
 
@@ -192,27 +192,27 @@ The result is "token_1".
 
 This expression returns the last push notification token associated with mobile applications for which the version is 1.0.
 
-   ```json
-   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
-   ```
+```json
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+```
 
-   The result is "token_2".
+The result is "token_2".
 
-   >[!NOTE]
-   >
-   >The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence :
-   >
-   >* **[!UICONTROL first]** function will return the most recent event
-   >* **[!UICONTROL last]** function will return the oldest one.
+>[!NOTE]
+>
+>The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence :
+>
+>* **[!UICONTROL first]** function will return the most recent event
+>* **[!UICONTROL last]** function will return the oldest one.
 
 **Example 3:**
 
 We check whether the first (most recent) Adobe Analytics event with a non-zero value for DMA ID has a value equal to 602.
 
-   ```json
-   #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
-   currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
-   ```
+```json
+#{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
+currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
+```
 
 **The function "at(`<index>`)"**
 
@@ -239,6 +239,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
