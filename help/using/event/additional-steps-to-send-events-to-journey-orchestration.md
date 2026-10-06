@@ -6,6 +6,18 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 

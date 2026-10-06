@@ -3,6 +3,9 @@ product: adobe campaign
 title: Import export API description
 description: Learn more about the import export API.
 products: journeys
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
 ---
 
 # Working with Export-Import API

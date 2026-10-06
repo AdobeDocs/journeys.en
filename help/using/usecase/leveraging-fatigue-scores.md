@@ -2,6 +2,9 @@
 product: adobe campaign
 title: Leveraging fatigue scores
 description: Learn how to leverage fatigue scores in journeys
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
 ---
 
 # Leveraging Journey AI {#concept_dsh_1ry_wfb}
