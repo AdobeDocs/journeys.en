@@ -3,6 +3,9 @@ title: Upgrade to Adobe Journey Optimizer
 description: Learn how upgrade to Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
 ---
 # Upgrade your Journey Orchestration environment to Adobe Journey Optimizer{#ugrade-ajo}
 
