@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Metrics and dimensions
 description: Learn about dimensions and metrics available for Journey Orchestration
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

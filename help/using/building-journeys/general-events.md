@@ -2,6 +2,7 @@
 product: adobe campaign
 title: General events
 description: Learn about general events
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

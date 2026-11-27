@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Troubleshooting
 description: Learn more on troubleshooting
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

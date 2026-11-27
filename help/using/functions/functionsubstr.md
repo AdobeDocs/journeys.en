@@ -2,6 +2,7 @@
 product: adobe campaign
 title: substr
 description: Learn about the function substr
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

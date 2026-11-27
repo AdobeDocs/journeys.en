@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Field groups
 description: Learn about field groups
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

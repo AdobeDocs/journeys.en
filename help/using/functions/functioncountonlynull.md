@@ -2,6 +2,7 @@
 product: adobe campaign
 title: countOnlyNull
 description: Learn about the function countOnlyNull
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

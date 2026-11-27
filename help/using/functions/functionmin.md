@@ -2,6 +2,7 @@
 product: adobe campaign
 title: min
 description: Learn about the function min
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

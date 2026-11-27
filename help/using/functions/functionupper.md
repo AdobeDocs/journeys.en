@@ -2,6 +2,7 @@
 product: adobe campaign
 title: upper
 description: Learn about the function upper
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

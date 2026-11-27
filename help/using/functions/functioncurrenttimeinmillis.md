@@ -2,6 +2,7 @@
 product: adobe campaign
 title: currentTimeInMillis
 description: Learn about the function currentTimeInMillis
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

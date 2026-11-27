@@ -2,6 +2,7 @@
 product: adobe campaign
 title: toBool
 description: Learn about the function toBool
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

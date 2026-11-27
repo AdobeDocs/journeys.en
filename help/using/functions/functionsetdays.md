@@ -2,6 +2,7 @@
 product: adobe campaign
 title: setDays
 description: Learn about the function setDays
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

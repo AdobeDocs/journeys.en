@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inLastHours
 description: Learn about the function inLastHours
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

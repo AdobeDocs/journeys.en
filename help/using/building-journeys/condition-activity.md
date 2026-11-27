@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Condition activity
 description: Learn about condition activities
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

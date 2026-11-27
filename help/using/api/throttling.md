@@ -3,6 +3,7 @@ product: adobe campaign
 title: Work with the Throttling API
 description: Learn more about the Throttling API
 products: journeys
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

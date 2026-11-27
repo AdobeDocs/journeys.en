@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Configuring the data sources
 description: Learn how to configure the data source for the journey advanced use case
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

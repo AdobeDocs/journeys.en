@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inNextDays
 description: Learn about the function inNextDays
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

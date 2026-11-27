@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Operators
 description: Learn about operators in advanced expressions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

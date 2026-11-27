@@ -3,6 +3,7 @@ keywords: Journeys;home;popular topics
 product: adobe campaign
 title: Journey Orchestration product documentation
 description: Follow our Adobe Journey Orchestration Guide for simple how-to instructions on implementing and building journeys.
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: avg
 description: Learn about the function avg
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

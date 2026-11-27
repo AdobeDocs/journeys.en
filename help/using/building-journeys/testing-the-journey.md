@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Testing the journey
 description: Learn about journey testing 
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

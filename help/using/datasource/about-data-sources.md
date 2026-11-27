@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About data sources
 description: Learn how to configure a data source
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

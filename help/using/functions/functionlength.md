@@ -2,6 +2,7 @@
 product: adobe campaign
 title: length
 description: Learn about the function length
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

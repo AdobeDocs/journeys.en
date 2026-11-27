@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Field references
 description: Learn about field references in advanced expressions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About events activities
 description: Learn about events activities
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

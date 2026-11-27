@@ -2,6 +2,7 @@
 product: adobe campaign
 title: distinctCount
 description: Learn about the function distinctCount
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

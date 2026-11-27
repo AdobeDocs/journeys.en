@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About Journey Orchestration
 description: Learn more on Journey Orchestration
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

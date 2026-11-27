@@ -2,6 +2,7 @@
 product: adobe campaign
 title: journeyStep event identity fields
 description: journeyStep event identity fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

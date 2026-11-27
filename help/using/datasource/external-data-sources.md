@@ -2,6 +2,7 @@
 product: adobe campaign
 title: External data sources
 description: Learn how to configure external data sources
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: equalIgnoreCase
 description: Learn about the function equalIgnoreCase
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

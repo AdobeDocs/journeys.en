@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About ExperienceEvent Schemas for Journey Orchestration Events
 description: Learn about ExperienceEvent Schemas for Journey Orchestration Events
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

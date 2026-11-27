@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Get started
 description: Discover the main steps to set up Journey Orchestration and build your first journey.
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

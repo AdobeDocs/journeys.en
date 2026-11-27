@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Previewing the payload
 description: Learn how to preview the payload
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

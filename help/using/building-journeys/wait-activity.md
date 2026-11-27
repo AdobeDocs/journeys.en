@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Wait activity
 description: Learn about the wait activity
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

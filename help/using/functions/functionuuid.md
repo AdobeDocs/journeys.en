@@ -2,6 +2,7 @@
 product: adobe campaign
 title: uuid
 description: Learn about the function uuid
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

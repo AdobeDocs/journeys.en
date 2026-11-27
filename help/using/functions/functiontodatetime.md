@@ -2,6 +2,7 @@
 product: adobe campaign
 title: toDateTime
 description: Learn about the function toDateTime
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

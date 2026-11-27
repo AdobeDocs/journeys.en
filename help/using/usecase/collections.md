@@ -7,6 +7,7 @@ exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
     internal-label: Journey Orchestration
+badge: label="Legacy" type="Informative"
 ---
 # Pass collections dynamically using custom actions{#passing-collection}
 

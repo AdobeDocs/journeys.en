@@ -2,6 +2,7 @@
 product: adobe campaign
 title: filter
 description: Learn about the function filter
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

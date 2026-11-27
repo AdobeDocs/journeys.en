@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About Adobe Analytics data
 description: Learn how to leverage Adobe Analytics data
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Using custom actions
 description: Learn about action activities
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

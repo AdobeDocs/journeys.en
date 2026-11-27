@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Release Notes
 description: Learn about release notes
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

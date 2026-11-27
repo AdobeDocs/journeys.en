@@ -2,6 +2,7 @@
 product: adobe campaign
 title: random
 description: Learn about the function random
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

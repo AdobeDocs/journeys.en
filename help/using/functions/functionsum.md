@@ -2,6 +2,7 @@
 product: adobe campaign
 title: sum
 description: Learn about the function sum
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

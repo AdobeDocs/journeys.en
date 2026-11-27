@@ -2,6 +2,7 @@
 product: adobe campaign
 title: replace
 description: Learn about the function replace
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

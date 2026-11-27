@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inLastYears
 description: Learn about the function inLastYears
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

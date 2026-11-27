@@ -2,6 +2,7 @@
 product: adobe campaign
 title: toDecimal
 description: Learn about the function toDecimal
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Building the journey - Simple
 description: Learn how to build the simple use case journey
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: The user interface
 description: Learn more on the user interface
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: startWithIgnoreCase
 description: Learn about the function startWithIgnoreCase
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

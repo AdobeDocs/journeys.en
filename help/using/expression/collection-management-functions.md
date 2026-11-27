@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Collection management functions
 description: Learn about data types in collection management functions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

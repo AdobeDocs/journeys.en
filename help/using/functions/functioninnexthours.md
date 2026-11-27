@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inNextHours
 description: Learn about the function inNextHours
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

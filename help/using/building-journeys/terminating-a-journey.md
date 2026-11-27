@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Terminating a journey
 description: Learn how to terminate a journey
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

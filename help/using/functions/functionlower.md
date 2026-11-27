@@ -2,6 +2,7 @@
 product: adobe campaign
 title: lower
 description: Learn about the function lower
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Publishing the journey
 description: Learn about journey publication
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: isEmpty
 description: Learn about the function isEmpty
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

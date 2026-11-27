@@ -1,6 +1,7 @@
 ---
 title: step event field list
 description: legacy fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 topic: Content Management
 role: User

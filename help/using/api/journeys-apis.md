@@ -3,6 +3,7 @@ product: adobe campaign
 title: Get started with journeys APIs
 description: Learn more about journeys APIs
 products: journeys
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

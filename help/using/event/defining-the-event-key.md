@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Defining the event key
 description: Learn how to define the event key
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

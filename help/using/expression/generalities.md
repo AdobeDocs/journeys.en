@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Generalities
 description: Learn about advanced expression generalities
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

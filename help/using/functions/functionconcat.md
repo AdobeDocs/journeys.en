@@ -2,6 +2,7 @@
 product: adobe campaign
 title: concat
 description: Learn about the function concat
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

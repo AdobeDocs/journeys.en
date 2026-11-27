@@ -2,6 +2,7 @@
 product: adobe campaign
 title: nowWithDelta
 description: Learn about the function nowWithDelta
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

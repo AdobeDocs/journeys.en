@@ -2,6 +2,7 @@
 product: adobe campaign
 title: split
 description: Learn about the function split
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

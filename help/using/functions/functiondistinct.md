@@ -2,6 +2,7 @@
 product: adobe campaign
 title: distinct
 description: Learn about the function distinct
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

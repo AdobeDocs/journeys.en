@@ -2,6 +2,7 @@
 product: adobe campaign
 title: updateTimeZone
 description: Learn about the function updateTimeZone
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

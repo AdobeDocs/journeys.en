@@ -2,6 +2,7 @@
 product: adobe campaign
 title: getListItem
 description: Learn about the function gstListItem
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

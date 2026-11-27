@@ -2,6 +2,7 @@
 product: adobe campaign
 title: endWith
 description: Learn about the function endWith
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Using the advanced expression editor
 description: Learn how to build advanced expressions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

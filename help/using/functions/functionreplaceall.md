@@ -2,6 +2,7 @@
 product: adobe campaign
 title: replaceAll
 description: Learn about the function replaceAll
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

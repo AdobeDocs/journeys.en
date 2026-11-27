@@ -2,6 +2,7 @@
 product: adobe campaign
 title: now
 description: Learn about the function now
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

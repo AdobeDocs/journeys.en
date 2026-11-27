@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Configuring the event
 description: Learn how to configure the event for the journey simple use case
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate
