@@ -2,6 +2,7 @@
 product: adobe campaign
 title: serializeList
 description: Learn about the function serializeList
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

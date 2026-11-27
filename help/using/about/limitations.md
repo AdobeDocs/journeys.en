@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Journey Orchestration limitations
 description: Learn more on Journey Orchestration limitations
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

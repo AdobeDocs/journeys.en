@@ -2,6 +2,7 @@
 product: adobe campaign
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

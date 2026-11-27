@@ -2,6 +2,7 @@
 product: adobe campaign
 title: notEqualIgnoreCase
 description: Learn about the function notEqualIgnoreCase
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

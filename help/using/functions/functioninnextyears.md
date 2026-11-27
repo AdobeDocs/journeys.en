@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inNextYears
 description: Learn about the function inNextYears
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

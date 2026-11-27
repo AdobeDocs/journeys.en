@@ -2,6 +2,7 @@
 product: adobe campaign
 title: intersect
 description: Learn about the function intersect
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

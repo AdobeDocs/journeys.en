@@ -2,6 +2,7 @@
 product: adobe campaign
 title: journeysteps events common fields
 description: journeysteps events common fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: contain
 description: Learn about the function contain
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

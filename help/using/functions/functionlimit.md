@@ -2,6 +2,7 @@
 product: adobe campaign
 title: limit
 description: Learn about the function limit
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

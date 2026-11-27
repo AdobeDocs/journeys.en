@@ -2,6 +2,7 @@
 product: adobe campaign
 title: trim
 description: Learn about the function trim
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

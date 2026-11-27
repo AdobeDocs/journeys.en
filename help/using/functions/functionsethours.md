@@ -2,6 +2,7 @@
 product: adobe campaign
 title: setHours
 description: Learn about the function setHours
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

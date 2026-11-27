@@ -2,6 +2,7 @@
 product: adobe campaign
 title: distinctWithNull
 description: Learn about the function distinctWithNull
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

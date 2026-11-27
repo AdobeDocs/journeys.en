@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Additional steps to send events to Journey Orchestration
 description: Learn about additional steps to send events to Journey Orchestration
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

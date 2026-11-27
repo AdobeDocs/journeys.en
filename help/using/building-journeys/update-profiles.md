@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Update profile
 description: Update profile
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

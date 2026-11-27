@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About orchestration activities
 description: Learn about orchestration activities
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

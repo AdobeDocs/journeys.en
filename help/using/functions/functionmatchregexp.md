@@ -2,6 +2,7 @@
 product: adobe campaign
 title: matchRegExp
 description: Learn about the function matchRegExp
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

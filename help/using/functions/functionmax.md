@@ -2,6 +2,7 @@
 product: adobe campaign
 title: max
 description: Learn about the function max
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

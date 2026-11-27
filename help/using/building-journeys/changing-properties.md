@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Changing properties
 description: Learn on how to change properties
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

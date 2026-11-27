@@ -2,6 +2,7 @@
 product: adobe campaign
 title: toString
 description: Learn about the function toString
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

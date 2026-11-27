@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About Adobe Experience Platform segments
 description: Learn how to configure an Adobe Experience Platform segment
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

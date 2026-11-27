@@ -2,6 +2,7 @@
 product: adobe campaign
 title: toDateOnly
 description: Learn about the function toDateOnly
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

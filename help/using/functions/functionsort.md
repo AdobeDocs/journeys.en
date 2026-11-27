@@ -2,6 +2,7 @@
 product: adobe campaign
 title: sort
 description: Learn about the function sort
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

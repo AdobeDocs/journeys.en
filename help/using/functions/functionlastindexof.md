@@ -2,6 +2,7 @@
 product: adobe campaign
 title: lastIndexOf
 description: Learn about the function lastIndexOf
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

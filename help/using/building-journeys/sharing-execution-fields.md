@@ -2,6 +2,7 @@
 product: adobe campaign
 title: journeyStep events action execution fields
 description: journeyStep events action execution fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

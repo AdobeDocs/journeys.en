@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Reactions events
 description: Learn about reaction events
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

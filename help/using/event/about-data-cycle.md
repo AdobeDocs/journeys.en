@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Event data cycle
 description: Learn about event data cycle
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

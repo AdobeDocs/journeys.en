@@ -2,6 +2,7 @@
 product: adobe campaign
 title: AI service overview
 description: AI service overview
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

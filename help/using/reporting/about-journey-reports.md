@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About journey reports
 description: Learn how to build your journey reports
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

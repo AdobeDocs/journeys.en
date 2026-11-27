@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Conditional instruction (if, then, else)
 description: Learn about conditional instruction
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

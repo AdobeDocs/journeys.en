@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Defining the action parameters
 description: Learn how to define the action parameters
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Segment qualification events
 description: Learn about segment qualification events
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

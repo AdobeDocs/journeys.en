@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Leveraging customer AI scores
 description: Leveraging customer AI scores
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: URL configuration
 description: Learn about URL configuration
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

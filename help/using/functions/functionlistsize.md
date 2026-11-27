@@ -2,6 +2,7 @@
 product: adobe campaign
 title: listSize
 description: Learn about the function listSize
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

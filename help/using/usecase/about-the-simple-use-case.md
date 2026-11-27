@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About the simple use case
 description: Lean more on the journey simple use-case
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: endWithIgnoreCase
 description: Learn about the function endWithIgnoreCase
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

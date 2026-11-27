@@ -3,6 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Integrating with external systemps
 description: Learn the best practices when integrating external systems
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

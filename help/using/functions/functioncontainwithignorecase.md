@@ -2,6 +2,7 @@
 product: adobe campaign
 title: containIgnoreCase
 description: Learn about the function containIgnoreCase
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

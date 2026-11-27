@@ -2,6 +2,7 @@
 product: adobe campaign
 title: End activity
 description: Learn about the end activity
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

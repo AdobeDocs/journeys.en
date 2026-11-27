@@ -3,6 +3,7 @@ product: adobe campaign
 title: Capping API description
 description: Learn more about the Capping API.
 products: journeys
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

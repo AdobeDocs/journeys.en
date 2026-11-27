@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Access Management
 description: Learn more about access management.
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

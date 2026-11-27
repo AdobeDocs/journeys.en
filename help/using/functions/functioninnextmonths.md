@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inNextMonths
 description: Learn about the function inNextMonths
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

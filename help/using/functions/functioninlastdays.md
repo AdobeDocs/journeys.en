@@ -2,6 +2,7 @@
 product: adobe campaign
 title: inLastDays
 description: Learn about the function inLastDays
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

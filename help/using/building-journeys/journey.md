@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About journey building
 description: As a business user, learn how to combine event, orchestration, and action activities to build a journey.
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

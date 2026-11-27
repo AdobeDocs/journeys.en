@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Documentation Updates
 description: Learn about documentation updates
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Beginner

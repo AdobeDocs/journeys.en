@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Jumping from one journey to another
 description: Jumping from one journey to another
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

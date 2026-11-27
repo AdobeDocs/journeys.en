@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Creating an event
 description: Learn how to create an event
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

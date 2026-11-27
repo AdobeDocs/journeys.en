@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Working with Adobe Campaign
 description: Learn about Adobe Campaign actions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

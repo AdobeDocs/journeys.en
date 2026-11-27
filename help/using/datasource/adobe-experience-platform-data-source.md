@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Adobe Experience Platform data source
 description: Learn how to configure the Adobe Experience Platform data source
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

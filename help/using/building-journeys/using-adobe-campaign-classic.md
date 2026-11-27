@@ -3,6 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Using Adobe Campaign v7/v8 actions
 description: Learn about Adobe Campaign v7/v8 actions
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

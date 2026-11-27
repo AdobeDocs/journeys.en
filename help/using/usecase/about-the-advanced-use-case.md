@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About the advanced use case
 description: Lean more on the journey advanced use-case
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

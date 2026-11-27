@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Using the journey designer
 description: Learn more on using the journey designer
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

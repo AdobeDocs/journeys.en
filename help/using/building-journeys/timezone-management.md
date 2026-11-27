@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Time zone management
 description: Learn about time zone management
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

@@ -2,6 +2,7 @@
 product: adobe campaign
 title: About Campaign v7/v8 integration
 description: Learn about Campaign v7/v8 integration
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

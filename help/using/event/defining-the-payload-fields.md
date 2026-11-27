@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Defining the payload fields
 description: Learn about how to define the payload fields
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

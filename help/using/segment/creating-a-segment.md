@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Creating a segment
 description: Learn how to use a segment
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

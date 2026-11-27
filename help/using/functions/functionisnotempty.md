@@ -2,6 +2,7 @@
 product: adobe campaign
 title: isNotEmpty
 description: Learn about the function isNotEmpty
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

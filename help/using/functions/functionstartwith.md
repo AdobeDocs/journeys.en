@@ -2,6 +2,7 @@
 product: adobe campaign
 title: startWith
 description: Learn about the function startWith
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

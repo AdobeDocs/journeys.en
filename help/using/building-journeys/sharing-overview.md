@@ -2,6 +2,7 @@
 product: adobe campaign
 title: Journey step sharing overview
 description: Journey step sharing overview
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: User
 level: Intermediate

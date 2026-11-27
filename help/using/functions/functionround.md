@@ -2,6 +2,7 @@
 product: adobe campaign
 title: round
 description: Learn about the function round
+badge: label="Legacy" type="Informative"
 feature: Journeys
 role: Developer
 level: Experienced

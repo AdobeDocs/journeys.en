@@ -6,6 +6,7 @@ products: journeys
 product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
     internal-label: Journey Orchestration
+badge: label="Legacy" type="Informative"
 ---
 
 # Working with Export-Import API
