@@ -3,9 +3,6 @@ product: adobe campaign
 title: Jumping from one journey to another
 description: Jumping from one journey to another
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 ---
 # Jumping from one journey to another {#jump}

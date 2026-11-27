@@ -2,8 +2,6 @@
 title: Examples of queries
 description: Examples of queries
 topic: Content Management
-role: User
-level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 badge: label="Legacy" type="Informative"
 ---

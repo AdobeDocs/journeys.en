@@ -3,9 +3,6 @@ product: adobe campaign
 title: Reactions events
 description: Learn about reaction events
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 ---
 # Reaction events {#section_dhx_gss_dgb}

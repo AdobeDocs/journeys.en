@@ -3,9 +3,6 @@ product: adobe campaign
 title: Time zone management
 description: Learn about time zone management
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 ---
 # Time zone management {#timezone_management}

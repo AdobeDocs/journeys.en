@@ -3,9 +3,6 @@ product: adobe campaign
 title: Using custom actions
 description: Learn about action activities
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
 ---
 # Using custom actions {#section_f2c_hbg_nhb}

@@ -3,9 +3,6 @@ product: adobe campaign
 title: journeysteps events common fields
 description: journeysteps events common fields
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 ---
 # journeysteps events common fields {#sharing-common-fields}

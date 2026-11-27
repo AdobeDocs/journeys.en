@@ -3,9 +3,6 @@ product: adobe campaign
 title: About action activities
 description: Learn about action activities
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 ---
 # About action activities {#concept_hbj_hrt_52b}

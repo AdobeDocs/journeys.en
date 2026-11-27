@@ -3,9 +3,6 @@ product: adobe campaign
 title: Update profile
 description: Update profile
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 ---
 # Update profile {#update-profile}

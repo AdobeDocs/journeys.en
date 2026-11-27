@@ -3,9 +3,6 @@ product: adobe campaign
 title: End activity
 description: Learn about the end activity
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: c2352bbe-f6a3-4815-9c43-2e170b3ba84c
 ---
 # End activity{#section_vqp_4ft_dgb}

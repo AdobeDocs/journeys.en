@@ -3,9 +3,6 @@ product: adobe campaign
 title: journey fields
 description: journey fields
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 ---
 # journey fields {#sharing-journey-fields}

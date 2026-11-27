@@ -3,9 +3,6 @@ product: adobe campaign
 title: Changing properties
 description: Learn on how to change properties
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 ---
 # Changing properties {#concept_prq_wqt_52b}

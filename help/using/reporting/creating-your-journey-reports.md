@@ -3,22 +3,10 @@ product: adobe campaign
 title: Creating your journey reports
 description: Learn how to create your journey reports
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
 product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
     internal-label: Journey Orchestration
-feature_v2:
-  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
-    internal-label: Journeys
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-    internal-label: Intermediate
 ---
 # Creating your journey reports {#concept_rfj_wpt_52b}
 
