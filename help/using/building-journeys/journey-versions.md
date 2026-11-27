@@ -3,9 +3,6 @@ product: adobe campaign
 title: Journey versions
 description: Learn about journey versions
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 ---
 # Journey versions{#concept_ldc_k55_zgb}

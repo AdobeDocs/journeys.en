@@ -3,9 +3,6 @@ product: adobe campaign
 title: journeyStep events data fetch fields
 description: journeyStep events data fetch fields
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 ---
 # journeyStep events data fetch fields {#sharing-fetch-fields}

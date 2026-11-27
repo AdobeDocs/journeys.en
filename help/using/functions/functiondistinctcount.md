@@ -3,9 +3,6 @@ product: adobe campaign
 title: distinctCount
 description: Learn about the function distinctCount
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: Developer
-level: Experienced
 exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
 ---
 # distinctCount{#distinctCount}

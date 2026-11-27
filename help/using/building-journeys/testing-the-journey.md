@@ -3,9 +3,6 @@ product: adobe campaign
 title: Testing the journey
 description: Learn about journey testing 
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 ---
 # Testing the journey{#testing_the_journey}

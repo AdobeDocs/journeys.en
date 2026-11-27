@@ -3,9 +3,6 @@ product: adobe campaign
 title: General events
 description: Learn about general events
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 2951928b-baaa-47cd-8142-625bd4a33ecc
 ---
 # General events {#section_ofg_jss_dgb}

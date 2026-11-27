@@ -3,9 +3,6 @@ product: adobe campaign
 title: distinctCountWithNull
 description: Learn about the function distinctCountWithNull
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: Developer
-level: Experienced
 exl-id: b8380d30-160e-45c2-b187-34eb42845923
 ---
 # distinctCountWithNull {#distinctCountWithNull}

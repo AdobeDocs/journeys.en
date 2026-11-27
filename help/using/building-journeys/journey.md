@@ -3,9 +3,6 @@ product: adobe campaign
 title: About journey building
 description: As a business user, learn how to combine event, orchestration, and action activities to build a journey.
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 ---
 # Creating a journey {#concept_gq5_sqt_52b}

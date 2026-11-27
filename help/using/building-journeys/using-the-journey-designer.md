@@ -3,9 +3,6 @@ product: adobe campaign
 title: Using the journey designer
 description: Learn more on using the journey designer
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 ---
 # Using the journey designer {#concept_m1g_5qt_52b}

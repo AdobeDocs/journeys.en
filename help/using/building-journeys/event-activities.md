@@ -3,9 +3,6 @@ product: adobe campaign
 title: About events activities
 description: Learn about events activities
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
 ---
 # About events activities {#concept_rws_1rt_52b}

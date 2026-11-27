@@ -3,9 +3,6 @@ product: adobe campaign
 title: Segment qualification events
 description: Learn about segment qualification events
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: User
-level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 ---
 # Segment qualification events {#segment-qualification}

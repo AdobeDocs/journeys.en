@@ -3,9 +3,6 @@ product: adobe campaign
 title: distinct
 description: Learn about the function distinct
 badge: label="Legacy" type="Informative"
-feature: Journeys
-role: Developer
-level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
 ---
 # distinct {#distinct}
